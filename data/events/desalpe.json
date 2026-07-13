@@ -1,0 +1,82 @@
+{
+  "id": "desalpe",
+  "name": "Désalpe — the Alpine Cow Parade",
+  "tagline": "Herds crowned with flowers and thunderous bells descend from the high pastures, turning village streets into a moving festival of Alpine tradition.",
+  "city": "Charmey",
+  "country": "Switzerland",
+  "dates": "Saturday, September 26, 2026 (Charmey and St-Cergue confirmed for the same day); Appenzell and Entlebuch Alpabfahrten roll through late August – early October 2026 depending on weather (expected)",
+  "history": [
+    "The désalpe (French) or Alpabzug/Alpabfahrt (German) marks the end of the Alpine summer: after roughly four months grazing on high mountain pastures, herds are led back down to the valley farms before the first snows. This seasonal migration — transhumance — has structured life in the Swiss Alps for many centuries and was inscribed by UNESCO on the Representative List of the Intangible Cultural Heritage of Humanity in 2023 ('Alpine pasture season'). The armailli (Fribourg herdsman) in his short bredzon jacket, the procession order, even the songs like the Ranz des Vaches, are living pieces of that heritage, immortalized in the naive 'poya' paintings that Gruyère farmers hang on their barns to depict the ascent to the alp.",
+    "On désalpe day the lead cows are crowned with elaborate headdresses of fir branches, paper flowers and alpine blooms, and fitted with enormous ceremonial bells — some weighing several kilograms — whose clanging announces each herd long before it appears. The finest milker traditionally walks first, carrying the most spectacular arrangement. Herds descend in waves through the village: in Charmey around a dozen troupeaux come down from the alps above the village between mid-morning and late afternoon, accompanied by goats, herd dogs, horse-drawn cheese wagons, alphorn players and flag throwers, while artisan stalls line the streets.",
+    "In Fribourg's Gruyère region the descent is inseparable from cheese: the whole point of the alpine summer is Gruyère d'alpage AOP and Vacherin Fribourgeois, made in copper cauldrons over wood fires in the mountain chalets. The désalpe is effectively the harvest festival for that cheese economy — wheels come down with the herds, and the village fair is where you taste and buy them. St-Cergue in the Vaud Jura claims one of the oldest organized désalpes in Romandie, while in eastern Switzerland the Appenzell and Toggenburg Alpabfahrten feature herdsmen in scarlet waistcoats and yellow breeches with Talerschwingen (coin-ringing in bowls) and Zäuerli yodels — same tradition, entirely different costume and soundtrack."
+  ],
+  "whyGo": "It is Switzerland at its most photogenic and least staged: a genuine working event — the cows really do have to come home — wrapped in a one-day village festival of alphorns, yodel, raclette smoke and artisan cheese. For a traveler based in Zürich it is one of the easiest 'deep Switzerland' day trips of the entire year, and it only happens on a few Saturdays each autumn.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Bern → Fribourg/Freiburg → Bulle (train), then TPF bus 260 Bulle → Charmey (Le Chêne / village)",
+      "duration": "≈ 2 h 30 – 2 h 45 each way",
+      "cost": "≈ CHF 45–60 one way full fare; about half with a Half-Fare Card; free with GA/Swiss Travel Pass",
+      "notes": "Runs half-hourly most of the day. On désalpe Saturday buses from Bulle are packed — aim to arrive in Charmey before 09:00. Buy a day ticket via SBB app; check for extra shuttle services announced by La Gruyère tourism."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A1 to Bern → A12 toward Vevey → exit Bulle → Charmey (≈ 160 km)",
+      "duration": "≈ 1 h 50 – 2 h 15",
+      "cost": "Fuel ≈ CHF 30–40 round trip + CHF 40 motorway vignette if the car doesn't have one",
+      "notes": "The village center closes to traffic for the parade; follow signed festival parking on the outskirts and walk in. Roads out of Bulle jam after 16:00 when the last herds pass."
+    },
+    {
+      "mode": "rail",
+      "route": "Alternative eastern option: Zürich HB → Gossau/Herisau or Wasserauen for Appenzell Alpabfahrten, or Zürich → Lucerne → Schüpfheim for the Entlebuch descent",
+      "duration": "≈ 1 h 15 – 2 h each way",
+      "cost": "≈ CHF 25–45 one way full fare",
+      "notes": "Appenzell descents are weather-dependent and rarely announced far ahead — check appenzell.ch a few days out. Schüpfheim's Alpabfahrt (usually last Saturday of September) is the most schedulable German-Swiss option."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 70–100 day trip: Half-Fare rail ticket, market snacks (sausage, bread, merveilles pastries), free parade",
+    "midrange": "CHF 150–250: full-fare rail, proper fondue or raclette lunch, cheese and craft purchases, Gruyères castle entry (CHF 12)",
+    "splurge": "CHF 450–700 weekend: night at a Gruyère-region hotel with the Bains de la Gruyère thermal spa, tasting-menu dinner, Cailler and cheese-dairy visits",
+    "notes": "The désalpe itself is completely free — no ticket, no entry gate. Budget cash (CHF) for food stalls and artisan stands; some small vendors don't take cards."
+  },
+  "booking": [
+    { "label": "Désalpe de Charmey — official site", "url": "https://www.desalpe-charmey.ch/" },
+    { "label": "La Gruyère Tourism — désalpe & region", "url": "https://fribourg.ch/en/la-gruyere/events/desalpe/" },
+    { "label": "Désalpe de St-Cergue — official site", "url": "https://desalpe-saint-cergue.ch/" },
+    { "label": "Appenzell Tourism — Alpabfahrten", "url": "https://appenzell.ch/" }
+  ],
+  "weather": "Late September in the Fribourg Pre-Alps (Charmey sits at ~900 m): typically 6–10°C at breakfast, 14–19°C by afternoon on a sunny day, with a real chance of rain or an early cold snap. The parade happens rain or shine — bring a warm layer, a waterproof shell and shoes that can handle wet cobbles and, inevitably, cow dung.",
+  "tips": [
+    "Arrive before 09:00 — the first herd usually enters Charmey mid-morning and the descents continue in waves until about 17:00, but the best curbside spots on the main street go early.",
+    "Walk uphill out of the village toward the alp road for near-empty photo spots where you can hear the bells echo down the valley before the herd rounds the bend.",
+    "Never touch or crowd the cows and keep children at your side — these are large animals on a long, tiring walk, and the herdsmen set the pace.",
+    "Make a day of the artisan market: Gruyère d'alpage AOP straight from the summer chalets, Vacherin Fribourgeois, double-cream meringues and bredzon-clad armaillis demonstrating cheesemaking in copper cauldrons.",
+    "Combine with Gruyères: the medieval castle village and La Maison du Gruyère dairy are 15 minutes from Charmey via Bulle — do the désalpe in the morning, Gruyères in the late afternoon after the crowds thin.",
+    "Confirm the event a week out: the 2025 St-Cergue désalpe was cancelled over lumpy skin disease restrictions on cattle movement, so animal-health rules can change plans late — the official sites post updates."
+  ],
+  "localRecs": [
+    { "name": "Gruyères old town & castle", "type": "sight", "note": "Car-free medieval hilltop village 15 min away; the 13th-century castle and the wonderfully weird HR Giger Museum make an unbeatable afternoon add-on." },
+    { "name": "La Maison du Gruyère, Pringy", "type": "sight", "note": "Working show dairy opposite Gruyères station — watch Gruyère AOP wheels being made and taste it at three ages." },
+    { "name": "Maison Cailler, Broc", "type": "sight", "note": "Switzerland's most popular chocolate factory tour, one train stop from Bulle; book the timed entry online — désalpe weekend sells out." },
+    { "name": "Les Bains de la Gruyère, Charmey", "type": "sight", "note": "Panoramic thermal baths in the village itself — the perfect warm-up after a day standing in the autumn air." },
+    { "name": "Le Chalet de Gruyères", "type": "restaurant", "note": "Classic wood-beamed address in Gruyères village for fondue moitié-moitié (Gruyère + Vacherin Fribourgeois) and cream-drowned meringues." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Alpabzug_%28Almabtrieb%29_in_Wassen%2C_Switzerland.jpg/1920px-Alpabzug_%28Almabtrieb%29_in_Wassen%2C_Switzerland.jpg",
+      "caption": "Decorated cows with ceremonial bells parade through the village during an Alpabzug in Wassen",
+      "credit": "Wikimedia Commons / Mlodajedza, CC BY-SA 4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/D%C3%A9salpe_in_L%27Etivaz_-_panoramio.jpg/1920px-D%C3%A9salpe_in_L%27Etivaz_-_panoramio.jpg",
+      "caption": "A flower-crowned herd descends through L'Etivaz in the Vaud Alps during the désalpe",
+      "credit": "Wikimedia Commons / Björn S., CC BY-SA 3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/D%C3%A9salpe_de_Saint-Cergue.jpg/1920px-D%C3%A9salpe_de_Saint-Cergue.jpg",
+      "caption": "Cows in floral headdresses at the Désalpe de Saint-Cergue in the Jura above Lake Geneva",
+      "credit": "Wikimedia Commons / Herve207, CC BY-SA 4.0"
+    }
+  ]
+}

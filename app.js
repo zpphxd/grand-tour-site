@@ -420,16 +420,35 @@ $('#builder-clear').addEventListener('click', () => {
 });
 
 /* ---------- collection & playbook ---------- */
+let collectionFilter = 'all';
 function renderCollection() {
-  $('#all-events').innerHTML = window.EVENTS.map(e => {
+  const kinds = ['all', 'festival', 'arts', 'sport', 'food'];
+  $('#collection-filters').innerHTML = kinds.map(k => `
+    <button class="cfilter ${collectionFilter === k ? 'on' : ''}" data-kind="${k}">
+      ${k === 'all' ? 'All events' : esc(KIND_LABEL[k])}
+    </button>`).join('');
+  $('#collection-filters').querySelectorAll('.cfilter').forEach(b => b.addEventListener('click', () => {
+    collectionFilter = b.dataset.kind;
+    renderCollection();
+  }));
+
+  const list = window.EVENTS.filter(e => collectionFilter === 'all' || e.kind === collectionFilter);
+  $('#all-events').innerHTML = list.map(e => {
+    const d = DOSSIERS[e.id];
     const img = photoOf(e.id);
+    const travel = d?.gettingThere?.[0];
     return `
-    <a class="evtile" href="#/event/${e.id}">
-      ${img ? `<div class="evtile-img" style="background-image:url('${img}')"></div>` : ''}
-      <div class="evtile-shade"></div>
-      <div class="evtile-kind">${esc(KIND_LABEL[e.kind] || '')}</div>
-      <div class="evtile-name">${esc(e.name)}</div>
-      <div class="evtile-meta">${esc(window.PLACES[e.place].name)} · ${esc(e.month)}</div>
+    <a class="ctile" href="#/event/${e.id}">
+      <div class="ctile-imgwrap">
+        ${img ? `<div class="ctile-img" style="background-image:url('${img}')"></div>` : ''}
+      </div>
+      <div class="ctile-body">
+        <div class="ctile-kind">${esc(KIND_LABEL[e.kind] || 'Event')} · ${esc(window.PLACES[e.place].name)}${d?.country ? ', ' + esc(d.country) : ''}</div>
+        <h3>${esc(e.name)}</h3>
+        <div class="ctile-meta">${esc(shortDates(d?.dates) || e.month)}${travel ? ` · ${esc(MODE_LABEL[travel.mode] || '')} ${esc(travel.duration)} from Zürich` : ''}</div>
+        ${d?.tagline ? `<p class="ctile-tag">${esc(d.tagline)}</p>` : ''}
+        <span class="ctile-cta">Read the dossier</span>
+      </div>
     </a>`;
   }).join('');
 }
