@@ -1,0 +1,114 @@
+{
+  "id": "salon-du-chocolat",
+  "name": "Salon du Chocolat Paris",
+  "tagline": "The world's largest chocolate fair, where haute couture is sculpted in cocoa and 500 chocolatiers turn a Paris exhibition hall into paradise.",
+  "city": "Paris",
+  "country": "France",
+  "dates": "28 October – 1 November 2026 (confirmed; opening night Tue 27 Oct, 7–10pm; daily 10am–7pm)",
+  "history": [
+    "The Salon du Chocolat was dreamed up over a Paris dinner in 1994 by Sylvie Douce, who ran an event agency, and François Jeantet, an architect and food critic, who wondered why the world had trade fairs for everything except its favourite indulgence. The first edition opened on 28 October 1995 at the Espace Eiffel Branly with just 40 pioneering exhibitors — and drew a staggering 40,000 visitors. The couple had struck a nerve: chocolate, they argued, was an 'accessible luxury' deserving of the same theatre as fashion or fine wine, and the event received backing that eventually extended to France's Ministry of Foreign Affairs.",
+    "From that single hall the Salon grew into a global franchise, spinning off editions in more than thirty cities — Tokyo, New York, Brussels, Moscow, Dubai — and pushing into new chocolate markets with Beijing (2009) and Shanghai (2010) editions. But Paris remains the mothership: the flagship show now fills Hall 5 of Paris Expo Porte de Versailles each autumn with over 500 exhibitors — grand maisons like Valrhona and Pierre Hermé alongside single-estate bean-to-bar producers from Ecuador, Madagascar and Vietnam — welcoming crowds that have topped 100,000 visitors in a five-day run. The 2026 show marks the 31st edition.",
+    "The Salon's signature moment is the défilé de robes en chocolat — a nightly fashion show in which couturiers and master chocolatiers pair up to build wearable gowns from tempered chocolate, worn down the runway by models, actresses and French celebrities. The spectacle, born of the founders' conviction that chocolate and fashion are sister luxuries, has produced butterfly-covered cocoa dresses, chocolate armour and edible millinery, and its photographs travel the world each October. Around it orbit pastry championships, cacao-origin pavilions supporting growers, live demonstrations by Meilleurs Ouvriers de France, and a children's workshop floor — a full ecosystem that has made the Salon the annual summit of the global chocolate trade."
+  ],
+  "whyGo": "Nowhere else can you taste your way around the entire chocolate-producing world — 500+ makers from grand Parisian maisons to tiny Malagasy estates — in one afternoon, then watch models parade down a runway in dresses made of chocolate. It is equal parts trade summit, tasting marathon and pure French spectacle, and it lands over Halloween weekend in Paris at its moody autumn best. For anyone based in Zürich, it may be the easiest world-class food event on the calendar: one direct train and you are there.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Paris Gare de Lyon (TGV Lyria direct), then Métro 12 or Tram T3a to Porte de Versailles",
+      "duration": "4h05 train + ~35min metro",
+      "cost": "€60–200 return (2nd class)",
+      "notes": "Several direct TGV Lyria departures daily; fares open ~4 months out and cheapest seats sell fast for the Toussaint holiday week — book on tgv-lyria.com or SBB as early as possible"
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Paris CDG or Orly (Air France, SWISS, easyJet), then RER/Orlybus + Métro 12 to Porte de Versailles",
+      "duration": "1h20 flight + 1–1.5h transfers each end",
+      "cost": "€90–250 return",
+      "notes": "Orly is closer to Porte de Versailles (direct T7 tram + T3a, or taxi ~25min); door-to-door the train usually wins on time and comfort"
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Basel → A36/A5 → Paris (via Belfort and Troyes)",
+      "duration": "~6h15 (620 km)",
+      "cost": "~€180–220 return in fuel and tolls, plus Paris parking €25–40/day",
+      "notes": "Only worth it for a group hauling chocolate home; Paris has a low-emission zone (Crit'Air sticker required) and parking at Porte de Versailles fills early"
+    }
+  ],
+  "costs": {
+    "thrifty": "€350–450",
+    "midrange": "€700–950",
+    "splurge": "€1,800+",
+    "notes": "Entry is cheap (adult ~€15–17, presale discount; opening night ~€25–30) — the trip cost is driven by TGV fares and Paris hotels over the Toussaint school-holiday/Halloween weekend, which sell out early. Thrifty assumes early-bird Lyria supersaver + budget hotel or hostel for 2 nights; midrange a 3-star near the 15th for 3 nights; splurge adds first-class rail, a boutique hotel and serious chocolate shopping."
+  },
+  "booking": [
+    {
+      "label": "Official site — Salon du Chocolat Paris",
+      "url": "https://www.salon-du-chocolat.com/en/paris"
+    },
+    {
+      "label": "Tickets (official billetterie)",
+      "url": "https://www.salon-du-chocolat.com/en/paris/practical-info/buy-my-ticket"
+    },
+    {
+      "label": "TGV Lyria Zürich–Paris",
+      "url": "https://www.tgv-lyria.com/"
+    },
+    {
+      "label": "Paris tourist office",
+      "url": "https://parisjetaime.com/eng/"
+    }
+  ],
+  "weather": "Late-October Paris runs 7–14°C: grey skies, frequent drizzle, early dusk. The Salon itself is entirely indoors and warm, so dress in layers you can shed — plus a compact umbrella and waterproof shoes for the city. Cool weather is a bonus: your chocolate haul survives the trip home to Zürich intact.",
+  "tips": [
+    "Buy tickets online in presale — cheaper than at the door (€15 vs €17 in 2025) and you skip the box-office queue at Hall 5.",
+    "Go on a weekday (Wednesday–Friday) right at 10am opening; the event overlaps the Toussaint school holidays and Saturday/Sunday afternoons are shoulder-to-shoulder.",
+    "The chocolate dress fashion show happens once daily and seats fill 45+ minutes ahead — check the day's programme on arrival and stake out a spot early, or book the Tuesday opening-night ticket (~€25–30) which includes the premiere défilé.",
+    "Pace your tastings: samples are everywhere and palate fatigue is real by aisle three. Start with delicate single-origin dark bars before pralines and flavoured things, and drink water.",
+    "Bring a dedicated tote and cash alongside your card — big maisons take cards but some small international growers' stands are cash-friendly, and show-priced tablets from origin producers are the best-value souvenirs in the building.",
+    "Book your Paris hotel and Lyria seats the moment plans firm up — Halloween weekend + French school holidays make this one of the city's busiest weeks, and supersaver train fares vanish 6–8 weeks out."
+  ],
+  "localRecs": [
+    {
+      "name": "Le Grand Pan",
+      "type": "restaurant",
+      "note": "Beloved carnivore bistro on rue Rosenwald, a 10-minute walk from Porte de Versailles — thick-cut steaks and honest Loire wines, the perfect savoury antidote to a day of sugar."
+    },
+    {
+      "name": "Le Café du Commerce",
+      "type": "restaurant",
+      "note": "Historic three-storey 1920s brasserie around a plant-filled atrium on rue du Commerce (15th) — classic French comfort food at fair prices, ideal for a group dinner."
+    },
+    {
+      "name": "Rue du Commerce",
+      "type": "neighborhood",
+      "note": "The 15th arrondissement's village-like high street, two metro stops from the venue — bakeries, fromageries and zero tourist crowds; real Parisian daily life."
+    },
+    {
+      "name": "Patrick Roger, Saint-Germain",
+      "type": "sight",
+      "note": "The 'sculptor of chocolate' — his boutique at 108 bd Saint-Germain doubles as a gallery of life-size cocoa sculptures; pilgrimage-worthy even after two days at the Salon."
+    },
+    {
+      "name": "Jacques Genin, Le Marais",
+      "type": "sight",
+      "note": "Cult fondeur-chocolatier with a serene upstairs salon de thé — order the caramels au beurre salé and a chocolat chaud; many pros at the Salon call him Paris's finest."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Salon_du_Chocolat%2C_Paris_31_October_2015_%284%29.jpg/1920px-Salon_du_Chocolat%2C_Paris_31_October_2015_%284%29.jpg",
+      "caption": "A couture gown covered in chocolate butterflies from the Salon's famous chocolate-dress fashion show, Paris 2015",
+      "credit": "Wikimedia Commons / Tasaka Sama (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Salon_du_Chocolat%2C_Paris_31_October_2015_%285%29.jpg/1920px-Salon_du_Chocolat%2C_Paris_31_October_2015_%285%29.jpg",
+      "caption": "Trays of pralines, mendiants and chocolate-dipped confections piled high on an artisan's stand at the Salon du Chocolat",
+      "credit": "Wikimedia Commons / Tasaka Sama (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Salon_du_Chocolat%2C_Paris_31_October_2015_%2810%29.jpg/1920px-Salon_du_Chocolat%2C_Paris_31_October_2015_%2810%29.jpg",
+      "caption": "A sculpted chocolate bust on the Leonidas stand — exhibitors compete to out-sculpt each other every year",
+      "credit": "Wikimedia Commons / Tasaka Sama (CC BY-SA 2.0)"
+    }
+  ]
+}

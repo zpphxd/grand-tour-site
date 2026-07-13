@@ -1,0 +1,114 @@
+{
+  "id": "ascona-chestnut",
+  "name": "Castagnata di Ascona (Festa delle Castagne)",
+  "tagline": "Two tonnes of chestnuts crackling over wood fires on a palm-lined Lago Maggiore promenade — Ticino's sweetest goodbye to summer.",
+  "city": "Ascona",
+  "country": "Switzerland",
+  "dates": "Saturday, 10 October 2026, from 10:00 (confirmed by organizer AMA); the festival is held annually on a Saturday in early-mid October",
+  "history": [
+    "For centuries the sweet chestnut was the 'bread tree' of Ticino. In the steep valleys of Italian-speaking Switzerland, where grain barely grew, families survived winters on chestnuts — roasted, boiled, dried in stone 'grà' huts and milled into flour. Managed chestnut groves (selve castanili) shaped the entire landscape south of the Alps, and the fruit remained a staple food into the early twentieth century, when blight, cheap imported grain and rural exodus sent the tradition into steep decline.",
+    "From the 1980s and 90s, Ticino set about reviving its chestnut culture: old groves were restored, the 'maronatt' — the leather-aproned roaster who once carried his craft to cities across Europe — was celebrated again, and autumn castagnate (chestnut feasts) spread through the canton's towns. Ascona's Festa delle Castagne, organized by the Associazione Manifestazioni Ascona (AMA), grew into the most famous of them all: a one-day feast on the Lungolago Giuseppe Motta, the arcaded lakefront piazza that is regularly ranked among Switzerland's most beautiful squares.",
+    "Today the festival roasts more than 2,000 kg of chestnuts over open wood fires in giant perforated steel pans, the smoke drifting between market stalls selling chestnut honey, jam, vermicelles, cakes and bread alongside Ticinese salumi, alpine cheese and Merlot. Folk bands play along the promenade, the village shops open onto a themed market, and locals keep a small ritual alive: you make a wish as you bite into your first hot chestnut of the season."
+  ],
+  "whyGo": "It is the definitive Ticino autumn day out: a free, smoke-scented street feast on one of Switzerland's prettiest lakefronts, at the exact moment the palms of Lago Maggiore meet golden Alpine autumn. The roasting is real craft — watch the maronatt work the pans — and the whole thing pairs perfectly with a weekend of lake, mountains and Merlot. From Zürich it is an easy, spectacular ride through the Gotthard.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Bellinzona/Locarno (IC via Gotthard Base Tunnel), then bus 316 or 1 from Locarno to Ascona Centro",
+      "duration": "2h45 door to door (2h15 to Locarno + 15 min bus)",
+      "cost": "CHF 60–130 return full fare; supersaver from ~CHF 30 each way",
+      "notes": "Hourly direct trains. Book SBB supersaver fares early — chestnut-festival Saturdays draw big day-trip crowds from German-speaking Switzerland. A Half Fare Card or Saver Day Pass cuts costs sharply."
+    },
+    {
+      "mode": "rail",
+      "route": "Scenic loop: Zürich HB → Locarno via Gotthard outbound; return via the Centovalli Railway to Domodossola and EC train through the Simplon back to Zürich",
+      "duration": "2h45 out; ~4h30 scenic return",
+      "cost": "CHF 100–160 with Half Fare",
+      "notes": "The Centovalli line ('hundred valleys') from Locarno is one of Europe's great small railways — at peak foliage in mid-October it is worth the detour alone."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A2 via Gotthard Road Tunnel → Bellinzona → Ascona, ~230 km",
+      "duration": "2h45–3h30 depending on Gotthard traffic",
+      "cost": "~CHF 60–80 fuel return + CHF 40 Swiss motorway vignette (if not already held)",
+      "notes": "Gotthard tunnel jams are notorious on fine autumn weekends. Park at the Autosilo comunale in Ascona; the lakefront itself is closed for the festival."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 280–400",
+    "midrange": "CHF 650–950",
+    "splurge": "CHF 1,800+",
+    "notes": "The festival itself is free — you pay only for cornets of chestnuts (a few francs) and market food. The budget is driven by Swiss rail fares and Ascona hotels, which stay expensive through golden October; sleeping in Locarno or Bellinzona instead of Ascona proper is the biggest saver. Splurge tier assumes 2-3 nights at a lakefront five-star like Castello del Sole or Eden Roc."
+  },
+  "booking": [
+    {
+      "label": "Official festival page (AMA Ascona)",
+      "url": "https://www.amascona.ch/eventi/festa-delle-castagne"
+    },
+    {
+      "label": "Ascona-Locarno tourism board",
+      "url": "https://www.ascona-locarno.com/en"
+    },
+    {
+      "label": "SBB train tickets (supersaver fares)",
+      "url": "https://www.sbb.ch/en"
+    },
+    {
+      "label": "Ticino Tourism — chestnut events",
+      "url": "https://www.ticino.ch/en"
+    }
+  ],
+  "weather": "Mid-October in Ascona is classic Ticino autumn: mild days of 14–19°C, cool 8–10°C mornings and evenings, and a good chance of sun — though Lago Maggiore can also deliver a soaking downpour. Pack layers, comfortable shoes for cobbles, sunglasses, and a compact rain jacket; the lakefront breeze feels cooler than the thermometer says.",
+  "tips": [
+    "Arrive before noon: the roasting fires start around 10:00 and the promenade is pleasantly busy until about 13:00, after which day-tripper crowds and chestnut queues peak.",
+    "Queues for the freshly roasted cornets get long — join one early, and remember the local ritual of making a wish on your first bite.",
+    "Carry some cash: many chestnut and market stalls are small local producers, and small notes/coins keep the line moving.",
+    "Book your Zürich–Locarno supersaver tickets and your hotel weeks ahead — festival Saturday is one of Ascona's busiest days of the year.",
+    "Stay the whole weekend: Sunday is ideal for the Centovalli railway, a boat to the Brissago Islands (season's end), or the funicular-and-hike combo above Locarno at Cardada.",
+    "If you miss it or want more, Ticino's castagnata season runs through October–early November — Locarno holds its own chestnut festival a few weeks later."
+  ],
+  "localRecs": [
+    {
+      "name": "Monte Verità",
+      "type": "sight",
+      "note": "The hill above Ascona where early-1900s utopians, artists and barefoot reformers built their 'Mountain of Truth' — museum, Bauhaus hotel and a tea house with sweeping lake views, 20 minutes' walk up from town."
+    },
+    {
+      "name": "Ascona Old Town (borgo)",
+      "type": "neighborhood",
+      "note": "The pastel lanes behind the lungolago — Collegio Papio's Renaissance courtyard and the church of Santa Maria della Misericordia hide two minutes from the festival smoke."
+    },
+    {
+      "name": "Osteria Nostrana",
+      "type": "restaurant",
+      "note": "Buzzing pizzeria-osteria right on Piazza G. Motta; grab a lakefront table for post-festival pasta and a glass of Ticino Merlot."
+    },
+    {
+      "name": "Grotto Baldoria",
+      "type": "restaurant",
+      "note": "A proper rustic grotto in the old town alleys — polenta, brasato and boccalino jugs of local wine; exactly what the chestnut era tasted like."
+    },
+    {
+      "name": "Museo Comunale d'Arte Moderna",
+      "type": "sight",
+      "note": "Ascona's surprisingly strong modern art collection (Marianne Werefkin, Paul Klee circle) in a 16th-century palazzo, steps from the promenade."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Lungolago_Ascona_in_autunno.jpg/1920px-Lungolago_Ascona_in_autunno.jpg",
+      "caption": "Ascona's Lungolago in autumn — the lakefront promenade where the chestnut fires are lit each October",
+      "credit": "Wikimedia Commons / Astrometallico (CC0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ascona_-_Piazza_Guiseppe_Motta_%282014-04%29.jpg/1920px-Ascona_-_Piazza_Guiseppe_Motta_%282014-04%29.jpg",
+      "caption": "Piazza Giuseppe Motta, Ascona's arcaded waterfront square and the heart of the Festa delle Castagne",
+      "credit": "Wikimedia Commons / JoachimKohler-HB (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Lungolago_Ascona%2C_vista_lago.jpg/1920px-Lungolago_Ascona%2C_vista_lago.jpg",
+      "caption": "Lago Maggiore seen from the Ascona promenade, with the Ticino Alps beyond",
+      "credit": "Wikimedia Commons / Astrometallico (CC0)"
+    }
+  ]
+}

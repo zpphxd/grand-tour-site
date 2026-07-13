@@ -1,0 +1,114 @@
+{
+  "id": "percee-vin-jaune",
+  "name": "La Percée du Vin Jaune",
+  "tagline": "One winter weekend a year, a Jura village pierces its first barrel of golden vin jaune — six years and three months in the making — and the whole region pours into the streets to taste it.",
+  "city": "Arbois (Jura)",
+  "country": "France",
+  "dates": "6–7 February 2027, hosted in Arlay (confirmed by the organizers; the host village rotates each year — Arbois hosted in 2024, Lons-le-Saunier in 2026)",
+  "history": [
+    "La Percée du Vin Jaune was created in 1997 by Bernard Badoz, a winegrower from Poligny, as a way to celebrate the 'mise en perce' — the ceremonial piercing of the first barrel of vin jaune after its legally mandated six years and three months of aging. Vin jaune, the Jura's flagship wine, is made from the Savagnin grape and matures in barrels deliberately left un-topped, protected only by a veil of yeast ('le voile') that gives it its walnut-and-curry intensity. The first edition drew a remarkable 15,000 visitors, and the festival quickly grew into one of France's largest wine celebrations, now attracting around 40,000–45,000 people each first weekend of February.",
+    "What makes the Percée unusual is that it has no fixed home: it rotates among the wine villages of the Jura, and nearly thirty different villages have hosted it since 1997 — Arbois (the appellation's capital, host in 2024), Voiteur, Château-Chalon's neighbors, Cramans, Ruffey-sur-Seille, Lons-le-Saunier (2016 and 2026), and Arlay for 2027. The weekend follows a well-loved liturgy: a costumed procession of the Ambassadeurs des Vins Jaunes and wine brotherhoods through the village, the solemn blessing and piercing of the new barrel on Sunday morning, open cellars where dozens of Jura producers pour tastings, a blind-judged competition of vins jaunes, cooking contests, and a charity auction of old vintages.",
+    "The festival has produced some legendary moments. The 2011 edition set the attendance record with more than 60,000 visitors, and at that year's auction a bottle of 1774 'vin jaune' from Arbois sold for roughly €57,000 — at the time among the oldest wines ever tasted and sold at auction. The wine itself carries its own mythology: vin jaune is bottled in the squat 62 cl 'clavelin,' said to represent what remains of a litre after the angels have taken their share during aging. For the Jura, a small and long-overlooked wine region now adored by sommeliers worldwide, the Percée is both a party and a statement of identity."
+  ],
+  "whyGo": "This is France's most atmospheric winter wine festival: an entire hillside village given over to open cellars, brass bands, comté and morbier stalls, and thousands of glasses of one of the world's strangest and greatest wines. The piercing ceremony itself — brotherhoods in robes, a barrel cracked open after six-plus years of patience — is genuine living tradition, not a tourist re-enactment. And from Zürich it is one of the easiest 'deep France' weekends you can do: over the border via Basel and into the vines in about three hours.",
+  "gettingThere": [
+    {
+      "mode": "drive",
+      "route": "Zürich → Basel → A36 past Belfort/Montbéliard → A39/N83 into the Jura (Arlay is 12 km north of Lons-le-Saunier; Arbois ~40 min further north)",
+      "duration": "2h45–3h15 (approx. 240 km)",
+      "cost": "€60–90 return (fuel + French tolls; Swiss vignette needed)",
+      "notes": "Easiest option for the 2027 host village Arlay. The village core closes to traffic — park at the signed park-and-ride lots and use the free festival shuttles. Designate a driver: French drink-drive limit is 0.5 g/L."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Basel SBB (IC, ~1h05) → TER via Mulhouse/Belfort to Besançon Viotte → TER to Lons-le-Saunier (for Arlay) or Arbois/Mouchard",
+      "duration": "4h–4h45 with connections",
+      "cost": "CHF/€70–130 return",
+      "notes": "Book SBB supersaver + SNCF TER fares 2–3 months out. From Lons-le-Saunier station, festival shuttles or a short taxi ride (~12 km) cover the last leg to Arlay. Arbois has its own small station if you base there."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Lausanne (IC, ~2h10) → TGV Lyria (Paris-bound) to Frasne or Mouchard → TER to Arbois or Lons-le-Saunier",
+      "duration": "4h30–5h",
+      "cost": "CHF/€80–150 return",
+      "notes": "Scenic alternative through the high Jura; the Frasne/Mouchard TGV stops put you right in wine country. Check Lyria timetables carefully — winter weekend frequencies are thin."
+    }
+  ],
+  "costs": {
+    "thrifty": "€280–350",
+    "midrange": "€500–700",
+    "splurge": "€1,100–1,600",
+    "notes": "Estimates cover return transport from Zürich, 2–3 nights, meals and the festival pass. Entry is the small part (2026 pricing: ~€26 Saturday / ~€22 Sunday / ~€40 weekend pass, including the souvenir glass and 10 tasting tickets plus shuttles). The real variables are lodging — rooms in Arbois, Poligny and Lons-le-Saunier are scarce and sell out months ahead for Percée weekend — plus restaurant meals and the bottles of vin jaune (a good clavelin runs €35–70) you will inevitably carry home."
+  },
+  "booking": [
+    {
+      "label": "Official site & programme",
+      "url": "https://www.percee-du-vin-jaune.com/"
+    },
+    {
+      "label": "Official ticket office (billetterie)",
+      "url": "https://www.percee-du-vin-jaune.com/billetterie-percee-vin-jaune/"
+    },
+    {
+      "label": "Jura Tourism — event page",
+      "url": "https://www.jura-tourism.com/evenements/evenements-culturels/percee-du-vin-jaune/"
+    },
+    {
+      "label": "Cœur du Jura Tourisme (Arbois area)",
+      "url": "https://www.coeurdujura-tourisme.com/en/temps-fort/la-percee-du-vin-jaune/"
+    }
+  ],
+  "weather": "Early February in the Jura foothills is properly cold: typically -2 to 7°C, often with fog, rain or snow, and the festival happens almost entirely outdoors and in unheated cellars. Pack insulated waterproof boots (village lanes get muddy and icy), a warm coat, hat and gloves — and note most veterans wear the tasting glass on a neck cord under the coat between cellars.",
+  "tips": [
+    "Buy the weekend or day pass online well in advance — the tasting-kit packs (souvenir glass + 10 tickets) are cheaper pre-booked and Saturday can sell out.",
+    "Sunday is the day of the actual piercing ceremony and blessing, is a few euros cheaper, and is noticeably calmer in the cellars — go both days if you can, but if you only have one, pick Sunday morning.",
+    "Book your room the moment dates are announced: Arlay is tiny, so stay in Lons-le-Saunier (hotels, station, shuttles) or in Arbois/Poligny and use the free festival shuttles from the park-and-ride lots.",
+    "Extra tasting tickets are sold on site — carry some cash, as small producers' stands and food stalls don't all take cards.",
+    "Pace yourself and eat as you go: vin jaune is 13–15% and intense. The classic pairing is aged comté, walnuts, or poulet au vin jaune et aux morilles — the cooking-contest and brotherhood stands are the place to try it.",
+    "Ship or carry bottles smartly: the 62 cl clavelin is the classic souvenir, and Swiss customs allows generous personal wine allowances (currently 5 L per adult duty-free) — keep receipts for the border."
+  ],
+  "localRecs": [
+    {
+      "name": "Château d'Arlay",
+      "type": "sight",
+      "note": "One of France's oldest wine estates, in the 2027 host village itself — castle, historic park and a superb range of Côtes du Jura wines including vin jaune; tastings by appointment in winter."
+    },
+    {
+      "name": "Le Prieuré – Maison Jeunet",
+      "type": "restaurant",
+      "note": "Arbois's celebrated Michelin-starred table, the classic address for poulet au vin jaune done at the highest level. Book weeks ahead for Percée weekend."
+    },
+    {
+      "name": "Hirsinger",
+      "type": "sight",
+      "note": "Meilleur Ouvrier de France chocolatier on Arbois's main square — the macvin-and-chocolate creations are the region's other cult product."
+    },
+    {
+      "name": "Bistrot de la Tournelle",
+      "type": "bar",
+      "note": "Riverside natural-wine bistrot of Domaine de la Tournelle in Arbois; a pilgrimage spot for Jura wine lovers (check winter opening — worth it if the domaine is pouring during the festival)."
+    },
+    {
+      "name": "Château-Chalon",
+      "type": "neighborhood",
+      "note": "The clifftop grand-cru village of vin jaune, 15 minutes from Arlay — walk the belvederes over the Seille valley reculée and taste at village cellars for context before the big weekend."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Perc%C3%A9e_du_vin_jaune_2013.JPG/1920px-Perc%C3%A9e_du_vin_jaune_2013.JPG",
+      "caption": "Crowds fill the host village's streets between open cellars at the Percée du Vin Jaune 2013 in Voiteur, Jura.",
+      "credit": "Wikimedia Commons / Mpmpmp (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Perc%C3%A9e_du_vin_jaune_017.jpg",
+      "caption": "Festival-goers at the Percée du Vin Jaune, the Jura's rotating celebration of the newly pierced vin jaune barrel.",
+      "credit": "Wikimedia Commons / Arnaud 25 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Perc%C3%A9e_du_vin_jaune_011.jpg",
+      "caption": "Wine brotherhoods and producers gather during the Percée du Vin Jaune festivities.",
+      "credit": "Wikimedia Commons / Arnaud 25 (CC BY-SA 4.0)"
+    }
+  ]
+}

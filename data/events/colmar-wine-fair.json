@@ -1,0 +1,114 @@
+{
+  "id": "colmar-wine-fair",
+  "name": "Foire aux Vins d'Alsace",
+  "tagline": "Ten summer nights where 1,500 Alsace wines meet a Hollywood Bowl-style open-air stage in France's prettiest wine town.",
+  "city": "Colmar",
+  "country": "France",
+  "dates": "Late July – early August 2027 (expected; 78th edition not yet announced — the fair runs ~10 days on a fixed pattern, e.g. 31 July – 9 August 2026). The 2026 edition also overlaps the very start of your Zürich year.",
+  "history": [
+    "The fair was born in 1948, when Alsatian wine professionals and Colmar's mayor Joseph Rey launched the Foire Régionale des Vins d'Alsace to revive a wine region battered by the Second World War. That first edition was a modest agricultural show where visitors came to meet the region's best winegrowers — but the formula of serious tasting plus summer conviviality caught on fast, and the event's reputation quickly spread far beyond Colmar. In 1957 the organizers added a musical programme, and the fair's double identity — wine salon by day, festival by night — was set.",
+    "Growth forced a move in 1968 from the city centre to the Parc des Expositions on Colmar's northern edge, and attendance jumped from around 160,000 to 211,000 almost overnight. Over the decades the fair became one of the great stages of France: Johnny Hallyday played it twelve times, and Jacques Brel, Ray Charles, James Brown and Pink Floyd all appeared here. In 2000 the fair inaugurated its signature venue, 'La Coquille' — a shell-shaped open-air theatre inspired by the Hollywood Bowl holding close to 10,000 spectators — which remains the heart of every edition.",
+    "Today the Foire aux Vins d'Alsace ranks among France's biggest fairs (often cited as the third largest after Paris and Marseille) and is a designated 'Festival Grand Est'. A modern edition packs roughly 350 exhibitors and more than 1,500 Alsace wines into 43,000 m² of halls, wraps them in conferences, cabaret and all-night DJ sessions, and books a multi-million-euro concert bill — recent years have mixed French headliners (Gims, Bigflo & Oli, Christophe Maé) with international acts (Mika, UB40, Kool & The Gang) and the fair's famous Hard Rock Session. Attendance peaked at 316,140 visitors in 2019, and the fair still draws around 300,000 every summer."
+  ],
+  "whyGo": "Nowhere else can you spend the afternoon tasting grand cru Riesling and Gewurztraminer with the growers who made them, then walk fifty metres to a 10,000-seat open-air amphitheatre for a headline concert. It is the single biggest party of the Alsace summer, set in a half-timbered storybook town on the Route des Vins — and from Zürich it's closer than most Swiss festivals.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Basel SBB (IC, ~55 min) → Colmar (direct TER via Mulhouse corridor, ~50 min)",
+      "duration": "1h50–2h15",
+      "cost": "CHF/€ 45–90 return",
+      "notes": "Hourly connections; buy an SBB supersaver Zürich–Basel plus a cheap TER ticket (sncf-connect.com). Concerts end after the last comfortable train back — plan to overnight in Colmar."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Mulhouse Ville (direct TGV/EC, ~1h10) → Colmar (TER, ~20 min)",
+      "duration": "~1h45",
+      "cost": "€40–100 return",
+      "notes": "A few direct Zürich–Mulhouse trains daily on the Paris TGV route; slightly faster than via Basel when the timings line up."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Basel (A3) → Colmar (A35 north), ~130 km",
+      "duration": "~1h45",
+      "cost": "€30–45 fuel return (French A35 is toll-free)",
+      "notes": "Handy if you want to tour Route des Vins villages the same trip, but Parc Expo parking fills on concert nights and you can't taste properly if you're driving — the train wins for the fair itself."
+    }
+  ],
+  "costs": {
+    "thrifty": "€280–380",
+    "midrange": "€600–800",
+    "splurge": "€1,400+",
+    "notes": "Fair entry itself is cheap (roughly €5–10/day); the real costs are Coquille concert tickets (~€39–79 each) and Colmar hotels, which hit peak-season rates in early August — book rooms and headline concerts months ahead. Estimates cover rail from Zürich, 2–3 nights, fair entry, one or two concerts and winstub meals."
+  },
+  "booking": [
+    {
+      "label": "Official site (programme & info)",
+      "url": "https://www.foire-colmar.com/en/"
+    },
+    {
+      "label": "Ticketing (fair entry & concerts)",
+      "url": "https://billetterie.colmar-expo.fr/"
+    },
+    {
+      "label": "Parc des Expositions de Colmar",
+      "url": "https://www.colmar-expo.fr/"
+    },
+    {
+      "label": "Colmar tourist office",
+      "url": "https://www.tourisme-colmar.com/en/"
+    }
+  ],
+  "weather": "Peak Alsace summer: typically 25–32°C sunny days (Colmar is one of France's driest towns, sheltered by the Vosges), with warm evenings and the odd thunderstorm. Pack light clothes, sunscreen and a light layer for open-air Coquille concerts that run past midnight.",
+  "tips": [
+    "Headline Coquille concerts sell out months in advance — watch the lineup announcement (usually late winter/spring) and book the moment sales open; concert tickets generally include fair entry that day.",
+    "Go on a weekday: weekends draw the biggest share of the ~300,000 visitors, and tasting stands get three-deep by evening.",
+    "Do your serious tasting before ~18:00, when the mood shifts from wine salon to festival; the growers have more time to talk and pour their better bottles.",
+    "Skip the car — take the train to Colmar station and use the shuttle/short walk to the Parc Expo; after a day of Riesling you'll be glad you did.",
+    "Sleep in Colmar rather than day-tripping back to Zürich: the last easy connection to Basel leaves before the encores, and the old town at night is half the point. Book accommodation 3+ months out.",
+    "Pad the trip with a Route des Vins day — Eguisheim, Riquewihr and Kaysersberg are all under 30 minutes away by bus, bike or car."
+  ],
+  "localRecs": [
+    {
+      "name": "La Petite Venise",
+      "type": "neighborhood",
+      "note": "Colmar's canal quarter of half-timbered houses and flower boxes — go at dawn or after dinner to beat the tour groups, or take a flat-bottomed boat ride."
+    },
+    {
+      "name": "Musée Unterlinden",
+      "type": "sight",
+      "note": "Home of Grünewald's staggering Isenheim Altarpiece, set in a 13th-century convent — one of the great small museums of Europe, five minutes from the old town."
+    },
+    {
+      "name": "Wistub Brenner",
+      "type": "restaurant",
+      "note": "The classic Colmar winstub by the Petite Venise: choucroute, tête de veau and local pinot noir in an unfussy wood-panelled room. Book ahead during the fair."
+    },
+    {
+      "name": "La Maison des Têtes",
+      "type": "restaurant",
+      "note": "Refined Alsatian cooking inside a 1609 Renaissance mansion studded with carved heads — the splurge dinner between fair days."
+    },
+    {
+      "name": "L'Un des Sens",
+      "type": "bar",
+      "note": "Snug wine bar on rue Berthe Molly with a deep list of small-grower Alsace bottles — perfect for cross-checking your fair discoveries."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Foire_aux_vins_de_Colmar_2010_-_David_Guetta_%282%29.jpg/1920px-Foire_aux_vins_de_Colmar_2010_-_David_Guetta_%282%29.jpg",
+      "caption": "A packed night at La Coquille, the fair's shell-shaped open-air theatre, during David Guetta's 2010 set",
+      "credit": "Wikimedia Commons / Gzen92 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Foire_aux_Vins_de_Colmar_-_4_%287724337240%29.jpg/1920px-Foire_aux_Vins_de_Colmar_-_4_%287724337240%29.jpg",
+      "caption": "Summer crowds at the Foire aux Vins on the Parc des Expositions grounds, August 2012",
+      "credit": "Wikimedia Commons / Stéphane Gallay (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Little_Venice_in_Colmar_01.jpg/1920px-Little_Venice_in_Colmar_01.jpg",
+      "caption": "La Petite Venise: Colmar's canal-side half-timbered old town, a short hop from the fairgrounds",
+      "credit": "Wikimedia Commons / Krzysztof Golik (CC BY-SA 4.0)"
+    }
+  ]
+}
