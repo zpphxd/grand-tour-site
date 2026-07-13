@@ -64,6 +64,25 @@ function startHero() {
 }
 const stopHero = () => clearInterval(heroTimer);
 
+/* ---------- hidden dedication ---------- */
+function revealFrances() {
+  const box = $('#frances-box');
+  box.hidden = false;
+  void box.offsetWidth; // flush styles so the fade-in still animates
+  box.classList.add('on');
+}
+window.revealFrances = revealFrances;
+function bindFrances() {
+  $('#frances-box').addEventListener('click', () => {
+    const box = $('#frances-box');
+    box.classList.remove('on');
+    setTimeout(() => { box.hidden = true; }, 350);
+  });
+  $('#frances-footer').addEventListener('click', revealFrances);
+  $('#hero-dedication').addEventListener('click', revealFrances);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') $('#frances-box').classList.remove('on'); });
+}
+
 /* ---------- reveal on scroll ---------- */
 let revealObserver = null;
 function observeReveals() {
@@ -240,9 +259,10 @@ function renderCalGrid() {
       const bars = hits.slice(0, 3).map(h =>
         `<i style="background:${eventColor(h.id)}"></i>`).join('');
       const names = hits.map(h => eventById(h.id).name).join(' · ');
+      const isMoveIn = mo.y === 2026 && mo.m === 7 && d === 9; // Aug 9, 2026 — the year begins
       cells += `
-        <div class="cal-day${hits.length ? ' has' : ''}" ${hits.length ? `data-ev="${hits[0].id}" title="${esc(names)}"` : ''}>
-          <span>${d}</span>${bars ? `<div class="cal-bars">${bars}</div>` : ''}
+        <div class="cal-day${hits.length ? ' has' : ''}${isMoveIn ? ' frances-day' : ''}" ${hits.length ? `data-ev="${hits[0].id}" title="${esc(names)}"` : isMoveIn ? 'title="The year begins"' : ''}>
+          <span>${d}</span>${bars ? `<div class="cal-bars">${bars}</div>` : isMoveIn ? '<div class="cal-bars"><i class="frances-dot"></i></div>' : ''}
         </div>`;
     }
     return `
@@ -259,6 +279,8 @@ function renderCalGrid() {
   }).join('');
   document.querySelectorAll('.cal-day.has').forEach(n =>
     n.addEventListener('click', () => { location.hash = `#/event/${n.dataset.ev}`; }));
+  document.querySelectorAll('.cal-day.frances-day:not(.has)').forEach(n =>
+    n.addEventListener('click', revealFrances));
 }
 
 function bindCalToggle() {
@@ -644,6 +666,7 @@ function onScroll() {
 
 /* ---------- boot ---------- */
 (async function init() {
+  bindFrances();
   renderHome();
   renderCalendar();
   bindCalToggle();

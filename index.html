@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A Year from Zürich · The Grand Tour, Optimized</title>
+<title>For Frances Hausmann · A Year from Zürich</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,450;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -31,8 +31,8 @@
     <div class="hero-slides" id="hero-slides"></div>
     <div class="hero-shade"></div>
     <div class="wrap">
-      <span class="eyebrow">Home base Zürich · August 2026 — August 2027</span>
-      <h1>The Grand Tour,<br><em>optimized.</em></h1>
+      <span class="eyebrow">For Frances Hausmann · Zürich, August 2026 — August 2027</span>
+      <h1>The Grand Tour,<br><em id="hero-dedication">optimized.</em></h1>
       <p class="lede">Twelve months. Twenty-six of Europe's defining cultural moments — from an Oktoberfest tent to the frozen lake of St. Moritz — connected into journeys you can actually book.</p>
       <div class="hero-ctas">
         <a class="btn primary" href="#/map">Explore the map</a>
@@ -76,10 +76,21 @@
   <footer>
     <div class="wrap">
       <div class="foot-brand">A Year from Zürich</div>
-      <p>Built for a year based in Zürich 8003, August 2026 through August 2027. Event dossiers compiled from official festival and organizer pages, Wikipedia and travel references — booking links inside each event page. Verify dates and prices on official sites before booking. Photography via Wikimedia Commons under their respective free licenses; credits appear with each image.</p>
+      <p>Built for <span class="frances-name" id="frances-footer">Frances Hausmann</span> — a year based in Zürich 8003, August 2026 through August 2027. Event dossiers compiled from official festival and organizer pages, Wikipedia and travel references — booking links inside each event page. Verify dates and prices on official sites before booking. Photography via Wikimedia Commons under their respective free licenses; credits appear with each image.</p>
     </div>
   </footer>
 </main>
+
+<!-- hidden dedication — found in a few quiet corners of the site -->
+<div id="frances-box" class="frances-box" hidden>
+  <div class="frances-card">
+    <img src="assets/frances.webp" alt="Frances Hausmann">
+    <div class="frances-caption">
+      <span class="frances-title">For Frances Hausmann</span>
+      <span class="frances-sub">Twelve months, twenty-seven events, one travel partner.</span>
+    </div>
+  </div>
+</div>
 
 <!-- ============ THE MAP ============ -->
 <main id="v-map" class="view" style="display:none">

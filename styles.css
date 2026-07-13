@@ -477,3 +477,25 @@ a.leg-what:hover{color:var(--sienna)}
   .chapter-grid{grid-template-columns:1fr}
   .page-head{padding-top:120px}
 }
+
+/* ---------- for Frances ---------- */
+.frances-name{cursor:pointer;border-bottom:1px dotted var(--faint);transition:.2s}
+.frances-name:hover{color:var(--sienna);border-bottom-color:var(--sienna)}
+#hero-dedication{cursor:pointer}
+.frances-box{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;
+  background:rgba(20,18,16,.72);backdrop-filter:blur(6px);opacity:0;transition:opacity .35s var(--ease);
+  cursor:pointer;padding:24px}
+.frances-box[hidden]{display:none}
+.frances-box.on{opacity:1}
+.frances-card{background:#fff;padding:16px 16px 0;max-width:400px;width:100%;
+  box-shadow:0 30px 90px rgba(0,0,0,.45);transform:rotate(-1.4deg) translateY(10px);
+  transition:transform .45s var(--ease)}
+.frances-box.on .frances-card{transform:rotate(-1.4deg) translateY(0)}
+.frances-card img{display:block;width:100%;height:auto}
+.frances-caption{padding:18px 6px 22px;text-align:center}
+.frances-title{display:block;font-family:var(--serif);font-size:21px;font-weight:500;color:var(--ink)}
+.frances-sub{display:block;font-size:12px;letter-spacing:.06em;color:var(--stone);margin-top:6px;font-weight:300;font-style:italic}
+.cal-day.frances-day{cursor:pointer}
+.cal-day.frances-day:hover{background:var(--paper-warm)}
+.frances-dot{display:block;width:5px !important;height:5px !important;border-radius:50% !important;
+  background:var(--sienna) !important;opacity:.85}

@@ -207,7 +207,11 @@ const GrandTourMap = (() => {
           ${ev.length ? '<div class="t-cta">Click to open event page →</div>' : ''}`;
         g.addEventListener('mousemove', e => showTip(e, tipHtml));
         g.addEventListener('mouseleave', hideTip);
-        g.addEventListener('click', () => { hideTip(); if (ev.length) state.onStopClick(ev[0].id); });
+        g.addEventListener('click', () => {
+          hideTip();
+          if (ev.length) state.onStopClick(ev[0].id);
+          else if (isHome && window.revealFrances) window.revealFrances();
+        });
       });
 
       // traveler: a plane following the whole journey via native SMIL
