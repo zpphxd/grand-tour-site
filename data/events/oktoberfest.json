@@ -1,0 +1,114 @@
+{
+  "id": "oktoberfest",
+  "name": "Oktoberfest",
+  "tagline": "Six million people, fourteen giant tents and a river of Märzen — the world's greatest folk festival roars to life on Munich's Theresienwiese.",
+  "city": "Munich",
+  "country": "Germany",
+  "dates": "September 19 – October 4, 2026 (official — 191st Wiesn, tapping ceremony at noon on Sep 19)",
+  "history": [
+    "Oktoberfest began as a royal wedding party. On October 12, 1810, Crown Prince Ludwig of Bavaria married Princess Therese of Saxe-Hildburghausen, and Munich threw a public celebration on the meadows outside the city walls — fields promptly christened the Theresienwiese ('Therese's meadow'), a name locals still shorten to 'the Wiesn'. Some 40,000 spectators turned out for a horse race, a costume parade and choir performances, and the party was such a success that the city repeated it. An agricultural fair joined in 1811, carnival booths in 1818, and by 1819 the Munich city council had taken charge and made it an annual fixture, gradually shifting the opening into late September to catch warmer weather.",
+    "The festival's two centuries mirror Bavaria's own turbulent history: cholera epidemics (1854, 1873), the wars of 1866 and 1870, both World Wars and the hyperinflation of 1923–24 all forced cancellations, and the Nazi regime co-opted the event for propaganda in the 1930s. The modern ritual dates from 1950, when Munich's mayor first tapped the inaugural keg in the Schottenhamel tent with the cry 'O'zapft is!' ('It's tapped!') — a ceremony repeated every year since to a 12-gun salute. The festival also carries a somber memory: the 1980 bombing at the main entrance killed 13 people, and a memorial stands at the site. The 2010 bicentennial added the 'Oide Wiesn', a nostalgic historical fairground with vintage rides and gentler brass music that has become a beloved permanent fixture.",
+    "Today Oktoberfest is the largest Volksfest on earth, drawing six to seven million visitors over roughly 16 days (a record 7.2 million in 2023, who drank about 7.4 million litres of beer). Only six breweries — Augustiner, Hacker-Pschorr, Hofbräu, Löwenbräu, Paulaner and Spaten, all brewing within Munich's city limits under the Reinheitsgebot purity law — may serve, pouring a stronger seasonal Festbier in 14 large tents and some 20 smaller ones; the biggest, the Hofbräu-Festzelt, seats over 10,000. Beyond the beer, it remains a genuine folk festival: the opening-Sunday costume and riflemen's parade sends roughly 8,000 participants in historic dress through the city, families fill the fairground rides by day, and Bavarians of every generation turn up in Tracht — dirndl and lederhosen worn without a trace of irony."
+  ],
+  "whyGo": "There is simply nothing else on this scale: a temporary city of ten-thousand-seat tents, brass bands, roast chicken and litre steins that all of Munich actually attends, not a tourist pastiche. For a Zürich-based traveler it is the easiest world-class event on the calendar — a direct 3h30 train drops you fifteen minutes' walk from the gates. Go once for the spectacle, then again on a quiet weekday to understand why Bavarians call it the fifth season.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → München Hbf (direct EuroCity-Express via St. Gallen–Bregenz–Lindau, ~6 departures daily)",
+      "duration": "3h30–4h00",
+      "cost": "€25–90 each way (supersaver from ~CHF 30; full flex ~€90)",
+      "notes": "München Hbf is a 15-minute walk from the Theresienwiese. Book SBB/DB supersaver fares as soon as they open (~3–6 months out) — Wiesn-weekend trains sell out and prices triple. Seat reservation strongly advised."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Munich (MUC) with SWISS or Lufthansa, then S-Bahn S1/S8 into town (~45 min)",
+      "duration": "55 min flight; ~3h30 door-to-door",
+      "cost": "€120–300 return",
+      "notes": "No real time saving over the train once you add the airport transfer on both ends; only worth it on points or if the trains are sold out."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Munich via A1/A96 (Lindau–Memmingen), ~315 km",
+      "duration": "3h45–4h30 depending on border and Wiesn traffic",
+      "cost": "~€70–100 in fuel return, plus Swiss vignette",
+      "notes": "Not recommended for the festival itself — parking near the Theresienwiese is essentially nonexistent and drink-driving limits are strict. If you drive, park at a Park+Ride and take the U-Bahn."
+    }
+  ],
+  "costs": {
+    "thrifty": "€450–600",
+    "midrange": "€900–1,300",
+    "splurge": "€2,500+",
+    "notes": "Festival entry is free — lodging is the killer. Munich hotel rates triple or quadruple during Wiesn (hostel dorms €60–100/night, midrange hotels €250–400/night). A Maß of beer runs ~€15–16, half a roast chicken €15–20; budget €60–100 per tent session. Thrifty = supersaver train + hostel/Airbnb outside the center (or stay in Augsburg, 30 min away) + 2 nights. Splurge = reserved tent table with vouchers and a 4–5 star hotel. Book lodging 6+ months out."
+  },
+  "booking": [
+    {
+      "label": "Official Oktoberfest site (tents, map, program)",
+      "url": "https://www.oktoberfest.de/en"
+    },
+    {
+      "label": "City of Munich — Oktoberfest portal",
+      "url": "https://www.muenchen.de/en/events/oktoberfest"
+    },
+    {
+      "label": "Munich tourism board (Simply Munich)",
+      "url": "https://www.munich.travel/en"
+    },
+    {
+      "label": "SBB — Zürich–Munich train tickets",
+      "url": "https://www.sbb.ch/en"
+    }
+  ],
+  "weather": "Late September in Munich swings between golden Altweibersommer sunshine (18–20°C afternoons) and grey drizzle with single-digit nights; the first October days can dip near 5°C after dark. Pack layers, a rain jacket and solid shoes — tents are warm and packed, but you'll queue and walk the fairground outdoors. Locals wear wool cardigans over their Tracht for the evening walk home.",
+  "tips": [
+    "There are no entry tickets — tents are free to enter, but seating is everything: you must be seated to be served. Arrive before 10:30 on weekends or aim for weekday lunchtimes, which are dramatically calmer.",
+    "Tent table reservations open in spring (roughly February–May) directly with each tent's landlord, usually with a minimum spend in food/drink vouchers. Each tent also keeps a large quota of tables reservation-free for walk-ins — mid-week persistence works.",
+    "Bring euro cash. Many tents and stalls remain cash-first, on-site ATMs charge fees, and service is faster when you pay each round as it lands. Tip about €1 per Maß.",
+    "A Maß will cost roughly €15–16 in 2026. Pace yourself — the Festbier is ~6% ABV and litre-sized; the infamous 'Bierleichen' slope behind the tents is not where you want to end your evening.",
+    "Take the U-Bahn (U4/U5 to Theresienwiese) or walk 15 minutes from the Hauptbahnhof. Don't even think about driving or hailing a taxi at closing time — the last trains are crowded but they run.",
+    "For a gentler, more historic experience, pay the ~€4 entry for the Oide Wiesn corner: vintage rides, brass bands at conversational volume, and far more Munich families than tourists. If you wear Tracht, invest in a real dirndl or lederhosen — cheap costume versions mark you instantly."
+  ],
+  "localRecs": [
+    {
+      "name": "Augustiner-Keller",
+      "type": "restaurant",
+      "note": "Munich's loveliest traditional beer cellar and 5,000-seat chestnut-shaded garden, 10 minutes from the Hauptbahnhof — the classic pre- or post-Wiesn stop, pouring Augustiner from wooden barrels."
+    },
+    {
+      "name": "Wirtshaus in der Au",
+      "type": "restaurant",
+      "note": "The city's dumpling institution since 1901, across the Isar near the Deutsches Museum — book ahead during Wiesn for Knödel and duck far from the tent crowds."
+    },
+    {
+      "name": "Westend / Schwanthalerhöhe",
+      "type": "neighborhood",
+      "note": "The residential quarter directly west of the Theresienwiese — stay or eat here for a two-minute stroll to the gates and honest neighborhood Wirtshäuser instead of surge-priced center hotels."
+    },
+    {
+      "name": "Viktualienmarkt",
+      "type": "sight",
+      "note": "Munich's 200-year-old open-air food market by Marienplatz — ideal recovery morning: Obazda, fresh pretzels, Weisswurst before noon, and a small beer garden under the maypole."
+    },
+    {
+      "name": "Bavaria statue & Ruhmeshalle",
+      "type": "sight",
+      "note": "The 18-metre bronze lady watching over the Theresienwiese — climb into her head for the best free view across the entire festival grounds, best at opening or sunset."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/5er_Looping_Oktoberfest_Munich.jpg/1920px-5er_Looping_Oktoberfest_Munich.jpg",
+      "caption": "The festival grounds at night — beer tents, fairground lights and the five-loop coaster stretched across the Theresienwiese.",
+      "credit": "Wikimedia Commons / Manele R. (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Oktoberfest_inside_Hippodrom.jpg/1920px-Oktoberfest_inside_Hippodrom.jpg",
+      "caption": "Inside a festival tent: thousands of revelers at long tables beneath the decorated rafters.",
+      "credit": "Wikimedia Commons / Aschuff (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Munich_-_Oktoberfest_-_2012-09-22_-_IMG_7021.jpg/1920px-Munich_-_Oktoberfest_-_2012-09-22_-_IMG_7021.jpg",
+      "caption": "Evening crowds streaming through the illuminated fairground alleys of the Wiesn.",
+      "credit": "Wikimedia Commons / Poudou99 (CC BY 4.0)"
+    }
+  ]
+}

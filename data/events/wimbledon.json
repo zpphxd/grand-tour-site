@@ -1,0 +1,114 @@
+{
+  "id": "wimbledon",
+  "name": "The Championships, Wimbledon",
+  "tagline": "Two weeks in an English garden where tennis still wears white and strawberries taste like history.",
+  "city": "London",
+  "country": "United Kingdom",
+  "dates": "28 June – 11 July 2027 (expected; ballot opens ~September 2026)",
+  "history": [
+    "Wimbledon is the oldest tennis tournament in the world, first played in 1877 at the All England Lawn Tennis and Croquet Club as a modest garden-party affair with a 25-guinea trophy and 22 entrants. It grew alongside the sport itself: the club moved to its current Church Road grounds in 1922, opened the tournament to professionals with the Open Era in 1968, and awarded equal prize money to men and women from 2007. Alone among the four Grand Slams it is still played on grass — the surface tennis was invented on — and it guards its rituals fiercely: an almost-all-white dress code for players, no courtside advertising hoardings, royal patronage in the Royal Box, and strawberries and cream served by the tonne.",
+    "The roll of memorable moments is essentially the history of tennis. Björn Borg's five straight titles and his 1980 tie-break duel with John McEnroe; Martina Navratilova's record nine singles crowns; the 2008 Federer–Nadal final, finished in near darkness and widely called the greatest match ever played; the 11-hour Isner–Mahut marathon of 2010 that forced a rule change; and Andy Murray ending Britain's 77-year wait for a men's champion in 2013. Centre Court gained a retractable roof in 2009, meaning rain — long Wimbledon's most reliable participant — can no longer stop the show courts.",
+    "Culturally, Wimbledon occupies a place no other tournament touches. It is 'The Championships', a fortnight when Britain reorganises itself around tennis: the public ballot for tickets is a national lottery of sorts, and The Queue — thousands camping overnight in Wimbledon Park for same-day tickets — is one of the last great traditions in world sport, so beloved it has its own code of conduct. Henman Hill (or Murray Mound, depending on the era) fills with picnicking fans watching the big screen, and for two weeks SW19 becomes the most famous postcode in sport."
+  ],
+  "whyGo": "This is tennis's cathedral: grass courts, whites, royalty, and the sport's deepest traditions compressed into one impossibly green corner of London. Unlike most elite sporting events, you can still walk up on the day — join The Queue at dawn and buy a grounds pass at face value, then roam a dozen outer courts within touching distance of top-100 players. Combined with a 1h40 flight from Zürich, it may be the easiest world-class sporting pilgrimage on the calendar.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → London Heathrow (SWISS/BA) or London City (BA/SWISS), then Tube/Elizabeth Line to Southfields",
+      "duration": "1h40 flight + ~1h into SW19",
+      "cost": "CHF 90–250 return",
+      "notes": "Book 2–3 months out; LCY lands closer to the centre, Heathrow has a direct Piccadilly-line-to-District-line run toward Southfields station, the classic Wimbledon stop"
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → London Gatwick (easyJet), then Thameslink/Southern rail to Wimbledon",
+      "duration": "1h45 flight + ~50min by rail",
+      "cost": "CHF 60–180 return",
+      "notes": "Usually the cheapest fares; Gatwick has direct trains toward Wimbledon mainline station via Clapham Junction"
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Paris Gare de Lyon (TGV Lyria, ~4h) → Eurostar Paris Nord → London St Pancras (~2h20)",
+      "duration": "7h30–8h30 door to door",
+      "cost": "€150–320 return",
+      "notes": "Flight-free option; book Lyria and Eurostar separately ~3 months ahead, allow 60–90 min for the Paris transfer and Eurostar check-in"
+    }
+  ],
+  "costs": {
+    "thrifty": "€650–900",
+    "midrange": "€1,400–2,200",
+    "splurge": "€5,000+",
+    "notes": "Flights from Zürich are cheap; London hotels in July are not (expect £120–250/night even mid-range). The event itself scales wildly: a Queue grounds pass is ~£30, ballot show-court seats £75–315, while debenture-resale Centre Court seats run £2,000–9,500. Thrifty assumes budget flight, 2–3 nights in a chain hotel or hostel, and Queue grounds passes; splurge assumes debenture or hospitality tickets."
+  },
+  "booking": [
+    {
+      "label": "Official site — The Championships, Wimbledon",
+      "url": "https://www.wimbledon.com/"
+    },
+    {
+      "label": "Tickets, ballot & The Queue (official)",
+      "url": "https://www.wimbledon.com/en_GB/tickets"
+    },
+    {
+      "label": "Future Championships dates (official)",
+      "url": "https://www.wimbledon.com/en_GB/the_championships/dates"
+    },
+    {
+      "label": "Visit London — official tourism board",
+      "url": "https://www.visitlondon.com/"
+    }
+  ],
+  "weather": "Classic English high summer: typically 16–24°C with changeable skies — brilliant sunshine one hour, a passing shower the next (Centre and No.1 Courts have roofs; outer courts do not). Pack light layers, a compact rain jacket, sunscreen and a hat; if you're queueing overnight, bring a warm layer for the small hours.",
+  "tips": [
+    "Enter the public ballot when it opens (~September 2026, via myWimbledon account) — it's the only way to get show-court seats at face value without queueing, though you can't choose your day or court.",
+    "For The Queue: arrive before ~6am for a grounds pass, or camp overnight (tent, one per person) for one of the ~500 daily Centre/No.1/No.2 Court tickets — note show-court Queue tickets aren't sold for the last four days on Centre Court.",
+    "Go in week one with a grounds pass: every star plays early rounds, and outer courts 3–18 put you a few metres from the action for ~£30.",
+    "After 3pm the official resale kiosk/app sells returned show-court seats for ~£10–15 (proceeds to charity) — a legendary money-saver for grounds-pass holders.",
+    "The grounds are cashless and you can bring your own picnic plus one bottle of wine or champagne per person — dramatically cheaper than buying everything inside (though budget for the obligatory strawberries and cream).",
+    "Skip 'Wimbledon' mainline station crowds: Southfields (District line) is the classic 10-minute walk to Gate 1, and staying near Putney, Earlsfield or Clapham beats overpriced SW19 hotels."
+  ],
+  "localRecs": [
+    {
+      "name": "Wimbledon Village",
+      "type": "neighborhood",
+      "note": "The boutique-lined high street uphill from the grounds — pubs hang tennis bunting all fortnight and player-spotting is a sport of its own"
+    },
+    {
+      "name": "Dog & Fox",
+      "type": "bar",
+      "note": "Big, handsome coaching-inn pub in the Village; the default post-play pint, with a courtyard that heaves during The Championships"
+    },
+    {
+      "name": "The Ivy Café Wimbledon",
+      "type": "restaurant",
+      "note": "Reliable all-day brasserie on the high street for a proper sit-down dinner after a day on the outer courts — book ahead in tennis fortnight"
+    },
+    {
+      "name": "Wimbledon Lawn Tennis Museum & grounds tour",
+      "type": "sight",
+      "note": "Inside the AELTC — trophies, Centre Court views and 150 years of kit; visit off-fortnight, or note it's included in event tickets on the day"
+    },
+    {
+      "name": "Cannizaro Park",
+      "type": "sight",
+      "note": "Free, gorgeously kept gardens on the edge of Wimbledon Common — the perfect decompression picnic spot a 15-minute walk from the Village"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Centre_Court_%2826_June_2009%2C_Wimbledon%29.jpg/1920px-Centre_Court_%2826_June_2009%2C_Wimbledon%29.jpg",
+      "caption": "Centre Court in full flow during The Championships — grass, whites and 15,000 hushed spectators",
+      "credit": "Wikimedia Commons / Squeaky Knees (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flickr_-_Carine06_-_The_Wimbledon_queue.jpg/1920px-Flickr_-_Carine06_-_The_Wimbledon_queue.jpg",
+      "caption": "The Queue snaking through Wimbledon Park — thousands camp for same-day, face-value tickets",
+      "credit": "Wikimedia Commons / Carine06 (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/On_Henman_Hill.jpg/1920px-On_Henman_Hill.jpg",
+      "caption": "Picnicking crowds on Henman Hill, watching the show courts on the big screen",
+      "credit": "Wikimedia Commons / Marc Di Luzio (CC BY 2.0)"
+    }
+  ]
+}

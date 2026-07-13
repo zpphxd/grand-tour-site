@@ -1,0 +1,114 @@
+{
+  "id": "edinburgh-fringe",
+  "name": "Edinburgh Festival Fringe",
+  "tagline": "For three weeks every August, Scotland's capital becomes the biggest stage on earth — thousands of shows in every cellar, courtyard and converted lecture hall, and anyone brave enough can perform.",
+  "city": "Edinburgh",
+  "country": "United Kingdom",
+  "dates": "August 6–30, 2027 (expected — the Fringe always runs 25 days from the first Friday of August; 2027 dates follow the fixed pattern, official confirmation typically lands in autumn 2026)",
+  "history": [
+    "The Fringe was born as a glorious act of gatecrashing. In 1947, when the inaugural Edinburgh International Festival was staged to reunite post-war Europe through culture, eight theatre companies turned up uninvited and performed anyway, claiming whatever small halls and church spaces they could find on the edge of the official programme. Scottish playwright Robert Kemp gave the phenomenon its name in 1948, writing of the shows 'round the fringe of official Festival drama'. From that accident of enthusiasm came the festival's two defining traits, still intact eighty years on: nobody is invited, and any space can be a theatre.",
+    "Growth has been relentless. The eight companies of 1947 became nearly 500 by 1981, and by 2025 the Fringe had swollen to roughly 3,900 shows giving almost 54,000 performances across 300-plus venues, with around 2.6 million tickets issued — making it comfortably the largest arts festival in the world, an event whose ticket sales are said to trail only the Olympics and the football World Cup. The Fringe Society, formed by performers in 1958, exists solely to publish the programme and sell tickets; crucially, it has never had an artistic director or a selection committee. That open-access principle — anyone with a show and a venue can register — is the festival's constitution, defended fiercely through every era of growth, commercialisation and 'Big Four' super-venues (Assembly, Gilded Balloon, Pleasance and Underbelly).",
+    "Its cultural significance is hard to overstate: the Fringe is the proving ground of the English-speaking entertainment world. Tom Stoppard's 'Rosencrantz and Guildenstern Are Dead' was discovered here in 1966; the Perrier Award (now the Edinburgh Comedy Awards, running since 1981) crowned early-career Stephen Fry, Hugh Laurie and Emma Thompson in its first years, and the roll of Fringe-launched careers runs from Billy Connolly and Rowan Atkinson to Steve Coogan, Flight of the Conchords and Hannah Gadsby, whose 'Nanette' won in 2017. Most famously in recent memory, Phoebe Waller-Bridge performed 'Fleabag' as a one-woman show in a 60-seat Underbelly room in 2013 — it left Edinburgh with an award and became a global television phenomenon. Every August, scouts, producers and commissioners descend on the city knowing the next decade of comedy and theatre is already on stage somewhere up a close off the Royal Mile."
+  ],
+  "whyGo": "Nowhere else can you watch world-premiere theatre at lunchtime, a future comedy superstar in a 50-seat sweatbox at teatime, and street fire-eaters on a medieval boulevard at midnight — all in a city compact enough to walk between them. As the traveler's grand-finale month before the Zürich lease ends, it is the single richest arts experience in Europe: a direct two-hour flight, English-speaking, and utterly unlike anything else on the calendar. You don't attend the Fringe so much as live inside it.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Edinburgh (EDI) direct — SWISS (daily, ~10x weekly) or easyJet (~4x weekly); tram from airport to Princes Street in ~35 min",
+      "duration": "2h20 flight; ~4h30 door-to-door",
+      "cost": "€150–350 return (August peaks; easyJet from ~€90 if booked early)",
+      "notes": "By far the sensible option. August is Edinburgh's peak month — book flights 3–5 months out. The airport tram (£7.50) beats a taxi during festival traffic."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Paris Gare de Lyon (TGV Lyria, 4h05) → Eurostar to London St Pancras (2h20) → LNER London King's Cross → Edinburgh Waverley (4h20)",
+      "duration": "12–14h with transfers; comfortable as an overnight-in-London two-day journey",
+      "cost": "€220–450 one way across the three legs",
+      "notes": "The scenic flight-free route — the East Coast Main Line finale along the Northumberland coast into Waverley is one of Britain's great rail arrivals. Book Eurostar and LNER ~4 months out; a Caledonian Sleeper from London Euston (arriving Edinburgh ~7am) is a charming alternative for the last leg."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Edinburgh via one-stop hubs (British Airways via Heathrow, KLM via Amsterdam, Lufthansa via Frankfurt)",
+      "duration": "5–7h total",
+      "cost": "€180–320 return",
+      "notes": "Useful fallback when the direct flights sell out or spike — during the Fringe they often do. Amsterdam connections tend to be the smoothest."
+    }
+  ],
+  "costs": {
+    "thrifty": "€650–900",
+    "midrange": "€1,400–2,000",
+    "splurge": "€3,500+",
+    "notes": "Accommodation is the brutal line item: Edinburgh rates triple in August, with hostel dorms at £50–80/night and midrange hotels £250–450/night — book 6+ months out or consider staying in Leith or even Glasgow (50 min by train). Show tickets are mercifully cheap: most run £8–15, hundreds of Free Fringe shows cost nothing (pay-what-you-want bucket at the exit), and 2-for-1 days early in the run slash costs. Thrifty = early easyJet flight + hostel + Free Fringe-heavy diet over 3 nights; splurge = Old Town boutique hotel, premium comedy headliners, and a Military Tattoo grandstand seat."
+  },
+  "booking": [
+    {
+      "label": "Official Fringe site — programme & tickets",
+      "url": "https://www.edfringe.com/"
+    },
+    {
+      "label": "Edinburgh Festival City (all August festivals)",
+      "url": "https://www.edinburghfestivalcity.com/"
+    },
+    {
+      "label": "Royal Edinburgh Military Tattoo (book early)",
+      "url": "https://www.edintattoo.co.uk/"
+    },
+    {
+      "label": "VisitScotland — Edinburgh festivals guide",
+      "url": "https://www.visitscotland.com/things-to-do/events/edinburgh-festivals"
+    }
+  ],
+  "weather": "Edinburgh in August is famously 'four seasons in one day': 14–19°C, bright spells trading places with sudden haar (sea mist) and showers, and evenings cooling fast to single digits. Pack a proper rain shell (umbrellas die in the wind), layers you can shed in stuffy basement venues, and comfortable waterproof shoes for cobbles and steep closes — you will easily walk 15km a day between shows.",
+  "tips": [
+    "Don't over-plan. Book 2–3 must-sees per day in advance (big-name comedy sells out weeks ahead), then leave gaps — the best Fringe discoveries come from flyers, word of mouth in venue queues, and the daily review sheets. Half the joy is the gamble.",
+    "Go in the first week if you can (for a 2027 trip: Aug 6–13). Preview and early shows are cheaper, 2-for-1 ticket days land in the opening days, queues are shorter, and performers are fresh. The final weekend is the most crowded and expensive of the month.",
+    "Exploit the Free Fringe (PBH's Free Fringe and Laughing Horse) — hundreds of shows with no ticket, pay what you want in the bucket on the way out. £5 in the bucket for a good hour of comedy is the best value in world entertainment. Also check the Half Price Hut on the Mound for same-day deals.",
+    "Book accommodation the moment your dates firm up — ideally 6–9 months out. August is the most expensive month of the decade-long UK hotel calendar; staying in Leith, Newington or Stockbridge (all walkable or a short bus ride) saves hundreds over the Old Town.",
+    "Build your day around venue clusters to avoid criss-crossing the city: the Pleasance Courtyard, George Square/Underbelly and Bristo Square/Gilded Balloon are all within ten minutes' walk of each other. Allow 30 minutes between shows in different clusters — Edinburgh is steep and August pavements are slow.",
+    "Everything is cashless-friendly (cards/contactless everywhere), but carry a few pound coins for Free Fringe buckets and street-performer hats on the Royal Mile. And be a good audience member: arrive before doors, phones off — venues are tiny and performers can see everything."
+  ],
+  "localRecs": [
+    {
+      "name": "The Royal Mile (High Street)",
+      "type": "neighborhood",
+      "note": "The festival's free open-air heart — street performers, living statues and flyering casts from morning to midnight along the medieval spine between the Castle and Holyrood. Chaotic, unmissable, and the best place to pick your evening's gamble."
+    },
+    {
+      "name": "Summerhall",
+      "type": "sight",
+      "note": "The old Royal (Dick) Veterinary School turned arts complex on the Meadows' edge — the Fringe's most adventurous theatre programming, plus its own brewery (Barney's) and gin distillery in the courtyard."
+    },
+    {
+      "name": "The Devil's Advocate",
+      "type": "bar",
+      "note": "A converted Victorian pump house hidden down Advocate's Close off the Royal Mile — 300+ whiskies and proper cocktails, perfectly placed for a dram between Old Town shows."
+    },
+    {
+      "name": "Ting Thai Caravan",
+      "type": "restaurant",
+      "note": "Fast, superb, inexpensive Thai street food on Teviot Place, two minutes from the Bristo Square venues — the honest answer to 'where do performers actually eat between shows'. No bookings; the queue moves quickly."
+    },
+    {
+      "name": "Arthur's Seat & Salisbury Crags",
+      "type": "sight",
+      "note": "An extinct volcano in the middle of the city — the 45-minute dawn hike above Holyrood is the classic Fringe reset: silence, sea views and the whole festival city at your feet before the first noon show."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Fringe_2021_on_the_Royal_Mile_%2851366709675%29.jpg/1920px-Fringe_2021_on_the_Royal_Mile_%2851366709675%29.jpg",
+      "caption": "Street performance crowds on the Royal Mile, the open-air heart of the Fringe.",
+      "credit": "Wikimedia Commons / Magnus Hagdorn (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Underbelly%2C_Edinburgh_Festival_Fringe_2018_%2843388358825%29.jpg/1920px-Underbelly%2C_Edinburgh_Festival_Fringe_2018_%2843388358825%29.jpg",
+      "caption": "The upside-down purple cow of the Underbelly, one of the Fringe's 'Big Four' venue landmarks.",
+      "credit": "Wikimedia Commons / Abi Skipp (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/The_Gilded_Balloon_%28Teviot_Row_House%29_and_Bristo_Square%2C_Edinburgh_Festival_Fringe_2018_%2842486591830%29.jpg/1920px-The_Gilded_Balloon_%28Teviot_Row_House%29_and_Bristo_Square%2C_Edinburgh_Festival_Fringe_2018_%2842486591830%29.jpg",
+      "caption": "Festival-goers filling Bristo Square outside the Gilded Balloon at Teviot Row House.",
+      "credit": "Wikimedia Commons / Abi Skipp (CC BY 2.0)"
+    }
+  ]
+}

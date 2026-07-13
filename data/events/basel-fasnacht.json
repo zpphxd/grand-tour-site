@@ -1,0 +1,114 @@
+{
+  "id": "basel-fasnacht",
+  "name": "Basler Fasnacht",
+  "tagline": "At exactly 4am the city kills its lights, ten thousand piccolos and drums strike up in the dark, and Basel begins its 'drey scheenschte Dääg' — the three most beautiful days of the year.",
+  "city": "Basel",
+  "country": "Switzerland",
+  "dates": "15–17 February 2027 — Morgestraich Monday 15 Feb at 4:00am, ending with the Ändstraich at 4:00am Thursday 18 Feb (dates confirmed by the Fasnachts-Comité calendar; always the Monday after Ash Wednesday)",
+  "history": [
+    "Basel's carnival is old enough that nobody knows quite how old: the city's records were destroyed in the great earthquake of 1356, so the earliest surviving document dates to 1376 — the notorious 'Böse Fasnacht' (Evil Carnival), when a tournament brawl between townsfolk and the Habsburg duke's knights ended in bloodshed and imperial sanction against the city. The tradition itself reaches further back, weaving together Celtic and Germanic midwinter rites of ancestor veneration and winter-banishing with the medieval customs of Basel's guilds, whose armed musters and drum-and-fife corps still echo in today's marching cliques.",
+    "What makes Basel unique is that its carnival survived the Reformation. When Basel turned Protestant in 1529, carnival celebrations were suppressed across the reformed world — yet Basel's endured, making it, as historians like to note, the only Catholic carnival to survive in a post-Reformation Protestant city. Its odd calendar position is part of that story: Basel observes the old 'Bauernfasnacht' (farmers' carnival) rhythm, beginning the Monday AFTER Ash Wednesday, a full week after Mainz, Cologne and Lucerne have swept up their confetti. The distance from Catholic custom became a point of Basel pride, and the carnival evolved into something unlike any other: disciplined, artistic, satirical, and defiantly local.",
+    "The modern form took shape in the 19th and 20th centuries — the Fasnachts-Comité was founded in 1910 to coordinate the roughly 18,000 active participants organized into cliques (pipe-and-drum societies), Guggenmusik brass bands, and Schnitzelbank satirical singers. Each clique parades behind a huge hand-painted lantern skewering the year's political scandals, its members hidden behind sculpted 'Larve' masks, showering the crowd with 'Räppli' (never call it confetti). In 2017 UNESCO inscribed the Carnival of Basel on its list of Intangible Cultural Heritage of Humanity, citing the way an entire city turns itself over, for exactly 72 hours, to music, mockery and art."
+  ],
+  "whyGo": "The Morgestraich is one of Europe's great sensory shocks: at the stroke of 4am every light in the old town is extinguished and thousands of masked pipers and drummers surge through the medieval lanes lit only by their painted lanterns. It is UNESCO-listed, fiercely authentic, utterly uncommercial — and for a Zürich-based traveler it is the ultimate home-turf headline: 55 minutes door to door, no flight, no hotel required unless you want one.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Basel SBB (IC 3 / IR 36 direct, several per hour)",
+      "duration": "53–60 min",
+      "cost": "CHF 68 return full fare (CHF 34 with Half Fare Card; supersaver from ~CHF 15 each way)",
+      "notes": "For Morgestraich, SBB and regional operators run special night trains into Basel in the early hours of Monday — check the SBB timetable for 'Extrazüge' around 2–3am, or take the last regular train Sunday night and join the pre-4am crowds"
+    },
+    {
+      "mode": "rail",
+      "route": "Day-trip pattern: early train Monday for Morgestraich + Cortège, return evening; repeat Wednesday",
+      "duration": "55 min each way",
+      "cost": "CHF 68–136 total depending on trips and fare",
+      "notes": "The smartest play from Zürich — skip Basel's scarce, overpriced Fasnacht-week hotels entirely and commute to the highlights"
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Basel via A1/A3 motorway",
+      "duration": "1h10 (85 km)",
+      "cost": "~CHF 25–35 fuel return + parking",
+      "notes": "Not recommended: the entire old town is closed to traffic during Fasnacht and parking near the centre is near-impossible — if you must, park at a Park+Ride and tram in"
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 100–150 (day trips from Zürich: supersaver trains, a Blaggedde badge, Mehlsuppe and beer — the carnival itself is free)",
+    "midrange": "CHF 600–900 (2 nights in a 3-star Basel hotel booked far ahead, trains, restaurant meals, badges and lantern-cellar visits)",
+    "splurge": "CHF 1,500–2,500 (3 nights at Les Trois Rois or Der Teufelhof over the carnival, guided Fasnacht experience, Schnitzelbank dinner reservations)",
+    "notes": "The event has no ticket — costs are driven almost entirely by whether you sleep in Basel, where Fasnacht-week hotel rates spike and rooms sell out months out. Living in Zürich, you can do the whole thing brilliantly as two day-trips (one very early)."
+  },
+  "booking": [
+    {
+      "label": "Fasnachts-Comité (official organizer, calendar & Blaggedde info)",
+      "url": "https://www.fasnachts-comite.ch/"
+    },
+    {
+      "label": "Basel Tourism — Carnival page (program, dates, visitor tips)",
+      "url": "https://www.basel.com/en/events/carnival"
+    },
+    {
+      "label": "SBB timetable (regular + Morgestraich special night trains)",
+      "url": "https://www.sbb.ch/en"
+    },
+    {
+      "label": "baslerfasnacht.info (independent encyclopedic guide, Morgestraich details)",
+      "url": "https://www.baslerfasnacht.info/"
+    }
+  ],
+  "weather": "Mid-February in Basel: typically 0–8°C, often damp with rain or occasional wet snow, and standing outdoors from 3:30am for Morgestraich feels far colder. Pack serious layers, a warm hat and gloves, waterproof shoes — and expect to find Räppli in your coat lining until summer.",
+  "tips": [
+    "Buy a Blaggedde (the official carnival badge, from ~CHF 10 to gold at ~CHF 100) and wear it visibly — the carnival is unticketed and the badge is how spectators fund the cliques' lanterns and costumes. Sold on the streets and by the Comité.",
+    "For Morgestraich, be inside the old town (Marktplatz, Falknerstrasse, Gerbergasse) by 3:30am at the latest. Trains and trams into Basel run specially that night; the lights go out at 4:00 sharp and the effect is ruined if you're still walking in.",
+    "Do not wear a costume — at Basel Fasnacht only active clique members mask up. Spectators dress warmly in normal (dark, washable) clothes. And no flash photography during Morgestraich; the darkness is the point.",
+    "Etiquette 101: never throw Räppli back at participants, never pick it up off the ground to throw, don't walk through a marching clique, and if a Waggis on a float hands you an orange or mimosa, take it graciously.",
+    "Eat the trinity: Mehlsuppe (dark roasted flour soup), Zwiebelwähe (onion tart) and Käsewähe (cheese tart) — restaurants and clique cellars serve them from 4am on Morgestraich Monday. Restaurant tables around Morgestraich book out weeks ahead.",
+    "Structure your visits: Monday = Morgestraich (4am) + afternoon Cortège; Tuesday = children's Fasnacht, the lantern exhibition on Münsterplatz and chaotic Guggenmusik concerts at night; Wednesday = second Cortège and Schnitzelbank singers in the pubs. If you only make two, take Monday and Tuesday evening."
+  ],
+  "localRecs": [
+    {
+      "name": "Münsterplatz lantern exhibition",
+      "type": "sight",
+      "note": "From Monday evening through Wednesday morning all 200-odd clique lanterns are parked in front of the cathedral — biting political satire as folk art, magical after dark"
+    },
+    {
+      "name": "Restaurant Löwenzorn",
+      "type": "restaurant",
+      "note": "Classic Basler Baiz in a 16th-century guild house on Gemsberg — Mehlsuppe, Käsewähe and cliques piping between the tables during Fasnacht; book well ahead"
+    },
+    {
+      "name": "Zum Braunen Mutz",
+      "type": "bar",
+      "note": "Big brasserie right on Barfüsserplatz, ground zero for Guggenmusik on Tuesday night and Schnitzelbank singers doing the rounds — squeeze in and order a Ueli beer"
+    },
+    {
+      "name": "Mittlere Brücke & Rhine bank",
+      "type": "sight",
+      "note": "The old bridge gives you crossing cliques with the Rhine and Grossbasel skyline behind — the postcard shot, especially during the Cortège"
+    },
+    {
+      "name": "Volkshaus Basel",
+      "type": "restaurant",
+      "note": "Herzog & de Meuron-designed brasserie and bar in Kleinbasel, a 10-minute walk from the parade rings — calmer refuge when the drumming gets too much"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Morgestraich_Basler_Fasnacht_2013.jpg/1920px-Morgestraich_Basler_Fasnacht_2013.jpg",
+      "caption": "Morgestraich: masked cliques with glowing head-lanterns fill Basel's blacked-out old town at 4am",
+      "credit": "Wikimedia Commons / Claude Truong-Ngoc (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Basler_Fasnacht_Morgenstraich.jpg/1920px-Basler_Fasnacht_Morgenstraich.jpg",
+      "caption": "A clique's grand painted lantern towers over pipers and drummers during the Morgestraich",
+      "credit": "Wikimedia Commons / Sparrow (2019) (CC0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Waggis_at_Cort%C3%A8ge_2024_Basler_Fasnacht.jpg/1920px-Waggis_at_Cort%C3%A8ge_2024_Basler_Fasnacht.jpg",
+      "caption": "A Waggis — the caricatured Alsatian peasant of Basel carnival — showers the Cortège crowd with Räppli",
+      "credit": "Wikimedia Commons / Sparrow (2019) (CC0)"
+    }
+  ]
+}

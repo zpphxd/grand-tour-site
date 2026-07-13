@@ -1,0 +1,114 @@
+{
+  "id": "semana-santa",
+  "name": "Semana Santa de Sevilla",
+  "tagline": "A week when Seville dissolves into candlelight, incense and drums, as centuries-old brotherhoods carry golden Passion floats through the night.",
+  "city": "Seville",
+  "country": "Spain",
+  "dates": "March 21–28, 2027 (Palm Sunday to Easter Sunday; set by the lunar Easter calendar)",
+  "history": [
+    "Seville's Holy Week grew out of the late-medieval penitential movement — the earliest brotherhoods trace themselves to the mid-1300s, with El Silencio claiming a founding date of 1340 and El Gran Poder of 1431. By 1578 more than thirty cofradías were already processing through the city, and in 1604 Cardinal Fernando Niño de Guevara imposed the ordinances that still shape the week: every brotherhood must pass along the Carrera Oficial and through the Cathedral. What began as public acts of penance hardened over four centuries into the most elaborate Holy Week observance in the Spanish-speaking world.",
+    "The heart of the spectacle is the paso — a massive carved and gilded float bearing 16th- and 17th-century sculptures of the Passion by masters such as Juan de Mesa and Francisco Ruiz Gijón, some weighing well over a tonne. Each is carried invisibly from underneath by teams of 24–54 costaleros, guided by a capataz's knocks and shouts, while thousands of nazarenos in pointed capirote hoods walk ahead in anonymity, candles in hand. Brass bands play funereal marchas, silent brotherhoods process without a note, and from balconies strangers erupt into saetas — raw, improvised flamenco laments aimed at the passing Virgin.",
+    "Today roughly 70 brotherhoods and some 50,000 nazarenos take part, and the week was declared a Fiesta of International Tourist Interest in 1980. Its emotional summit is La Madrugá, the night of Holy Thursday into Good Friday, when six of the greatest processions — El Silencio, El Gran Poder, La Macarena, La Esperanza de Triana among them — overlap through the small hours until midday. The tradition has survived the anticlerical destruction of 1936 and every upheaval since; when La Macarena finally re-enters her basilica at dawn, much of Seville is still in the street to see it."
+  ],
+  "whyGo": "Nowhere else in Europe does an entire major city hand itself over to a single ritual for eight days — this is street theatre, art history and raw devotion fused into one experience, and it is entirely free to watch. Standing in a packed lane at 3 a.m. during La Madrugá as a candlelit Virgin sways past to a spontaneous saeta is one of travel's genuine spine-tingling moments. And in 2027 it falls just days after Valencia's Las Fallas (March 15–19), so one Spain trip can capture both of the country's greatest festivals.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Seville (SVQ) direct, Edelweiss/Vueling seasonal service (~2h45), or one-stop via Madrid/Barcelona on Iberia/Vueling year-round",
+      "duration": "2h45 direct; 5–6h with connection",
+      "cost": "€150–350 return (Holy Week premium)",
+      "notes": "Direct frequencies are thin — book 3–4 months out; connecting via Madrid or Barcelona often halves the fare"
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Madrid (MAD) with Iberia/Swiss (2h20), then AVE high-speed train Madrid Puerta de Atocha → Sevilla Santa Justa (2h40)",
+      "duration": "~7h door to door",
+      "cost": "€120–250 flight + €40–90 AVE return",
+      "notes": "AVE trains run roughly hourly; book on renfe.com or iryo.eu ~2 months ahead for the cheapest fares"
+    },
+    {
+      "mode": "rail",
+      "route": "The Las Fallas combo: Zürich → Valencia (fly, ~2h15) for Las Fallas Mar 15–19, then direct Renfe train Valencia → Sevilla (~4h) for Palm Sunday",
+      "duration": "4h Valencia–Seville leg",
+      "cost": "€40–80 one-way Valencia–Sevilla",
+      "notes": "The natural clustering play — one open-jaw ticket (ZRH→VLC, SVQ→ZRH) covers both festivals in a two-week Spain swing"
+    }
+  ],
+  "costs": {
+    "thrifty": "€500–650",
+    "midrange": "€950–1,400",
+    "splurge": "€2,500+",
+    "notes": "Full-trip estimate for flights from Zürich plus 3 nights and food. Accommodation is the driver — Seville hotel rates double or triple during Holy Week and the center sells out months ahead; processions themselves are free. Splurge tier adds a rented Carrera Oficial balcony or palco seat (several hundred euros) and a boutique hotel in Santa Cruz."
+  },
+  "booking": [
+    {
+      "label": "Official program & procession calendar (Semana-Santa.org)",
+      "url": "https://www.semana-santa.org/en/calendario/"
+    },
+    {
+      "label": "Consejo General de Hermandades y Cofradías de Sevilla (brotherhoods council)",
+      "url": "https://www.hermandades-de-sevilla.org/"
+    },
+    {
+      "label": "Seville tourism board — Holy Week guide",
+      "url": "https://www.visitasevilla.es/"
+    },
+    {
+      "label": "Spain.info — Easter Week in Seville",
+      "url": "https://www.spain.info/en/calendar/easter-week-sevilla/"
+    }
+  ],
+  "weather": "Late March in Seville is mild and mostly sunny — highs of 20–24°C, cool 9–12°C nights, with a real chance of spring showers (rain cancels processions outright, so build in flexible days). Pack layers for all-night street vigils, genuinely comfortable shoes for hours of standing, and something smart-dark for Holy Thursday and Good Friday, when locals dress formally.",
+  "tips": [
+    "Book accommodation 6–12 months out — Holy Week is Seville's peak of peaks and central hotels sell out; staying in Triana or near Santa Justa station saves serious money.",
+    "Download the 'El Llamador' app (Canal Sur's official guide) for live routes, timetables and each brotherhood's position — essential for intercepting pasos away from the crush.",
+    "Prioritize La Madrugá (Thu night Mar 25 into Fri Mar 26): El Silencio, El Gran Poder, La Macarena and La Esperanza de Triana process through the small hours — nap in the afternoon and stay out all night.",
+    "Skip the paid Carrera Oficial seats unless money is no object; the best free viewing is at a brotherhood's salida (exit from its church) or entrada (return), where emotion peaks — arrive 1–2 hours early.",
+    "Never try to cross a procession or the ranks of nazarenos, keep flash photography away from pasos, and stay silent when silent brotherhoods (El Silencio, Gran Poder) pass.",
+    "Restaurants pack out and many close odd hours during the week — book dinner ahead, eat tapas standing like locals, and carry cash for street vendors selling torrijas (the traditional Holy Week sweet)."
+  ],
+  "localRecs": [
+    {
+      "name": "El Rinconcillo",
+      "type": "restaurant",
+      "note": "Seville's oldest tavern (1670), hung with hams and Holy Week posters — order espinacas con garbanzos and watch the tab chalked on the bar"
+    },
+    {
+      "name": "La Fresquita",
+      "type": "bar",
+      "note": "Tiny Santa Cruz shrine-bar plastered with Semana Santa memorabilia that plays procession marches year-round — peak atmosphere during the week itself"
+    },
+    {
+      "name": "Bodega Santa Cruz 'Las Columnas'",
+      "type": "bar",
+      "note": "Standing-room tapas institution two minutes from the Cathedral — perfect refuel between processions, montaditos from ~€3"
+    },
+    {
+      "name": "Triana",
+      "type": "neighborhood",
+      "note": "Cross the Puente de Isabel II to the old potters' and flamenco quarter — home of La Esperanza de Triana, whose bridge crossing on La Madrugá is one of the week's great sights"
+    },
+    {
+      "name": "Cathedral & La Giralda",
+      "type": "sight",
+      "note": "The world's largest Gothic cathedral is the climax of every procession's route — climb the Giralda's ramps early in the week before crowds peak"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Paso_del_Cachorro_Semana_Santa_2025.jpg/1920px-Paso_del_Cachorro_Semana_Santa_2025.jpg",
+      "caption": "The paso of the Cristo de la Expiración ('El Cachorro') borne through Seville's streets during Holy Week",
+      "credit": "Wikimedia Commons / Cofrades 2020 sevilla (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Nazarenos_estrella_por_el_puente_de_triana.jpg",
+      "caption": "Nazarenos of the Hermandad de la Estrella crossing the Triana bridge in their pointed capirotes",
+      "credit": "Wikimedia Commons / Sonysfc9 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/19495374488_797a980243_o_Semana_Santa_Armaos.jpg/1920px-19495374488_797a980243_o_Semana_Santa_Armaos.jpg",
+      "caption": "The 'armaos' — the Roman centuria of La Macarena — escorting the brotherhood's procession",
+      "credit": "Wikimedia Commons / Sevilla Congress & Convention Bureau (CC BY-SA 2.0)"
+    }
+  ]
+}

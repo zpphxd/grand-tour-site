@@ -1,0 +1,114 @@
+{
+  "id": "street-parade",
+  "name": "Zürich Street Parade",
+  "tagline": "A million ravers turn the buttoned-up banking capital into the world's largest open-air techno dancefloor for one ecstatic Saturday on the lake.",
+  "city": "Zurich",
+  "country": "Switzerland",
+  "dates": "Sat 8 Aug 2026 (confirmed, 33rd edition, 13:00–midnight); Sat 14 Aug 2027 (expected — second Saturday of August pattern)",
+  "history": [
+    "The Street Parade began on 5 September 1992, when Marek Krynski, a mathematics student at ETH Zürich, registered a 'Demonstration for Love, Peace, Liberty, Generosity and Tolerance' inspired by Berlin's Love Parade. Roughly a thousand people danced behind two sound-system floats — the first 'Love Mobiles' — through a city better known for private banking than acid house. Crucially, Krynski filed it as a political demonstration rather than a commercial event, a legal status the parade retains to this day: it is, on paper, still a demo for love and tolerance, which is why it remains free to attend.",
+    "Growth was explosive and not without friction. Attendance hit around 10,000 in 1993 and 150,000 by 1995; a 1994 attempt by the city to ban the parade was overturned after public protest, and the route was moved to its now-iconic loop around the Lake Zürich basin — from Utoquai past Bellevue, over the Quaibrücke to Bürkliplatz and along General-Guisan-Quai to Hafendamm Enge. Since 1996 the non-profit Verein Street Parade has run the show, with each edition carrying a motto in the spirit of the founding demonstration. In 2001 attendance topped one million for the first time, and after Berlin's Love Parade folded, Zürich's became the largest techno parade on earth.",
+    "The parade has weathered the decades as a barometer of dance culture. It survived the post-2000s ebb of rave, was cancelled in 2020–21 during COVID, and roared back in 2022 with close to a million attendees. The 30th edition in 2023 drew around 920,000 people, and 2024's 'Prefer:Tolerance' edition matched that scale through a heatwave. Today roughly 30 Love Mobiles crawl the 2-kilometre lakeside route while headline DJs play free open-air stages at Bürkliplatz and along the quays — a single day when Zürich's lakefront becomes a pilgrimage site for European club culture."
+  ],
+  "whyGo": "It is the biggest techno event on the planet, it is completely free, and in 2026–27 it happens literally on your doorstep — no flights, no hotels, just a tram ride to a million-person party wrapped around Lake Zürich. World-class DJs play open-air for nothing, and the spectacle of Switzerland's most orderly city surrendering to bass for twelve hours is worth witnessing at least once.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Any Zürich tram/S-Bahn → Stadelhofen or Bellevue (parade start) or Bürkliplatz (main stage area)",
+      "duration": "10–20 min from anywhere in the city",
+      "cost": "CHF 4.60 single / CHF 9.20 ZVV zone-110 day pass",
+      "notes": "ZVV runs extra trams and S-Bahn services all day and late into the night; Stadelhofen is the least-crushed arrival station early on"
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → walk 15 min via Bahnhofstrasse to Bürkliplatz, or S-Bahn one stop to Stadelhofen",
+      "duration": "15 min on foot",
+      "cost": "Free (walking)",
+      "notes": "Walking down Bahnhofstrasse with the crowds is part of the ritual; trams on the lake loop stop running through the parade zone from midday"
+    },
+    {
+      "mode": "drive",
+      "route": "Don't. The entire lake basin (Utoquai–Bellevue–Quaibrücke–Bürkliplatz–General-Guisan-Quai) is closed to traffic",
+      "duration": "n/a",
+      "cost": "n/a",
+      "notes": "Roads close from morning until early Sunday; if friends visit by car, park at a P+R on the S-Bahn network and ride in"
+    }
+  ],
+  "costs": {
+    "thrifty": "€20–40",
+    "midrange": "€80–150",
+    "splurge": "€400+",
+    "notes": "The parade itself is free and you live in Zürich, so no transport or lodging needed — costs are food, drink and afterparties. Thrifty: supermarket supplies + ZVV day pass. Midrange: street-food, bar rounds and one paid afterparty ticket (CHF 40–80). Splurge: club-hopping the official afterparties, a lakeside dinner and hosting visiting friends — Zürich prices (CHF 12+ per beer at stalls) drive the bill fast."
+  },
+  "booking": [
+    {
+      "label": "Official site (route, line-up, Love Mobiles)",
+      "url": "https://www.streetparade.com/en"
+    },
+    {
+      "label": "Zürich Tourism — Street Parade page",
+      "url": "https://www.zuerich.com/en/visit/events/street-parade"
+    },
+    {
+      "label": "Resident Advisor — official listing & afterparties",
+      "url": "https://ra.co/events/2417923"
+    },
+    {
+      "label": "Wikipedia — Street Parade",
+      "url": "https://en.wikipedia.org/wiki/Street_Parade"
+    }
+  ],
+  "weather": "Early-to-mid August in Zürich is typically 24–29°C and sunny with a real chance of afternoon thunderstorms; the 2024 edition was a scorcher with many heat casualties. Pack sunscreen, a hat, a refillable water bottle, earplugs, and clothes you don't mind getting soaked — by sweat, lake water or rain.",
+  "tips": [
+    "Arrive by noon and walk the route once before the Love Mobiles roll at 13:00 — Bürkliplatz and the Quaibrücke become nearly impassable by mid-afternoon.",
+    "Mobile networks collapse under a million users: agree on fixed meeting points and times with your group rather than relying on your phone.",
+    "Bring cash — stalls charge CHF 10–15 per drink and queues for card terminals are slower; better yet, pre-buy drinks at a Coop/Migros before noon (they close early near the route).",
+    "The lake is the afterparty's swimming pool: pack swimwear and jump in at Utoquai or Seebad Enge to cool off — locals do it all day.",
+    "Official afterparties (including Lethargy at Rote Fabrik and club nights at Hive, Zukunft and Supermarket) sell out — book tickets 2–4 weeks ahead on RA.",
+    "Glass is banned on the route and the city charges a deposit on cups; carry earplugs — Love Mobile sound systems at close range are genuinely punishing for 12 hours."
+  ],
+  "localRecs": [
+    {
+      "name": "Sternen Grill",
+      "type": "restaurant",
+      "note": "Bellevue institution right at the parade start — the St. Galler bratwurst with hot mustard is the canonical Street Parade fuel."
+    },
+    {
+      "name": "Rote Fabrik",
+      "type": "bar",
+      "note": "Lakeside alternative culture centre in Wollishofen; its Lethargy festival is the credible underground counterpart to the parade weekend."
+    },
+    {
+      "name": "Odeon",
+      "type": "bar",
+      "note": "Historic 1911 café-bar at Bellevue where Lenin and Einstein once sat — surreal people-watching as the parade swirls past outside."
+    },
+    {
+      "name": "Frau Gerolds Garten",
+      "type": "bar",
+      "note": "Container-and-garden bar in Zürich-West, perfect decompression zone the day after, away from the lake basin cleanup."
+    },
+    {
+      "name": "Seebad Enge",
+      "type": "sight",
+      "note": "Wooden lake baths near the parade's end point — a morning swim here on parade day, before the crowds, is peak Zürich summer."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/30._Street_Parade_in_Z%C3%BCrich_c.jpg/1920px-30._Street_Parade_in_Z%C3%BCrich_c.jpg",
+      "caption": "Crowds fill the Lake Zürich basin at the 30th Street Parade in 2023, which drew around 920,000 people.",
+      "credit": "Wikimedia Commons / Skyscraper2010 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/30._Street_Parade_in_Z%C3%BCrich_g.jpg/1920px-30._Street_Parade_in_Z%C3%BCrich_g.jpg",
+      "caption": "A Love Mobile works its way along the lakeside route during the 2023 Street Parade.",
+      "credit": "Wikimedia Commons / Peter Arnold (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Zurich_Street_Parade_2008_012.jpg/1920px-Zurich_Street_Parade_2008_012.jpg",
+      "caption": "Ravers packed around Bellevue square, the traditional starting point of the parade route.",
+      "credit": "Wikimedia Commons / BYTE RIDER (CC BY-SA 2.0)"
+    }
+  ]
+}

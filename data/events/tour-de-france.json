@@ -1,0 +1,114 @@
+{
+  "id": "tour-de-france",
+  "name": "Tour de France 2027 — Grand Départ Edinburgh",
+  "tagline": "The world's greatest bike race rolls out from beneath Edinburgh Castle — Scotland's first-ever Tour start, and it costs nothing to stand at the barriers.",
+  "city": "Edinburgh",
+  "country": "United Kingdom",
+  "dates": "2–4 July 2027 (Grand Départ: Stage 1 Edinburgh → Carlisle on Fri 2 July; UK stages through 4 July; full race runs to late July (expected))",
+  "history": [
+    "The Tour de France was born in 1903 as a circulation stunt for the sports paper L'Auto, dreamed up by editor Henri Desgrange to outsell a rival daily. Sixty riders set off on brutal 400-kilometre stages around France; only 21 finished. From that improvised beginning grew the biggest annual sporting event on earth — a three-week, roughly 3,500-kilometre lap of France (with regular foreign excursions) watched by 10–12 million roadside spectators and billions on television. Its iconography is global shorthand: the yellow jersey (introduced 1919), the polka-dot King of the Mountains, the sprinters' green, and the champagne roll-in on the Champs-Élysées.",
+    "The Tour has started outside France since 1954, and its British visits have become the stuff of legend. London hosted the Grand Départ in 2007 with over a million people lining the prologue; Yorkshire's 2014 start drew an estimated crowds in the millions across two days, with the climb of Buttertubs Pass packed twelve-deep in scenes compared to Alpe d'Huez. Those weekends transformed British cycling culture — coming on the heels of Bradley Wiggins' 2012 win and ahead of Chris Froome's four titles, with Mark Cavendish eventually equalling and then breaking Eddy Merckx's all-time stage-win record.",
+    "2027 makes history several times over: it is Britain's fourth Grand Départ but Scotland's first, the first time a single edition opens with stages in Scotland, England and Wales, and the first time the men's Tour and the Tour de France Femmes avec Zwift both start in the same host country (the women's race departs from Leeds). Stage 1 leaves Edinburgh on Friday 2 July 2027 and heads through Midlothian and the Scottish Borders — over the Côte de Melrose in the Eildon Hills — to finish beside Carlisle's medieval castle. Stage 2 races Keswick to Liverpool through the Lake District; Stage 3 brings the Tour to Wales for the first time, Welshpool to Cardiff, before the race transfers to France."
+  ],
+  "whyGo": "A Grand Départ is the Tour at its most festive — team presentations, the publicity caravan, fan zones and a whole city dressed in yellow — and Edinburgh's castle-and-crags backdrop may be the most dramatic start venue the race has ever had. Scotland has never hosted the Tour before and likely won't again for decades. Best of all, it is completely free to watch: pick a barrier on the Royal Mile or a hillside in the Borders and the greatest riders in the world come to you.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Edinburgh (EDI), direct with easyJet (also SWISS/Edelweiss seasonal; one-stop via LHR/AMS on BA/KLM)",
+      "duration": "2h15 direct",
+      "cost": "CHF 120–350 return",
+      "notes": "Grand Départ weekend will spike fares — book the moment dates firm up. Airport tram to Princes Street takes ~35 min."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Paris Gare de Lyon (TGV Lyria, ~4h), transfer to Gare du Nord, Eurostar → London St Pancras (~2h20), LNER King's Cross → Edinburgh Waverley (~4h20)",
+      "duration": "12–14h door to door",
+      "cost": "€220–420 return",
+      "notes": "A grand rail journey in its own right. Book Eurostar and LNER ~4 months out; LNER advance fares from £40. Waverley station is directly on the Royal Mile's doorstep."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich → London (LHR/LCY, ~1h45), then LNER train to Edinburgh (4h20) — the Wimbledon combo route",
+      "duration": "8–9h total",
+      "cost": "CHF 150–300 flight + £40–150 train",
+      "notes": "Ideal if pairing with Wimbledon (late June–mid July 2027, expected): watch tennis in London, ride the East Coast Main Line north for the Grand Départ."
+    }
+  ],
+  "costs": {
+    "thrifty": "€500–700",
+    "midrange": "€1,000–1,500",
+    "splurge": "€2,800+",
+    "notes": "Roadside viewing is free — accommodation is the whole game. Edinburgh hotels in early July are already peak-season expensive and Grand Départ demand will multiply that; hostels and Glasgow-based stays (50 min by train) anchor the thrifty tier, while splurge means a Royal Mile or castle-view hotel booked a year out plus VIP hospitality packages."
+  },
+  "booking": [
+    {
+      "label": "Official Grand Départ GB 2027 site",
+      "url": "https://www.letourgb.com/"
+    },
+    {
+      "label": "Tour de France official site (ASO)",
+      "url": "https://www.letour.fr/en/"
+    },
+    {
+      "label": "VisitScotland — Tour de France 2027",
+      "url": "https://www.visitscotland.com/things-to-do/events/tour-de-france"
+    },
+    {
+      "label": "Forever Edinburgh (city tourism board)",
+      "url": "https://edinburgh.org/"
+    }
+  ],
+  "weather": "Edinburgh in early July: mild and famously changeable — highs around 17–19°C, lows near 11°C, a real chance of showers and gusty wind, but daylight from ~4:30 to ~22:00. Pack layers and a proper waterproof shell (not just an umbrella — the wind eats them), plus sunscreen for the long bright spells between squalls.",
+  "tips": [
+    "Book accommodation the instant your dates are set — Edinburgh will sell out a year ahead for Grand Départ weekend. Glasgow (ScotRail, ~50 min) or Stirling make excellent overflow bases.",
+    "Roadside viewing is free but the départ zone fills hours ahead. For the city spectacle, stake out the start area early; for actual racing, head to the Côte de Melrose in the Borders, where the peloton climbs slowly enough to see faces.",
+    "The publicity caravan — a 30-minute parade of sponsor floats throwing freebies — passes 1–2 hours before the riders. Arrive for it; the race itself flashes by in under a minute on flat roads.",
+    "Thursday's team presentation (1 July, expected) is often the best free close-up access to the stars — check letourgb.com for the venue and fan-park big screens.",
+    "Consider following the race: Stage 2's Keswick start puts you in the Lake District on Saturday, an easy add-on by train/bus from Carlisle after Stage 1.",
+    "Pair it with Wimbledon for a UK sporting week — the Championships' final days (expected mid-July window) can bracket the Grand Départ via a 4h20 London–Edinburgh train. Scotland uses pounds sterling; contactless cards work everywhere, no cash needed."
+  ],
+  "localRecs": [
+    {
+      "name": "The Witchery by the Castle",
+      "type": "restaurant",
+      "note": "Gothic, candlelit Scottish dining steps from the Castle Esplanade — book well ahead for race weekend."
+    },
+    {
+      "name": "The Bow Bar",
+      "type": "bar",
+      "note": "Classic single-room pub on curving Victoria Street with 400+ whiskies and perfectly kept cask ale — a post-race debrief institution."
+    },
+    {
+      "name": "Arthur's Seat & Salisbury Crags",
+      "type": "sight",
+      "note": "The extinct volcano in Holyrood Park; a 45-minute hike to the summit gives you the whole city — and potentially the race route — at your feet."
+    },
+    {
+      "name": "Stockbridge",
+      "type": "neighborhood",
+      "note": "Village-feel quarter below the New Town: Sunday market, independent delis and cafés, and a gentle escape from Royal Mile crowds."
+    },
+    {
+      "name": "Dishoom Edinburgh",
+      "type": "restaurant",
+      "note": "Bombay-café favourite on St Andrew Square; the bacon naan breakfast is the ideal fuel before a long day at the barriers."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Edinburgh_Castle_from_Esplanade_20211019.jpg/1920px-Edinburgh_Castle_from_Esplanade_20211019.jpg",
+      "caption": "Edinburgh Castle from the Esplanade — the dramatic backdrop for the 2027 Grand Départ",
+      "credit": "Wikimedia Commons / Daniel Kraft"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tour_de_France%2C_2014%2C_the_Peloton_1%2C_Pool_in_Wharfedale_-_geograph.org.uk_-_4059493.jpg",
+      "caption": "The Tour de France peloton sweeps through Britain during the 2014 Yorkshire Grand Départ",
+      "credit": "Wikimedia Commons / Rich Tea"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/View_of_Edinburgh_from_Calton_Hill_%2824065755923%29.jpg/1920px-View_of_Edinburgh_from_Calton_Hill_%2824065755923%29.jpg",
+      "caption": "Edinburgh's Old Town skyline from Calton Hill, host city of the 2027 Grand Départ",
+      "credit": "Wikimedia Commons / ewanmcandrew (CC0)"
+    }
+  ]
+}

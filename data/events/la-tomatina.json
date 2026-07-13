@@ -1,0 +1,114 @@
+{
+  "id": "la-tomatina",
+  "name": "La Tomatina",
+  "tagline": "For one delirious hour, a quiet Valencian hill town drowns itself in a hundred tonnes of overripe tomatoes.",
+  "city": "Buñol",
+  "country": "Spain",
+  "dates": "Wed 26 Aug 2026 (confirmed); Wed 25 Aug 2027 (expected) — always the last Wednesday of August, fight from 12:00 to 13:00",
+  "history": [
+    "La Tomatina was never planned. In August 1945, during Buñol's giants-and-big-heads parade, a scuffle broke out in the Plaza del Pueblo — one of the costumed 'big-head' figures toppled over, tempers flared, and the crowd grabbed the nearest ammunition: tomatoes from a market stall. The brawl was so gloriously fun that the town's young people came back the next year with their own tomatoes and did it on purpose. A tradition was born from an accident, which remains very much the spirit of the thing.",
+    "Franco's regime banned the festival in the early 1950s for having no religious significance, and locals were arrested for throwing tomatoes anyway. Buñol's answer, in 1957, was pure theatre: a mock 'tomato funeral,' with residents solemnly parading a coffin containing a giant tomato through town. The protest worked, the ban was lifted, and Spanish television coverage in the following decades turned a village lark into a global phenomenon. In 2002 Spain's tourism ministry declared it a Fiesta of International Tourist Interest.",
+    "By the 2010s the crush of visitors — up to 50,000 in a town of 9,000 — forced organisers to introduce paid tickets in 2013, capping the fight at roughly 20,000 participants. Around 100–145 tonnes of over-ripe, purpose-grown tomatoes are trucked in each year and hurled for exactly one hour, bracketed by starter-pistol shots. Before the tomatoes fly, daredevils shinny up the 'palo jabón,' a soap-greased pole topped with a Spanish ham. Afterwards, fire crews hose down the streets — the tomatoes' citric acid leaves the cobbles cleaner than before — and locals hose down the participants. The festival has inspired copycat tomato fights from Colorado to China."
+  ],
+  "whyGo": "It is the world's biggest food fight, and no photo prepares you for standing waist-deep in a river of tomato pulp while an entire town cheers. The event is one perfectly contained hour of pure, absurd catharsis — bookended by a Spanish village fiesta with brass bands, paella and hose-downs from grandmothers on balconies. From Zürich it's an easy long-weekend hit: two hours to Valencia, one commuter train to Buñol.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Valencia (VLC) direct with Vueling or SWISS/Edelweiss, then Cercanías C-3 train or festival shuttle bus Valencia → Buñol",
+      "duration": "2h10 flight + ~50min train (38 km)",
+      "cost": "€80–250 return + ~€8 train return",
+      "notes": "Book the flight 2–3 months out; late-August fares spike. On fight day take the earliest C-3 from Valencia Sant Isidre (~6–8am) or a package shuttle — trains are rammed and Buñol station is a walk from the plaza."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Geneva (IC) → Barcelona Sants (TGV Lyria/SNCF) → Valencia Joaquín Sorolla (AVE/Euromed), overnight in Barcelona or Valencia",
+      "duration": "~13–15h total (best split over 2 days)",
+      "cost": "€150–300 each way",
+      "notes": "Scenic, flight-free option. Book SNCF Zürich→Barcelona ~3 months out for the cheap tiers; Barcelona→Valencia AVE takes ~2h40."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Lyon → Montpellier → Barcelona → Valencia → Buñol via A9/AP-7/A-3",
+      "duration": "~13h / 1,400 km (split with a stopover)",
+      "cost": "€250–400 in fuel and tolls return",
+      "notes": "Only worth it as part of a longer Spain road trip. On the day itself, park in Valencia and take the train — Buñol closes to traffic and parking is hopeless."
+    }
+  ],
+  "costs": {
+    "thrifty": "€300–400",
+    "midrange": "€550–800",
+    "splurge": "€1,200+",
+    "notes": "The fight ticket itself is cheap (roughly €15–25 basic entry); the money goes on the late-August flight from Zürich and 2–3 nights in Valencia, where festival week pushes hotel rates up. Splurge packages (€400–700) bundle guaranteed entry, shuttle, breakfast, lockers and post-fight showers; thrifty travellers book a hostel in Valencia and the €8 commuter train."
+  },
+  "booking": [
+    {
+      "label": "Official ticket portal — Tomatina de Buñol",
+      "url": "https://tomatina.es/en/"
+    },
+    {
+      "label": "Official festival info — La Tomatina (Buñol town hall)",
+      "url": "https://latomatina.info/"
+    },
+    {
+      "label": "Spain tourism board — La Tomatina",
+      "url": "https://www.spain.info/en/calendar/la-tomatina/"
+    },
+    {
+      "label": "Visit València (base city)",
+      "url": "https://www.visitvalencia.com/en"
+    }
+  ],
+  "weather": "Late August in inland Valencia is hot and dry — 30–33°C at midday, strong sun, near-zero rain. Pack throwaway clothes and shoes you'll bin afterwards, swim goggles, a waterproof phone pouch, sunscreen, and a full change of clothes in a sealed bag left at a locker or with your tour.",
+  "tips": [
+    "Buy your official ticket the moment sales open (usually spring) — the 20,000 cap sells out, and only ticketed wristbands get past the barriers.",
+    "Sleep in Valencia, not Buñol. The town has almost no beds; the C-3 commuter train and festival shuttles do the 38 km in under an hour. Be in Buñol by 8–9am to get into the plaza.",
+    "Wear clothes and closed shoes you will throw away, plus swim goggles — tomato acid stings, and flip-flops get sucked off your feet in the pulp. Leave cameras behind or bring a strapped waterproof pouch.",
+    "Know the rules: squash every tomato before throwing, don't hurl bottles or tear T-shirts, keep clear of the tomato trucks, and stop dead at the second pistol shot at 13:00.",
+    "Afterwards, follow the locals: villagers hose down strangers from garden hoses, and many participants rinse off at the Cueva Turche waterfall pools just outside town.",
+    "Skip the fight-day paella scrum and stay for the week if you can — Tomatina caps a full local fiesta with parades, music and the palo jabón ham pole on the morning itself."
+  ],
+  "localRecs": [
+    {
+      "name": "Castillo de Buñol",
+      "type": "sight",
+      "note": "A 13th-century Moorish-founded castle rising straight out of the old town — climb it the evening before the fight for views over the plaza that will be tomato-red by noon."
+    },
+    {
+      "name": "Cueva Turche",
+      "type": "sight",
+      "note": "A 60-metre waterfall and natural pool 10 minutes from Buñol — the classic post-Tomatina rinse and picnic spot."
+    },
+    {
+      "name": "Venta L'Home",
+      "type": "restaurant",
+      "note": "Historic roadside inn just outside Buñol on the A-3, serving proper Valencian arroces and game dishes — book for the night before the fight."
+    },
+    {
+      "name": "Mercado Central & Barrio del Carmen, Valencia",
+      "type": "neighborhood",
+      "note": "Base yourself here: Europe's most beautiful market hall for breakfast, medieval lanes and tapas bars for the post-fight celebration night."
+    },
+    {
+      "name": "Horchatería Santa Catalina, Valencia",
+      "type": "bar",
+      "note": "Century-old institution for ice-cold horchata and fartons — exactly what a body pickled in tomato and sun wants at 5pm."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/La_Tomatina_%2825.08.2010%29_-_Spain%2C_Bu%C3%B1ol_21.jpg/1920px-La_Tomatina_%2825.08.2010%29_-_Spain%2C_Bu%C3%B1ol_21.jpg",
+      "caption": "The crowd mid-fight in Buñol's packed streets, ankle-deep in tomato pulp (2010)",
+      "credit": "Wikimedia Commons / flydime (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tomatina_2006.jpg",
+      "caption": "Tomato-soaked revellers at La Tomatina 2006",
+      "credit": "Wikimedia Commons / Graham McLellan (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/La_Tomatina_-_Spain%2C_Bu%C3%B1ol_-_panoramio.jpg",
+      "caption": "A tomato truck ploughs through the crowd on Buñol's main street",
+      "credit": "Wikimedia Commons / flydime (CC BY 3.0)"
+    }
+  ]
+}

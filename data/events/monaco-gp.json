@@ -1,0 +1,114 @@
+{
+  "id": "monaco-gp",
+  "name": "Monaco Grand Prix",
+  "tagline": "Formula 1 cars threading the needle between guardrails, superyachts and Belle Époque facades — the most glamorous 3.3 kilometres in motorsport.",
+  "city": "Monte-Carlo",
+  "country": "Monaco",
+  "dates": "Jun 4–6, 2027 (race Sunday Jun 6 — moved to early June on the revised F1 calendar; confirm exact schedule when ACM opens sales)",
+  "history": [
+    "The Monaco Grand Prix was dreamed up by Antony Noghès, a cigarette magnate's son and president of the Automobile Club de Monaco, who needed a genuinely 'Monegasque' motorsport event to win the club international recognition. The first race ran on 14 April 1929 through the same streets used today, won by William Grover-Williams in a Bugatti Type 35B painted the racing green that would become British Racing Green. The audacity of the idea — closing a principality's harbourfront, casino square and hairpinned hillside to race cars — was remarkable then and remains so now: the circuit has changed less than any other venue in world sport.",
+    "Monaco was on the calendar for the inaugural Formula 1 World Championship in 1950 and has been the sport's crown jewel ever since, one leg of motorsport's unofficial Triple Crown alongside the Indianapolis 500 and the 24 Hours of Le Mans. Its lore is thick: Alberto Ascari plunging into the harbour in 1955 and swimming away; Graham Hill earning the nickname 'Mr Monaco' with five wins in the 1960s; Ayrton Senna's qualifying lap of 1988, often called the greatest ever driven, en route to a record six Monaco victories; and the attritional 1996 race in which only three cars were classified and Olivier Panis scored his sole career win.",
+    "Culturally, Monaco is where Formula 1's glamour myth was minted — royalty on the palace balcony, film stars in the paddock, yachts moored metres from the racing line. The circuit is the slowest and narrowest on the calendar, with the Fairmont (formerly Loews) hairpin taken at roughly 50 km/h, and overtaking is famously scarce; Nelson Piquet likened driving it to 'riding a bicycle around your living room'. Yet precisely because the barriers punish every millimetre of error, a qualifying lap here is F1's purest test of nerve. From 2026 the race moved from its traditional late-May slot to early June, but the essentials — 78 laps, harbour glitter, zero margin — are unchanged since 1929."
+  ],
+  "whyGo": "No other sporting event puts you this close to the action: at Monaco you feel grandstand seats shake as cars pass a few metres away, with the Mediterranean, the casino and the palace as backdrop. It is the one Grand Prix where the venue outshines the racing — a bucket-list spectacle even for casual fans. From Zürich it is also one of the easiest 'exotic' F1 weekends to reach: a 1-hour flight and a 25-minute train.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Nice Côte d'Azur (NCE) direct with SWISS or easyJet, then TER train Nice-Ville → Monaco Monte-Carlo",
+      "duration": "1h10 flight + 25 min train (door-to-door ~4h)",
+      "cost": "CHF 150–450 return (race-weekend surge) + ~€5 each way for the train",
+      "notes": "Book flights 3–5 months out; NCE–Monaco trains run every 15–30 min but are extremely crowded on race days — the coastal ride past Villefranche and Èze is spectacular, sit on the sea side"
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Milano Centrale (EC direct, ~3h20) → Ventimiglia (Intercity ~4h) → Monaco Monte-Carlo (TER ~20 min)",
+      "duration": "8h30–10h total",
+      "cost": "€90–180 one-way depending on booking class",
+      "notes": "Doable as a scenic day of travel down the Ligurian coast; book the Zürich–Milan EC via SBB supersaver fares ~3 months ahead, and consider overnighting in Ventimiglia or Menton where hotels cost a fraction of Monaco prices"
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Gotthard tunnel → Milan → Genoa → A10 coastal autostrada → Nice/Monaco",
+      "duration": "6h30–7h30 (600 km)",
+      "cost": "~CHF 120–180 in fuel and tolls each way + vignette/autostrada fees",
+      "notes": "Do NOT drive into Monaco on race days — roads close and parking is hopeless; park in Nice or at Ventimiglia/Menton stations and take the train in"
+    }
+  ],
+  "costs": {
+    "thrifty": "€800–1,200",
+    "midrange": "€2,200–3,500",
+    "splurge": "€9,000+",
+    "notes": "Grandstand tickets are the swing factor: Rocher hillside standing runs ~€100–150 for Sunday while top grandstands (K, B) hit €700–1,100 for race day; 3-day packages save ~10%. Accommodation is the second driver — Monaco hotels quadruple in price with multi-night minimums, so budget and midrange travellers stay in Nice, Menton or Ventimiglia (30–40 min by train). Splurge means a Monte-Carlo hotel plus yacht-deck or terrace hospitality (€4,500–8,000 per person). Estimates cover Zürich transport, 3 nights and tickets."
+  },
+  "booking": [
+    {
+      "label": "Automobile Club de Monaco — official organiser & ticket office",
+      "url": "https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco/"
+    },
+    {
+      "label": "Formula 1 official — Monaco GP hub & F1 Tickets",
+      "url": "https://www.formula1.com/en/racing/2026/monaco"
+    },
+    {
+      "label": "F1 Experiences — official ticket + hospitality packages",
+      "url": "https://f1experiences.com/2027-monaco-grand-prix"
+    },
+    {
+      "label": "Visit Monaco — official tourism board",
+      "url": "https://www.visitmonaco.com/"
+    }
+  ],
+  "weather": "Early June on the Riviera is reliably lovely: 20–25°C, strong Mediterranean sun, occasional brief showers. Grandstands are unshaded for hours — pack high-SPF sunscreen, a hat, sunglasses and a light layer for the evening; earplugs are wise close to the barriers.",
+  "tips": [
+    "Buy grandstand tickets the week the ACM opens sales (typically autumn–winter before the race) — Grandstand K (Piscine) and B (Nouvelle Chicane/harbour) sell out first and are the classic views.",
+    "Saturday qualifying is Monaco's true spectacle — cars on the ragged edge for one lap — and Saturday tickets cost roughly half of Sunday's; a Sat+Sun package saves ~10% over day tickets.",
+    "The Secteur Rocher standing hillside is the great budget secret: ~€100–150 for race Sunday with a sweeping view over Piscine and the harbour. Bring a cushion and arrive by 8am for a good spot.",
+    "Sleep in Nice, Menton or Ventimiglia, not Monaco — hotels there cost a quarter as much. Take a train in before 8:30am and brace for sardine-can trains for about 90 minutes after the flag.",
+    "After the race, wait out the train crush with a drink at Port Hercule; once the circuit opens to pedestrians in the evening you can walk the track itself — through the tunnel and around the hairpin.",
+    "Monaco uses the euro and is card-friendly, but budget consciously: a beer trackside runs €10–15 and casual lunch €25+. Stock up at the Condamine market or a Carrefour in Nice before heading in."
+  ],
+  "localRecs": [
+    {
+      "name": "Marché de la Condamine",
+      "type": "neighborhood",
+      "note": "Covered market hall steps from the circuit — socca, barbagiuan and pasta stalls where locals actually eat; the best-value meal in the principality"
+    },
+    {
+      "name": "Café de Paris Monte-Carlo",
+      "type": "bar",
+      "note": "The Belle Époque terrace on Casino Square — pay the premium for one drink and watch supercars and race-week peacocking at close range"
+    },
+    {
+      "name": "Brasserie de Monaco",
+      "type": "bar",
+      "note": "Monaco's own microbrewery on Port Hercule, right against the circuit fence — raucous, screen-filled and perfect between sessions"
+    },
+    {
+      "name": "Le Rocher (Monaco-Ville old town)",
+      "type": "sight",
+      "note": "The medieval quarter atop the rock: Prince's Palace, cathedral (Grace Kelly's tomb) and the superb Oceanographic Museum, all a short climb from the start/finish straight"
+    },
+    {
+      "name": "Èze village",
+      "type": "sight",
+      "note": "Stone eagle's-nest village 20 minutes back toward Nice — go the morning after the race for exotic gardens and the best coastal panorama on the Riviera"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2013_Monaco_Grand_Prix_-_Sunday.jpg/1920px-2013_Monaco_Grand_Prix_-_Sunday.jpg",
+      "caption": "Race day at Monaco: an F1 car flat-out between the guardrails above the Mediterranean",
+      "credit": "Wikimedia Commons / Charles Coates, LAT Photographic (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Circuit_de_Monaco_-_%C3%89pingle_du_Loews_Fairmont_%2854777022015%29.jpg/1920px-Circuit_de_Monaco_-_%C3%89pingle_du_Loews_Fairmont_%2854777022015%29.jpg",
+      "caption": "The Fairmont hairpin — the slowest corner in Formula 1, taken at barely 50 km/h",
+      "credit": "Wikimedia Commons / crash71100 (CC0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Yachts_and_spectators_in_the_harbour_%2827912204156%29.jpg/1920px-Yachts_and_spectators_in_the_harbour_%2827912204156%29.jpg",
+      "caption": "Port Hercule during Grand Prix week: spectators watch from yacht decks metres off the racing line",
+      "credit": "Wikimedia Commons / 35mmMan (CC BY 2.0)"
+    }
+  ]
+}

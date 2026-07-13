@@ -1,0 +1,114 @@
+{
+  "id": "venice-carnival",
+  "name": "Carnevale di Venezia",
+  "tagline": "For two weeks the world's most theatrical city disappears behind baroque masks, and everyone on the fondamenta is a stranger worth wondering about.",
+  "city": "Venice",
+  "country": "Italy",
+  "dates": "Jan 23 – Feb 9, 2027 (official; core festivities Jan 30 – Feb 9, ending Shrove Tuesday before Ash Wednesday Feb 10)",
+  "history": [
+    "Legend traces the Carnival to 1162, when Venetians poured into Piazza San Marco to dance after the Republic's victory over the Patriarch of Aquileia. By the Renaissance it was an official institution, and in the 17th and 18th centuries it swelled into Europe's most notorious baroque spectacle: months of masked licence in which the rigid hierarchies of La Serenissima dissolved. Behind the bauta — the white beaked mask worn with tricorn hat and cloak that let the wearer eat, drink and gamble anonymously — a senator could mingle with a fishmonger. Noblewomen wore the moretta, a black velvet oval held in place by biting a button, which rendered them mute and doubly mysterious. Casanova's Venice, the Ridotto gaming houses, the theatres of Goldoni — all of it ran on Carnival's engine of anonymity.",
+    "The party died with the Republic. After Napoleon extinguished Venetian independence in 1797 and the city passed to Austria, the festival was outlawed and mask-wearing strictly forbidden; for nearly two centuries Carnival survived only in private salons and on the outer islands. Then in 1979 the Italian government and Venetian civic groups deliberately resurrected it as a celebration of the city's history and culture. The gamble worked spectacularly: mask-makers' workshops (mascareri) reopened, the old crafts revived, and the modern Carnival now draws on the order of three million visitors across its run.",
+    "Today's edition braids the old rituals into a public program: the Festa delle Marie procession re-enacting the doge's gift of dowries to twelve Venetian brides, the Flight of the Angel in which a costumed figure descends on a wire from the Campanile into Piazza San Marco, water parades on the Grand Canal and the Rio di Cannaregio, and the daily concorso della maschera più bella — the best-mask contest judged by international costume and set designers on the piazza's grand stage. Around the free street spectacle orbits a constellation of ticketed masked balls in the palazzi, the most famous being the Ballo del Doge, keeping the 18th-century fantasy alive at full candlelit strength."
+  ],
+  "whyGo": "Nowhere else does a city this beautiful commit this completely to a fantasy: gilded figures posing in the fog on Piazza San Marco at dawn, candlelit balls in Grand Canal palazzi, and an entire population of strangers in 18th-century silk. It is the last living baroque festival in Europe, staged on a car-free stage that has barely changed since Casanova worked it. From Zürich it is an easy rail weekend — arguably the highest spectacle-per-travel-hour ratio of any European winter event.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Milano Centrale (EC via Gotthard Base Tunnel, ~3h20), then Frecciarossa/Italo Milano → Venezia Santa Lucia (~2h30)",
+      "duration": "6h30–7h total",
+      "cost": "CHF/€70–160 return",
+      "notes": "Book the SBB supersaver Zürich–Milan and a Trenitalia/Italo Economy fare 2–3 months out; Santa Lucia station puts you directly on the Grand Canal. The scenery through the Alps and past Lake Como is part of the trip."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Venice Marco Polo (VCE), nonstop with SWISS; then Alilaguna boat (~1h15) or ATVO bus + vaporetto to the centro storico",
+      "duration": "1h05 flight, ~3h30 door-to-door",
+      "cost": "€120–280 return",
+      "notes": "Carnival weekends push fares up — book by November. The Alilaguna arrival by water across the lagoon is worth the extra time over the bus."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Gotthard tunnel → Milan → A4 → Venice (Tronchetto or Mestre parking)",
+      "duration": "~6h (530 km)",
+      "cost": "€120–180 (fuel, CH vignette, IT tolls, 2–3 days parking)",
+      "notes": "Cars stop at Piazzale Roma/Tronchetto — Venice itself is car-free. Cheaper to park in Mestre and take the 10-minute train across the lagoon. Rail is usually the better deal."
+    }
+  ],
+  "costs": {
+    "thrifty": "€350–550",
+    "midrange": "€800–1,300",
+    "splurge": "€3,000+",
+    "notes": "The street carnival is free — lodging is what bites. Hotel rates in the centro storico double or triple over Carnival weekends (Mestre on the mainland stays sane). Splurge tier assumes a canal-view hotel, a masked-ball ticket (€300–900 for the grand balls, Ballo del Doge from ~€1,000+) and a period costume rental (€150–400/day from an atelier). Estimates cover Zürich transport + 2–3 nights + food."
+  },
+  "booking": [
+    {
+      "label": "Official Carnival site & program",
+      "url": "https://carnevale.venezia.it/en/"
+    },
+    {
+      "label": "Venezia Unica — city pass, vaporetto & event tickets",
+      "url": "https://www.veneziaunica.it/en"
+    },
+    {
+      "label": "SBB — Zürich–Milan–Venice rail tickets",
+      "url": "https://www.sbb.ch/en"
+    },
+    {
+      "label": "Il Ballo del Doge — flagship masked ball",
+      "url": "https://www.ilballodeldoge.com/"
+    }
+  ],
+  "weather": "Early February in Venice is cold and damp: highs 6–9°C, lows around 0–3°C, with lagoon fog (atmospheric for photos) and a real chance of rain or acqua alta flooding on the lowest squares. Pack warm layers, a waterproof coat, and waterproof shoes or boots — you'll be standing outdoors for hours; costumed locals wear thermals under the silk.",
+  "tips": [
+    "The best of Carnival is free: skip the €€€ grandstand and be on Piazza San Marco at dawn (7–9am), when costumed figures pose for photographers in the fog before the crowds arrive.",
+    "Go midweek if you can. The final stretch — Fat Thursday (Feb 4, 2027) through Shrove Tuesday (Feb 9) — and both weekends are wall-to-wall; Monday–Wednesday between them gives you the costumes without the crush.",
+    "Book everything early: hotels sell out months ahead and Venice's day-tripper access fee (contributo di accesso) applies on peak days — overnight guests are exempt but must register, so staying in the city is both nicer and simpler.",
+    "Grand ball tickets (Ballo del Doge, palazzo dinners) sell out by late autumn and most require period costume — ateliers like Atelier Nicolao rent full 18th-century dress; reserve fittings when you book the ball.",
+    "Buy a real mask from a workshop such as Ca' Macana in Dorsoduro, not the €5 imports on the stalls — a handmade cartapesta mask is the correct souvenir and the makers will explain the bauta, moretta and medico della peste traditions.",
+    "Eat standing: cicchetti and an ombra of wine at a bacaro cost a fraction of a seated tourist menu, and coffee taken at the bar is a quarter of the price of a table on the piazza — at Florian the seated supplement is the price of the orchestra."
+  ],
+  "localRecs": [
+    {
+      "name": "Caffè Florian",
+      "type": "bar",
+      "note": "Open since 1720 on Piazza San Marco — the front row of Carnival. One outrageously priced hot chocolate buys an hour of the best masked people-watching in Europe."
+    },
+    {
+      "name": "Ca' Macana",
+      "type": "sight",
+      "note": "Working mask atelier in Dorsoduro using traditional cartapesta methods (they made masks for Kubrick's Eyes Wide Shut); short mask-making workshops bookable during Carnival."
+    },
+    {
+      "name": "All'Arco",
+      "type": "bar",
+      "note": "Tiny standing-room bacaro by the Rialto market — superb cicchetti made to order at lunch; go before 1pm and eat what the market brought in."
+    },
+    {
+      "name": "Cantina Do Spade",
+      "type": "restaurant",
+      "note": "Historic osteria in the Rialto lanes (Casanova was allegedly a regular) — honest Venetian plates like bigoli in salsa and fritto misto at fair prices for the location."
+    },
+    {
+      "name": "Fondamenta della Misericordia, Cannaregio",
+      "type": "neighborhood",
+      "note": "The locals' canal-side strip of bacari and osterie, ten minutes from the station and a world away from the San Marco crowds — the place to decompress after a day among the masks."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/1920px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg",
+      "caption": "Masked couple in full baroque costume at the Carnival of Venice — a Wikimedia Commons featured picture.",
+      "credit": "Wikimedia Commons / Frank Kovalchek (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Carnival_of_venice_2020_onderkokturk_11.jpg/1920px-Carnival_of_venice_2020_onderkokturk_11.jpg",
+      "caption": "Handmade masks and elaborate costumes during the Carnival of Venice, 2020.",
+      "credit": "Wikimedia Commons / Onderkokturk (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Caf%C3%A9_Florian_guests_during_the_2020_Carnival_of_Venice_%2849760577342%29.jpg/1920px-Caf%C3%A9_Florian_guests_during_the_2020_Carnival_of_Venice_%2849760577342%29.jpg",
+      "caption": "Costumed guests at Caffè Florian on Piazza San Marco during the 2020 Carnival.",
+      "credit": "Wikimedia Commons / Ralf Steinberger (CC BY 2.0)"
+    }
+  ]
+}

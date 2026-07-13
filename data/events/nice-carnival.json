@@ -1,0 +1,114 @@
+{
+  "id": "nice-carnival",
+  "name": "Carnaval de Nice",
+  "tagline": "Two weeks of giant satirical floats, confetti storms and mimosa hurled from flower-covered chariots along the Baie des Anges.",
+  "city": "Nice",
+  "country": "France",
+  "dates": "9–28 February 2027 (theme: \"Vive l'Amour\")",
+  "history": [
+    "Nice's carnival has a claim to being the oldest in the world: the first written record dates to 1294, when Charles of Anjou, Count of Provence, noted that he had passed 'the joyous days of carnival' in Nice. For centuries it was a loose, rowdy pre-Lenten street celebration of masked balls and flour-and-egg battles. The modern spectacle was born in 1873, when a Festival Committee under the painter Alexis Mossa turned the chaos into an organized cavalcade of allegorical floats presided over by a papier-mâché King of Carnival. Mossa and later his son Gustav-Adolf designed the grotesque, satirical floats for decades, setting the visual grammar — enormous caricature heads, biting political humor — that still defines the event.",
+    "The Bataille de Fleurs (flower battle) joined the program in 1876, invented partly to show off the Riviera's winter flower industry to wintering aristocrats. It remains the carnival's most distinctive ritual: models in extravagant costumes ride floats covered in tens of thousands of fresh blooms — 80–90% grown locally — and throw armfuls of mimosa, gerberas and lilies into the crowd along the seafront. Each year the whole carnival is built around a theme skewering the times ('King of Pop Culture', 'King of the Oceans'); 2027's is 'Vive l'Amour', a celebration of love and poetry. The festivities traditionally end with the King burned at sea or on the beach, followed by fireworks over the Baie des Anges.",
+    "Today the Carnaval de Nice ranks alongside Rio and Venice among the world's great carnivals, drawing hundreds of thousands of visitors (the 2026 edition counted more than 420,000 participants) across roughly two and a half weeks of day parades, illuminated night parades and flower battles. Its float-building craft is recognized as part of France's intangible cultural heritage. The event has weathered history — cancelled during both world wars and the pandemic, and moved to a secured Place Masséna circuit after the 2016 Promenade des Anglais attack — but its mix of Mediterranean light, satire and flowers in the depths of February remains unlike any other carnival on earth."
+  ],
+  "whyGo": "Nowhere else does carnival happen in shirtsleeve February sunshine beside a turquoise sea — you can catch mimosa thrown from a flower float in the afternoon and watch six-storey illuminated giants roll past Place Masséna after dark. It is the world's oldest carnival and one of its three or four greatest, yet it's a 90-minute hop from Zürich, making it the easiest 'big carnival' weekend in Europe.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Nice Côte d'Azur (NCE), direct with SWISS or easyJet",
+      "duration": "1h30",
+      "cost": "CHF 90–250 return",
+      "notes": "Several direct flights daily; book 2–3 months out as carnival weekends fill. Tram line 2 runs from the airport into the city centre in ~25 min for €1.50."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Genève (IC) → Nice-Ville (TGV via Lyon/Marseille), or Zürich HB → Milano Centrale (EC) → Ventimiglia → Nice-Ville",
+      "duration": "9–10h",
+      "cost": "€100–190 return",
+      "notes": "A scenic full-day journey either way — the Milan route hugs the Ligurian coast. Book TGV seats ~3 months out; consider an overnight stop in Milan or Geneva."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Gotthard tunnel → Milano → Genova → A10/A8 coastal autostrada → Nice",
+      "duration": "6h30–7h",
+      "cost": "€250–320 return (fuel + Swiss vignette + Italian/French tolls)",
+      "notes": "Tolls are heavy on the Italian coastal stretch. Parking in central Nice during carnival is scarce and pricey — use a park-and-ride and the tram."
+    }
+  ],
+  "costs": {
+    "thrifty": "€350–450",
+    "midrange": "€700–1,000",
+    "splurge": "€1,800+",
+    "notes": "Estimates for flights/train from Zürich, 2–3 nights and event entry. Nice hotel rates jump 30–50% on carnival weekends — accommodation is the main variable. Event tickets are modest (standing zones roughly €14–18, grandstand seats €27–35 per event, and fully costumed visitors enter pedestrian zones free), so splurge money goes to seafront hotels like the Negresco and Michelin dining."
+  },
+  "booking": [
+    {
+      "label": "Official site — Carnaval de Nice",
+      "url": "https://www.nicecarnaval.com/"
+    },
+    {
+      "label": "Official ticketing (Themis portal)",
+      "url": "https://indiv.themisweb.fr/0711/fListeManifs.aspx?idstructure=0711"
+    },
+    {
+      "label": "Nice Côte d'Azur tourist office — Carnaval 2027",
+      "url": "https://www.explorenicecotedazur.com/en/nice-carnival-2027-vive-lamour/"
+    },
+    {
+      "label": "France.fr — Nice Carnival guide",
+      "url": "https://www.france.fr/en/article/nice-carnival/"
+    }
+  ],
+  "weather": "Riviera winter at its best: typically 8–15°C, plenty of sun, but chilly once the sea breeze picks up and cold at the night parades. Pack layers, a warm jacket for evenings, sunglasses for the flower battles — and something you don't mind getting covered in confetti.",
+  "tips": [
+    "Buy grandstand (tribune) seats for one flower battle and one night parade as soon as the official ticketing opens in autumn 2026 — seafront tribunes for the Bataille de Fleurs sell out first.",
+    "Come costumed head-to-toe and you get into the pedestrian zones of parades free (subject to space) — but check the rules, as some costumes and accessories are prohibited.",
+    "Stand along the Promenade des Anglais barriers for the flower battles if you want to catch mimosa — the models genuinely throw the flowers, and front-row spots go 1–2 hours early.",
+    "Combine it with the Fête du Citron in Menton (same weeks, ~35 min by regional train) and Villefranche-sur-Mer's naval flower battle for a full Riviera carnival circuit.",
+    "Stay near the Port or Libération/Gare areas for better-value rooms one tram stop from the action; anything on Place Masséna or the Promenade books out months ahead.",
+    "The final weekend brings the burning of the King and fireworks over the bay — the most atmospheric night, but also the most crowded; arrive very early or book a seafront dinner table with a view."
+  ],
+  "localRecs": [
+    {
+      "name": "Chez Pipo",
+      "type": "restaurant",
+      "note": "The classic address for socca (chickpea pancake) near the Port — Nice's definitive street food, perfect between parades. Cash-friendly, expect a queue."
+    },
+    {
+      "name": "Cours Saleya market",
+      "type": "sight",
+      "note": "Vieux Nice's flower and produce market — the very flowers that end up on the battle floats. Go in the morning before the parades start."
+    },
+    {
+      "name": "La Merenda",
+      "type": "restaurant",
+      "note": "Tiny, no-phone, cash-only temple of Niçois cooking (stockfish, daube, tarte de blettes) run by an ex-Michelin chef. Reserve in person the day before."
+    },
+    {
+      "name": "Vieux Nice",
+      "type": "neighborhood",
+      "note": "The ochre-toned old town wraps right around the carnival zone — baroque churches, gelato at Fenocchio, and the best after-parade bar crawl on Rue de la Préfecture."
+    },
+    {
+      "name": "Le Bar du Negresco (Hôtel Negresco)",
+      "type": "bar",
+      "note": "Belle Époque splurge on the Promenade des Anglais — a post-flower-battle cocktail under the famous dome is peak Riviera."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Carnaval_de_Nice_-_bataille_de_fleurs_-_19.jpg/1920px-Carnaval_de_Nice_-_bataille_de_fleurs_-_19.jpg",
+      "caption": "The Bataille de Fleurs on the Promenade des Anglais — costumed models shower the crowd with fresh Riviera blooms.",
+      "credit": "Wikimedia Commons / Zil (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg/1920px-D%C3%A9fil%C3%A9_nocturne_du_char_du_Roi_au_carnaval_de_Nice_2023.jpg",
+      "caption": "The King of Carnival's float glowing in the illuminated night parade, a craft recognized as French intangible cultural heritage.",
+      "credit": "Wikimedia Commons / Tmilaret (Tommy Larey) (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flower_Parade_at_Nice_Carnaval_2024_%2853535301515%29.jpg/1920px-Flower_Parade_at_Nice_Carnaval_2024_%2853535301515%29.jpg",
+      "caption": "A flower-covered float rolls through the 2024 Flower Parade in Nice.",
+      "credit": "Wikimedia Commons / Carnaval.com Studios (CC BY 2.0)"
+    }
+  ]
+}

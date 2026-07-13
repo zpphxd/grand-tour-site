@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Year from Zürich · The Grand Tour, Optimized</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,450;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="topnav" id="topnav">
+  <div class="wrap">
+    <a class="brand" href="#/">A Year from Zürich</a>
+    <div class="topnav-links">
+      <a href="#/map" data-nav="map">The Map</a>
+      <a href="#/calendar" data-nav="calendar">Calendar</a>
+      <a href="#/routes" data-nav="routes">Routes</a>
+      <a href="#/builder" data-nav="builder">Build a Route</a>
+      <a href="#/collection" data-nav="collection">Collection</a>
+      <a href="#/playbook" data-nav="playbook">Playbook</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HOME ============ -->
+<main id="v-home" class="view">
+  <header class="hero">
+    <div class="hero-slides" id="hero-slides"></div>
+    <div class="hero-shade"></div>
+    <div class="wrap">
+      <span class="eyebrow">Home base Zürich · August 2026 — August 2027</span>
+      <h1>The Grand Tour,<br><em>optimized.</em></h1>
+      <p class="lede">Twelve months. Twenty-six of Europe's defining cultural moments — from an Oktoberfest tent to the frozen lake of St. Moritz — connected into journeys you can actually book.</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="#/map">Explore the map</a>
+        <a class="btn ghost" href="#/calendar">See the calendar</a>
+      </div>
+    </div>
+    <div class="hero-caption" id="hero-caption"></div>
+    <div class="hero-scroll"></div>
+  </header>
+
+  <div class="facts-band">
+    <div class="wrap">
+      <span class="fact"><b>Base</b> · Zürich 8003, ZRH + Basel 55 min</span>
+      <span class="fact"><b>Window</b> · Aug 2026 – Aug 2027</span>
+      <span class="fact"><b>Rhythm</b> · 1–2 trips a month</span>
+      <span class="fact"><b>Focus</b> · Sport, food, festivals, arts</span>
+    </div>
+  </div>
+
+  <section class="chapters">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="eyebrow">Start anywhere</span>
+        <h2>Six ways into the year</h2>
+      </div>
+      <div id="chapter-grid" class="chapter-grid"></div>
+    </div>
+  </section>
+
+  <section class="home-months">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="eyebrow">A taste of the calendar</span>
+        <h2>The next three headliners</h2>
+        <p class="sec-sub">The full month-by-month plan — with alternates, costs and cluster tips — lives on the <a href="#/calendar">calendar page</a>.</p>
+      </div>
+      <div id="home-months" class="months-grid"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-brand">A Year from Zürich</div>
+      <p>Built for a year based in Zürich 8003, August 2026 through August 2027. Event dossiers compiled from official festival and organizer pages, Wikipedia and travel references — booking links inside each event page. Verify dates and prices on official sites before booking. Photography via Wikimedia Commons under their respective free licenses; credits appear with each image.</p>
+    </div>
+  </footer>
+</main>
+
+<!-- ============ THE MAP ============ -->
+<main id="v-map" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">The itinerary, drawn</span>
+      <h1>One year, three journeys</h1>
+      <p class="sec-sub">Choose a route philosophy and watch the year unfold across Europe. Every stop is clickable — each opens a full dossier with history, photography, costs and booking guidance. Or <a href="#/builder">build your own route</a>.</p>
+    </div>
+  </div>
+  <section class="map-section">
+    <div class="wrap">
+      <div id="route-tabs" class="route-tabs"></div>
+      <div class="map-layout">
+        <div class="map-stage">
+          <div id="map-canvas"></div>
+          <div class="map-legend">
+            <span><i class="lg home"></i>Home base</span>
+            <span><i class="lg stop"></i>Event stop</span>
+            <span><i class="lg fly"></i>Flight</span>
+            <span><i class="lg rail"></i>Rail</span>
+            <button id="play-toggle" class="play-btn">Pause journey</button>
+          </div>
+        </div>
+        <aside class="map-side">
+          <div id="route-meta"></div>
+          <div id="route-legs" class="route-legs"></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ CALENDAR ============ -->
+<main id="v-calendar" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">August 2026 — August 2027</span>
+      <h1>The calendar</h1>
+      <p class="sec-sub">A headline pick for every month, with credible alternates to swap by mood or price — or flip to the grid to see exactly when everything falls.</p>
+      <div class="cal-toggle" id="cal-toggle">
+        <button data-mode="editorial" class="on">The months</button>
+        <button data-mode="grid">Calendar view</button>
+      </div>
+    </div>
+  </div>
+  <section class="cal-body">
+    <div class="wrap">
+      <div id="months-grid" class="months-grid"></div>
+      <div id="cal-grid" class="cal-grid" style="display:none"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ ROUTES ============ -->
+<main id="v-routes" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Three philosophies</span>
+      <h1>Pick your route — or mix them</h1>
+      <p class="sec-sub">The same twelve months, three ways to travel them. Most people run a blend: the Greatest Hits spine, Thrifty moves where the event doesn't need the splurge, and a few Bucket-List nights worth paying up for. Prefer full control? <a href="#/builder">Build your own</a>.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div id="route-cards" class="route-cards"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ BUILDER ============ -->
+<main id="v-builder" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Your itinerary</span>
+      <h1>Build your own route</h1>
+      <p class="sec-sub">Add events in the order you'd travel them — the journey draws itself from Zürich and back. Distances, travel modes and rough costs update as you go. Your route is saved in this browser.</p>
+    </div>
+  </div>
+  <section class="builder">
+    <div class="wrap">
+      <div class="builder-layout">
+        <aside class="builder-pick">
+          <h3 class="side-title">Add stops</h3>
+          <div id="builder-catalog"></div>
+        </aside>
+        <div class="builder-main">
+          <div class="map-stage">
+            <div id="builder-map"></div>
+            <div class="map-legend">
+              <span><i class="lg home"></i>Zürich</span>
+              <span><i class="lg stop"></i>Your stops</span>
+              <span id="builder-stats" class="builder-stats"></span>
+            </div>
+          </div>
+          <div class="builder-route">
+            <div class="builder-route-head">
+              <h3 class="side-title">Your route</h3>
+              <button id="builder-clear" class="play-btn">Clear all</button>
+            </div>
+            <div id="builder-legs"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ COLLECTION ============ -->
+<main id="v-collection" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">The collection</span>
+      <h1>Every event, one index</h1>
+      <p class="sec-sub">All twenty-six dossiers — researched, photographed and priced from Zürich.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div id="all-events" class="all-events"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ PLAYBOOK ============ -->
+<main id="v-playbook" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">The tactical layer</span>
+      <h1>The playbook</h1>
+      <p class="sec-sub">Clustering, savings and the book-early watchlist — the tactics that make a year like this affordable.</p>
+    </div>
+  </div>
+  <section class="playbook">
+    <div class="wrap">
+      <div class="grid2">
+        <div class="panel"><h3>Ready-made clusters</h3><ul id="clusters"></ul></div>
+        <div class="panel"><h3>Money-saving moves</h3><ul id="savings"></ul></div>
+      </div>
+      <div class="callout">
+        <b>Seasonal price rule:</b> put Southern Europe (Spain, Italy, the south of France) in the cheaper shoulder season, October to April, and save summer for the north — the UK, Scandinavia, the Alps. Pre-book event-locked trips such as Oktoberfest, San Fermín, Cannes and Glastonbury three to four months out, or sleep one town over.
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Set the reminders</span>
+        <h2>The book-early watchlist</h2>
+        <p class="sec-sub">These sell out or spike hardest — some in minutes when registration opens.</p>
+      </div>
+      <table class="book" id="book-table"></table>
+      <p class="disclaimer">2026 and early-2027 dates are largely confirmed; several summer-2027 dates follow fixed annual patterns and were still being finalized at research time — re-verify on official sites before booking. Cost figures are planning estimates, not live quotes.</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ EVENT DETAIL ============ -->
+<main id="detail" class="view" style="display:none"></main>
+
+<script src="data.js"></script>
+<script src="map.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "id": "st-patricks",
+  "name": "St. Patrick's Festival",
+  "tagline": "Four days when Dublin turns emerald and half a million people line the streets for the mother of all St. Patrick's Day parades.",
+  "city": "Dublin",
+  "country": "Ireland",
+  "dates": "Mar 13–17, 2027 (expected) — the National Parade always falls on St. Patrick's Day itself, Wednesday Mar 17, 2027. (2026 edition ran Mar 14–17.)",
+  "history": [
+    "St. Patrick's Day has been observed in Ireland as the feast of the country's 5th-century patron saint since at least the 17th century, but for most of its history it was a solemn, religious affair — pubs were legally shut on the day until the 1970s. Ironically, the exuberant parade tradition was invented by the Irish diaspora in North America in the 18th century; Ireland's first parade was held in Waterford in 1903, and Dublin's first official, state-sponsored St. Patrick's Day parade didn't march until 1931.",
+    "The modern St. Patrick's Festival was created by the Irish government in 1995–96 with an explicit brief: build a world-class national festival that projects Ireland as a creative, professional and sophisticated country, and reclaim the day from the green-beer clichés it had acquired abroad. The first festival ran on March 17, 1996 as a single day; by 1997 it was a three-day event, and by 2006 it had grown to five days. From 2006 to 2012 the Skyfest fireworks spectacular was the festival's centrepiece, and each year's programme is now built around a curated theme (2026's was 'Roots', honouring tradition and myth in modern Ireland).",
+    "Today it is the global home of St. Patrick's Day and one of Europe's great civic celebrations. The 2009 edition drew more than 675,000 people to the parade and close to a million across the festival; recent parades feature around 3,000 participants and a dozen large-scale pageant floats from Ireland's legendary street-theatre companies — Macnas, Buí Bolg, Spraoi, Inishowen Carnival Group and others — winding from Parnell Square past the GPO to St. Patrick's Cathedral. The festival also sparked the worldwide 'Global Greening', in which landmarks from the Sydney Opera House to Dublin's own Government Buildings glow green for the week."
+  ],
+  "whyGo": "This is the source: every other St. Patrick's celebration on earth is an echo of Dublin on March 17. Beyond the parade's giant puppets and marching bands, the whole city becomes a festival quarter for four days — 150+ artists, trad sessions, céilís, street theatre, free museum events and a citywide green glow. As a two-hour hop from Zürich, it's one of the easiest big-ticket festivals of the year — if you've booked a bed.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Dublin (DUB) nonstop with Aer Lingus or SWISS",
+      "duration": "2h20 nonstop",
+      "cost": "CHF 120–300 return (St. Patrick's week pushes fares up)",
+      "notes": "Both carriers fly daily; book by December 2026 for sane fares. Fly out Mar 13–14 and home Mar 18 to dodge the worst crush."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Dublin via London (LHR/LGW/STN) with BA or Ryanair connections",
+      "duration": "4h30–6h door to door",
+      "cost": "CHF 90–200 return",
+      "notes": "Fallback if nonstops are sold out or pricey; Ryanair also serves Dublin from Basel (EuroAirport), an easy 1h train from Zürich HB."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Paris (TGV Lyria, 4h) → London (Eurostar) → Holyhead (Avanti) → Dublin (Irish Ferries/Stena 'Sail Rail')",
+      "duration": "20–24h with an overnight stop",
+      "cost": "€200–350 one-way all-in",
+      "notes": "The romantic no-fly option. The London→Dublin Sail Rail ticket is a famous bargain (~£50); the ferry docks right in Dublin Port."
+    }
+  ],
+  "costs": {
+    "thrifty": "€500–650",
+    "midrange": "€1,100–1,500",
+    "splurge": "€3,000+",
+    "notes": "Estimates for flights from Zürich plus 3 nights and festival days. The parade is free — accommodation is what drives the price: Dublin hotels routinely triple for St. Patrick's week (midrange rooms €250–400/night, hostel dorms €60–100). Add ~€70–100 pp if you want ticketed grandstand seats on the parade route. Book beds 4–6 months out or pay dearly."
+  },
+  "booking": [
+    {
+      "label": "St. Patrick's Festival — official site & programme",
+      "url": "https://stpatricksfestival.ie/"
+    },
+    {
+      "label": "Parade route, times & grandstand info",
+      "url": "https://stpatricksfestival.ie/st-patricks-day-parade/"
+    },
+    {
+      "label": "Visit Dublin — official city tourism board",
+      "url": "https://www.visitdublin.com/"
+    },
+    {
+      "label": "Discover Ireland — national tourism site",
+      "url": "https://www.discoverireland.ie/"
+    }
+  ],
+  "weather": "Mid-March Dublin is 4–11°C with frequent blustery rain showers — the 2013 parade famously marched through snow. Pack a proper waterproof shell, layers and shoes that can stand hours on wet pavement; leave the umbrella (wind) and bring a flask.",
+  "tips": [
+    "Book accommodation the moment plans firm up — 4 to 6 months ahead. Dublin's hotel stock sells out for St. Patrick's week and prices triple; look at Drumcondra, Phibsborough or Portobello for better value within walking distance.",
+    "The parade starts around noon from Parnell Square, but kerbside spots along O'Connell Street fill by 9–10am. Either claim ground early or buy grandstand tickets (released on the official site, usually late in the year — they sell out).",
+    "Skip Temple Bar on the day itself: pints hit €10+ and it's wall-to-wall tourists. Locals drink in The Long Hall, Kavanagh's (The Gravediggers) or The Cobblestone instead.",
+    "Treat it as a four-day festival, not one parade: the citywide programme (trad sessions, céilís, talks, family events, the festival quarter) is mostly free and far less crowded on the non-parade days.",
+    "City centre streets close and Luas/Dublin Bus routes divert on parade day — stay walkable and don't plan an airport transfer for the afternoon of Mar 17.",
+    "Book restaurant tables for the evening of the 17th a few weeks ahead, and watch your pockets in the parade crush — it's the one day Dublin gets genuinely packed."
+  ],
+  "localRecs": [
+    {
+      "name": "The Cobblestone",
+      "type": "bar",
+      "note": "Smithfield institution — 'a drinking pub with a music problem'. Nightly trad sessions by serious players, ten minutes' walk from the parade route."
+    },
+    {
+      "name": "The Long Hall",
+      "type": "bar",
+      "note": "Gloriously unchanged Victorian pub on South Great George's Street; mahogany, mirrors and one of the best-poured pints in the city."
+    },
+    {
+      "name": "The Winding Stair",
+      "type": "restaurant",
+      "note": "Modern Irish cooking above a bookshop, looking straight onto the Ha'penny Bridge — book ahead for festival week."
+    },
+    {
+      "name": "St. Patrick's Cathedral & Kilmainham Gaol",
+      "type": "sight",
+      "note": "The saint's own cathedral anchors the parade's southern end; pair it with a pre-booked Kilmainham Gaol tour for the history that underpins the whole national holiday."
+    },
+    {
+      "name": "Stoneybatter & Smithfield",
+      "type": "neighbourhood",
+      "note": "Dublin's coolest village-in-the-city: indie cafés, Mulligan's grocer-pub, and a short stroll to the parade start without the O'Connell Street crush."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/St._Patrick%27s_Day_Parade_%282013%29_In_Dublin_-_Purdue_University_All-American_Marching_Band%2C_Indiana%2C_USA_%288566553110%29.jpg/1920px-St._Patrick%27s_Day_Parade_%282013%29_In_Dublin_-_Purdue_University_All-American_Marching_Band%2C_Indiana%2C_USA_%288566553110%29.jpg",
+      "caption": "Marching bands from around the world join Dublin's National St. Patrick's Day Parade at Parnell Square — here Purdue University's All-American Marching Band in 2013.",
+      "credit": "Wikimedia Commons / William Murphy (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Happy_St_Patrick_S_Day_Dublin_Ireland_%28203412989%29.jpeg/1920px-Happy_St_Patrick_S_Day_Dublin_Ireland_%28203412989%29.jpeg",
+      "caption": "Dublin's Government Buildings on Merrion Street glow emerald for the festival's 'Greening' — a tradition the city exported to landmarks worldwide.",
+      "credit": "Wikimedia Commons / Giuseppe Milo (CC BY 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/St._Patrick%27s_Day_In_Dublin_%284442327846%29.jpg/1920px-St._Patrick%27s_Day_In_Dublin_%284442327846%29.jpg",
+      "caption": "Street-theatre pageantry on the 2010 parade route, when some 800,000 spectators lined the two miles from Parnell Square to St. Patrick's Cathedral.",
+      "credit": "Wikimedia Commons / William Murphy (CC BY-SA 2.0)"
+    }
+  ]
+}

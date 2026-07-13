@@ -1,0 +1,114 @@
+{
+  "id": "strasbourg-christmas",
+  "name": "Strasbourg Christmas Market (Christkindelsmärik)",
+  "tagline": "France's oldest Christmas market turns a UNESCO-listed island city into a glowing, gingerbread-scented 'Capital of Christmas'.",
+  "city": "Strasbourg",
+  "country": "France",
+  "dates": "Late November – 24 December 2026 (expected; the 2025 edition ran 26 Nov – 24 Dec and official 2026 dates were not yet announced at research time — the market traditionally opens in the last week of November and most squares close the evening of 24 December)",
+  "history": [
+    "The Christkindelsmärik — Alsatian for 'Market of the Christ Child' — was founded in 1570, making it the oldest Christmas market in France and one of the oldest in Europe. Its birth was a product of the Reformation: Strasbourg's Protestant city council abolished the medieval Saint Nicholas market (the Klausenmärik) and replaced it with a market honouring the Christkindel, shifting the season's gift-giving from 6 December to Christmas itself. For centuries it was a compact affair of a few days held in the shadow of the great sandstone cathedral, later settling on Place Broglie, where the historic core of the market still stands today.",
+    "From those origins the event has grown into a five-week festival sprawling across more than ten squares of the Grande Île, Strasbourg's UNESCO World Heritage island core — roughly 300 timber chalets from Place Broglie to Place de la Cathédrale, the Petite France quarter and beyond. Since 1992 the city has marketed itself as 'Strasbourg, Capitale de Noël', anchored by the Great Christmas Tree on Place Kléber, a spruce that regularly tops 30 metres (the 2019 tree reached about 35 m). A guest-country village on Place Gutenberg brings a different nation's crafts and food each year, and the market now draws around two million visitors a season — worth an estimated €16 million-plus to the city, with hotels earning as much as 15–17% of their annual revenue in these weeks.",
+    "The market's cultural weight is hard to overstate: it effectively codified the modern European Christmas market, and Strasbourg has exported licensed versions as far as Tokyo and Beijing. It has also endured dark moments — a foiled Al-Qaeda bomb plot in 2000 and a terrorist attack in December 2018 that killed five people near Place Kléber. The city reopened the market within days, and the ring of security checkpoints on the bridges onto the Grande Île has been part of the experience ever since — a quiet reminder of how much this 450-year-old tradition means to the city that invented it."
+  ],
+  "whyGo": "This is the original — 450+ years of continuous tradition in a half-timbered medieval city that takes Christmas more seriously than anywhere else in France. The combination of the illuminated cathedral, the 30-metre tree on Place Kléber, Alsatian food (vin chaud, bredele biscuits, tarte flambée) and streets dressed to the rooftops is genuinely unmatched, and it's barely two and a half hours from Zürich by train.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Basel SBB (IC, ~55 min), walk through to Basel SNCF → Strasbourg (TER 200 or TGV, ~1h20)",
+      "duration": "2h20–2h45 total",
+      "cost": "CHF/€40–90 return",
+      "notes": "Hourly connections; buy the Swiss leg as an SBB supersaver and the Basel–Strasbourg leg on SNCF Connect (fixed regional TER fares ~€20–30 each way). Some through-tickets sold by SBB. Book ~2 months out for December weekends."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Basel (A3) → A35 north via Mulhouse and Colmar → Strasbourg",
+      "duration": "~2h30 (230 km)",
+      "cost": "€50–80 fuel + tolls/vignette + parking",
+      "notes": "The Grande Île is closed to traffic during the market — use a P+R lot (e.g. Elsau or Rotonde, ~€4–5 including tram tickets for all passengers) and tram in. Handy if you want to string in Colmar, Riquewihr and Kaysersberg markets on the way."
+    },
+    {
+      "mode": "rail",
+      "route": "FlixBus/BlaBlaCar Bus Zürich → Strasbourg (direct coach)",
+      "duration": "~3h–3h30",
+      "cost": "€20–45 return",
+      "notes": "Budget fallback when December trains sell out; several departures daily from Zürich bus terminal. Slower and less comfortable, but cheap and direct to central Strasbourg."
+    }
+  ],
+  "costs": {
+    "thrifty": "€280–380",
+    "midrange": "€550–800",
+    "splurge": "€1,200+",
+    "notes": "The market itself is free — accommodation is the price driver. Strasbourg hotel rates double or triple on December weekends (€150–300/night midrange); thrifty means a hostel or staying in Colmar/Basel and day-tripping, splurge means a Grande Île boutique hotel (Cour du Corbeau, Régent Petite France) plus gastronomic dinners. Budget €30–50/day for market grazing: vin chaud €3–5, tarte flambée €8–12."
+  },
+  "booking": [
+    {
+      "label": "Official market site (dates, map, programme)",
+      "url": "https://noel.strasbourg.eu/en/"
+    },
+    {
+      "label": "Strasbourg tourism board",
+      "url": "https://www.visitstrasbourg.fr/en/"
+    },
+    {
+      "label": "Swiss rail tickets (Zürich–Basel–Strasbourg)",
+      "url": "https://www.sbb.ch/en"
+    },
+    {
+      "label": "French rail tickets (Basel–Strasbourg TER/TGV)",
+      "url": "https://www.sncf-connect.com/en"
+    }
+  ],
+  "weather": "Expect 0–7°C, grey and damp with occasional snow flurries; darkness falls by ~16:45, which is exactly when the lights are best. Pack a warm waterproof coat, gloves, hat and waterproof shoes for hours of standing on cold cobbles — and layers, since winstubs are toasty inside.",
+  "tips": [
+    "Go midweek if at all possible — December weekends (especially the second and third) are shoulder-to-shoulder by early afternoon. Best windows: weekday mornings before 11:00 and after 20:00.",
+    "Security checkpoints ring the Grande Île during the market: travel light, expect bag checks at the bridges, and allow extra time on busy evenings.",
+    "Nearly everything closes at 18:00 on 24 December — don't plan a Christmas Eve or Christmas Day visit expecting open stalls.",
+    "Vin chaud comes in a deposit mug (~€1): keep it as the cheapest souvenir in town or return it for your euro back. Carry some cash — most chalets take cards, but small vendors and deposits move faster with coins.",
+    "Book your hotel 3–6 months ahead, or dodge the price spike by sleeping in Colmar or Basel (both ~30–75 min away by train) and day-tripping in.",
+    "Use the TER to combine Strasbourg with the storybook Alsace markets — Colmar (30 min) and Sélestat for Kaysersberg/Riquewihr — for a very efficient long weekend."
+  ],
+  "localRecs": [
+    {
+      "name": "Maison Kammerzell",
+      "type": "restaurant",
+      "note": "Landmark 15th-century carved timber house right on the cathedral square — touristy but the choucroute and the setting earn it; book ahead in market season."
+    },
+    {
+      "name": "Winstub Chez Yvonne",
+      "type": "restaurant",
+      "note": "The classic Alsatian winstub since 1873, a few steps from the cathedral: baeckeoffe, choucroute and pinot blanc in wood-panelled rooms. Reserve."
+    },
+    {
+      "name": "Au Brasseur",
+      "type": "bar",
+      "note": "Cheerful brewpub near Place Kléber brewing its own beer, with cheap and excellent tartes flambées — ideal thaw-out stop after the market."
+    },
+    {
+      "name": "Petite France",
+      "type": "neighborhood",
+      "note": "Canal-laced quarter of leaning half-timbered houses at the island's western tip; magical after dark with the Christmas lights and far calmer than the cathedral squares."
+    },
+    {
+      "name": "Strasbourg Cathedral & astronomical clock",
+      "type": "sight",
+      "note": "Climb the 330-step platform for rooftop views over the market squares, and catch the Renaissance astronomical clock's parade of the apostles at 12:30."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Strasbourg_Christkindelsm%C3%A4rik_30_nov_2014.jpg/1920px-Strasbourg_Christkindelsm%C3%A4rik_30_nov_2014.jpg",
+      "caption": "The Christkindelsmärik glowing at dusk in central Strasbourg",
+      "credit": "Wikimedia Commons / Claude Truong-Ngoc (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Strasbourg_Christmas_market_%2851228458506%29.jpg/1920px-Strasbourg_Christmas_market_%2851228458506%29.jpg",
+      "caption": "Christmas market stalls and illuminations on the Grande Île",
+      "credit": "Wikimedia Commons / Jorge Franganillo (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Shop_of_lights_in_the_Christmas_market_of_Strasbourg_2.jpg/1920px-Shop_of_lights_in_the_Christmas_market_of_Strasbourg_2.jpg",
+      "caption": "A chalet piled high with Christmas lights and decorations",
+      "credit": "Wikimedia Commons / Tangopaso (public domain)"
+    }
+  ]
+}
