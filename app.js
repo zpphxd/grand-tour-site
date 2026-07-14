@@ -8,9 +8,34 @@ let mainMap = null;
 let builderMap = null;
 let currentRouteId = 'greatest-hits';
 let calMode = 'editorial';
+const RESEARCH_VERIFIED_ON = '13 July 2026';
 
 const $ = sel => document.querySelector(sel);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const searchText = s => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+const vibeRank = (query, items) => {
+  if (!query.trim() || !window.VibeSearch) return [];
+  const allowed = new Set(items.map(item => item.id));
+  const ranked = window.VibeSearch.search(query, {
+    reindex: true, dossiers: DOSSIERS, places: window.PLACES,
+    railStations: window.RAIL_STATIONS, airports: window.AIRPORTS,
+  }).results;
+  return ranked.filter(result => allowed.has(result.item.id) && result.score > 38);
+};
+const vibeReasons = result => (result?.reasons || []).slice(0, 3).map(reason => reason
+  .replace('food: high', 'food-forward')
+  .replace('culture: high', 'culture-rich')
+  .replace('nature: high', 'strong nature')
+  .replace('adventure: high', 'adventurous')
+  .replace('romance: high', 'romantic')
+  .replace('family: high', 'family-friendly')
+  .replace('travel: rail', 'works by rail')
+  .replace('crowd: quiet', 'quieter atmosphere')
+  .replace('intensity: relaxed', 'relaxed pace'));
+const vibeChips = result => {
+  const reasons = vibeReasons(result);
+  return reasons.length ? `<div class="match-reasons" aria-label="Why this matched">${reasons.map(reason => `<span>${esc(reason)}</span>`).join('')}</div>` : '';
+};
 
 /* events + mountain destinations share detail pages, the builder and dossiers */
 const ITEMS = window.EVENTS.concat(window.ADVENTURES.map(a =>
@@ -22,6 +47,59 @@ const eventColor = id => window.EVENT_COLORS[Math.max(0, ITEMS.findIndex(e => e.
 const KIND_LABEL = { arts: 'Arts & Music', festival: 'Festival', food: 'Food & Wine', sport: 'Sport',
   hiking: 'Hiking', skiing: 'Skiing', cycling: 'Road Cycling' };
 const MODE_LABEL = { rail: 'Rail', fly: 'Fly', drive: 'Drive' };
+
+/* ---------- three-way comparison ---------- */
+const COMPARE_KEY = 'gt-compare';
+let compareIds = [];
+try { compareIds = JSON.parse(localStorage.getItem(COMPARE_KEY) || '[]').filter(id => eventById(id)).slice(0, 3); } catch { compareIds = []; }
+
+function saveCompare() { localStorage.setItem(COMPARE_KEY, JSON.stringify(compareIds)); }
+function compareButton(id) {
+  const selected = compareIds.includes(id);
+  const full = compareIds.length >= 3 && !selected;
+  return `<button type="button" class="compare-toggle${selected ? ' on' : ''}" data-compare="${esc(id)}" aria-pressed="${selected}" ${full ? 'disabled' : ''}>${selected ? 'Selected' : full ? '3 selected' : 'Compare'}</button>`;
+}
+function bindCompareButtons(root) {
+  root.querySelectorAll('[data-compare]').forEach(button => button.addEventListener('click', () => {
+    const id = button.dataset.compare;
+    if (compareIds.includes(id)) compareIds = compareIds.filter(itemId => itemId !== id);
+    else if (compareIds.length < 3) compareIds.push(id);
+    saveCompare();
+    renderCompareTray();
+    renderCollection();
+    renderOutdoors();
+  }));
+}
+function renderCompareTray() {
+  const tray = $('#compare-tray');
+  tray.hidden = compareIds.length === 0;
+  $('#compare-items').innerHTML = compareIds.map(id => {
+    const item = eventById(id);
+    return `<span>${esc(item?.name || id)}<button type="button" data-remove-compare="${esc(id)}" aria-label="Remove ${esc(item?.name || id)}">×</button></span>`;
+  }).join('');
+  $('#compare-open').disabled = compareIds.length < 2;
+  $('#compare-items').querySelectorAll('[data-remove-compare]').forEach(button => button.addEventListener('click', () => {
+    compareIds = compareIds.filter(id => id !== button.dataset.removeCompare);
+    saveCompare(); renderCompareTray(); renderCollection(); renderOutdoors();
+  }));
+}
+function renderCompareDialog() {
+  const items = compareIds.map(id => eventById(id)).filter(Boolean);
+  const cell = value => `<td>${value || '—'}</td>`;
+  const row = (label, values) => `<tr><th scope="row">${esc(label)}</th>${values.map(cell).join('')}</tr>`;
+  $('#compare-table').innerHTML = `
+    <thead><tr><th></th>${items.map(item => `<th scope="col"><a href="#/event/${item.id}">${esc(item.name)}</a></th>`).join('')}</tr></thead>
+    <tbody>
+      ${row('Where', items.map(item => esc(window.PLACES[item.place]?.name)))}
+      ${row('When', items.map(item => esc(shortDates(DOSSIERS[item.id]?.dates) || item.month)))}
+      ${row('Type', items.map(item => esc(KIND_LABEL[item.kind] || item.kind)))}
+      ${row('From Zürich', items.map(item => { const leg = DOSSIERS[item.id]?.gettingThere?.[0]; return leg ? `${esc(MODE_LABEL[leg.mode] || 'Travel')} · ${esc(leg.duration)}` : '—'; }))}
+      ${row('Thrifty', items.map(item => esc(DOSSIERS[item.id]?.costs?.thrifty)))}
+      ${row('Mid-range', items.map(item => esc(DOSSIERS[item.id]?.costs?.midrange)))}
+      ${row('Pace', items.map(item => esc(window.VibeSearch?.metadata(item.id)?.intensity)))}
+      ${row('Atmosphere', items.map(item => esc(window.VibeSearch?.metadata(item.id)?.crowd)))}
+    </tbody>`;
+}
 
 /* ---------- date helpers & trip links ---------- */
 const isoAdd = (iso, n) => {
@@ -414,7 +492,10 @@ function renderRoutesPage() {
 
 /* ---------- builder ---------- */
 const BUILDER_KEY = 'gt-builder-route';
+const BUILDER_BUDGET_KEY = 'gt-builder-budget';
 let builderStops = [];
+let builderQuery = '';
+let builderBudgetTier = localStorage.getItem(BUILDER_BUDGET_KEY) || 'midrange';
 try { builderStops = JSON.parse(localStorage.getItem(BUILDER_KEY) || '[]').filter(id => eventById(id)); } catch { builderStops = []; }
 
 const havKm = (a, b) => {
@@ -427,6 +508,19 @@ const legMode = km => km < 420 ? 'rail' : 'fly';
 const legCost = km => legMode(km) === 'rail' ? Math.round(km * 0.16) : Math.round(60 + km * 0.09);
 const legTime = km => legMode(km) === 'rail' ? km / 105 : 1.6 + km / 700;
 const fmtH = h => { const H = Math.floor(h), M = Math.round((h - H) * 60); return H ? `${H}h${M ? String(M).padStart(2, '0') : ''}` : `${M}m`; };
+const parsedTierCost = (id, tier) => {
+  const raw = DOSSIERS[id]?.costs?.[tier] || '';
+  const m = raw.match(/(?:€|EUR|CHF)\s*([\d,.]+)(?:\s*[–-]\s*([\d,.]+))?/i);
+  if (!m) return null;
+  const number = s => Number(String(s).replace(/,/g, ''));
+  const low = number(m[1]);
+  const high = m[2] ? number(m[2]) : low;
+  return Math.round((low + high) / 2);
+};
+const datedStopTime = id => {
+  const start = window.CAL_DATES[id]?.[0]?.[0];
+  return start ? parseISO(start).getTime() : Number.MAX_SAFE_INTEGER;
+};
 
 function builderRoute() {
   const stops = [{ place: 'zurich', label: 'Home base', month: '', mode: 'rail' }];
@@ -447,12 +541,19 @@ function saveBuilder() { localStorage.setItem(BUILDER_KEY, JSON.stringify(builde
 
 function renderBuilder() {
   // catalog grouped by month, plus mountains & trails
-  const groups = window.MONTHS.map(mo => ({
+  const q = searchText(builderQuery);
+  const rankedMatches = q ? vibeRank(builderQuery, ITEMS) : [];
+  const rankById = new Map(rankedMatches.map(result => [result.item.id, result]));
+  const groups = q ? (rankedMatches.length ? [{ label: 'Best matches', evs: rankedMatches.map(result => eventById(result.item.id)).filter(Boolean) }] : []) : window.MONTHS.map(mo => ({
     label: `${mo.label} ${mo.year}`,
     evs: window.EVENTS.filter(e => e.month === `${mo.label.slice(0, 3)} ${mo.year}`),
   })).filter(g => g.evs.length);
-  groups.push({ label: 'Mountains & Trails', evs: ITEMS.filter(e => e.adventure) });
-  $('#builder-catalog').innerHTML = groups.map(g => `
+  if (!q) groups.push({ label: 'Mountains & Trails', evs: ITEMS.filter(e => e.adventure) });
+  const matchCount = groups.reduce((n, g) => n + g.evs.length, 0);
+  $('#builder-search-status').textContent = q
+    ? `${matchCount} stop${matchCount === 1 ? '' : 's'} ranked locally from dossier metadata — no AI`
+    : '';
+  $('#builder-catalog').innerHTML = groups.length ? groups.map(g => `
     <div class="bcat-group">
       <div class="bcat-month">${esc(g.label)}</div>
       ${g.evs.map(e => {
@@ -462,11 +563,12 @@ function renderBuilder() {
           <div class="bcat-txt">
             <span class="bcat-name">${esc(e.name)}</span>
             <span class="bcat-place">${esc(window.PLACES[e.place].name)}</span>
+            ${q ? vibeChips(rankById.get(e.id)) : ''}
           </div>
           <button class="bcat-btn" data-id="${e.id}">${added ? 'Added' : 'Add'}</button>
         </div>`;
       }).join('')}
-    </div>`).join('');
+    </div>`).join('') : '<p class="search-empty">No stops match that search. Try a place, month or activity.</p>';
   $('#builder-catalog').querySelectorAll('.bcat-btn').forEach(b => b.addEventListener('click', () => {
     const id = b.dataset.id;
     if (!builderStops.includes(id)) { builderStops.push(id); saveBuilder(); refreshBuilder(); }
@@ -525,6 +627,24 @@ function renderBuilder() {
     ? `${builderStops.length} stop${builderStops.length > 1 ? 's' : ''} · ${Math.round(km).toLocaleString('en')} km · ~€${cost.toLocaleString('en')} transport, rough`
     : 'Add stops to see distance & cost';
 
+  const tierLabels = { thrifty: 'Thrifty', midrange: 'Mid-range', splurge: 'Splurge' };
+  $('#builder-budget').querySelectorAll('button').forEach(b => {
+    const selected = b.dataset.tier === builderBudgetTier;
+    b.classList.toggle('on', selected);
+    b.setAttribute('aria-pressed', String(selected));
+  });
+  $('#builder-sort').disabled = builderStops.length < 2;
+  const stopEstimates = builderStops.map(id => parsedTierCost(id, builderBudgetTier));
+  const knownSpend = stopEstimates.filter(Number.isFinite).reduce((sum, value) => sum + value, 0);
+  const missing = stopEstimates.filter(value => value === null).length;
+  const total = knownSpend + cost;
+  $('#builder-budget-total').innerHTML = builderStops.length
+    ? `<strong>~€${total.toLocaleString('en')}</strong><span>${esc(tierLabels[builderBudgetTier])} trip estimate · €${knownSpend.toLocaleString('en')} stops + €${cost.toLocaleString('en')} transport</span>`
+    : '<strong>€0</strong><span>Add stops to build a whole-trip estimate</span>';
+  $('#builder-budget-note').textContent = builderStops.length
+    ? `Planning midpoint from each dossier; CHF is treated roughly at parity with EUR. Live prices will differ.${missing ? ` ${missing} stop${missing === 1 ? '' : 's'} still need a cost estimate.` : ''}`
+    : '';
+
   if (builderMap) builderMap.setRoute(builderRoute(), { animate: true });
 }
 
@@ -541,6 +661,25 @@ async function ensureBuilderMap() {
 
 $('#builder-clear').addEventListener('click', () => {
   builderStops = []; saveBuilder(); refreshBuilder();
+});
+$('#builder-sort').addEventListener('click', () => {
+  builderStops = builderStops
+    .map((id, index) => ({ id, index, time: datedStopTime(id) }))
+    .sort((a, b) => a.time - b.time || a.index - b.index)
+    .map(item => item.id);
+  saveBuilder();
+  refreshBuilder();
+});
+$('#builder-budget').addEventListener('click', ev => {
+  const button = ev.target.closest('button[data-tier]');
+  if (!button) return;
+  builderBudgetTier = button.dataset.tier;
+  localStorage.setItem(BUILDER_BUDGET_KEY, builderBudgetTier);
+  renderBuilder();
+});
+$('#builder-search').addEventListener('input', ev => {
+  builderQuery = ev.target.value;
+  renderBuilder();
 });
 $('#builder-share').addEventListener('click', () => {
   const url = `${location.origin}${location.pathname}#/builder/${builderStops.join(',')}`;
@@ -565,6 +704,7 @@ $('#builder-ics').addEventListener('click', () => {
 
 /* ---------- outdoors: mountains & trails ---------- */
 let outdoorsFilter = 'all';
+let outdoorsQuery = '';
 function renderOutdoors() {
   const acts = ['all', 'hiking', 'skiing', 'cycling'];
   $('#outdoors-filters').innerHTML = acts.map(k => `
@@ -576,13 +716,21 @@ function renderOutdoors() {
     renderOutdoors();
   }));
 
-  const list = window.ADVENTURES.filter(a => outdoorsFilter === 'all' || a.activity === outdoorsFilter);
-  $('#outdoors-grid').innerHTML = list.map(a => {
+  const q = searchText(outdoorsQuery);
+  const rankedMatches = q ? vibeRank(outdoorsQuery, window.ADVENTURES) : [];
+  const resultById = new Map(rankedMatches.map(result => [result.item.id, result]));
+  const source = q ? rankedMatches.map(result => result.item) : window.ADVENTURES;
+  const list = source.filter(a => outdoorsFilter === 'all' || a.activity === outdoorsFilter);
+  $('#outdoors-search-status').textContent = q
+    ? `${list.length} adventure${list.length === 1 ? '' : 's'} ranked locally from dossier metadata — no AI`
+    : '';
+  $('#outdoors-grid').innerHTML = list.length ? list.map(a => {
     const d = DOSSIERS[a.id];
     const img = photoOf(a.id);
     const travel = d?.gettingThere?.[0];
     return `
-    <a class="ctile" href="#/event/${a.id}">
+    <article class="ctile">
+      <a class="ctile-main" href="#/event/${a.id}">
       <div class="ctile-imgwrap">
         ${img ? `<div class="ctile-img" style="background-image:url('${img}')"></div>` : ''}
       </div>
@@ -591,14 +739,31 @@ function renderOutdoors() {
         <h3>${esc(a.name)}</h3>
         <div class="ctile-meta">${esc(a.season)}${travel ? ` · ${esc(MODE_LABEL[travel.mode] || '')} ${esc(travel.duration)} from Zürich` : ''}</div>
         ${d?.tagline ? `<p class="ctile-tag">${esc(d.tagline)}</p>` : ''}
+        ${q ? vibeChips(resultById.get(a.id)) : ''}
         <span class="ctile-cta">Read the dossier</span>
       </div>
-    </a>`;
-  }).join('');
+      </a>
+      ${compareButton(a.id)}
+    </article>`;
+  }).join('') : '<p class="search-empty collection-empty">Nothing matches that exact outdoor mood yet. Try removing one constraint or raising the budget.</p>';
+  bindCompareButtons($('#outdoors-grid'));
 }
+
+$('#outdoors-search').addEventListener('input', ev => {
+  outdoorsQuery = ev.target.value;
+  renderOutdoors();
+});
+$('#outdoors-prompts').addEventListener('click', ev => {
+  const button = ev.target.closest('button[data-query]');
+  if (!button) return;
+  outdoorsQuery = button.dataset.query;
+  $('#outdoors-search').value = outdoorsQuery;
+  renderOutdoors();
+});
 
 /* ---------- collection & playbook ---------- */
 let collectionFilter = 'all';
+let collectionQuery = '';
 function renderCollection() {
   const kinds = ['all', 'festival', 'arts', 'sport', 'food'];
   $('#collection-filters').innerHTML = kinds.map(k => `
@@ -610,13 +775,21 @@ function renderCollection() {
     renderCollection();
   }));
 
-  const list = window.EVENTS.filter(e => collectionFilter === 'all' || e.kind === collectionFilter);
-  $('#all-events').innerHTML = list.map(e => {
+  const q = searchText(collectionQuery);
+  const rankedMatches = q ? vibeRank(collectionQuery, window.EVENTS) : [];
+  const resultById = new Map(rankedMatches.map(result => [result.item.id, result]));
+  const source = q ? rankedMatches.map(result => result.item) : window.EVENTS;
+  const list = source.filter(e => collectionFilter === 'all' || e.kind === collectionFilter);
+  $('#collection-search-status').textContent = q
+    ? `${list.length} dossier${list.length === 1 ? '' : 's'} ranked locally from dossier metadata — no AI`
+    : '';
+  $('#all-events').innerHTML = list.length ? list.map(e => {
     const d = DOSSIERS[e.id];
     const img = photoOf(e.id);
     const travel = d?.gettingThere?.[0];
     return `
-    <a class="ctile" href="#/event/${e.id}">
+    <article class="ctile">
+      <a class="ctile-main" href="#/event/${e.id}">
       <div class="ctile-imgwrap">
         ${img ? `<div class="ctile-img" style="background-image:url('${img}')"></div>` : ''}
       </div>
@@ -625,11 +798,32 @@ function renderCollection() {
         <h3>${esc(e.name)}</h3>
         <div class="ctile-meta">${esc(shortDates(d?.dates) || e.month)}${travel ? ` · ${esc(MODE_LABEL[travel.mode] || '')} ${esc(travel.duration)} from Zürich` : ''}</div>
         ${d?.tagline ? `<p class="ctile-tag">${esc(d.tagline)}</p>` : ''}
+        ${q ? vibeChips(resultById.get(e.id)) : ''}
         <span class="ctile-cta">Read the dossier</span>
       </div>
-    </a>`;
-  }).join('');
+      </a>
+      ${compareButton(e.id)}
+    </article>`;
+  }).join('') : '<p class="search-empty collection-empty">No dossiers match that search and filter. Try a broader place, season or interest.</p>';
+  bindCompareButtons($('#all-events'));
 }
+
+$('#collection-search').addEventListener('input', ev => {
+  collectionQuery = ev.target.value;
+  renderCollection();
+});
+
+$('#compare-clear').addEventListener('click', () => {
+  compareIds = []; saveCompare(); renderCompareTray(); renderCollection(); renderOutdoors();
+});
+$('#compare-open').addEventListener('click', () => {
+  renderCompareDialog();
+  $('#compare-dialog').showModal();
+});
+$('#compare-close').addEventListener('click', () => $('#compare-dialog').close());
+$('#compare-table').addEventListener('click', ev => {
+  if (ev.target.closest('a')) $('#compare-dialog').close();
+});
 
 function renderPlaybook() {
   $('#clusters').innerHTML = window.CLUSTERS.map(c => `<li><b>${esc(c.name)}</b> — ${esc(c.desc)}</li>`).join('');
@@ -650,17 +844,28 @@ function renderDetail(id) {
   if (!e) { root.innerHTML = '<div class="wrap"><p class="missing">Event not found. <a href="#/collection">Back to the collection</a></p></div>'; return; }
   const d = DOSSIERS[id];
   const pl = window.PLACES[e.place];
-  const idx = window.EVENTS.indexOf(e);
-  const prev = window.EVENTS[(idx - 1 + window.EVENTS.length) % window.EVENTS.length];
-  const next = window.EVENTS[(idx + 1) % window.EVENTS.length];
+  const detailSequence = e.adventure ? ITEMS.filter(item => item.adventure) : window.EVENTS;
+  const idx = detailSequence.findIndex(item => item.id === id);
+  const prev = detailSequence[(idx - 1 + detailSequence.length) % detailSequence.length];
+  const next = detailSequence[(idx + 1) % detailSequence.length];
   const img = d?.photos?.[0]?.url;
   const inBuilder = builderStops.includes(id);
+  const detailSections = d ? [
+    ['d-overview', 'Why go'],
+    ['d-story', 'Story'],
+    ['d-logistics', 'Getting there'],
+    ['d-budget', 'Budget'],
+    ['d-tips', 'Tips'],
+    ['d-local', 'While there'],
+    ...(d.photos?.length > 1 ? [['d-gallery', 'Gallery']] : []),
+    ['d-booking', 'Booking'],
+  ] : [['d-overview', 'Overview'], ['d-booking', 'Booking']];
 
   root.innerHTML = `
   <div class="d-hero" ${img ? `style="background-image:url('${img}')"` : ''}>
     <div class="d-hero-shade"></div>
     <div class="wrap">
-      <a class="d-back" href="#/collection" id="d-back">Back</a>
+      <a class="d-back" href="${e.adventure ? '#/outdoors' : '#/collection'}" id="d-back">Back</a>
       <div class="d-kind">${esc(KIND_LABEL[e.kind] || 'Event')} · ${esc(pl.name)}${d?.country ? ', ' + esc(d.country) : ''}</div>
       <h1>${esc(d?.name || e.name)}</h1>
       <p class="d-tagline">${esc(d?.tagline || '')}</p>
@@ -671,12 +876,27 @@ function renderDetail(id) {
       </div>
     </div>
   </div>
+  <div class="d-utility-shell">
+    <div class="wrap">
+      <nav class="d-toc" aria-label="Dossier sections">
+        <span class="d-toc-label">In this dossier</span>
+        <div class="d-toc-links">
+          ${detailSections.map(([sectionId, label]) => `<a href="#/event/${id}/${sectionId}">${esc(label)}</a>`).join('')}
+        </div>
+      </nav>
+      <div class="d-actionbar" aria-label="Trip actions">
+        <a href="#/event/${id}/d-booking">Plan & book</a>
+        ${window.CAL_DATES[id] ? '<button type="button" id="d-action-calendar">Add dates</button>' : ''}
+        <button type="button" class="primary" id="d-action-route">${inBuilder ? 'View your route' : 'Add to route'}</button>
+      </div>
+    </div>
+  </div>
   <div class="wrap d-cols">
     <div class="d-main">
       ${d ? `
-      <section class="d-sec"><span class="eyebrow">Why go</span><p class="d-why">${esc(d.whyGo)}</p></section>
-      <section class="d-sec"><span class="eyebrow">The story</span><h2>A little history</h2>${(d.history || []).map(p => `<p>${esc(p)}</p>`).join('')}</section>
-      <section class="d-sec">
+      <section class="d-sec anchor" id="d-overview"><span class="eyebrow">Why go</span><p class="d-why">${esc(d.whyGo)}</p></section>
+      <section class="d-sec anchor" id="d-story"><span class="eyebrow">The story</span><h2>A little history</h2>${(d.history || []).map(p => `<p>${esc(p)}</p>`).join('')}</section>
+      <section class="d-sec anchor" id="d-logistics">
         <span class="eyebrow">Logistics</span><h2>Getting there from Zürich</h2>
         <div class="gt-cards">
           ${(d.gettingThere || []).map(g => `
@@ -688,7 +908,7 @@ function renderDetail(id) {
             </div>`).join('')}
         </div>
       </section>
-      <section class="d-sec">
+      <section class="d-sec anchor" id="d-budget">
         <span class="eyebrow">Budget</span><h2>What it costs</h2>
         <div class="cost-tiers">
           <div class="tier"><div class="t-name">Thrifty</div><div class="t-val">${esc(d.costs?.thrifty || '—')}</div></div>
@@ -697,11 +917,11 @@ function renderDetail(id) {
         </div>
         ${d.costs?.notes ? `<p class="cost-notes">${esc(d.costs.notes)}</p>` : ''}
       </section>
-      <section class="d-sec">
+      <section class="d-sec anchor" id="d-tips">
         <span class="eyebrow">Know before you go</span><h2>Insider tips</h2>
         <ul class="tips">${(d.tips || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul>
       </section>
-      <section class="d-sec">
+      <section class="d-sec anchor" id="d-local">
         <span class="eyebrow">While you're there</span><h2>Eat, drink, wander</h2>
         <div class="recs">
           ${(d.localRecs || []).map(r => `
@@ -709,7 +929,7 @@ function renderDetail(id) {
         </div>
       </section>
       ${d.photos?.length > 1 ? `
-      <section class="d-sec">
+      <section class="d-sec anchor" id="d-gallery">
         <span class="eyebrow">In pictures</span><h2>Gallery</h2>
         <div class="gallery">
           ${d.photos.map(p => `
@@ -718,7 +938,7 @@ function renderDetail(id) {
         </div>
       </section>` : ''}
       ` : `
-      <section class="d-sec"><h2>Dossier being researched</h2>
+      <section class="d-sec anchor" id="d-overview"><h2>Dossier being researched</h2>
         <p>The research agents haven't filed this one yet. Meanwhile: <b>${esc(e.name)}</b> in ${esc(pl.name)}, ${esc(e.month)}. Refresh in a minute.</p>
       </section>`}
     </div>
@@ -728,8 +948,9 @@ function renderDetail(id) {
         <div id="mini-map"></div>
         <div class="d-weather">${d?.weather ? esc(d.weather) : ''}</div>
       </div>
-      <div class="d-panel">
+      <div class="d-panel anchor" id="d-booking">
         <h3>Plan this trip</h3>
+        <p class="booking-verified">Travel links checked ${RESEARCH_VERIFIED_ON}. Confirm live prices before purchase.</p>
         ${planLinks(e, d).map(b => `<a class="d-booklink" href="${b.url}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join('')}
         ${window.CAL_DATES[id] ? `<button class="rcard-btn builder-add" id="d-ics">Add to calendar (.ics)</button>` : ''}
       </div>
@@ -738,6 +959,7 @@ function renderDetail(id) {
       ${d?.booking?.length ? `
       <div class="d-panel">
         <h3>Booking & official links</h3>
+        <p class="booking-verified">Sources verified ${RESEARCH_VERIFIED_ON}. Dates and inventory can change.</p>
         ${d.booking.map(b => `<a class="d-booklink" href="${b.url}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join('')}
       </div>` : ''}
       <div class="d-panel">
@@ -756,19 +978,24 @@ function renderDetail(id) {
   $('#d-back').addEventListener('click', ev => {
     if (history.length > 1) { ev.preventDefault(); history.back(); }
   });
-  $('#d-add-builder').addEventListener('click', () => {
+  const addOrViewRoute = () => {
     if (!builderStops.includes(id)) { builderStops.push(id); saveBuilder(); }
     location.hash = '#/builder';
-  });
-  const icsBtn = $('#d-ics');
-  if (icsBtn) icsBtn.addEventListener('click', () => {
+  };
+  $('#d-add-builder').addEventListener('click', addOrViewRoute);
+  $('#d-action-route').addEventListener('click', addOrViewRoute);
+  const downloadDetailCalendar = () => {
     const spans = window.CAL_DATES[id];
     downloadICS(`${id}.ics`, buildICS(spans.map(([a, b], i) => ({
       id: `${id}-${i}`, start: a, end: b, title: d?.name || e.name,
       location: `${pl.name}${d?.country ? ', ' + d.country : ''}`,
       desc: d?.tagline || '',
     }))));
-  });
+  };
+  const icsBtn = $('#d-ics');
+  if (icsBtn) icsBtn.addEventListener('click', downloadDetailCalendar);
+  const actionIcsBtn = $('#d-action-calendar');
+  if (actionIcsBtn) actionIcsBtn.addEventListener('click', downloadDetailCalendar);
 
   // live data (fail silently — panels remove themselves)
   loadTrains($('#d-trains'), e);
@@ -777,8 +1004,37 @@ function renderDetail(id) {
   GrandTourMap.mini($('#mini-map'), e.place, '#9c4b2f');
 }
 
+/* ---------- responsive navigation ---------- */
+function closeMobileNav() {
+  const nav = $('#topnav');
+  const toggle = $('#nav-toggle');
+  nav.classList.remove('menu-open');
+  toggle.setAttribute('aria-expanded', 'false');
+  $('.nav-toggle-label').textContent = 'Menu';
+}
+
+function bindMobileNav() {
+  const nav = $('#topnav');
+  const toggle = $('#nav-toggle');
+  toggle.addEventListener('click', () => {
+    const open = !nav.classList.contains('menu-open');
+    nav.classList.toggle('menu-open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    $('.nav-toggle-label').textContent = open ? 'Close' : 'Menu';
+  });
+  $('.topnav-links').addEventListener('click', ev => {
+    if (ev.target.closest('a')) closeMobileNav();
+  });
+  document.addEventListener('keydown', ev => {
+    if (ev.key === 'Escape' && nav.classList.contains('menu-open')) {
+      closeMobileNav();
+      toggle.focus();
+    }
+  });
+}
+
 /* ---------- router ---------- */
-const VIEWS = ['v-home', 'v-map', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'detail'];
+const VIEWS = ['v-home', 'v-map', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'v-brief', 'detail'];
 
 function show(viewId) {
   VIEWS.forEach(v => { $('#' + v).style.display = v === viewId ? '' : 'none'; });
@@ -794,7 +1050,8 @@ function setNav(page, transparent) {
 
 function route() {
   const h = location.hash || '#/';
-  const mEv = h.match(/^#\/event\/([\w-]+)/);
+  const mEv = h.match(/^#\/event\/([\w-]+)(?:\/([\w-]+))?/);
+  closeMobileNav();
   stopHero();
   if (mainMap) mainMap.pause();
   if ($('#play-toggle')) $('#play-toggle').textContent = 'Pause journey';
@@ -803,6 +1060,10 @@ function route() {
     show('detail');
     renderDetail(mEv[1]);
     setNav(null, true);
+    if (mEv[2]) requestAnimationFrame(() => {
+      const section = document.getElementById(mEv[2]);
+      if (section) section.scrollIntoView({ block: 'start' });
+    });
   } else if (h.startsWith('#/map')) {
     show('v-map');
     setNav('map', false);
@@ -832,6 +1093,9 @@ function route() {
   } else if (h.startsWith('#/playbook')) {
     show('v-playbook');
     setNav('playbook', false);
+  } else if (h.startsWith('#/brief')) {
+    show('v-brief');
+    setNav('brief', false);
   } else {
     show('v-home');
     setNav(null, true);
@@ -851,6 +1115,9 @@ function onScroll() {
 /* ---------- boot ---------- */
 (async function init() {
   bindFrances();
+  bindMobileNav();
+  window.VibeSearch?.index({ dossiers: DOSSIERS });
+  renderCompareTray();
   renderHome();
   renderCalendar();
   bindCalToggle();
@@ -864,6 +1131,7 @@ function onScroll() {
   route();
 
   await loadDossiers();  // re-render photo-dependent pieces
+  window.VibeSearch?.index({ dossiers: DOSSIERS });
   renderHome();
   renderCalendar();
   renderCollection();

@@ -14,7 +14,11 @@
 <nav class="topnav" id="topnav">
   <div class="wrap">
     <a class="brand" href="#/">A Year from Zürich</a>
-    <div class="topnav-links">
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="nav-toggle-label">Menu</span>
+      <span class="nav-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <div class="topnav-links" id="primary-navigation">
       <a href="#/map" data-nav="map">The Map</a>
       <a href="#/calendar" data-nav="calendar">Calendar</a>
       <a href="#/routes" data-nav="routes">Routes</a>
@@ -22,6 +26,7 @@
       <a href="#/outdoors" data-nav="outdoors">Outdoors</a>
       <a href="#/collection" data-nav="collection">Collection</a>
       <a href="#/playbook" data-nav="playbook">Playbook</a>
+      <a href="#/brief" data-nav="brief">Travel Brief</a>
     </div>
   </div>
 </nav>
@@ -176,6 +181,14 @@
       <div class="builder-layout">
         <aside class="builder-pick">
           <h3 class="side-title">Add stops</h3>
+          <div class="search-field compact">
+            <label for="builder-search">Search stops</label>
+            <div class="search-input-wrap">
+              <input id="builder-search" type="search" autocomplete="off" placeholder="Try ‘food by train under €600’">
+              <span aria-hidden="true">⌕</span>
+            </div>
+            <div class="search-status" id="builder-search-status" aria-live="polite"></div>
+          </div>
           <div id="builder-catalog"></div>
         </aside>
         <div class="builder-main">
@@ -191,11 +204,24 @@
             <div class="builder-route-head">
               <h3 class="side-title">Your route</h3>
               <div class="builder-actions">
+                <button id="builder-sort" class="play-btn">Order by date</button>
                 <button id="builder-share" class="play-btn">Share route</button>
                 <button id="builder-ics" class="play-btn">Export .ics</button>
                 <button id="builder-clear" class="play-btn">Clear all</button>
               </div>
             </div>
+            <div class="builder-cockpit" aria-label="Route budget planner">
+              <div>
+                <span class="builder-cockpit-label">Planning budget</span>
+                <div class="budget-switch" id="builder-budget" role="group" aria-label="Budget style">
+                  <button type="button" data-tier="thrifty">Thrifty</button>
+                  <button type="button" data-tier="midrange">Mid-range</button>
+                  <button type="button" data-tier="splurge">Splurge</button>
+                </div>
+              </div>
+              <div class="builder-total" id="builder-budget-total" aria-live="polite"></div>
+            </div>
+            <p class="builder-budget-note" id="builder-budget-note"></p>
             <div id="builder-legs"></div>
           </div>
         </div>
@@ -211,6 +237,21 @@
       <span class="eyebrow">Mountains & trails</span>
       <h1>The Alps on your doorstep</h1>
       <p class="sec-sub">Fourteen researched mountain escapes for whenever the mood strikes — hut-to-hut hikes, serious ski weekends and the great cycling cols, each with resort intel, costs and live conditions.</p>
+      <div class="search-field collection-search">
+        <label for="outdoors-search">Find the right kind of outside</label>
+        <div class="search-input-wrap">
+          <input id="outdoors-search" type="search" autocomplete="off" placeholder="Try ‘quiet summer hike by train under €500’">
+          <span aria-hidden="true">⌕</span>
+        </div>
+        <div class="search-status" id="outdoors-search-status" aria-live="polite"></div>
+      </div>
+      <div class="vibe-prompts" id="outdoors-prompts" aria-label="Outdoor search ideas">
+        <button type="button" data-query="hiking by train">Train-to-trail</button>
+        <button type="button" data-query="hut hiking in summer">Hut-to-hut summer</button>
+        <button type="button" data-query="quiet easy mountain scenery">Quiet panoramas</button>
+        <button type="button" data-query="skiing without flying">Ski without a flight</button>
+        <button type="button" data-query="active cycling with good food">Ride, then dine</button>
+      </div>
       <div id="outdoors-filters" class="collection-filters"></div>
     </div>
   </div>
@@ -228,12 +269,74 @@
       <span class="eyebrow">The collection</span>
       <h1>Every event, one index</h1>
       <p class="sec-sub">All the dossiers — researched, photographed and priced from Zürich.</p>
+      <div class="search-field collection-search">
+        <label for="collection-search">Search the collection</label>
+        <div class="search-input-wrap">
+          <input id="collection-search" type="search" autocomplete="off" placeholder="Try ‘romantic food weekend, not crowded’">
+          <span aria-hidden="true">⌕</span>
+        </div>
+        <div class="search-status" id="collection-search-status" aria-live="polite"></div>
+      </div>
       <div id="collection-filters" class="collection-filters"></div>
     </div>
   </div>
   <section>
     <div class="wrap">
       <div id="all-events" class="all-events"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ TRAVEL BRIEF ============ -->
+<main id="v-brief" class="view" style="display:none">
+  <div class="page-head brief-head">
+    <div class="wrap">
+      <span class="eyebrow">Europe, navigated</span>
+      <h1>The travel brief</h1>
+      <p class="sec-sub">The practical layer behind a year on the move: borders, passenger rights, money, driving and the habits that make repeated trips easier. Every time-sensitive item carries a source and verification date.</p>
+      <div class="brief-fresh"><span>Verified 13 July 2026</span><span>Official sources first</span><span>Recheck before departure</span></div>
+    </div>
+  </div>
+  <section class="brief-section">
+    <div class="wrap">
+      <div class="brief-grid">
+        <article class="brief-card lead">
+          <span class="brief-num">01</span><span class="eyebrow">Borders</span>
+          <h2>EES is live. ETIAS is not yet live.</h2>
+          <p>The EU reports that its Entry/Exit System became fully operational on 10 April 2026. ETIAS is expected in the last quarter of 2026, but an exact start date has not been announced. Treat social posts and third-party countdowns as secondary.</p>
+          <a href="https://travel-europe.europa.eu/etias/ltr/about-etias" target="_blank" rel="noopener">Check the official EU status →</a>
+        </article>
+        <article class="brief-card">
+          <span class="brief-num">02</span><span class="eyebrow">Disruptions</span>
+          <h2>Know the remedy before you reroute.</h2>
+          <p>Air, rail, bus and ferry rights differ. Save receipts, ask the operator to record the disruption and check the official mode-specific guidance before accepting an expensive replacement.</p>
+          <a href="https://europa.eu/youreurope/citizens/travel/passenger-rights/index_en.htm" target="_blank" rel="noopener">EU passenger rights →</a>
+        </article>
+        <article class="brief-card">
+          <span class="brief-num">03</span><span class="eyebrow">Money</span>
+          <h2>Budget in ranges, pay in local currency.</h2>
+          <p>Use ECB reference rates for planning, then expect the card network and issuer to settle differently. At a terminal or ATM, decline dynamic currency conversion unless you have compared its rate.</p>
+          <a href="https://data.ecb.europa.eu/help/api/data" target="_blank" rel="noopener">ECB reference data →</a>
+        </article>
+        <article class="brief-card">
+          <span class="brief-num">04</span><span class="eyebrow">Outdoors</span>
+          <h2>The route is not the condition.</h2>
+          <p>Mapped trails can be closed, snow-covered or unsafe. Check the local authority, refuge or lift operator, then download the route and bailout options offline. Weather-fit is guidance, never clearance.</p>
+          <a href="#/outdoors">Find an outdoor escape →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="brief-checklist">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">The repeatable system</span><h2>48 hours before every trip</h2></div>
+      <div class="brief-steps">
+        <div><b>1. Reverify</b><span>Dates, entry rules, tickets, strikes and local closures.</span></div>
+        <div><b>2. Download</b><span>Tickets, hotel address, route map, GPX and offline language pack.</span></div>
+        <div><b>3. Protect</b><span>Keep identity, payment and health documents out of shared itinerary notes.</span></div>
+        <div><b>4. Leave slack</b><span>Protect the irreplaceable event; make the surrounding transport flexible.</span></div>
+      </div>
+      <p class="disclaimer">This brief is planning information, not legal, immigration, medical or safety advice. Requirements depend on nationality, residence, route and personal circumstances.</p>
     </div>
   </section>
 </main>
@@ -274,8 +377,27 @@
 <!-- ============ EVENT DETAIL ============ -->
 <main id="detail" class="view" style="display:none"></main>
 
+<aside class="compare-tray" id="compare-tray" aria-label="Compare shortlist" hidden>
+  <div class="wrap">
+    <div><span class="compare-label">Compare</span><div id="compare-items" class="compare-items"></div></div>
+    <div class="compare-actions">
+      <button type="button" id="compare-clear">Clear</button>
+      <button type="button" class="primary" id="compare-open">Compare now</button>
+    </div>
+  </div>
+</aside>
+
+<dialog class="compare-dialog" id="compare-dialog" aria-labelledby="compare-title">
+  <div class="compare-dialog-head">
+    <div><span class="eyebrow">Side by side</span><h2 id="compare-title">Compare your shortlist</h2></div>
+    <button type="button" id="compare-close" aria-label="Close comparison">×</button>
+  </div>
+  <div class="compare-table-wrap"><table class="compare-table" id="compare-table"></table></div>
+</dialog>
+
 <script src="data.js"></script>
 <script src="map.js"></script>
+<script src="vibe.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
