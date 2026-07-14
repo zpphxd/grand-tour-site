@@ -19,6 +19,7 @@
       <a href="#/calendar" data-nav="calendar">Calendar</a>
       <a href="#/routes" data-nav="routes">Routes</a>
       <a href="#/builder" data-nav="builder">Build a Route</a>
+      <a href="#/outdoors" data-nav="outdoors">Outdoors</a>
       <a href="#/collection" data-nav="collection">Collection</a>
       <a href="#/playbook" data-nav="playbook">Playbook</a>
     </div>
@@ -33,7 +34,7 @@
     <div class="wrap">
       <span class="eyebrow">For Frances Hausmann · Zürich, August 2026 — August 2027</span>
       <h1>The Grand Tour,<br><em id="hero-dedication">optimized.</em></h1>
-      <p class="lede">Twelve months. Twenty-six of Europe's defining cultural moments — from an Oktoberfest tent to the frozen lake of St. Moritz — connected into journeys you can actually book.</p>
+      <p class="lede">Twelve months of Europe's defining moments — from an Oktoberfest tent to the frozen lake of St. Moritz to the cols of the Tour — connected into journeys you can actually book.</p>
       <div class="hero-ctas">
         <a class="btn primary" href="#/map">Explore the map</a>
         <a class="btn ghost" href="#/calendar">See the calendar</a>
@@ -56,7 +57,7 @@
     <div class="wrap">
       <div class="sec-head rv">
         <span class="eyebrow">Start anywhere</span>
-        <h2>Six ways into the year</h2>
+        <h2>Seven ways into the year</h2>
       </div>
       <div id="chapter-grid" class="chapter-grid"></div>
     </div>
@@ -189,12 +190,33 @@
           <div class="builder-route">
             <div class="builder-route-head">
               <h3 class="side-title">Your route</h3>
-              <button id="builder-clear" class="play-btn">Clear all</button>
+              <div class="builder-actions">
+                <button id="builder-share" class="play-btn">Share route</button>
+                <button id="builder-ics" class="play-btn">Export .ics</button>
+                <button id="builder-clear" class="play-btn">Clear all</button>
+              </div>
             </div>
             <div id="builder-legs"></div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ OUTDOORS ============ -->
+<main id="v-outdoors" class="view" style="display:none">
+  <div class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Mountains & trails</span>
+      <h1>The Alps on your doorstep</h1>
+      <p class="sec-sub">Fourteen researched mountain escapes for whenever the mood strikes — hut-to-hut hikes, serious ski weekends and the great cycling cols, each with resort intel, costs and live conditions.</p>
+      <div id="outdoors-filters" class="collection-filters"></div>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div id="outdoors-grid" class="all-events"></div>
     </div>
   </section>
 </main>

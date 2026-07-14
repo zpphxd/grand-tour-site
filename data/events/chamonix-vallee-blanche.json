@@ -1,0 +1,82 @@
+{
+  "id": "chamonix-vallee-blanche",
+  "name": "Chamonix & the Vallée Blanche",
+  "tagline": "Ride a cable car to 3,842m, rope up along a knife-edge snow arête, then ski 20km of glacier all the way back toward town.",
+  "city": "Chamonix",
+  "country": "France",
+  "dates": "Ski season roughly mid-December 2026 – early May 2027 (expected). Grands Montets typically opens partial weekends from mid/late November, daily from early–mid December 2026 (expected); Brévent-Flégère from mid-December (expected). The Vallée Blanche itself is best mid-January – late April, when snow bridges over the crevasses are solid — February and March are the sweet spot. Aiguille du Midi cable car runs nearly year-round (short autumn maintenance closure). Guide bureau (Compagnie des Guides) opens winter Vallée Blanche bookings in autumn 2026 — group departures daily in season, weather permitting.",
+  "history": [
+    "Chamonix is where alpinism was invented. In 1786 local crystal-hunter Jacques Balmat and doctor Michel-Gabriel Paccard made the first ascent of Mont Blanc (4,806m), a climb that lit the fuse for two centuries of mountain obsession; the Compagnie des Guides de Chamonix, founded in 1821 and today the oldest and largest guides' association in the world, still runs the valley's mountain life. In 1924 Chamonix hosted the very first Winter Olympic Games, and in 1955 the téléphérique de l'Aiguille du Midi opened as the highest cable car on earth — a two-stage rocket from the town square at 1,035m to a granite needle at 3,842m that remains one of the most vertiginous lift rides anywhere.",
+    "The Vallée Blanche is the reason skiers make pilgrimages here. From the Aiguille du Midi you exit through an ice tunnel and descend the famous arête — a narrow, roped snow ridge with a thousand metres of air on either side, crampons or confident boot-packing required — before clicking in for roughly 20km of glacier skiing down the Géant icefall basin and out along the Mer de Glace, France's largest glacier, with around 2,700m of descent when snow allows you to ski clear to the valley. It is off-piste, unmarked and heavily crevassed: guided is the only sane way for first-timers, and the Compagnie des Guides has been shepherding skiers down it since the route became a classic in the early twentieth century.",
+    "Around that centrepiece, Chamonix built its reputation as the world's freeride capital. The Grands Montets above Argentière — north-facing, glacial and steep, its summit at 3,275m — was the proving ground for extreme-skiing pioneers like Sylvain Saudan and Anselme Baud in the 1960s and 70s, and its lift-line couloirs and Pas de Chèvre run down to the Mer de Glace are still benchmark descents (the summit cable car burned down in 2018; a rebuilt lift is expected around 2027 — check status before your trip). Across the valley, sunny Brévent-Flégère serves grand-balcony views of the entire Mont Blanc massif. The town itself, wedged in a deep valley under hanging glaciers, hums with guides, sponsored skiers and mountaineers from every nation — less a ski resort than the sport's capital city."
+  ],
+  "whyGo": "The Vallée Blanche is the most famous lift-accessed glacier run on the planet — a genuine high-mountain journey (séracs, crevasses, silence, 20km of it) that an adventurous intermediate-plus skier can do in a day with a guide, no touring gear required. Add Grands Montets' steeps and Brévent's Mont Blanc panorama, and it is the single most mythic ski destination within easy reach of Zürich.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Genève (IC direct), then bus or shared transfer Geneva → Chamonix via the A40 Autoroute Blanche",
+      "duration": "~2h45 train + 1h30–2h transfer (≈5h door to door)",
+      "cost": "CHF 45–90 train (supersaver vs full fare) + €15–35 FlixBus/BlaBlaCar Bus or ~CHF 30–50 shared shuttle (AlpyBus, Mountain Dropoffs)",
+      "notes": "The simplest option. Buses leave from Geneva bus station and the airport; shared shuttles from the airport run hourly in winter and drop at Chamonix Sud, 5 minutes from the Aiguille du Midi lift."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Martigny (via Lausanne or Visp), then the Mont Blanc Express mountain railway via Vallorcine to Chamonix",
+      "duration": "~2h50 + ~1h40 (≈5h–5h30 total)",
+      "cost": "CHF 60–110 depending on fare; Mont Blanc Express included in most through-tickets",
+      "notes": "The scenic route: the metre-gauge Mont Blanc Express climbs through the Trient gorge and over the border at Vallorcine — a classic in its own right. Buy a through ticket on SBB. Chamonix guest card gives free valley-train travel once you arrive."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Bern → Lausanne → Genève → A40 to Chamonix (A1/A40)",
+      "duration": "~3h45–4h30, ≈300km",
+      "cost": "~CHF 60–90 each way (fuel + French autoroute tolls; Swiss vignette CHF 40 if not already held)",
+      "notes": "Winter tyres mandatory; carry chains for storm days. Parking in Chamonix is tight — use the Grépon or Chamonix Sud car parks. Handy if you want to move between Argentière, Chamonix and Les Houches sectors freely."
+    }
+  ],
+  "costs": {
+    "thrifty": "€600–850 for a long weekend: gîte/hostel dorm (€40–60/night), self-catering, Chamonix 'Le Pass' day tickets (~€65–70/day expected), one group Vallée Blanche day (€170 guide share + €100 Aiguille du Midi & Montenvers lift ticket).",
+    "midrange": "€1,800–2,600 for a week: 3-star hotel or apartment (€120–200/night), 6-day Mont Blanc Unlimited pass (~€400–450 expected), group Vallée Blanche descent, rental freeride skis (€35–50/day), mountain lunches and a couple of good dinners.",
+    "splurge": "€4,000+ per person: Hameau Albert 1er or Mont-Blanc hotel, private IFMGA guide for the Vallée Blanche and off-piste days (€420–470/day for 1–2 people, 2026 Compagnie des Guides rates), heli-drop options over the Italian side, full MBU pass and gear quiver.",
+    "notes": "Key 2026 prices found: Compagnie des Guides group Vallée Blanche €170/person + €100 lift package (Aiguille du Midi + Montenvers); private booking €420 for 1–2 people. Aiguille du Midi round trip alone: €83 adult. Mont Blanc Unlimited day pass ~€80/day (2026–27 rates expected autumn 2026, dynamic pricing — book online early for the best rate)."
+  },
+  "booking": [
+    { "label": "Chamonix Tourist Office (official)", "url": "https://en.chamonix.com" },
+    { "label": "Mont Blanc Natural Resort — lift passes & Aiguille du Midi tickets", "url": "https://www.montblancnaturalresort.com/en" },
+    { "label": "Compagnie des Guides de Chamonix — Vallée Blanche booking", "url": "https://www.chamonix-guides.com/en" },
+    { "label": "SBB — Zürich to Geneva/Martigny rail tickets", "url": "https://www.sbb.ch/en" }
+  ],
+  "weather": "Valley (1,035m) in January–April: roughly -6°C to +8°C, with big spring swings. The Aiguille du Midi summit at 3,842m is another world: commonly -15°C to -25°C with strong wind in midwinter — frostbite conditions on the arête. The Vallée Blanche is high-glacier terrain the whole way; pack as for ski mountaineering: warm layers, shell, goggles AND sunglasses, high-SPF sun cream, gloves plus spares. Guides provide harness, transceiver and rope; you provide legs and honesty about your level. Afternoon warmth in March–April turns the lower Mer de Glace to mush — start on the first lift.",
+  "tips": [
+    "Book the guide before anything else: Compagnie des Guides group Vallée Blanche spots (€170pp, max ~6 per guide) sell out 2–4 weeks ahead for February–March, and private guides for school-holiday weeks (French holidays span most of February) are gone by December. Reserve your Aiguille du Midi cable-car time slot online the day booking opens.",
+    "Take the first bin up (~8:10–8:30am). You beat the conga line on the roped arête, get the Géant glacier in firm morning condition, and have time margin if anyone in the group is slow — the full descent takes 4–6 hours.",
+    "Be honest about your level: the classic Voie Normale is only moderately steep, but it is 20km of unmarked, variable off-piste at altitude with real crevasse hazard, plus the exposed arête walk in ski boots (many find that the crux). Solid, confident red/black-piste skiers who have tried some off-piste are fine; nervous intermediates are not. Harder variants (Vrai Vallée Blanche, Envers du Plan, Grand Envers) need genuine off-piste skills.",
+    "Know your exit: in a good midwinter you ski all the way to Chamonix (~2,800m of descent). When the lower glacier is bare you exit at Montenvers — a ~430-step metal staircase (or gondola) off the ice, then the rack railway down. Check with your guide which exit is running and keep the Montenvers train on your lift ticket.",
+    "Build the week around the weather: Grands Montets (north-facing, high, opens mid-December) for powder and storm-day skiing — note the 3,275m summit lift has been closed since the 2018 fire with the rebuild expected around 2027, so the top station currently is Bochard at ~2,765m; Brévent-Flégère for bluebird days and the full-frontal Mont Blanc panorama; save the Vallée Blanche for a clear, stable day — guides cancel in poor visibility.",
+    "Rent fat-ish all-mountain skis (95–105mm underfoot) in town rather than bringing piste skis; and skip the car if you're staying centrally — the Chamonix guest card gives free valley buses and trains between Les Houches, Chamonix and Argentière."
+  ],
+  "localRecs": [
+    { "name": "Refuge du Requin", "type": "sight", "note": "The mountain hut perched at 2,516m above the Salle à Manger icefall — the classic mid-Vallée Blanche lunch stop (simple hot food in season; carry cash)." },
+    { "name": "La Crèmerie du Glacier", "type": "restaurant", "note": "Woodsy farmhouse at the foot of the Grands Montets forest runs in Argentière, famous for croûte au fromage — the locals' post-powder lunch." },
+    { "name": "Chambre Neuf", "type": "bar", "note": "Chamonix's legendary après at Hôtel Gustavia opposite the station — live band, dancing on benches in ski boots from 4pm. The MBC microbrewery is the mellower craft-beer alternative." },
+    { "name": "Le Panoramique Mer de Glace (Montenvers)", "type": "sight", "note": "Terrace above the Mer de Glace at the historic Montenvers rack railway — see the glacier and ice cave (Grotte de Glace) even on a non-ski day." },
+    { "name": "Hameau Albert 1er", "type": "restaurant", "note": "Michelin-starred institution run by the Carrier family since 1903 — the splurge dinner; its rustic sister restaurant La Maison Carrier does superb Savoyard cooking for less." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mont_blanc_from_aiguille_du_midi_august_2010.JPG/1920px-Mont_blanc_from_aiguille_du_midi_august_2010.JPG",
+      "caption": "Mont Blanc from the Aiguille du Midi (3,842m) — the Vallée Blanche descent starts from this summit station via the famous snow arête.",
+      "credit": "Wikimedia Commons / Simplon2010 (public domain)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Mer_de_Glace_%40_Signal_Forbes.jpg/1920px-Mer_de_Glace_%40_Signal_Forbes.jpg",
+      "caption": "The Mer de Glace, France's largest glacier — the long run-out of the Vallée Blanche, with the Montenvers exit above its snout.",
+      "credit": "Wikimedia Commons / Rémih (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aiguille_des_Grands_Montets_%40_Argenti%C3%A8re.jpg/1920px-Aiguille_des_Grands_Montets_%40_Argenti%C3%A8re.jpg",
+      "caption": "The Aiguille des Grands Montets above Argentière — Chamonix's steep, north-facing freeride sector and proving ground of extreme skiing.",
+      "credit": "Wikimedia Commons / Rémih (CC BY-SA 4.0)"
+    }
+  ]
+}

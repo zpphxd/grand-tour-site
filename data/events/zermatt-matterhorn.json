@@ -1,0 +1,82 @@
+{
+  "id": "zermatt-matterhorn",
+  "name": "Zermatt & the Matterhorn",
+  "tagline": "Ski beneath the most famous silhouette on Earth, cross a glacier into Italy for lunch, and ride home on a cogwheel train older than alpine skiing itself.",
+  "city": "Zermatt",
+  "country": "Switzerland",
+  "dates": "Winter season roughly 1 November 2026 – 3 May 2027 (expected); Sunnegga–Rothorn and Gornergrat sectors open late November 2026 and close mid-April 2027 (expected). Matterhorn Glacier Paradise offers glacier skiing 365 days a year. Dynamic-priced ski passes go on sale via matterhornparadise.ch in autumn 2026 — earlier booking locks in lower prices. Ski-to-Cervinia link typically runs late November to early May, weather permitting.",
+  "history": [
+    "Zermatt was a poor farming hamlet at the end of the Mattertal until 14 July 1865, when Edward Whymper's seven-man party made the first ascent of the Matterhorn — and four of them died on the descent when a rope snapped above the North Face. The tragedy, splashed across the newspapers of Victorian Europe, ended the Golden Age of Alpinism and simultaneously made Zermatt world-famous. The broken rope and the victims' effects still sit in the Matterhorn Museum, and the mountain's guides' rivalry — Whymper from Zermatt versus Jean-Antoine Carrel attacking the Italian Lion Ridge from Breuil — remains one of mountaineering's great stories.",
+    "The village industrialized its romance early. The Gornergrat Bahn, Europe's first fully electrified cogwheel railway, began hauling tourists to 3,089 m in 1898 and still runs every 20 minutes, delivering the postcard panorama of Monte Rosa, the Gorner Glacier and 29 four-thousand-metre peaks. In 1979 the cable car to the Klein Matterhorn opened what is now Matterhorn Glacier Paradise — at 3,883 m the highest lift-served station in Europe — and in 2023 the Matterhorn Alpine Crossing completed a year-round cable-car link over the Theodul Pass into Italy, letting pedestrians and skiers cross the border without ever touching a piste map's edge.",
+    "Zermatt has been car-free since the age of the automobile began — only tiny electric taxis and horse-drawn sleighs move through streets lined with 500-year-old sun-blackened larch barns. As a ski area it is superlative-dense: the highest pistes in the Alps, Switzerland's longest season, a 2,200-metre lift-served vertical to the valley floor, and the combined Matterhorn Ski Paradise circus of roughly 360 km of runs once Cervinia and Valtournenche are counted. It is also the finishing line of the legendary Haute Route ski tour from Chamonix, so every spring the village fills with rope-carrying skiers descending from the glaciers with a week of hut life on their faces."
+  ],
+  "whyGo": "No other ski resort combines this: guaranteed high-altitude snow from November to May, an international ski safari into Italy where lunch costs half as much and the espresso improves at the border, the Gornergrat's 29-peak panorama, and the constant, absurd presence of the Matterhorn over your shoulder on nearly every run. For a Zürich-based skier it is the best big-mountain weekend in Switzerland that requires no car — the train delivers you to the bottom of the lifts.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Visp (IC via Bern) → Zermatt (Matterhorn Gotthard Bahn)",
+      "duration": "≈3h10–3h20, one easy same-platform change at Visp",
+      "cost": "≈CHF 120 full fare / ≈CHF 60 with Half-Fare Card each way; supersaver tickets from ≈CHF 45",
+      "notes": "Hourly departures; the final hour up the Mattertal is spectacular. Zermatt station is 5 minutes' walk (or an electric taxi) from most hotels — luggage trolleys and hotel shuttles meet trains."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A4/A14 → Luzern → Interlaken → Kandersteg car-train (or A9 via Montreux) → Visp → Täsch",
+      "duration": "≈3h15–3h45 to Täsch, then 12-min shuttle train to car-free Zermatt",
+      "cost": "Täsch Terminal parking ≈CHF 16.50/day; Zermatt Shuttle ≈CHF 8.80 one way; Kandersteg car-train ≈CHF 30",
+      "notes": "Cars cannot enter Zermatt. Only worth driving if you're carrying family gear mountains or continuing elsewhere; the train is genuinely faster door-to-lift."
+    },
+    {
+      "mode": "rail",
+      "route": "Glacier Express panoramic route (Zermatt ↔ St. Moritz) as an add-on leg",
+      "duration": "≈8h full route",
+      "cost": "Seat reservation CHF 44–49 on top of the fare",
+      "notes": "Not a way to arrive from Zürich, but pairing a Zermatt ski weekend with the world's slowest express train home via Andermatt/Chur is a classic once-a-winter indulgence."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 500–750 for a weekend: hostel or Täsch guesthouse from ≈CHF 60–90/night, 2-day Zermatt-only pass ≈CHF 175–220 (dynamic pricing, from ≈CHF 88/day booked early on quiet dates), supersaver rail, picnic lunches on the mountain.",
+    "midrange": "CHF 1,200–1,800 for a weekend: 3-star hotel with half-board ≈CHF 200–300/night, 2-day International pass (incl. Cervinia) ≈CHF 220–260, one proper mountain-restaurant lunch at Chez Vrony or Zum See, full-fare rail.",
+    "splurge": "CHF 3,500+ for a long weekend: Mont Cervin Palace or The Omnia from ≈CHF 600–900/night, private mountain guide via Zermatters ≈CHF 750–850/day, heli-skiing drop on the Monte Rosa ≈CHF 500+, Gornergrat sunrise ride and a table at After Seven.",
+    "notes": "Zermatt uses dynamic lift-pass pricing: adult day passes start around CHF 88–95 for early-booked off-peak dates and exceed CHF 120 at peak; the International pass adds roughly CHF 15–25/day over Zermatt-only. Season pass ≈CHF 1,600 (expected). Book passes online — window prices are the ceiling. Half of the trip's cost is food: budget CHF 25–40 for a mountain lunch with a drink."
+  },
+  "booking": [
+    { "label": "Matterhorn Ski Paradise — official lift tickets & dynamic pass prices", "url": "https://www.matterhornparadise.ch/en/information/tickets-prices/ski-passes" },
+    { "label": "Zermatt Tourism — official resort site, accommodation & events", "url": "https://www.zermatt.ch/en" },
+    { "label": "Zermatters (Alpin Center) — mountain guides, off-piste & Haute Route", "url": "https://www.zermatters.ch/en" },
+    { "label": "SBB — Zürich–Zermatt rail tickets & supersaver fares", "url": "https://www.sbb.ch/en" }
+  ],
+  "weather": "The village sits at 1,620 m; the skiing tops out at 3,883 m, and the gap matters. Mid-winter it can be a mild, sunny 2°C on a village terrace and -20°C with wind at Matterhorn Glacier Paradise — pack a true down layer, a balaclava/buff and goggles even on bluebird days, plus high-SPF sunscreen (the glacier reflects viciously). Zermatt sits in an inner-alpine dry pocket: more sun and less dumping snow than the northern Alps, but the altitude keeps pistes reliable November–May. The Cervinia link and the top cable cars close in high wind — always check lift status before committing to the Italian side, or you face a very long taxi ride home.",
+  "tips": [
+    "Book lift passes online the moment your dates firm up — dynamic pricing means early birds on off-peak days pay ≈CHF 88 while walk-ups on a February Saturday pay CHF 120+. Hotels for Christmas–New Year and February half-terms sell out by early autumn; a January or late-March weekend books easily 3–4 weeks out.",
+    "Buy the International pass and ski to Cervinia on any clear day: the Ventina red from Testa Grigia is a glorious 11 km cruise, lunch in Italy costs half of Zermatt prices, and re-crossing via Theodul before the last lift (~15:30–16:00 from the Italian side) is non-negotiable — miss it and it's a 3.5-hour, ~€400 taxi around the mountain.",
+    "Crowd play: ride the Gornergrat train or Sunnegga funicular at 08:00–08:30 while the masses queue for the Matterhorn Express, ski Rothorn/Stockhorn mornings, and save Glacier Paradise for the afternoon. The Stockhorn–Triftji mogul sector is gloriously empty (and genuinely hard).",
+    "Difficulty honesty: Zermatt's marked pistes skew long red-cruiser rather than extreme, and beginners are poorly served — true novices should learn elsewhere. The valley runs back to town are long thigh-burners that get scraped and icy after 15:00; downloading by lift is not a defeat.",
+    "For off-piste, Schwarztor, the Monte Rosa glacier runs and anything off Stockhorn demand a guide, transceiver, shovel and probe — book Zermatters 2–4 weeks ahead (earlier for Haute Route weeks in March–April, which sell out months in advance along with the huts).",
+    "Gear note: rent performance skis in the village (Bayard, Slalom Sport ≈CHF 50–70/day) rather than hauling them on the train, and carry your passport or ID card when skiing to Italy — it's an international border."
+  ],
+  "localRecs": [
+    { "name": "Chez Vrony", "type": "restaurant", "note": "Findeln hamlet, mid-mountain off the Sunnegga sector — the most famous mountain restaurant in the Alps; dry-aged Vrony burger and Matterhorn head-on from the terrace. Reserve days ahead in season." },
+    { "name": "Restaurant Zum See", "type": "restaurant", "note": "A 500-year-old hamlet on the run down from Furi; refined, rösti-and-fine-wine lunch that's slightly less scene-y than Vrony and every bit as good." },
+    { "name": "Hennu Stall", "type": "bar", "note": "THE après-ski shack on the final stretch of the valley run from Furi — live music, Jagertee, ski boots dancing on tables from about 15:00." },
+    { "name": "Gornergrat Kulmhotel 3100", "type": "sight", "note": "Europe's highest hotel, at the top of the cogwheel railway — go up for sunset or a sunrise breakfast; the Monte Rosa/Gorner Glacier panorama out-dazzles even the Matterhorn." },
+    { "name": "Hinterdorf", "type": "neighborhood", "note": "The oldest lane in Zermatt: 16th-century larch storehouses on stone mushroom stilts, two minutes from the Bahnhofstrasse bustle — best at dusk with snow falling." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Matterhorn_in_winter_with_Zermatt_village.jpg/1920px-Matterhorn_in_winter_with_Zermatt_village.jpg",
+      "caption": "The Matterhorn towering over snowbound, car-free Zermatt in deep winter",
+      "credit": "Wikimedia Commons / Deralpinbergsteiger (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Matterhorn_as_photographed_from_the_Gornergrat_railway.jpg/1920px-Matterhorn_as_photographed_from_the_Gornergrat_railway.jpg",
+      "caption": "The Matterhorn from the Gornergrat cogwheel railway, climbing to 3,089 m since 1898",
+      "credit": "Wikimedia Commons / Tim Adams (CC BY 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Aerial_panorama_of_the_Matterhorn_from_the_Gornergrat_170622.jpg/1920px-Aerial_panorama_of_the_Matterhorn_from_the_Gornergrat_170622.jpg",
+      "caption": "Aerial panorama of the Matterhorn and the glacier basin above Zermatt from the Gornergrat",
+      "credit": "Wikimedia Commons / Bob Tan (CC BY-SA 4.0)"
+    }
+  ]
+}

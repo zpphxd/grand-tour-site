@@ -1,0 +1,114 @@
+{
+  "id": "flanders-cobbles",
+  "name": "Tour of Flanders Sportive — We Ride Flanders",
+  "tagline": "Ride the Koppenberg, Paterberg and Oude Kwaremont on closed roads, then watch the pros suffer over the same stones the next day.",
+  "city": "Oudenaarde",
+  "country": "Belgium",
+  "dates": "Sportive: Saturday 3 April 2027 (expected) — always the day before the pro Ronde van Vlaanderen, confirmed for Sunday 4 April 2027 (Brugge to Oudenaarde). Registration opens early October 2026 (the 2026 edition opened 7 October at 12:00 CET) and runs until sold out. The bergs themselves are open roads ridable year-round; best riding weather April-September, but race week is the pilgrimage.",
+  "history": [
+    "The Ronde van Vlaanderen was born in 1913, dreamed up by journalist Karel Van Wijnendaele to give Flanders a race to rival Paris-Roubaix and forge a Flemish sporting identity. Over a century later it is one of cycling's five Monuments and something closer to a national holy day: on Ronde Sunday roughly a million Belgians line the hedgerows of the Flemish Ardennes, and the winner is anointed into a lineage that runs from Achiel Buysse and Fiorenzo Magni through Eddy Merckx, Johan Museeuw, Tom Boonen, Fabian Cancellara and Mathieu van der Poel.",
+    "What makes the Ronde mythic is its furniture: the hellingen, short cobbled climbs that turn a flat country into a torture garden. The Koppenberg — 600 metres at up to 22% on wet, polished stones — entered the race in 1976 and was banished after 1987, when Jesper Skibby fell and was nearly run over by a race official's car; it returned, re-laid, in 2002 and still forces pros to walk when a wheel slips. The Oude Kwaremont is the opposite beast: 2.2 km of grinding false-flat cobbles, the longest sector in the race. Since the finish moved to Oudenaarde in 2012, the race has been decided on the Kwaremont-Paterberg double, climbed multiple times in a closing circuit that has produced a decade of legendary attacks.",
+    "The day before the pros race, We Ride Flanders (the official Tour of Flanders sportive, formerly 'Ronde van Vlaanderen voor wielertoeristen') puts around 16,000 amateurs on the exact same course, with signposting, feed zones, timing chips on the famous bergs and a finish on the pro finishing straight in Oudenaarde. Four distances are offered — in 2026 they were 79, 133, 163 and 247 km, the longest starting in Antwerp — so you can choose between a greatest-hits loop of the bergs or the full monster the pros ride. Riding it Saturday and spectating Sunday is the definitive cobbled-classics weekend."
+  ],
+  "whyGo": "This is the one weekend a year an amateur can ride cycling's most sacred cobbles as part of the event itself — timed up the Koppenberg, cheered through Kwaremont village — and then stand on the same climb 24 hours later with a Kwaremont beer watching the Monument decided in front of you. From Zürich it is one of the easiest iconic cycling trips there is: no mountain passes to acclimatise for, just brutal, historic, 90-second efforts and Belgian beer culture at its warmest.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Brussels (BRU) with SWISS or Brussels Airlines, then rail Brussels Airport → Gent-Sint-Pieters → Oudenaarde",
+      "duration": "1h20 flight + ~1h30 rail (trains roughly hourly)",
+      "cost": "CHF 100-250 return if booked early; ~€15-20 rail; bike carriage ~€50-60 per direction if flying your own bike",
+      "notes": "Fastest door-to-door. Belgian trains (NMBS/SNCB) take bikes with a supplement; race weekend services to Oudenaarde get very busy, so consider basing in Ghent (30 min away by train)."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Basel → ICE via Frankfurt/Köln → Brussels-Midi, then IC to Oudenaarde (or Zürich → Paris by TGV Lyria + Eurostar to Brussels)",
+      "duration": "8-9.5h total",
+      "cost": "€120-250 one way depending on booking window",
+      "notes": "Most bike-friendly if you use the German ICE route with a bike reservation; TGV Lyria requires a bagged bike. Book via SBB/Deutsche Bahn 3-6 months out for saver fares."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Basel → Mulhouse → Luxembourg → Brussels → Oudenaarde (A35/E25/E411/E40)",
+      "duration": "~7h, ~700 km",
+      "cost": "~€120-160 each way in fuel and vignettes/tolls",
+      "notes": "Easiest with your own bike and a car full of kit. Note many Flemish towns are low-emission zones and parking near the Oudenaarde start requires arriving very early on sportive morning."
+    }
+  ],
+  "costs": {
+    "thrifty": "€400-600 for the weekend: sportive entry €85 (first price tier) + €10 chip-plate deposit, budget flight or shared drive, 2 nights in a Ghent hostel or budget B&B (~€60-90/night), own bike, free roadside spectating on Sunday.",
+    "midrange": "€800-1,200: entry at the €95-105 tier, 3 nights in a hotel in Oudenaarde or Ghent (€110-160/night on race weekend), quality road-bike rental in Flanders (~€50-80/day), dinners and the obligatory Kwaremont beers.",
+    "splurge": "€1,800-3,000+: an official tour-operator package (e.g. Sportive Breaks) with guaranteed entry, mechanic support and bike transport, plus VIP hospitality on the Oude Kwaremont for the pro race on Sunday (hospitality passes typically run €250-450).",
+    "notes": "2026 entry pricing was tiered by demand: €85 for the first 1,000 registrations, €95 up to 6,000, €105 after — expect similar for 2027. All distances cost the same and include a participant pack (windbreaker in 2026). The €10 frame-plate deposit is refundable or convertible to a t-shirt."
+  },
+  "booking": [
+    {
+      "label": "We Ride Flanders — official sportive registration",
+      "url": "https://werideflanders.com/en/register/"
+    },
+    {
+      "label": "Ronde van Vlaanderen — official pro race site (spectator info, VIP hospitality)",
+      "url": "https://www.rondevanvlaanderen.be/en"
+    },
+    {
+      "label": "Centrum Ronde van Vlaanderen (CRVV) — Tour of Flanders museum & ride hub, Oudenaarde",
+      "url": "https://www.crvv.be/en"
+    },
+    {
+      "label": "Belgian Railways (NMBS/SNCB) — trains to Oudenaarde incl. bike tickets",
+      "url": "https://www.belgiantrain.be/en"
+    }
+  ],
+  "weather": "Early April in Flanders is roulette: typically 5-14°C with a real chance of rain, hail and hard North Sea wind — the same 'Flemish weather' that makes the race. There is no altitude to worry about (the bergs top out around 110 m) but wet cobbles become glass. Pack a rain jacket, overshoes, full-finger gloves, arm/knee warmers and clear glasses; bring dry clothes for spectating Sunday, which means hours standing in a field.",
+  "tips": [
+    "Register the day registration opens (early October 2026, 12:00 CET) — pricing tiers rise from €85 to €95 to €105 as spots fill, and recent editions have sold out well before April.",
+    "Pick your distance honestly: the ~163 km option from Oudenaarde hits the key bergs including Koppenberg, Kwaremont and Paterberg; the ~247 km route from Antwerp is the full pro distance and a genuinely brutal day. The ~133 km is the sweet spot for most strong amateurs.",
+    "The Koppenberg is a 90-second lottery: hit the bottom in your lowest gear with momentum, ride the crown of the cobbles, and accept you may have to walk if a rider stalls in front of you — the pros do too. Gearing of 34x30 or easier is not cowardice, it's Flanders.",
+    "Set the bike up for stones: 28-32 mm tyres at reduced pressure, double-wrapped bars, bottle cages that actually grip, and nothing loose in your pockets. Rattled-off bottles litter every cobbled sector by 9 a.m.",
+    "Start early. Corrals open around 7 a.m. and the earlier waves hit the Oude Kwaremont before the worst bottlenecks; mid-morning the narrow bergs turn into walking queues.",
+    "Book accommodation ~6 months out — Oudenaarde is tiny and sells out first; Ghent (30 min by train) has far more beds and great food. For Sunday, plant yourself on the Oude Kwaremont: the pros cross it three times and the roadside beer-tent atmosphere is the best in cycling."
+  ],
+  "localRecs": [
+    {
+      "name": "Centrum Ronde van Vlaanderen (CRVV)",
+      "type": "sight",
+      "note": "The Tour of Flanders museum and experience centre in Oudenaarde, right by the finish — memorabilia, route info, bike rental and a proper cyclist's café. Mandatory pilgrimage stop."
+    },
+    {
+      "name": "Liefmans Brewery",
+      "type": "bar",
+      "note": "Historic Oudenaarde brewery on the Scheldt famous for its Goudenband and cherry beers — tours and tastings, ideal recovery on Saturday evening."
+    },
+    {
+      "name": "Oude Kwaremont village on race Sunday",
+      "type": "sight",
+      "note": "The cobbled hamlet becomes a giant open-air festival: big screens, frites stands and Kwaremont blond (6.6%) poured metres from the passing peloton."
+    },
+    {
+      "name": "Oudenaarde Markt & town hall",
+      "type": "neighborhood",
+      "note": "The flamboyant-Gothic stadhuis is UNESCO-listed and the square's café terraces are where finishers compare Koppenberg war stories over stoofvlees and frites."
+    },
+    {
+      "name": "Ghent (Gent) as a base",
+      "type": "neighborhood",
+      "note": "30 minutes by train from Oudenaarde: canal-side medieval core, excellent restaurants and far more hotel capacity on race weekend."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Koppenberg_hill_1.jpg/1920px-Koppenberg_hill_1.jpg",
+      "caption": "The Koppenberg — 600 metres of cobbles pitching up to 22%, the most feared climb in Flanders.",
+      "credit": "Wikimedia Commons / Ctankcycles (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ronde_van_Vlaanderen_2015_-_Oude_Kwaremont_%2816867290340%29.jpg/1920px-Ronde_van_Vlaanderen_2015_-_Oude_Kwaremont_%2816867290340%29.jpg",
+      "caption": "The pro peloton grinding over the Oude Kwaremont's 2.2 km of cobbles during the Ronde van Vlaanderen.",
+      "credit": "Wikimedia Commons / youkeys (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/B_Flandre_-_Paterberg_AS.jpg/1920px-B_Flandre_-_Paterberg_AS.jpg",
+      "caption": "Sportive riders cresting the Paterberg, the 20% wall that closes the Tour of Flanders finale.",
+      "credit": "Wikimedia Commons / Anthospace (CC BY-SA 4.0)"
+    }
+  ]
+}

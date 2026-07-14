@@ -1,0 +1,82 @@
+{
+  "id": "dolomites-alta-via",
+  "name": "Alta Via 1, Dolomites",
+  "tagline": "Ten days of pale limestone towers, WWI tunnels and rifugio dinners on the Dolomites' most famous high route — Lago di Braies to Belluno.",
+  "city": "Cortina d'Ampezzo",
+  "country": "Italy",
+  "dates": "Best season: late June – late September (huts open roughly 20 June to 20–25 September, snow-dependent). Peak stability: mid-July to mid-September. Hut booking for summer 2027 opens on a rolling basis from roughly November 2026 to January 2027 — key huts (Lagazuoi, Sennes) sell out by early spring (expected). Lago di Braies road access is restricted 10 July – 10 September; pre-book the shuttle bus.",
+  "history": [
+    "The Alta Via 1 — 'High Route 1' — was pieced together in the 1960s by Italian alpinists and the Touring Club Italiano as the gentlest of the numbered Dolomite high routes: roughly 120 kilometres and 6,700 metres of ascent from the turquoise Lago di Braies south through the Fanes, Tofane, Nuvolau, Civetta and Schiara groups to La Pisson near Belluno. Unlike its wilder sibling the Alta Via 2, it needs no via ferrata gear on the standard line, which is exactly why it became the classic: a genuine high-mountain traverse that a fit hiker can complete in 8–12 days, sleeping in a chain of staffed rifugi the whole way.",
+    "The route walks straight through the front line of the First World War. Between 1915 and 1917 the Austro-Hungarian and Italian armies fought at absurd altitude around the Lagazuoi and Tofane; both sides dug tunnels, galleries and mine chambers into the living rock, and detonated whole sections of mountain under each other. Today AV1 hikers descend the restored Lagazuoi tunnels (headtorch obligatory) past machine-gun posts and cableway anchors, and the open-air war museum at Cinque Torri sits just off the trail — one of the very few treks anywhere where the history is bored directly through the mountain you are crossing.",
+    "The southern half belongs to climbing legend. The route passes beneath the north-west face of Monte Civetta — the 'wall of walls', over a kilometre of vertical limestone where Emil Solleder and Gustav Lettenbauer climbed the first grade-VI route in alpine history in 1925 — before entering the lonely Schiara group above Belluno. Since 2009 the whole traverse has run through the UNESCO World Heritage Dolomites, the pale Triassic reef limestone that Le Corbusier reportedly called the most beautiful natural architecture in the world; Cortina d'Ampezzo, the glamorous hub at the route's midpoint, hosted the 1956 Winter Olympics and co-hosted the Milano–Cortina Games in February 2026."
+  ],
+  "whyGo": "It is the single best introduction to the Dolomites and arguably to hut-to-hut trekking anywhere: every day delivers postcard limestone towers (Tofane, Pelmo, Civetta), the rifugi serve pasta, strudel and cold beer at 2,500 m, the WWI tunnels add a layer no Swiss trek has, and the whole thing is doable from Zürich by train. For someone living in Switzerland for a year, this is the marquee multi-day trek to build a summer around.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Innsbruck (Railjet/EC) → Fortezza/Franzensfeste → Dobbiaco/Toblach, then bus 442 to Lago di Braies trailhead",
+      "duration": "8–9.5h total",
+      "cost": "CHF 80–150 one-way with advance saver fares",
+      "notes": "The elegant car-free option. Overnight in Dobbiaco or Villabassa and catch the first 442 bus to the lake (pre-book on prags.bz mid-July–mid-Sept). Return from Belluno via Venice."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich → Venice Marco Polo (~1h flight), then ATVO/Cortina Express bus to Cortina d'Ampezzo and local SAD bus 445 to Dobbiaco + 442 to Braies",
+      "duration": "6–8h door to trailhead",
+      "cost": "CHF 60–200 return flight + ~EUR 20–35 buses",
+      "notes": "Best for the exit too: from Belluno at the southern end it is a ~1h train to Venice. Fly open-jaw or just train home from Venice."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Chur → San Bernardino or Landeck/Reschen Pass → Val Pusteria → Braies",
+      "duration": "5.5–6.5h",
+      "cost": "~CHF 90–130 fuel + vignettes/tolls each way",
+      "notes": "A car is awkward for a point-to-point trek — you finish 120 km from it. If driving, park in Dobbiaco and bus back from Belluno/Cortina at the end, or do an out-and-back section instead."
+    }
+  ],
+  "costs": {
+    "thrifty": "EUR 900–1,200 for the full 9–10 day trek: dorm half-board in rifugi at EUR 60–80/night (2025 examples: Carestiato ~EUR 72, Biella and Fanes ~EUR 80), packed lunches from huts, train from Zürich on saver fares.",
+    "midrange": "EUR 1,500–2,200: mix of dorms and private rooms (private room at Rifugio Fanes ~EUR 90–103 pp half-board), a night in a Cortina or Dobbiaco hotel each end, lunches and wine in the huts, comfortable trains.",
+    "splurge": "EUR 3,000–4,500+: self-guided package with luggage-friendly hotel nights and all huts pre-booked (~EUR 1,500–2,500 via operators), or a fully guided group trek, plus boutique Cortina hotels and the Lagazuoi cable car both ways.",
+    "notes": "Budget EUR 55–80 pp/night half-board in dorms, EUR 90–130 for private rooms in the smarter huts. Many rifugi are cash-preferred — carry EUR 300+ in cash. CAI/DAV/SAC alpine-club membership earns reciprocal discounts in CAI-owned huts."
+  },
+  "booking": [
+    { "label": "Dolomiti official Alta Via 1 route pages", "url": "https://www.dolomiti.org/en/altavia1/" },
+    { "label": "The Hiking Club — AV1 planning, stage maps & hut list", "url": "https://www.thehiking.club/alta-via-1-dolomites" },
+    { "label": "Lago di Braies shuttle & access reservation (10 Jul–10 Sep)", "url": "https://www.prags.bz/en/" },
+    { "label": "Cortina guides bureau (Gruppo Guide Alpine Cortina)", "url": "https://www.guidecortina.com/en/" }
+  ],
+  "weather": "Summer days are typically 15–25°C in the valleys but the route lives at 1,600–2,750 m, where nights drop near freezing and violent afternoon thunderstorms are a near-daily July–August feature — start stages early and be off exposed passes (Forcella del Lago, Lagazuoi) by early afternoon. Snowfields can linger on north-facing passes into early July, and September brings crisp clear days with the first dustings up high. Pack proper waterproofs, warm layers, sun protection for the reflective white limestone, a sheet sleeping-bag liner (required in huts) and a headtorch for the Lagazuoi war tunnels.",
+  "tips": [
+    "Book huts early and in order of scarcity: reservations open on a rolling basis from about November to January for the following summer, and Rifugio Lagazuoi and Rifugio Sennes fill first — for a July–August 2027 trek, have your itinerary locked and emails out by January 2027.",
+    "Plan 8–10 stages for the full route; if you only have a long weekend, the crown jewels are stages 3–5 (Fanes → Lagazuoi → Nuvolau past the Cinque Torri) — easily accessed from Cortina and finishing at Passo Giau or Passo Falzarego bus stops.",
+    "Beat the crowds at Lago di Braies by sleeping in Dobbiaco/Villabassa and taking the first 442 bus (road access is permit-only 10 July–10 September; pre-book on prags.bz) — the Instagram hordes stay within 1 km of the boathouse, and the trail empties above Rifugio Biella.",
+    "Be honest about difficulty: no via ferrata gear is needed on the standard line, but stages average 5–7 hours with 600–1,000 m of daily ascent, and the exposed Schiara finish south of Rifugio Pian de Fontana is the hardest section — many trekkers legitimately end at Passo Duran or La Pisson and bus to Belluno.",
+    "Carry cash (EUR 300+) — several rifugi take no cards — and bring alpine-club membership (SAC works via reciprocity) for discounts in CAI huts.",
+    "Hike September if you can: stable weather, no shuttle-permit hassle at Braies, autumn light on the pale walls, and huts stay open until roughly 20–25 September — just book the final-week nights carefully as some huts close early after a snowy forecast."
+  ],
+  "localRecs": [
+    { "name": "Rifugio Lagazuoi (2,752 m)", "type": "sight", "note": "Highest sleep on the route with a 360° sunset terrace over the Tofane and Marmolada; descend next morning through the WWI tunnels bored inside the mountain. The single most-requested bed on AV1 — book the day reservations open." },
+    { "name": "Rifugio Cinque Torri / Scoiattoli area", "type": "sight", "note": "The five freestanding towers where Cortina's 'Scoiattoli' climbing squirrels trained, ringed by a restored open-air WWI museum of trenches and gun positions — a short detour off stage 4." },
+    { "name": "Rifugio Fanes (2,060 m)", "type": "restaurant", "note": "The gastronomic hut of the northern half — South Tyrolean kitchen (canederli, apple strudel), sauna, and private rooms from ~EUR 90 pp half-board in the green heart of the Fanes plateau." },
+    { "name": "Baita Fraina, Cortina d'Ampezzo", "type": "restaurant", "note": "Wood-panelled family baita above town for casunziei (beetroot ravioli) and a serious Veneto wine cellar — the celebratory dinner if you split the trek with a night in Cortina." },
+    { "name": "Rifugio Nuvolau (2,575 m)", "type": "bar", "note": "The oldest hut in the Dolomites (1883) perched on a summit blade with the most famous sunrise on the route — tiny, rustic, no showers, absolutely worth it; at minimum stop for a mid-morning beer on the terrace." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Braies_Sunrise.jpg/1920px-Braies_Sunrise.jpg",
+      "caption": "Sunrise at Lago di Braies (Pragser Wildsee), the turquoise trailhead of the Alta Via 1",
+      "credit": "Wikimedia Commons / Walter799 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Lagazuoi_20170724_0955.jpg/1920px-Lagazuoi_20170724_0955.jpg",
+      "caption": "The Lagazuoi massif above Passo Falzarego — WWI tunnels riddle the mountain and Rifugio Lagazuoi crowns its summit ridge",
+      "credit": "Wikimedia Commons / Ka23 13 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Monte_civetta_and_alleghe_lake_from_cima_fertazza.jpg/1920px-Monte_civetta_and_alleghe_lake_from_cima_fertazza.jpg",
+      "caption": "Monte Civetta — the 'wall of walls' — rising above Lake Alleghe on the southern half of the route",
+      "credit": "Wikimedia Commons / Piri229 (CC BY 4.0)"
+    }
+  ]
+}

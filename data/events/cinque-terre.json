@@ -1,0 +1,114 @@
+{
+  "id": "cinque-terre",
+  "name": "Cinque Terre Coastal Paths",
+  "tagline": "Five pastel villages stitched together by cliff-edge footpaths, thousand-year-old vineyard terraces and the bluest stretch of the Ligurian Sea.",
+  "city": "Riomaggiore",
+  "country": "Italy",
+  "dates": "Best April–June and September–October. Cinque Terre Card season runs 14 March – 2 November 2026; Via dell'Amore timed-entry season 29 March – 24 October 2026 (daily 9:00–21:00, book up to 72h ahead). Spring 2027 season expected to open mid-March (expected). Avoid July–August: heat, haze and peak crowds.",
+  "history": [
+    "The Cinque Terre — Monterosso al Mare, Vernazza, Corniglia, Manarola and Riomaggiore — are five medieval fishing and wine villages wedged into a near-vertical stretch of the Ligurian coast between Levanto and La Spezia. Over roughly a thousand years, farmers carved the cliffs into vineyard terraces held up by dry-stone walls whose combined length is often compared to the Great Wall of China. Those terraces, still producing the rare passito wine Sciacchetrà, are why UNESCO listed the area as a World Heritage cultural landscape in 1997; two years later it became Italy's smallest and most densely protected national park.",
+    "The footpaths came before the roads. Until the Genoa–La Spezia railway punched through in 1874, mule tracks over the ridges and along the cliffs were the only way between villages, linking each one to its hilltop pilgrimage sanctuary — Madonna di Montenero above Riomaggiore, Soviore above Monterosso (the oldest sanctuary in Liguria). The most famous stretch, the Via dell'Amore between Riomaggiore and Manarola, was blasted out during 1920s railway works and became a lovers' promenade; a 2012 rockslide closed it for nearly twelve years until its celebrated reopening in July 2024, now managed with timed-entry slots.",
+    "The modern classic is the Sentiero Azzurro (Blue Path, SVA/592), the low coastal route linking all five villages, complemented by the free, wilder Alta Via delle Cinque Terre ridge trail (AV5T, about 40 km from Levanto to Portovenere) and a dense web of sanctuary and vineyard trails — around 120 km in all. The 2011 flash floods that buried Vernazza and Monterosso in mud reshaped how the park manages the landscape, and today trail fees, footwear rules and visitor caps fund the constant rebuilding of the terraces that make this coast walkable at all."
+  ],
+  "whyGo": "This is Europe's most cinematic coastal hiking: every hour on the trail ends in a village of lemon groves, focaccerie and harbour swims. In April–June the terraces are green and wildflowered; in September–October the sea is at its warmest and the grape harvest animates the vineyards. For a Zürich-based hiker it is the perfect early- and late-season counterweight to the Alps — snow-free cliff walking with train access to every stage, no pack-carrying required.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Milano Centrale (EC via Gotthard, ~3h20), then Intercity via Genoa to Monterosso or La Spezia Centrale, local Cinque Terre Express to Riomaggiore",
+      "duration": "6.5–7.5h door to door",
+      "cost": "CHF 60–130 each way (Zürich–Milan EC from ~CHF 39 with advance saver; Milan–Monterosso IC €15–30)",
+      "notes": "The classic and easiest option. Book the EC seat reservation and Italian IC in advance; the final Cinque Terre Express hop between villages takes 5–10 min per village."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Milano Centrale → La Spezia Centrale, then base yourself in Riomaggiore (first village up the line)",
+      "duration": "~6.5h",
+      "cost": "CHF 60–120 each way",
+      "notes": "Routing via La Spezia gives more train choices and cheaper beds if the villages are full; Riomaggiore is 8 min away on the Cinque Terre Express."
+    },
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Genoa or Milan Malpensa, then train (Genoa–Monterosso ~1h30; Malpensa–Milano Centrale + IC ~4h)",
+      "duration": "5–6h total",
+      "cost": "CHF 100–250 return plus train legs",
+      "notes": "Rarely worth it over the direct rail route given transfers. Driving is actively discouraged — village access is restricted and parking is scarce and expensive; leave the car in La Spezia or Levanto if you must drive."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 120–160/day: guesthouse room or hostel in La Spezia or Corniglia (€60–90), Trekking Card €7.50–15/day, focaccia and fried-anchovy cones (€10–15/meal), regional trains",
+    "midrange": "CHF 220–320/day: village B&B with sea glimpse (€120–180), 2–3 day Treno MS Card (€34–78.50 depending on demand band), one proper seafood dinner with Vermentino, ferry hop one way",
+    "splurge": "CHF 450+/day: sea-view suite in Monterosso or a Riomaggiore terrace apartment (€300+), private vineyard tour with Sciacchetrà tasting, guided sanctuary-trail day, dinner at a clifftop table",
+    "notes": "Key 2026 prices: Trekking Card (Sentiero Azzurro access + village shuttles) uses dynamic green/yellow/red pricing €7.50–15/day, 2-day from €14.50, 3-day from €21. Treno MS Card adds unlimited Levanto–La Spezia trains: 1-day €19.50/€27/€32.50 by demand band, 3-day €46.50–78.50. Via dell'Amore entry (~€10) requires a booked half-hour slot. Only Monterosso–Vernazza and Vernazza–Corniglia are paid; sanctuary trails and the Alta Via are free."
+  },
+  "booking": [
+    {
+      "label": "Cinque Terre National Park (official trail status and info)",
+      "url": "https://www.parconazionale5terre.it/index.php"
+    },
+    {
+      "label": "Cinque Terre Card online purchase",
+      "url": "https://card.parconazionale5terre.it/"
+    },
+    {
+      "label": "Via dell'Amore timed-entry booking",
+      "url": "https://www.viadellamore.info/en"
+    },
+    {
+      "label": "Trenitalia (Milan–La Spezia and Cinque Terre Express)",
+      "url": "https://www.trenitalia.com/en.html"
+    }
+  ],
+  "weather": "April–June: 15–24°C, long days, occasional spring showers, sea swimmable from late May. September–October: 18–26°C, the warmest sea of the year, but rising thunderstorm risk from mid-October — the coast is prone to violent autumn downpours, so check forecasts and park trail-status pages. The trails are low (max ~500 m on sanctuary routes) but brutally exposed: little shade, thousands of stone steps, and slick paving when wet. Pack sun protection, 1.5 L of water per person, and real hiking shoes — the park fines visitors caught on trails in flip-flops or smooth-soled footwear.",
+  "tips": [
+    "Book the Via dell'Amore slot as soon as your dates are fixed — it opens 72 hours ahead with prepaid half-hour slots capped at 200 people, and high-season traffic is one-way Riomaggiore → Manarola.",
+    "Buy the Cinque Terre Card online for green-tier (low-demand) dates — the same Trekking day pass costs €7.50 on a quiet weekday versus €15 on red-tier weekends; the Treno MS version is only worth it if you'll ride the train 3+ times that day.",
+    "Hike the paid Sentiero Azzurro sections (Monterosso–Vernazza, Vernazza–Corniglia) before 9am or after 4pm — between 11am and 3pm they become a single-file queue; the light is better at the edges of the day anyway.",
+    "The sanctuary trails are the connoisseur's move: Riomaggiore → Madonna di Montenero, or Monterosso → Soviore, climb through empty vineyards to the best viewpoints on the coast, are completely free, and see a fraction of the Blue Path crowds.",
+    "Be honest about the grades: 'coastal stroll' here means relentless staircases — Monterosso–Vernazza alone gains ~200 m on rough stone steps, and the free Corniglia–Manarola high route via Volastra climbs ~400 m through the terraces. Trekking poles help more than you'd think.",
+    "Base yourself in Riomaggiore or Corniglia rather than day-tripping from La Spezia or Florence: evenings and early mornings, when the day-trippers are gone, are when the villages are actually magical — and you'll beat everyone onto the trails."
+  ],
+  "localRecs": [
+    {
+      "name": "Nessun Dorma",
+      "type": "bar",
+      "note": "The famous clifftop aperitivo terrace in Manarola — pesto-making classes, bruschetta and spritz with the postcard view of the village. Queue via their app; go an hour before sunset."
+    },
+    {
+      "name": "A Pié de Mà (Bar dell'Amore)",
+      "type": "bar",
+      "note": "Perched at the Riomaggiore entrance of the Via dell'Amore — wine and anchovies on a terrace hanging over the sea, the natural end point of a hiking day."
+    },
+    {
+      "name": "Belforte",
+      "type": "restaurant",
+      "note": "Seafood inside a medieval watchtower above Vernazza's harbour — tegame di acciughe (baked anchovies) and the coast's most dramatic dinner tables. Book well ahead."
+    },
+    {
+      "name": "Santuario di Nostra Signora di Soviore",
+      "type": "sight",
+      "note": "Liguria's oldest sanctuary, 470 m above Monterosso at the top of the pilgrimage trail — simple restaurant and rooms, and a terrace view that reaches to Corsica on clear days."
+    },
+    {
+      "name": "Cantina Cinque Terre, Groppo",
+      "type": "sight",
+      "note": "The cooperative winery above Manarola on the Volastra trail — taste Cinque Terre DOC white and the rare Sciacchetrà passito made from the very terraces you've been walking through."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Riomaggiore_From_Ferry_Cinque_Terre_Italy_Sep23_A7C_07414.jpg/1920px-Riomaggiore_From_Ferry_Cinque_Terre_Italy_Sep23_A7C_07414.jpg",
+      "caption": "Riomaggiore's tower houses stacked above the harbour, seen from the sea — the southern gateway to the Sentiero Azzurro",
+      "credit": "Wikimedia Commons / Timothy A. Gonsalves (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vernazza_dal_Sentiero_Azzurro.jpg/1920px-Vernazza_dal_Sentiero_Azzurro.jpg",
+      "caption": "Vernazza and its harbour from the Sentiero Azzurro — the classic reveal on the Monterosso–Vernazza stage",
+      "credit": "Wikimedia Commons / СССР (CC BY-SA 2.5 CA)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Sentiero_Azzurro_near_Manarola.jpg/1920px-Sentiero_Azzurro_near_Manarola.jpg",
+      "caption": "The Sentiero Azzurro threading vineyard terraces above the sea near Manarola",
+      "credit": "Wikimedia Commons / СССР (CC BY-SA 2.5 CA)"
+    }
+  ]
+}

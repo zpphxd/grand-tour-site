@@ -1,0 +1,114 @@
+{
+  "id": "engelberg-titlis",
+  "name": "Engelberg–Titlis",
+  "tagline": "Zürich's closest serious mountain: 2,000 metres of vertical off a 3,238m glacier peak, and the widest, most famous freeride face in Switzerland.",
+  "city": "Engelberg",
+  "country": "Switzerland",
+  "dates": "Late November – early May 2026–27 for the full resort; glacier skiing on Titlis typically opens mid-October (expected) and runs into May — Switzerland's longest continuous ski season (~220 skiing days). Valley-to-glacier top-to-bottom usually complete from mid/late December once the lower runs fill in. AlpsPass 2026/27 pre-sale opens 1 September 2026 (valid 1 Nov – 30 Apr). Day tickets are dynamically priced — cheapest booked early online at shop.titlis.ch.",
+  "history": [
+    "Engelberg means 'angel mountain', and the village grew up around its Benedictine abbey, founded in 1120 — for seven centuries the monastery essentially ran the valley. Tourism arrived with the Belle Époque: grand hotels sprouted in the 1870s–1900s for the British alpinists and lung-cure clientele, and the town got its rail link to Lucerne in 1898. The cableway story is genuinely pioneering: the Engelberg–Gerschnialp funicular carried its first guests on 21 January 1913, and the 1927 aerial cableway from Gerschnialp to Trübsee was the first in Switzerland to receive a federal concession. The chain finally reached Klein Titlis at 3,020m in 1967, making it the first cableway in the world to summit a glaciated peak.",
+    "In 1992 Titlis Bahnen debuted the Rotair, the world's first revolving gondola — the cabin makes a full 360-degree rotation during the five-minute final leg over the glacier's seracs and crevasses. The Rotair made Titlis a global sightseeing magnet (it is one of Switzerland's most-visited excursions, beloved by summer tour groups), but skiers know the mountain for something else entirely: from Klein Titlis at 3,028m down to the valley floor at 1,000m you can string together roughly 2,000 vertical metres of skiing — one of the biggest lift-served verticals in the Alps.",
+    "What made Engelberg a mecca, though, is the off-piste. The Laub — the old local word for avalanche — is a near-perfectly continuous 35-degree, 1,100–1,200m wall that drops straight toward the valley in one uninterrupted pitch, visible taunting you from the Titlis Xpress gondola. It anchors the 'Big 5' freeride classics (Laub, Galtiberg, Steinberg, Sulz, Steintäli), descents that pulled in a colony of Swedish and international freeriders from the 1990s onward and made Engelberg a fixture in ski films and the Freeride World Tour qualifier circuit. On a deep day, a clean run down the Laub remains one of skiing's great experiences — anywhere."
+  ],
+  "whyGo": "No other serious ski mountain is this close to Zürich: roughly 1h45 door-to-door by train, which makes powder-day hooky genuinely feasible. You get glacier-assured snow from October to May, ~2,000m of lift-served vertical, legitimate expert terrain (the Laub and the rest of the Big 5), and the sunny, family-friendly Brunni side across the valley when the Titlis side is stormy. For a Zürich-based season, this is the home mountain.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Luzern (IR, ~45 min), change to the Zentralbahn Luzern–Engelberg Express → Engelberg",
+      "duration": "~1h45–2h total; trains hourly",
+      "cost": "~CHF 38–58 one way full fare; roughly half with a Half-Fare Card. SBB Snow'n'Rail combos give up to 20% off rail + lift pass",
+      "notes": "The easiest option — the change in Luzern is cross-platform and simple. Engelberg station is a short walk or free ski bus from the Titlis valley station. Buy the Snow'n'Rail package in the SBB app for the discount."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A4/A14 via Luzern → Stans exit → Engelberg valley road",
+      "duration": "~1h15–1h30 without traffic",
+      "cost": "~35 CHF fuel round trip + parking CHF 5–15/day at the valley station",
+      "notes": "Faster than rail on a good day, but the valley road is winding and can require chains after big dumps; Titlis parking fills by ~8:30 on peak weekends. Driving wins if you're hauling a group or touring gear."
+    },
+    {
+      "mode": "rail",
+      "route": "Powder-day sprint: first train Zürich HB ~06:00 via Luzern, arrive Engelberg ~08:00 for the ~08:30 first gondola",
+      "duration": "~2h",
+      "cost": "Same as standard rail fares",
+      "notes": "The classic Zürich freerider move — you'll recognize the ski bags on the platform. Check the Titlis webcams and SLF avalanche bulletin (slf.ch) on the train."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 90–120 for a day trip: dynamically priced day pass from ~CHF 60–75 booked early online (walk-up closer to CHF 89–99), Snow'n'Rail train discount, packed lunch, no overnight.",
+    "midrange": "CHF 350–500 for a weekend: two day passes (~CHF 130–180), a night in a 3-star or the Ski Lodge (~CHF 150–220), mountain lunches and après.",
+    "splurge": "CHF 900–1,500+: Kempinski Palace Engelberg from ~CHF 400/night, a private mountain guide for the Laub or Galtiberg (~CHF 600–750/day through the local guide bureau, split between up to ~4 skiers), full rental and dinner at the hotel.",
+    "notes": "Titlis uses dynamic pricing — the same day pass can swing CHF 40+ between early online purchase and peak-weekend walk-up. Season regulars from Zürich should price the AlpsPass (valid 1 Nov–30 Apr across multiple Swiss resorts, pre-sale from 1 Sep 2026); it pays off around 8–10 ski days. Prices marked (expected) for 2026/27 based on 2025/26 rates."
+  },
+  "booking": [
+    {
+      "label": "TITLIS Cableways — official site, tickets & webcams",
+      "url": "https://www.titlis.ch/en"
+    },
+    {
+      "label": "Titlis online ticket shop (dynamic pricing, buy early)",
+      "url": "https://shop.titlis.ch/en/products/skitickets"
+    },
+    {
+      "label": "Engelberg Mountain Guide — Laub & Big 5 guided freeride",
+      "url": "https://www.engelbergmountainguide.ch/en/"
+    },
+    {
+      "label": "Engelberg-Titlis tourism — lodging, ski school, Brunni",
+      "url": "https://www.engelberg.ch/en/"
+    }
+  ],
+  "weather": "The village sits at 1,000m and the skiing tops out at 3,028m — expect a 15–20°C temperature swing between valley and summit, and full winter conditions on the glacier even in April. The Titlis summit is exposed and frequently windy; the Rotair and upper lifts close in storms (check titlis.ch lift status before leaving Zürich). North-facing terrain holds cold, dry snow for days after a storm. Pack a real hardshell, goggles for flat light (the glacier is notorious for it), and sunscreen for spring — the glacier at 3,000m in March sunshine is brutal. Off-piste: transceiver, shovel, probe are non-negotiable, and the Laub in particular is genuine avalanche terrain (the name literally means avalanche).",
+  "tips": [
+    "Book day passes online at shop.titlis.ch as soon as you commit — dynamic pricing means midweek passes bought a week out can be 30–40% cheaper than weekend walk-up rates.",
+    "Skiing the Laub: it needs stable conditions and is tracked out within hours of a storm — go with a guide your first time (book Engelberg Mountain Guide 2–4 weeks ahead for peak season), start early, and check the SLF bulletin; at a sustained 35 degrees it is committing, no-fall terrain when firm.",
+    "Powder-day protocol: catch the ~06:00 train from Zürich HB, be in the Titlis Xpress queue by 08:15. The Rotair to Klein Titlis and the Ice Flyer chair access the best lift-served steeps; locals lap Jochpass while tourists queue for the summit.",
+    "Avoid the summit crush: Titlis is a huge sightseeing destination — tour groups mob the Rotair and the Cliff Walk suspension bridge from late morning. Ski the glacier early, then drop to Stand/Trübsee sectors after 10:30 and you'll barely notice them.",
+    "Know the mountain's honest shape: Engelberg is a freeride and glacier mountain, not a cruising resort — the pisted network is modest (~80km) and mid-mountain links involve some flats and download sections. Intermediates wanting sunny mellow laps should spend a half-day on the Brunni side across the valley.",
+    "Season strategy for a Zürich year: early season (late Nov–Dec) ski the glacier off the Stand/Rotair sectors; January–March is prime Laub season; late March–May is glacier spring skiing with empty midweek slopes. If you'll go 8+ days, buy the AlpsPass in the 1 September pre-sale."
+  ],
+  "localRecs": [
+    {
+      "name": "Ski Lodge Engelberg",
+      "type": "bar",
+      "note": "The Swedish-run freerider institution — part boutique hotel, part the après spot in town. The bar on a powder Friday is where the whole off-piste scene debriefs; the restaurant is genuinely good too."
+    },
+    {
+      "name": "Restaurant Stand (Untertrübsee & Stand mountain restaurants)",
+      "type": "restaurant",
+      "note": "Mid-mountain refuel at 2,428m with Titlis glacier views; the older Untertrübsee hut lower down does a proper rösti away from the summit-station cafeteria crowds."
+    },
+    {
+      "name": "Titlis Cliff Walk & summit terrace",
+      "type": "sight",
+      "note": "Europe's highest suspension footbridge, strung 500m above the glacier at ~3,040m. Touristy, yes — but on a clear day the panorama across the Uri Alps to the Bernese Oberland justifies the five minutes."
+    },
+    {
+      "name": "Kloster Engelberg (Benedictine Abbey)",
+      "type": "sight",
+      "note": "The 1120 monastery that gave the valley its name — still active, with a show dairy where monks' milk becomes cheese. A civilized bad-weather or rest-day hour."
+    },
+    {
+      "name": "Brunni sunny side (Ristis/Brunnihütte)",
+      "type": "neighborhood",
+      "note": "The south-facing family side across the valley: mellow pistes, sledging, and sun when the Titlis side sits in shadow or storm. The Brunnihütte terrace is the valley's best lunch view of Titlis itself."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/.00_1069_Engelberg_-_Titlis_und_F%C3%BCrenalb.jpg/1920px-.00_1069_Engelberg_-_Titlis_und_F%C3%BCrenalb.jpg",
+      "caption": "The Engelberg valley beneath Titlis (3,238m) and the Fürenalp — roughly 2,000m of skiable vertical from glacier to village.",
+      "credit": "Wikimedia Commons / W. Bulach, CC BY-SA 4.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Engelberg_with_Titlis_and_paraglider.jpg/1920px-Engelberg_with_Titlis_and_paraglider.jpg",
+      "caption": "Winter view over Engelberg toward Titlis from the sunny Brunni side, near the Ristis station.",
+      "credit": "Wikimedia Commons / Gestumblindi, CC BY 3.0"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TitlisgletscherSkipiste.jpg/1920px-TitlisgletscherSkipiste.jpg",
+      "caption": "Piste on the Titlis glacier — snow-sure skiing at 3,000m from October into May.",
+      "credit": "Wikimedia Commons / Mussklprozz, CC BY-SA 4.0"
+    }
+  ]
+}

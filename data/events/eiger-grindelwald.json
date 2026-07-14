@@ -1,0 +1,82 @@
+{
+  "id": "eiger-grindelwald",
+  "name": "Eiger Trail & the Jungfrau Region",
+  "tagline": "Day-hike beneath the most infamous wall in the Alps, with glacier panoramas at every turn and a train home to Zürich by dinner.",
+  "city": "Grindelwald",
+  "country": "Switzerland",
+  "dates": "Best hiking mid-June to mid-October; high trails (Eiger Trail, Bachalpsee) typically snow-free late June onward. Grindelwald-First gondola runs roughly early January to late October, then closed for maintenance 26 Oct – 27 Nov 2026; Eiger Express and Jungfrau Railway run year-round. Eiger Ultra Trail by UTMB: 15–18 July 2026 (E101/E51/E35/E16 races on 18 July) — Grindelwald is packed and joyous that week. Summer 2027 lift season expected to mirror 2026 (expected).",
+  "history": [
+    "The Eiger (3,967 m) looms directly over Grindelwald, and its 1,800-metre north face — the Nordwand, grimly nicknamed 'Mordwand' (murder wall) — is the most storied piece of rock in the Alps. After a series of fatal attempts in the 1930s that played out in full view of telescope-wielding crowds at Kleine Scheidegg, the face was finally climbed in July 1938 by Anderl Heckmair, Ludwig Vörg, Heinrich Harrer and Fritz Kasparek. The 1957 Corti tragedy, Clint Eastwood's 'The Eiger Sanction', and Ueli Steck's astonishing speed records (down to 2 hours 22 minutes in 2015) kept the myth alive. The Eiger Trail lets hikers walk directly beneath this amphitheatre of legend — close enough to hear meltwater streaking down the limestone.",
+    "The region's tourism story is just as remarkable. Grindelwald was a cradle of Alpine tourism from the late 18th century, when travellers on the Grand Tour came to gawp at its two glaciers. The Wengernalpbahn (1893) — still the world's longest continuous rack railway — and the audacious Jungfrau Railway (1896–1912), which tunnels through the Eiger itself to Jungfraujoch at 3,454 m, turned the Bernese Oberland into the blueprint for mountain tourism. Kleine Scheidegg, the pass beneath the north face, became both a railway junction and the grandstand from which the world watched the Nordwand dramas unfold.",
+    "In 2001 the Jungfrau-Aletsch region became the first natural World Heritage Site in the Alps, and in December 2020 Grindelwald opened the Eiger Express, a tri-cable gondola that whisks hikers from Grindelwald Terminal to Eigergletscher in 15 minutes — cutting the approach to the Eiger Trail and Jungfraujoch by nearly an hour. Today the village balances big-infrastructure tourism with some of the finest, most accessible day-hiking anywhere: high balcony trails, cliff walkways, and the mirror-calm Bachalpsee, all framed by the triple wall of Eiger, Mönch and Jungfrau."
+  ],
+  "whyGo": "This is the easiest world-class big-mountain fix from Zürich: under three hours door-to-trailhead, lifts that put you at 2,000+ m before 10am, and a menu of iconic day hikes — the Eiger Trail hugging the base of the north face, the flat-but-glorious Männlichen–Kleine Scheidegg panorama walk, the Bachalpsee reflection shot, and the First Cliff Walk bolted to a cliff face. You get genuine 4,000-metre-peak scenery with zero mountaineering skills required, plus Swiss rail reliability for a guaranteed same-day return.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Bern → Interlaken Ost (IC) → Grindelwald (Berner Oberland-Bahn)",
+      "duration": "≈ 2h50 with two easy same-platform-style changes; trains at least hourly from ~06:00",
+      "cost": "≈ CHF 45–55 one way with Half Fare Card; ≈ CHF 90–110 full fare; day trips cheapest with a Saver Day Pass (from CHF 52–66 if booked early)",
+      "notes": "Take the 06:00–07:00 departures to be walking by 09:30. From Grindelwald station or Grindelwald Terminal, gondolas fan out to First, Männlichen and Eigergletscher. Check SBB app for the direct Interlaken IC61."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A1/A6 via Bern → Interlaken → Grindelwald",
+      "duration": "≈ 2h15–2h45 depending on traffic (Lucerne–Brünig route similar)",
+      "cost": "≈ CHF 30–40 fuel round trip + CHF 25–40/day parking at Grindelwald Terminal multi-storey",
+      "notes": "Only worth it for dawn starts or off-timetable returns; summer weekends bring heavy traffic into the valley and the train is genuinely faster door-to-door from Zürich city."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich → Interlaken Ost → Lauterbrunnen → Wengen → Männlichen cable car (for the panorama walk from the west side)",
+      "duration": "≈ 3h15 to Männlichen top station",
+      "cost": "Similar rail fare plus Männlichen cable car (covered by Jungfrau Travel Pass)",
+      "notes": "A clever loop: up via Lauterbrunnen/Wengen, walk Männlichen → Kleine Scheidegg → Eiger Trail → Eigergletscher, descend by Eiger Express to Grindelwald, train home. All one-direction, no backtracking."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 90–130 for a day trip: Saver Day Pass or Half Fare rail (~CHF 90–110 return), picnic from Coop, and hike lift-free from Grindelwald village up to Bachalpsee or along the valley trails. Hostel bed (Grindelwald Youth Hostel / Downtown Lodge) ~CHF 40–60 if overnighting.",
+    "midrange": "CHF 250–400 per person for a weekend: Half Fare rail, one or two lift rides (Grindelwald–First return CHF 76 in summer 2026, 50% off with Half Fare Card; Eiger Express to Eigergletscher ~CHF 32–64 depending on discounts), 3-star hotel double ~CHF 180–250/night, mountain-restaurant lunches ~CHF 25–35.",
+    "splurge": "CHF 700+ for the full spectacle: Jungfrau Travel Pass (3 days from ~CHF 190–210 with Half Fare, unlocking First, Männlichen, Wengernalp and Eiger Express at will), Jungfraujoch 'Top of Europe' add-on (~CHF 75 with the pass; full fare CHF 145–238), a night at a view hotel under the north face (Hotel Belvedere or Bellevue des Alpes at Kleine Scheidegg, CHF 300–500/night), and a private guide (~CHF 600–750/day via Grindelwald Sports).",
+    "notes": "Lifts are the budget-killer: single summer rides run CHF 30–76. If you plan 2+ lift rides over 2+ days, the Jungfrau Travel Pass almost always wins. Swiss Half Fare Card (CHF 120/year) pays for itself in one weekend if the traveler is based in Zürich for a year. Prices are 2026 published rates; 2027 typically rises a few percent (expected)."
+  },
+  "booking": [
+    { "label": "Jungfrau Railways — lift tickets, Eiger Express, Jungfrau Travel Pass", "url": "https://www.jungfrau.ch/en-gb/" },
+    { "label": "Grindelwald Tourism — official trail info, webcams, events", "url": "https://grindelwald.swiss/en/" },
+    { "label": "Grindelwald Sports — mountain guides, via ferrata, climbing school", "url": "https://www.grindelwaldsports.ch/en/" },
+    { "label": "Eiger Ultra Trail by UTMB — race info and registration", "url": "https://eiger.utmb.world/" }
+  ],
+  "weather": "Summer valley temps 18–25°C but expect 8–15°C at 2,000–2,300 m and near-freezing wind chill on exposed cols even in July. Afternoon thunderstorms build fast June–August — start early, aim to be off high trails by mid-afternoon. Snow patches linger on the Eiger Trail's upper section into late June and can return any month; October brings crisp, stable air and the best visibility of the year. Pack layers, a real rain shell, sun protection (UV is fierce at altitude), and 1L+ of water — trailside fountains are common but not guaranteed above the tree line.",
+  "tips": [
+    "Book nothing for the trails themselves — but buy lift tickets online the night before in July–August to skip the Grindelwald Terminal queues, and reserve view hotels (especially Bellevue des Alpes) 2–3 months out for summer weekends.",
+    "The classic one-day circuit: Eiger Express up to Eigergletscher (~09:00), Eiger Trail down to Alpiglen (2h30, mostly descending, north face overhead the whole way), train to Kleine Scheidegg, panorama walk to Männlichen (1h30, nearly flat), gondola down to Grindelwald. All of it is doable comfortably between Zürich trains.",
+    "Beat the Bachalpsee crowds by taking the first First gondola (~08:00) — the lake is a 50-minute walk from the top station and the mirror reflection is best in still morning air. By 11:00 it's a procession.",
+    "Difficulty honesty: these are T1–T2 marked paths, not scrambles — any fit walker can do them — but the Eiger Trail still drops ~750 m on rocky ground (poles help), and the Faulhorn extension from Bachalpsee adds a genuine 2,681 m summit with 400 m more climbing.",
+    "Avoid the week of 15–18 July 2026 if you want quiet trails — the Eiger Ultra Trail takes over the exact paths you came for (or come precisely then to spectate; the E101 finishers arriving under floodlights are stirring).",
+    "Go late season: mid-September to mid-October has the fewest people, larch-gold hillsides, snow-dusted peaks and the sharpest air — just check the First gondola calendar, as it closes for maintenance from 26 October 2026."
+  ],
+  "localRecs": [
+    { "name": "Berghaus Bäregg", "type": "restaurant", "note": "Dramatic hut-restaurant perched above the Unterer Grindelwald glacier gorge, 1h30 walk from Pfingstegg — rösti with one of the wildest terrace views in the region." },
+    { "name": "Hotel Bellevue des Alpes, Kleine Scheidegg", "type": "sight", "note": "Time-capsule 1840s grand hotel at the foot of the north face, where climbers and journalists watched the 1930s Nordwand attempts through telescopes. Stop for coffee on the terrace even if you don't stay." },
+    { "name": "First Cliff Walk by Tissot", "type": "sight", "note": "Free steel walkway bolted to the cliff at the First top station, ending on a platform hanging over a 45-metre drop — included with the gondola ticket, 15 minutes, queue before 10:00 or after 15:00." },
+    { "name": "Avocado Bar Grindelwald", "type": "bar", "note": "The village's liveliest après-hike spot on the Dorfstrasse — craft beers and cocktails with the north face filling the window." },
+    { "name": "C&M Café und Mehr", "type": "restaurant", "note": "Relaxed café-restaurant near the church end of the village with a sunny Eiger-view terrace — reliable Käseschnitte and cakes after the last gondola down." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg/1920px-Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg",
+      "caption": "The Eiger north face rearing above the meadows at Kleine Scheidegg — the grandstand from which the Nordwand legends were watched",
+      "credit": "Wikimedia Commons / Katrin Gilger (CC BY-SA 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bachalpsee_2265_m.jpg/1920px-Bachalpsee_2265_m.jpg",
+      "caption": "Bachalpsee at 2,265 m, a 50-minute walk from the First gondola, with the Schreckhorn group mirrored in still morning water",
+      "credit": "Wikimedia Commons / Chnebelhäx (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/2007-10-03_M%C3%A4nnlichen_-_Kleine_Scheidegg_04.jpg/1920px-2007-10-03_M%C3%A4nnlichen_-_Kleine_Scheidegg_04.jpg",
+      "caption": "The Männlichen–Kleine Scheidegg panorama walk in autumn — a near-flat balcony trail facing Eiger, Mönch and Jungfrau",
+      "credit": "Wikimedia Commons / Hansueli Krapf (CC BY-SA 3.0)"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "tour-du-mont-blanc",
+  "name": "Tour du Mont Blanc",
+  "tagline": "Eleven days, three countries, one white giant — the greatest hut-to-hut circuit in the Alps.",
+  "city": "Chamonix",
+  "country": "France",
+  "dates": "Hiking window: mid-June to mid-September (high cols like Col des Fours and Fenêtre d'Arpette can hold snow into early July; most refuges close by ~20 September). Key dates for your Zürich year: late Aug–early Sept 2026 works for a first section; the full circuit fits best in July–Sept 2027. Hut reservations for summer 2027 open on the official Mon Tour du Mont Blanc portal around mid-October 2026 (expected — 2026 bookings opened 15 Oct 2025), with remaining beds usually gone for July–Aug by January–February. HOKA UTMB race week: 24–30 Aug 2026, UTMB start Fri 28 Aug 2026; last week of Aug 2027 (expected) — Chamonix is packed then.",
+  "history": [
+    "The Tour du Mont Blanc is older than alpinism itself. In 1767 the Genevan scientist Horace Bénédict de Saussure made a circuit of the massif with mules and barometers, mapping the valleys and offering a prize for the first ascent of the summit — a challenge answered in 1786 when Jacques Balmat and Michel-Gabriel Paccard stood on top of Western Europe's highest mountain (4,806m) and effectively invented mountaineering. The paths de Saussure followed were shepherds' and traders' routes over the Col du Bonhomme, Col de la Seigne and Grand Col Ferret that had linked Savoyard, Aostan and Valaisan communities for centuries; the modern TMB simply strings them into a single 170km loop with roughly 10,000m of cumulative ascent through France, Italy and Switzerland.",
+    "Chamonix itself is the sport's capital: host of the first Winter Olympic Games in 1924, home of the Compagnie des Guides de Chamonix (founded 1821, the oldest guiding company in the world), and terminus of the Aiguille du Midi cable car, which hoists tourists to 3,842m for the most vertiginous view in Europe. The TMB became the continent's benchmark long-distance walk after the Second World War, popularised by guidebook writers and by the growing network of refuges — from the historic Rifugio Elisabetta under the Glacier de la Lée Blanche to the modern Rifugio Bonatti, named for the great Italian alpinist Walter Bonatti, gazing across Val Ferret at the Grandes Jorasses.",
+    "Since 2003 the route has carried a second mythology: the Ultra-Trail du Mont-Blanc, run each late August, in which the world's best mountain runners complete the loop that walkers savour over eleven days in under twenty hours. Kílian Jornet, François D'Haene and Courtney Dauwalter turned cols you will puff over — Bonhomme, Seigne, Grand Ferret — into household names among trail runners. Some 25,000 hikers now walk the TMB each summer, most counter-clockwise from Les Houches, and the circuit's blend of glacier scenery, three national cuisines and genuine physical challenge keeps it the standard against which every other trek in the Alps is measured."
+  ],
+  "whyGo": "No other walk gives you this much glacier architecture per day of effort: the TMB circles the entire Mont Blanc massif without ropes or crampons, crossing into Italy at Col de la Seigne and into Switzerland at Grand Col Ferret, with the white dome and its satellite aiguilles rearranging themselves on your horizon every single stage. You sleep in refuges where dinner is tartiflette one night and polenta with sausage the next, and living in Zürich you can be at the trailhead by lunchtime — it is the definitive Alpine trek, and 2027 is your summer to claim it.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Geneva (direct IC/IR), then bus (FlixBus / SwissTours / AlpyBus) Geneva or Geneva Airport → Chamonix Sud",
+      "duration": "~2h45 rail + 1h10–2h bus; ~4h30–5h door to door",
+      "cost": "CHF 45–90 rail (supersaver/half-fare vs full flex) + EUR 15–30 bus",
+      "notes": "The standard route. Buses run from both Geneva Airport and the city; book the bus leg ahead in summer. Chamonix Sud bus station is 5 min walk from the centre."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Martigny (via Lausanne or Visp), then the Mont Blanc Express narrow-gauge line via Vallorcine to Chamonix",
+      "duration": "~4h45–5h15 total",
+      "cost": "CHF 60–110 with half-fare/supersaver; Vallorcine–Chamonix segment free with Carte d'Hôte",
+      "notes": "Slower but spectacular — the Mont Blanc Express climbs the Trient gorge and drops into the Chamonix valley. Also the smart exit route if you finish a section at Trient or Champex on the Swiss side."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Bern → Lausanne → Geneva → A40 Autoroute Blanche → Chamonix (~300 km)",
+      "duration": "~3h45–4h15",
+      "cost": "~CHF 60–80 fuel + French autoroute tolls ~EUR 20 round trip (Swiss vignette assumed)",
+      "notes": "Useful for section hikes with gear, but pointless for the full circuit — you return to your start anyway, and Chamonix parking is scarce in August. Free multi-day parking at Les Houches trailhead fills early."
+    }
+  ],
+  "costs": {
+    "thrifty": "EUR 700–950 for the full 10–11 day circuit: camping or dorm-only nights (dorm bed without meals ~EUR 25–35), self-catering picnic lunches, bus from Geneva. Wild camping is restricted — use official sites in Les Contamines, Courmayeur and Champex.",
+    "midrange": "EUR 1,200–1,700 self-guided full circuit: refuge half-board every night (EUR 50–80 in France/Italy — e.g. Rifugio Bonatti EUR 74 dorm half-board in 2026; CHF 80–110 in Switzerland), packed lunches ~EUR 15, a rest-day hotel night in Courmayeur, transfers from Zürich.",
+    "splurge": "EUR 2,500–4,500+: guided group or private trek with a Chamonix guide bureau, hotel-based itinerary with daily luggage transfer (Les Houches, Courmayeur, Champex hotels), private rooms in refuges where they exist, plus the Aiguille du Midi cable car (~EUR 75 return) as a finale.",
+    "notes": "Budget EUR 75–100/day as the realistic refuge-trek number. Huts want cash (euros AND Swiss francs for the Swiss stages); card acceptance is patchy. Add ~EUR 8–12 per picnic lunch ordered from huts, and EUR 5–8 for every beer at altitude. Occasional lift/bus shortcuts (Col Chécrouit, Le Tour) run EUR 10–20 each."
+  },
+  "booking": [
+    { "label": "Mon Tour du Mont Blanc — official hut booking portal", "url": "https://www.montourdumontblanc.com/en/" },
+    { "label": "Chamonix-Mont-Blanc official tourism", "url": "https://www.chamonix.com/en" },
+    { "label": "Compagnie des Guides de Chamonix (guided treks)", "url": "https://www.chamonix-guides.com/en" },
+    { "label": "HOKA UTMB Mont-Blanc (race week info/registration)", "url": "https://montblanc.utmb.world/" }
+  ],
+  "weather": "Valley days are warm (20–27°C in Chamonix and Courmayeur) but the route repeatedly crosses cols at 2,300–2,665m where it can be near freezing with wind any month; snowfields linger on Col des Fours, Col du Bonhomme and Fenêtre d'Arpette into early July, and afternoon thunderstorms are a genuine July–August hazard — start stages early to be off high ground by 15:00. September brings the most stable, clear spells but shorter days and early hut closures. Pack proper layers: waterproof shell, warm mid-layer, hat and gloves even in August, sun protection for glacier-reflected UV, and poles for the 10,000m of descent your knees will absorb.",
+  "tips": [
+    "Book huts the day the official portal opens (~mid-October 2026 for summer 2027, expected) if you want July–August dates — the classic stages (Bonatti, Elisabetta, Lac Blanc) sell out within weeks, and by January–February you are assembling leftovers. A few huts (e.g. Col de Balme, Bellachat) only open bookings from March.",
+    "Walk counter-clockwise from Les Houches like 90% of hikers — the guidebook logistics, hut spacing and views-ahead all favour it. For crowd avoidance, start stages by 07:00, or go clockwise and accept passing streams of oncoming walkers at cols.",
+    "Short on time? The two finest sections are Les Contamines → Courmayeur over Col du Bonhomme and Col de la Seigne (3–4 days, the wildest scenery) and Courmayeur → Champex via Rifugio Bonatti and Grand Col Ferret (2–3 days, the great Grandes Jorasses balcony). Both are reachable by bus from either end.",
+    "Be honest about the difficulty: no stage is technical, but the full circuit is ~170km with ~10,000m of ascent — day after day of 800–1,200m climbs. Train with back-to-back hill days beforehand, and don't be proud about using the Col Chécrouit lift into Courmayeur or the valley bus through Chamonix to save your knees.",
+    "Avoid the last week of August: UTMB race week (24–30 Aug 2026; similar dates 2027 expected) turns Chamonix and the trail itself into a stadium — accommodation triples in price and cols become spectator zones. Late June and the first half of September are the sweet spots.",
+    "Take the Fenêtre d'Arpette variant from Champex only in settled weather — it is the hardest, most spectacular col on the circuit (2,665m, boulder fields) — and carry cash in both euros and Swiss francs, since Swiss huts and the Trient buvettes price in CHF."
+  ],
+  "localRecs": [
+    { "name": "Rifugio Bonatti", "type": "sight", "note": "The most beloved hut on the circuit — a stone refuge on the Val Ferret balcony staring straight at the Grandes Jorasses. Book it first; eat the polenta." },
+    { "name": "Refuge du Lac Blanc", "type": "sight", "note": "Perched at 2,352m above the Aiguilles Rouges variant with the entire Mont Blanc chain mirrored in the lake at sunset — the single best photo stop of the trek." },
+    { "name": "Elevation 1904", "type": "bar", "note": "Chamonix's classic finish-line bar opposite the station — trekkers, guides and UTMB runners collide over demi-pressions; the terrace is the town's living room." },
+    { "name": "La Maison Carrier", "type": "restaurant", "note": "Farmhouse arm of the Albert 1er hotel in Chamonix — Savoyard cooking (farçon, spit-roasted meats) done seriously; the earned blowout dinner after 170km." },
+    { "name": "Courmayeur old town", "type": "neighborhood", "note": "The Italian rest-day: Via Roma passeggiata, gelato, and an aperitivo at Caffè della Posta before you cross back over Grand Col Ferret." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Trail_and_Massif_du_Mont-Blanc.jpg/1920px-Trail_and_Massif_du_Mont-Blanc.jpg",
+      "caption": "The TMB trail running beneath the glaciated wall of the Mont Blanc massif.",
+      "credit": "Wikimedia Commons / Tiia Monto (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tour_du_Mont-Blanc_%40_Val_Ferret_02.jpg/1920px-Tour_du_Mont-Blanc_%40_Val_Ferret_02.jpg",
+      "caption": "Tour du Mont Blanc path through Val Ferret on the Italian side, Grandes Jorasses country.",
+      "credit": "Wikimedia Commons / Rémih (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Glacier_du_Tour_%40_Trail_down_to_Le_Tour_%40_Domaine_de_Balme_-_Vallorcine_%40_Chamonix_%2848829585712%29.jpg/1920px-Glacier_du_Tour_%40_Trail_down_to_Le_Tour_%40_Domaine_de_Balme_-_Vallorcine_%40_Chamonix_%2848829585712%29.jpg",
+      "caption": "Descending toward Le Tour with the Glacier du Tour hanging above the Chamonix valley.",
+      "credit": "Wikimedia Commons / Guilhem Vellut (CC BY 2.0)"
+    }
+  ]
+}

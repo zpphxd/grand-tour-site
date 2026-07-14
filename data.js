@@ -40,6 +40,19 @@ window.PLACES = {
   menton:      { name: 'Menton',        lat: 43.7746, lon: 7.5030,  type: 'city' },
   verona:      { name: 'Verona',        lat: 45.4384, lon: 10.9916, type: 'city' },
   colmar:      { name: 'Colmar',        lat: 48.0794, lon: 7.3585,  type: 'city' },
+  chamonix:    { name: 'Chamonix',      lat: 45.9237, lon: 6.8694,  type: 'city' },
+  cortina:     { name: 'Cortina',       lat: 46.5405, lon: 12.1357, type: 'city' },
+  grindelwald: { name: 'Grindelwald',   lat: 46.6244, lon: 8.0411,  type: 'city' },
+  cinqueterre: { name: 'Riomaggiore',   lat: 44.0997, lon: 9.7376,  type: 'city' },
+  zermatt:     { name: 'Zermatt',       lat: 46.0207, lon: 7.7491,  type: 'city' },
+  stanton:     { name: 'St. Anton',     lat: 47.1287, lon: 10.2620, type: 'city' },
+  verbier:     { name: 'Verbier',       lat: 46.0964, lon: 7.2286,  type: 'city' },
+  engelberg:   { name: 'Engelberg',     lat: 46.8200, lon: 8.4010,  type: 'city' },
+  bourgdoisans:{ name: "Bourg-d'Oisans", lat: 45.0553, lon: 6.0300, type: 'city' },
+  bormio:      { name: 'Bormio',        lat: 46.4664, lon: 10.3707, type: 'city' },
+  pollenca:    { name: 'Port de Pollença', lat: 39.9096, lon: 3.0810, type: 'city' },
+  oudenaarde:  { name: 'Oudenaarde',    lat: 50.8447, lon: 3.6100,  type: 'city' },
+  andermatt:   { name: 'Andermatt',     lat: 46.6356, lon: 8.5946,  type: 'city' },
 };
 
 /* Every clickable event. `place` keys into PLACES. */
@@ -275,6 +288,7 @@ window.CAL_DATES = {
   'vinitaly':             [['2027-04-11', '2027-04-14']],
   'food-zurich':          [['2027-06-11', '2027-06-21']],
   'colmar-wine-fair':     [['2027-07-30', '2027-08-08']],
+  'flanders-cobbles':     [['2027-04-03', '2027-04-04']],
   'alba-truffle':         [['2026-10-10', '2026-12-06']],
   'vienna-christmas':     [['2026-11-13', '2026-12-26']],
   'bern-zibelemaerit':    [['2026-11-23', '2026-11-23']],
@@ -302,3 +316,47 @@ window.CAL_DATES = {
 
 /* Distinct colors for calendar spans & builder (muted, print-like) */
 window.EVENT_COLORS = ['#9c4b2f', '#6c7352', '#3f5b70', '#8a6d3b', '#71575f', '#4e6e66'];
+
+/* ============================================================
+   Mountains & Trails — hiking, skiing, road cycling destinations
+   Dossiers share the event schema in data/events/<id>.json
+   ============================================================ */
+window.ADVENTURES = [
+  { id: 'tour-du-mont-blanc',    name: 'Tour du Mont Blanc',            place: 'chamonix',    activity: 'hiking',  season: 'Jun – Sep' },
+  { id: 'dolomites-alta-via',    name: 'Alta Via 1, Dolomites',         place: 'cortina',     activity: 'hiking',  season: 'Late Jun – Sep' },
+  { id: 'eiger-grindelwald',     name: 'Eiger Trail & the Jungfrau',    place: 'grindelwald', activity: 'hiking',  season: 'Jun – Oct' },
+  { id: 'cinque-terre',          name: 'Cinque Terre Coastal Paths',    place: 'cinqueterre', activity: 'hiking',  season: 'Apr – Jun · Sep – Oct' },
+  { id: 'zermatt-matterhorn',    name: 'Zermatt & the Matterhorn',      place: 'zermatt',     activity: 'skiing',  season: 'Nov – Apr' },
+  { id: 'st-anton',              name: 'St. Anton am Arlberg',          place: 'stanton',     activity: 'skiing',  season: 'Dec – Apr' },
+  { id: 'chamonix-vallee-blanche', name: 'Chamonix & the Vallée Blanche', place: 'chamonix',  activity: 'skiing',  season: 'Jan – Apr' },
+  { id: 'verbier',               name: 'Verbier & the 4 Vallées',       place: 'verbier',     activity: 'skiing',  season: 'Dec – Apr' },
+  { id: 'engelberg-titlis',      name: 'Engelberg–Titlis',              place: 'engelberg',   activity: 'skiing',  season: 'Nov – May' },
+  { id: 'alpe-dhuez-cols',       name: "Alpe d'Huez & the Grands Cols", place: 'bourgdoisans',activity: 'cycling', season: 'Jun – Sep' },
+  { id: 'stelvio',               name: 'Passo dello Stelvio',           place: 'bormio',      activity: 'cycling', season: 'Jun – Sep' },
+  { id: 'mallorca-cycling',      name: 'Mallorca Winter Cycling',       place: 'pollenca',    activity: 'cycling', season: 'Feb – May' },
+  { id: 'flanders-cobbles',      name: 'Tour of Flanders Sportive',     place: 'oudenaarde',  activity: 'cycling', season: 'Apr 2027' },
+  { id: 'andermatt-passes',      name: 'Andermatt & the Swiss Passes',  place: 'andermatt',   activity: 'cycling', season: 'Mid-Jun – Sep' },
+];
+
+/* Nearest sensible airport per place for flight deep links (absent = rail is the answer) */
+window.AIRPORTS = {
+  munich: 'MUC', bunol: 'VLC', alba: 'TRN', vienna: 'VIE', venice: 'VCE', nice: 'NCE',
+  dublin: 'DUB', valencia: 'VLC', seville: 'SVQ', amsterdam: 'AMS', lisse: 'AMS',
+  cannes: 'NCE', monaco: 'NCE', glastonbury: 'BRS', edinburgh: 'EDI', london: 'LHR',
+  pamplona: 'BIO', siena: 'FLR', galway: 'SNN', paris: 'CDG', beaujeu: 'LYS',
+  verona: 'VRN', menton: 'NCE', sansebastian: 'BIO', milan: 'MXP',
+  chamonix: 'GVA', cortina: 'VCE', cinqueterre: 'PSA', stanton: 'INN', verbier: 'GVA',
+  bourgdoisans: 'LYS', bormio: 'MXP', pollenca: 'PMI', oudenaarde: 'BRU',
+};
+
+/* Exact station queries for live SBB connections (absent = don't show live trains) */
+window.RAIL_STATIONS = {
+  lucerne: 'Luzern', munich: 'München Hbf', bern: 'Bern', charmey: 'Charmey (Gruyère), village',
+  vienna: 'Wien Hbf', strasbourg: 'Strasbourg', milan: 'Milano Centrale', stmoritz: 'St. Moritz',
+  venice: 'Venezia S. Lucia', basel: 'Basel SBB', neuchatel: 'Neuchâtel', ascona: 'Locarno',
+  paris: 'Paris Gare de Lyon', colmar: 'Colmar', verona: 'Verona Porta Nuova',
+  nice: 'Nice-Ville', cannes: 'Cannes', monaco: 'Monaco-Monte-Carlo', menton: 'Menton',
+  chamonix: 'Chamonix-Mont-Blanc', grindelwald: 'Grindelwald', zermatt: 'Zermatt',
+  stanton: 'St. Anton am Arlberg', verbier: 'Le Châble', engelberg: 'Engelberg',
+  bormio: 'Tirano', andermatt: 'Andermatt', amsterdam: 'Amsterdam Centraal',
+};

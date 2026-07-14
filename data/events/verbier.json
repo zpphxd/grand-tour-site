@@ -1,0 +1,114 @@
+{
+  "id": "verbier",
+  "name": "Verbier & the 4 Vallées",
+  "tagline": "Switzerland's biggest linked ski area, where a sunny farming terrace at 1,500 m opens onto glacier skiing at 3,330 m and the scariest contest face in freeride.",
+  "city": "Verbier",
+  "country": "Switzerland",
+  "dates": "Season: early December 2026 – late April 2027 (expected; 2025-26 ran 6 Dec – 26 Apr in the Verbier sector, with weekend openings possible in late November). Mont Fort glacier skiing usually runs to the final weekend. Xtreme Verbier / FWT Finals: late March 2027 (expected; the 2026 final was decided Saturday 28 March). Dynamic-priced 2026-27 lift passes go on sale in autumn 2026 — earliest buyers pay least.",
+  "history": [
+    "Verbier was a cluster of mazots and cow pastures on a south-facing balcony above the Val de Bagnes until skiers discovered the terrain between the wars. The first ski lift arrived in the late 1940s, Téléverbier was founded in 1950, and the resort grew lift by lift up the mountain — Médran, Les Ruinettes, Attelas, Mont Gelé — until the 'Jumbo' cable car finally reached the Mont Fort glacier at 3,330 m in the 1980s. Linking with Nendaz, Veysonnaz, Thyon and La Tzoumaz created the 4 Vallées: roughly 400 km of pistes and 80-odd lifts, the largest connected ski area entirely in Switzerland, with a top-to-bottom vertical of well over 1,800 m.",
+    "What made Verbier mythic is not the piste map but everything between the pistes. This is one of the birthplaces of European freeride: the marked-but-unpatrolled 'itinéraires à ski' — Tortin's endless mogul wall under the Chassoure ridge, the Mont Fort back side, Mont Gelé's rock-studded faces — became proving grounds for generations of extreme skiers. In 1996 the Xtreme Verbier was launched on the Bec des Rosses, a 3,223 m pyramid whose north face tilts to 50–55 degrees. It grew into the finals of the Freeride World Tour: every late March the world's best skiers and snowboarders drop blind into its couloirs while thousands watch from the Col des Gentianes, close enough to hear the sluff hiss.",
+    "Verbier is also an endpoint of alpine legend in another sense: the Patrouille des Glaciers, the Swiss Army's brutal ski-mountaineering race from Zermatt, finishes here — 57 km and some 4,000 m of climbing across the high glaciers, first run in 1943 and revived as the sport's most storied team event. Add a resident colony of British ski aristocracy, James Blunt (who has a chairlift named after him), heli-ski operations off the Petit Combin, and the Pub Mont Fort's rugby-scrum après, and you get a resort that is simultaneously polished, expensive and genuinely serious about mountains."
+  ],
+  "whyGo": "For a Zürich-based skier it is the single best big-mountain destination reachable by lunchtime: one rail-and-gondola journey delivers 400 km of linked pistes, glacier skiing off Mont Fort with a Matterhorn-to-Mont-Blanc panorama, and the most celebrated lift-accessed freeride terrain in the Alps. If you time a March visit to the Xtreme Verbier, you watch the sport's world championship decided on the Bec des Rosses from a natural grandstand at 2,950 m — then ski home.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Martigny (IC via Bern/Lausanne or via Visp, change once) → Le Châble on the St-Bernard Express regional line, then the gondola direct from inside Le Châble station up to Verbier (or Médran)",
+      "duration": "3h30–4h door to door",
+      "cost": "CHF 60–140 return full fare; supersaver from ~CHF 35 each way, roughly half with a Half Fare Card",
+      "notes": "The slickest option: the gondola leaves from the train station, so you can be clicked in at Médran within 30 minutes of reaching Le Châble. Ski-weekend trains on Friday evening and Sunday evening fill up — book SBB supersaver fares 2–4 weeks ahead"
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A1/A9 via Bern and Lausanne (or Lötschberg car-train via Kandersteg) → Martigny → Sembrancher → Le Châble, then either the road up to Verbier or park at Le Châble and ride the gondola",
+      "duration": "3h15–3h45 without traffic",
+      "cost": "CHF 40 vignette (if not already held) + fuel ~CHF 70–100 return; Verbier village parking CHF 15–30/day",
+      "notes": "Saturday transfer-day traffic on the Verbier switchbacks is grim in high season — parking at Le Châble's big garage and taking the gondola up is faster and cheaper. Winter tires mandatory in practice; carry chains for storm days"
+    },
+    {
+      "mode": "fly",
+      "route": "Only worth it for connecting visitors: Geneva (GVA) is the gateway airport, then direct train Geneva Airport → Martigny → Le Châble (~2h15) or shared transfer (~1h45)",
+      "duration": "~2h30 from GVA landing to Verbier",
+      "cost": "Train CHF 35–70; shared shuttle from ~CHF 50–90 per person",
+      "notes": "From Zürich itself flying makes no sense — the train is faster city-centre to snow. Use GVA only if you're combining Verbier with an international itinerary"
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 900–1,300",
+    "midrange": "CHF 1,800–2,600",
+    "splurge": "CHF 5,000+",
+    "notes": "Estimate for a 6-day trip from Zürich. The lift pass is the predictable part: a 6-day 4 Vallées adult pass runs ~CHF 409 (1 day ~CHF 89; Verbier-sector-only 6 days ~CHF 400, so the full-area pass is the obvious buy), with dynamic pricing giving ~10-15% off for booking 10+ days ahead online. Lodging is what stratifies the tiers: thrifty means a hostel/studio in Le Châble village below (gondola-linked, roughly half Verbier prices) and picnic lunches; midrange a 3-star or chalet B&B in Verbier with mountain-restaurant lunches (CHF 30–45 a plate); splurge is the W Verbier or a catered chalet plus a private mountain guide (~CHF 750–850/day, shareable) or a heli-drop. Full gear rental ~CHF 250–350/week; avalanche pack (transceiver, shovel, probe, airbag) rents for ~CHF 25–40/day."
+  },
+  "booking": [
+    {
+      "label": "Verbier 4 Vallées — official lift company, passes & season dates",
+      "url": "https://verbier4vallees.ch/en/"
+    },
+    {
+      "label": "Verbier tourism office (Val de Bagnes) — lodging & events",
+      "url": "https://www.verbier.ch/en/"
+    },
+    {
+      "label": "Les Guides de Verbier — mountain guide bureau for off-piste & Mont Fort classics",
+      "url": "https://www.guideverbier.com/"
+    },
+    {
+      "label": "Freeride World Tour — Xtreme Verbier dates & spectator info",
+      "url": "https://www.freerideworldtour.com/"
+    }
+  ],
+  "weather": "December–April. Verbier village sits at ~1,500 m on a south-facing slope — sunny and relatively mild, which is lovely for terraces but means the home runs can be slushy or thin early and late season. The skiing lives higher: Attelas/Mont Gelé around 2,700–3,000 m and Mont Fort at 3,330 m, where mid-winter wind chill is genuinely arctic (−20 °C and below with wind). Pack a full storm shell, goggles for flat light, and sun protection for the glacier — March/April up high delivers both frostbite mornings and sunburn afternoons in the same day. Itinerary runs and anything off-piste demand transceiver, shovel and probe, and a check of the daily SLF avalanche bulletin.",
+  "tips": [
+    "Buy your 4 Vallées pass online at least 10 days ahead — the dynamic pricing rewards early bookers with roughly 10-15% off, and you skip the Médran morning ticket queue entirely.",
+    "Ride the first Jumbo cable car to Mont Fort on a clear morning: the summit platform panorama runs from the Matterhorn to Mont Blanc, and the steep glacier mogul run back down is empty for the first hour.",
+    "Tortin (from Col de Chassoure or Gentianes) is the legendary itinerary run — a vast, relentless mogul face. It is marked but NOT patrolled or groomed: treat it as off-piste, carry avalanche gear, and ski it before noon when the snow is still chalky.",
+    "Be honest about the grading: Verbier's 'itinéraires' (Tortin, Mont Gelé, Vallon d'Arby, Mont Fort backside) are harder than most resorts' blacks. If you want the famous lines with a margin of safety, book Les Guides de Verbier well ahead — peak weeks (Christmas/New Year, February half-terms, Xtreme week) sell out a month or more in advance.",
+    "Dodge the crowds by starting from the other valleys: sleep or park in Le Châble, or spend a day in the Nendaz/Veysonnaz sectors and quiet, tree-lined Bruson — often the best snow on a storm day while everyone else fights over Attelas.",
+    "For the Xtreme Verbier (late March 2027, expected), book lodging by early autumn 2026 — the resort fills — and watch from the Col des Gentianes viewing area below the Bec des Rosses; bring binoculars and a warm layer, as you'll be standing on a glacier col for hours."
+  ],
+  "localRecs": [
+    {
+      "name": "Cabane du Mont Fort",
+      "type": "sight",
+      "note": "A genuine 1920s alpine club hut at 2,457 m right on the ski area — rösti and vin chaud on the terrace with a Combins panorama; you can even overnight for a dawn start"
+    },
+    {
+      "name": "Chez Dany",
+      "type": "restaurant",
+      "note": "Rustic forest chalet at Clambin, reached on skis via a winding woodland path — fondue and game under the larches; sledge down after a long lunch"
+    },
+    {
+      "name": "Le Mouton Noir",
+      "type": "restaurant",
+      "note": "Design-forward mountain restaurant at Les Ruinettes (2,200 m) — the smart on-piste lunch, with a sun deck facing the Grand Combin"
+    },
+    {
+      "name": "Pub Mont Fort",
+      "type": "bar",
+      "note": "The institution: Verbier's seasonnaire and guide hangout since the 1980s, five minutes' walk below Médran — go for happy hour straight off the hill"
+    },
+    {
+      "name": "Le Farinet",
+      "type": "bar",
+      "note": "The famous après-ski on the Place Centrale — live bands, dancing in ski boots on the terrace; the other pole of Verbier nightlife alongside the Farm Club"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mt._Fort_-_Verbier.jpg/1920px-Mt._Fort_-_Verbier.jpg",
+      "caption": "The Mont Fort panorama at 3,330 m — the 4 Vallées' glacier summit, with views sweeping from the Matterhorn to Mont Blanc",
+      "credit": "Wikimedia Commons / Thomas Mathes (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ski_Slopes_of_Verbier.jpg/1920px-Ski_Slopes_of_Verbier.jpg",
+      "caption": "High pistes above Verbier — the resort's upper mountain rolls toward the Combins massif",
+      "credit": "Wikimedia Commons / Realleok (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Verbier%2C_Switzerland%2C_in_2011.jpg",
+      "caption": "Verbier village on its sunny 1,500 m terrace above the Val de Bagnes, chalets stacked beneath the ski slopes",
+      "credit": "Wikimedia Commons / Leo-setä (CC BY 2.0)"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "mallorca-cycling",
+  "name": "Mallorca Winter Cycling — Port de Pollença",
+  "tagline": "Ride the hairpins of Sa Calobra in February sunshine while the Alps are still frozen shut.",
+  "city": "Port de Pollença",
+  "country": "Spain",
+  "dates": "Best window: February – May 2027. Pro-team training season peaks Jan–Mar; Challenge Mallorca pro races late January 2027 (expected); Mallorca 312 sportive Saturday 24 April 2027 — registration opens early October 2026 and the 312 km distance sells out within days. Cap de Formentor road is car-restricted mid-June to mid-September, so spring riders get it nearly to themselves.",
+  "history": [
+    "Mallorca's cycling mythology begins with one man: Antonio Parietti, the Mallorcan engineer who in the 1920s and 30s carved two of Europe's most theatrical roads into the Serra de Tramuntana — the lighthouse road to Cap de Formentor and, in 1932, the descent to Sa Calobra. Parietti designed Sa Calobra for the drama of the journey itself, famously following the terrain rather than blasting through it. Its signature is the 'nus de sa corbata' — the tie knot — a 270-degree loop where the road passes under itself. Because the hamlet at the bottom is a dead end, every cyclist who descends must climb back out: 9.4 km at around 7% average through 26 hairpins to the Coll dels Reis at 682 m. It is routinely named among the greatest cycling climbs on earth.",
+    "The island's transformation into Europe's winter cycling mecca came later, as pro teams discovered that the Tramuntana offered Alpine-quality climbing with Mediterranean winter weather and near-empty, billiard-smooth roads. Team Sky famously based its winter camps here during the Wiggins and Froome era, and each January-to-March you can still find WorldTour squads — and thousands of amateurs drafting hopefully behind them — looping over the Coll de Sóller, past the Cúber and Gorg Blau reservoirs, and up the island's longest climb: the 14 km grind from Sóller to the Túnel de Monnàber on the shoulder of Puig Major, Mallorca's highest peak at 1,436 m. The season traditionally opens with the Challenge Mallorca one-day pro races in late January, where the WorldTour peloton shakes off its winter rust.",
+    "Amateur cycling culture crystallised around the Bay of Pollença and Alcúdia, where hundreds of hotels reinvented themselves as dedicated cycling bases with workshops, secure bike rooms and carb-loaded buffets. The high point of the amateur calendar is the Mallorca 312, born in 2010 as a full 312 km circumnavigation of the island on fully closed roads — now one of Europe's biggest sportives with around 8,000 riders across its 312, 225 and 167 km options. Port de Pollença, wedged between the Tramuntana wall and the flat orchard plains of Es Pla, remains the connoisseur's base: turn left out of town for Formentor's cliff-edge switchbacks, right for the mountains, or straight inland for easy recovery spins between almond blossom in February."
+  ],
+  "whyGo": "It is the closest thing Europe has to guaranteed winter road cycling: 300+ sunny days, an entire mountain range of perfectly surfaced, low-traffic climbs, and an infrastructure — rental fleets, cycling hotels, cafés with bike racks — built entirely around riders. From Zürich it's under two hours in the air, so a Friday-to-Monday raid on Sa Calobra in February is genuinely practical while Swiss passes are under two metres of snow. February brings almond blossom and empty roads; April–May brings warm race-fit form just in time for the Alpine season back home.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Palma de Mallorca (PMI) direct with SWISS, Edelweiss or easyJet, then transfer 60 km to Port de Pollença",
+      "duration": "1h55 flight + ~1h transfer",
+      "cost": "CHF 60–250 return in Feb–Mar (rises toward Easter); taxi transfer ~€70–80, pre-booked shuttle ~€25–35 pp",
+      "notes": "Multiple daily directs year-round. Bike box carriage: SWISS/Edelweiss ~CHF 100 per flight, easyJet ~£45 — with rental quality so high, most riders fly with just pedals, shoes and helmet."
+    },
+    {
+      "mode": "fly",
+      "route": "ZRH → PMI + hire car from Palma airport",
+      "duration": "1h55 flight + 50 min drive on the Ma-13 motorway",
+      "cost": "Car from ~€15–25/day off-season",
+      "notes": "A car is handy for moving your base mid-week (e.g. a day starting from Sóller or Sant Elm) and for airport flexibility; parking in Port de Pollença is easy outside summer."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich → Barcelona by TGV/AVE (via Lyon or Paris), then Trasmed/Baleària ferry Barcelona → Alcúdia or Palma",
+      "duration": "~10–11h rail + 6–8h ferry",
+      "cost": "~CHF 150–300 each way incl. ferry",
+      "notes": "The no-fly option — ferries take bikes cheaply (~€10–15) and Alcúdia port is only 10 km from Port de Pollença. Realistic only if you're making a week-plus trip of it."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 700–900 for a week: easyJet winter fare (~CHF 80–150), aparthotel or Airbnb in Port de Pollença off-season (~€45–70/night), alloy rental bike (~€15–20/day, from €14.95 at budget shops), supermarket lunches and menú del día dinners.",
+    "midrange": "CHF 1,400–1,900 for a week: SWISS return, half-board cycling hotel (~€90–130/night), quality carbon road bike with electronic shifting (~€130–200/week from CCT, Bike Island Mallorca, Rad International or Pro Cycle Hire), café stops and two big restaurant dinners.",
+    "splurge": "CHF 3,000–4,500: guided training camp or private guide (~€300–500 extra), sea-view room at Hotel Illa d'Or, top-spec rental (S-Works/Madone tier ~€250–300/week), support-vehicle day for the full Tramuntana traverse, massage after Sa Calobra.",
+    "notes": "Mallorca 312 entry runs roughly €90–150 depending on distance and how early you book; many riders bundle it into a package (Sports Tours International, Love Velo) that guarantees a start place. February is the cheapest month by far — the identical hotel can cost double by late April."
+  },
+  "booking": [
+    { "label": "Mallorca 312 sportive — official registration", "url": "https://www.mallorca312.com" },
+    { "label": "CCT Bike Rental — Port de Pollença road bike hire", "url": "https://www.cctbikerental.com" },
+    { "label": "Bike Island Mallorca — year-round rental in the north", "url": "https://www.bikeislandmallorca.com" },
+    { "label": "Serra de Tramuntana (UNESCO) — official visitor site", "url": "https://www.serradetramuntana.net" }
+  ],
+  "weather": "February: 8–16°C, mostly sunny but changeable — summit of Puig Major road (~850 m at the Monnàber tunnel) can be near freezing and occasionally sees snow; descents off the Tramuntana are genuinely cold. March–April: 12–20°C, the sweet spot. May: 16–25°C and settled. Pack full winter kit for Feb (thermal jacket, winter gloves, toe covers, rain shell), arm/leg warmers and a gilet for spring, and always a windproof for the exposed, gusty Formentor headland. Sea-level warmth is deceptive — dress for the col, not the café.",
+  "tips": [
+    "Book Mallorca 312 entry the day registration opens in early October 2026 — the 312 km distance sells out in days; hotel packages with guaranteed entry are the fallback. Cycling hotels for April also fill by Christmas.",
+    "Reserve your rental bike 4–8 weeks ahead for Feb–May (earlier for 312 week) and bring your own pedals, shoes, helmet and saddle if you're picky — shops fit them free and it beats paying airline bike fees.",
+    "The classic queen stage from Port de Pollença: Coll de Femenia → Lluc → Coll dels Reis → descend and re-climb Sa Calobra → Gorg Blau and Cúber lakes → Puig Major tunnel → drop to Sóller — ~120 km and 2,500 m+. Do Sa Calobra before 10:30 to beat coaches and rental-car traffic on the hairpins.",
+    "Cap de Formentor (~20 km each way from town) is best at dawn or late afternoon for light and empty tarmac; in Feb–May cars are still allowed but sparse — by summer it's access-restricted, so spring is exactly the right season.",
+    "Honesty check: Sa Calobra (9.4 km at 7%) and the Sóller side of Puig Major (14 km at 6%) are sustained but never brutally steep — the trap is total accumulation and cold descents, not gradient. Recovery days on the pancake-flat Es Pla orchard lanes toward Petra and Sineu are part of the recipe.",
+    "Watch the wind, not the rain: northerly Tramuntana blasts can make Formentor and the coast road dangerous on deep-section wheels — swap that day for a sheltered inland loop and a long lunch in Pollença old town."
+  ],
+  "localRecs": [
+    { "name": "Tolo's Restaurant", "type": "restaurant", "note": "Port de Pollença institution and unofficial cyclists' clubhouse — enormous grilled-meat plates and pasta; you'll spot pro-team kit at the next table in February." },
+    { "name": "Sa Ruta Verda, Caimari", "type": "bar", "note": "The famous cyclist café at the foot of the Coll de sa Batalla climb — espresso, fresh orange juice and homemade cake before the Lluc ascent; racks out front are always full." },
+    { "name": "Mirador Es Colomer", "type": "sight", "note": "Cliff-top viewpoint on the Formentor road with the monument to engineer Antonio Parietti — the 200 m detour off the climb is the best photo on the island." },
+    { "name": "Restaurant Escorca", "type": "restaurant", "note": "Roadhouse on the Ma-10 mountain road near Lluc monastery — hearty Mallorcan pa amb oli and lamb, perfectly placed mid-way through the big Tramuntana loop." },
+    { "name": "Pine Walk (Passeig Voramar)", "type": "neighborhood", "note": "Port de Pollença's pine-shaded seafront promenade — post-ride gelato and sunset views across the bay to the Formentor peninsula; the calm counterweight to the mountains." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Road_to_sa_Calobra_-_panoramio.jpg",
+      "caption": "The serpentine road to Sa Calobra — 26 hairpins carved into the Tramuntana by Antonio Parietti in 1932, and the island's most celebrated climb back out.",
+      "credit": "Wikimedia Commons / Mickey Løgitmark (CC BY 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Cap_de_Formentor_%2810573898376%29.jpg",
+      "caption": "Cap de Formentor's cliff-edge road and headland — a ~20 km out-and-back from Port de Pollença that riders get almost to themselves in spring.",
+      "credit": "Wikimedia Commons / Dirk Vorderstraße (CC BY 2.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mallorca_Puig_Major_February_2018-4124.jpg/1920px-Mallorca_Puig_Major_February_2018-4124.jpg",
+      "caption": "Puig Major, Mallorca's highest peak (1,436 m), in February — the road over its shoulder from Sóller is the island's longest climb.",
+      "credit": "Wikimedia Commons / Isiwal (CC BY-SA 4.0)"
+    }
+  ]
+}

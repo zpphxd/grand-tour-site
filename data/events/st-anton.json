@@ -1,0 +1,82 @@
+{
+  "id": "st-anton",
+  "name": "St. Anton am Arlberg",
+  "tagline": "The cradle of alpine skiing, where the Arlberg's storm-fed steeps and the loudest après in the Alps collide.",
+  "city": "St. Anton",
+  "country": "Austria",
+  "dates": "Ski season: early December 2026 – late April 2027 (expected; lifts historically spin from the first week of December, main season ~20 Dec – early April, St. Anton closes latest of the Arlberg villages). Der Weisse Rausch season-closing race: mid-to-late April 2027 (expected). 2026/27 lift-pass prices publish around September 2026; peak-week accommodation books out from late summer.",
+  "history": [
+    "St. Anton is not just an old ski resort — it is arguably where alpine skiing as a sport was codified. The Ski Club Arlberg was founded in 1901 at the Hospiz in neighbouring St. Christoph, making it one of the oldest ski clubs in the world. Twenty years later, local son Hannes Schneider opened his ski school in St. Anton and systematised the 'Arlberg technique' — the stem-to-christie progression that became the template for ski instruction worldwide. Schneider's ski films, including the 1931 classic Der weisse Rausch ('The White Thrill') co-starring Leni Riefenstahl, sold the romance of the Arlberg to the world before he was forced to flee the Nazis in 1939.",
+    "Racing mythology runs just as deep. In 1928 Schneider and British ski pioneer Arnold Lunn launched the Arlberg-Kandahar here — the race widely regarded as the birth of modern alpine competition, and the ancestor of today's World Cup downhills. St. Anton has produced a dynasty of champions, most famously Karl Schranz, whose Olympic exclusion in 1972 triggered a national scandal, and it hosted the Alpine World Ski Championships in 2001. Each April the town honours its film-star past with Der Weisse Rausch, a mass-start madness race from the Vallugagrat to the village that the fastest finish in about nine minutes and mortals survive in twenty.",
+    "The modern claim to fame is scale and seriousness. Since the Flexenbahn cable car linked St. Anton to Zürs in winter 2016/17, Ski Arlberg has been Austria's largest connected ski area — roughly 300 km of groomed pistes, 200 km of marked off-piste itineraries and 85+ lifts spread across St. Anton, St. Christoph, Stuben, Zürs, Lech, Warth and Schröcken. The signature tour is the Run of Fame, an 85 km, ~18,000-vertical-metre circuit spanning the whole region. Above it all looms the Valluga (2,811 m), whose north face into Zürs is guide-only terrain, and across the valley sits Rendl, the locals' freeride hill. The Arlberg sits on the first big wall the northwest storms hit, so it hoovers up snow — which is why serious skiers keep coming back."
+  ],
+  "whyGo": "No other resort combines this much history with this much genuinely hard terrain: the Valluga and Schindler couloirs, endless off-piste in the Rendl and Stuben sectors, the 85 km Run of Fame across seven villages — then MooserWirt and the Krazy Kanguruh from 15:30, table-dancing in ski boots. From Zürich it is an absurdly easy weekend: one direct railjet, ~2h30, station to gondola in five minutes.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Direct ÖBB Railjet, Zürich HB → St. Anton am Arlberg (roughly every 2 hours, ~4 direct trains/day)",
+      "duration": "~2h20–2h30",
+      "cost": "€20–60 one way (Sparschiene advance fares from ~€20; flexible fares higher)",
+      "notes": "The killer option: the station is in the village centre, a 5-minute walk from the Galzigbahn. Book Sparschiene fares on oebb.at 2–6 weeks out; ski bags travel free. Trains on winter Saturdays fill — reserve seats."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Chur direction A13, then A14/S16 via Feldkirch and the Arlberg road tunnel (or the Arlberg Pass when open)",
+      "duration": "~2h30–3h (200 km), longer on peak Saturdays",
+      "cost": "Fuel ~€40 each way + Swiss vignette (CHF 40) + Austrian Digital Vignette (~€12 for 10 days) + Arlberg tunnel toll (~€13 each way)",
+      "notes": "Winter tyres legally required in Austria in wintry conditions; carry chains for storm cycles. Parking in St. Anton is paid and tight — many hotels charge extra for it. Honestly, take the train."
+    },
+    {
+      "mode": "fly",
+      "route": "No flight needed from Zürich itself — but ZRH is the Arlberg's main gateway airport; Arlberg Express and other shuttle buses run Zurich Airport → St. Anton direct",
+      "duration": "~2h45 by shuttle from ZRH",
+      "cost": "~€70–90 one way per person (shared transfer); private transfers ~€400+",
+      "notes": "Only relevant if you're collecting visiting friends at the airport — the shuttle is door-to-door with ski storage. Book ahead for Saturday changeover days."
+    }
+  ],
+  "costs": {
+    "thrifty": "€700–950 for a long weekend (3 ski days): Sparschiene rail ~€40–80 return, pension/B&B in Nasserein or Pettneu ~€80–120/night, Ski Arlberg day passes ~€82 each (€81.50 high-season adult day, 2025/26 reference), supermarket lunches, one MooserWirt session.",
+    "midrange": "€1,600–2,300 for 5–6 days: 3–4 star half-board hotel ~€180–280/night, 6-day Ski Arlberg pass ~€450 (2025/26 adult), a mountain lunch daily, one gourmet dinner, après most days.",
+    "splurge": "€4,000+ per person for a week: 5-star or Hospiz-level lodging in St. Anton or St. Christoph (€500+/night), private mountain guide for the Valluga and Run of Fame (~€400–500/day for the group), heli-free but guide-led freeride camps, Verwallstube lunches.",
+    "notes": "Reference prices are the published 2025/26 tariffs (day pass €81.50 adult / €49 child; 6-day €450; season pass €1,223) — 2026/27 prices are expected September 2026, typically 3–5% higher. The pass covers the entire Arlberg (St. Anton to Warth). Ski Club Arlberg heritage doesn't come cheap: St. Anton hotel rates rival Lech's in February."
+  },
+  "booking": [
+    { "label": "Ski Arlberg — lift passes & season dates (official)", "url": "https://www.skiarlberg.at/en" },
+    { "label": "St. Anton am Arlberg tourism — accommodation & events", "url": "https://www.stantonamarlberg.com/en" },
+    { "label": "ÖBB — railjet tickets Zürich–St. Anton", "url": "https://tickets.oebb.at/en/ticket" },
+    { "label": "Ski School Arlberg — lessons & off-piste guiding (Hannes Schneider's school)", "url": "https://skischool-arlberg.com/en/" }
+  ],
+  "weather": "Village at 1,304 m, skiing to 2,811 m (Valluga). The Arlberg is the first big barrier the Atlantic northwest storms hit, so it gets hammered — around 7 m of snowfall a year up high, with multi-day storm cycles, wind and flat light. December–February: cold (−10 °C common), deepest snow, short days. March–April: spring corn, long lunches, the sunniest skiing. Pack a storm shell, low-light goggle lenses and layers; off-piste days require transceiver, shovel, probe (and honestly, a guide) — the Arlberg's avalanche terrain is serious and slides kill here most winters.",
+  "tips": [
+    "Book early or pay dearly: peak weeks (Christmas/New Year, February half-terms) sell out by early autumn; guides for the Valluga north face and freeride days should be reserved by November; the 2026/27 lift tariffs land around September 2026 — buy multi-day passes online to skip the morning queue.",
+    "Beat the Galzigbahn scrum: the base station queue at 08:45 is legendary. Start from the Nassereinbahn or Rendlbahn instead, or ride Galzig before 08:30 / after 09:45.",
+    "Powder-morning playbook: locals go to Rendl first (quieter, superb freeride lines off Riffel) and hit Schindlergrat/Mattun once the Valluga crowd thins. The Valluga II tram to the true summit only lets you carry skis if you're with a licensed guide — the north face into Zürs is no-fall terrain.",
+    "Do the Run of Fame right: 85 km and ~18,000 vertical metres across the whole Arlberg — start by 09:00, check wind-hold forecasts (the Flexenbahn/Vallugabahn links close in storms), and turn around by early afternoon or you'll be busing home from Warth.",
+    "Be honest about the grading: St. Anton blues ski like reds elsewhere, and the end-of-day runs home through the Steissbachtal ('Happy Valley') become mogulled, icy and crowded — intermediates should download from Galzig late in the day and save their knees.",
+    "Après survival: MooserWirt and Krazy Kanguruh go full throttle from ~15:30 — but they sit mid-piste, and the ski home in the dark after three Weissbiers is statistically your most dangerous run of the day. Walk down the toboggan path or quit while it's light."
+  ],
+  "localRecs": [
+    { "name": "MooserWirt", "type": "bar", "note": "The most notorious après-ski bar in the Alps, on the piste just above town — DJ Gerhard, table-dancing in ski boots from 15:30, reportedly among the highest beer turnovers of any bar in Austria." },
+    { "name": "Krazy Kanguruh", "type": "bar", "note": "The original St. Anton après institution, going since 1965 higher up the home run — co-owned by local double slalom world champion Mario Matt. Do the KK first, MooserWirt second, then pray for the piste home." },
+    { "name": "Verwallstube", "type": "restaurant", "note": "Gourmet dining at 2,085 m in the Galzig lift station — one of the highest fine-dining rooms in Austria; book a window table for a long weather-day lunch." },
+    { "name": "Arlberg Hospiz Alm, St. Christoph", "type": "restaurant", "note": "Historic ski-in hut below the 1386-founded Hospiz where the Ski Club Arlberg was born in 1901 — famous for its giant-bottle Bordeaux cellar and the slide down to the wine cellar." },
+    { "name": "Valluga viewing platform", "type": "sight", "note": "Ride the Vallugabahn I + II trams to 2,811 m for the Arlberg's best 360° panorama — Lechtal Alps to the Silvretta. Sightseers welcome without skis; skiing off the top is guide-only." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Freeriderin_mit_Blick_nach_St._Christoph_am_Arlberg.jpg/1920px-Freeriderin_mit_Blick_nach_St._Christoph_am_Arlberg.jpg",
+      "caption": "A freerider drops in above St. Christoph am Arlberg — the deep-snow terrain that made the Arlberg's name.",
+      "credit": "Wikimedia Commons / Gemeinde St. Anton am Arlberg (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Valluga_Schindlergrat_Schindlerrinnen.jpg/1920px-Valluga_Schindlergrat_Schindlerrinnen.jpg",
+      "caption": "The Valluga (2,811 m) with the Schindlergrat ridge and the Schindler couloirs — St. Anton's most storied steep terrain.",
+      "credit": "Wikimedia Commons / Christopher Scholz (CC BY-SA 3.0 DE)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/View_from_Valluga.jpg/1920px-View_from_Valluga.jpg",
+      "caption": "The panorama from the Valluga summit platform, high point of Ski Arlberg and start of the Run of Fame.",
+      "credit": "Wikimedia Commons / AndyScott (CC BY-SA 4.0)"
+    }
+  ]
+}

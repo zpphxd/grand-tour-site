@@ -1,0 +1,82 @@
+{
+  "id": "andermatt-passes",
+  "name": "Andermatt & the Swiss Passes Loop",
+  "tagline": "One village, three 2,000-metre cols and a cobbled Gotthard descent — the hardest, most beautiful day loop in Alpine cycling.",
+  "city": "Andermatt",
+  "country": "Switzerland",
+  "dates": "Mid-June – late September 2026 (all three passes reliably open). In 2026 Furka and Grimsel opened 29 May, Susten on 12 June; passes typically close late October with the first big snowfall. Swiss Cycling Alpenbrevet: Saturday 5 September 2026, start/finish Andermatt — 2026 edition sold out (waiting list CHF 9); registration for 2027 expected to open mid-September 2026 (expected) and sell out within days.",
+  "history": [
+    "Andermatt sits at 1,437 m in the Urseren valley, the crossroads of the Alps: four pass roads radiate from it (Furka, Gotthard, Oberalp, and via the Schöllenen Gorge the way to Susten and Grimsel). For centuries this was mule-train and stagecoach country — the Schöllenen's Devil's Bridge was so treacherous that legend says only the devil could have built it, and in 1799 the Russian general Suvorov literally fought the French across it. The Gotthard's cobbled Tremola road, engineered by Francesco Meschini between 1827 and 1832 and rebuilt in the 1930s, still snakes up the Val Tremola in 24 stacked granite-setted hairpins — the longest road monument in Switzerland and an open-air museum you can ride.",
+    "The Furka (2,429 m) earned cinematic immortality in 1964 when Sean Connery's Aston Martin DB5 chased Tilly Masterson's Mustang down its ledges in Goldfinger — the hairpin by the shuttered, ghost-white Hotel Belvédère, hanging above what remains of the Rhône Glacier, is still known as the James Bond curve. The Grimsel (2,165 m) climbs through a granite lunar landscape of hydro dams and turquoise reservoirs, while the Susten (2,224 m road summit) is unique: built 1938–1945 as Switzerland's first purpose-designed scenic motor road, its gradients are so evenly engineered it feels drawn by a compass.",
+    "For cyclists the triangle became legend through the Tour de Suisse, which has crossed all three passes repeatedly since the 1930s, and above all through the Swiss Cycling Alpenbrevet, the country's most storied sportive, which sends thousands of riders over combinations of up to five passes from Andermatt every late summer — the Platinum route stacks roughly 267 km and 6,800 m of climbing. Riding Furka–Grimsel–Susten in a single day (about 120 km and 3,400–3,800 m of ascent, sources vary by start point) is the amateur's rite of passage: three cols, three cantons, one perfect geometric loop that starts and ends at your hotel door."
+  ],
+  "whyGo": "Nowhere else in the Alps can you ride three iconic 2,000 m+ passes as a natural loop from a single base village — no car, no transfers, just roll out of Andermatt and the triangle closes itself. Add the Goldfinger road, the Rhône Glacier, the Tremola's granite cobbles as a bonus day, and a 1h50 train ride from Zürich with your bike in the carriage, and it is the single best-value big-mountain cycling weekend available to anyone living in Switzerland.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Göschenen (IR via Zug/Arth-Goldau), change to the Matterhorn Gotthard Bahn shuttle up the Schöllenen to Andermatt",
+      "duration": "~1h50–2h00 door to door, hourly departures",
+      "cost": "~CHF 60–70 return full fare 2nd class (half with Half-Fare Card) + CHF 15/day SBB Bike Day Pass per travel day",
+      "notes": "Self-service bike loading; the Göschenen platform change has no lift or ramp, so be ready to carry the bike. The Göschenen–Andermatt cog shuttle has limited bike space — avoid the peak Saturday-morning trains or reserve early."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → A4/A14 → A2 Gotthard motorway → exit Göschenen → Schöllenen Gorge road to Andermatt",
+      "duration": "~1h30–1h45 (120 km) without Gotthard tunnel-approach jams",
+      "cost": "~CHF 25–35 fuel round trip + CHF 40 annual motorway vignette if not already owned",
+      "notes": "Handy if hauling multiple bikes or wheelsets; summer weekend Gotthard traffic southbound can add an hour — travel Friday evening or early morning."
+    },
+    {
+      "mode": "rail",
+      "route": "Warm-up option: train Zürich HB → Göschenen only, then ride the old Schöllenen Gorge road up to Andermatt (4 km, ~300 m at 7%)",
+      "duration": "~1h35 train + 20–25 min climb",
+      "cost": "Slightly cheaper than the through ticket; same CHF 15 Bike Day Pass",
+      "notes": "Lets you skip the awkward bike change at Göschenen and opens the legs past the Devil's Bridge — the dramatic front door to the Urseren valley."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 350–500 for a 2-night weekend: hostel/B&B or Gotthard Backpacker-style room in Andermatt or cheaper Hospental (~CHF 90–140/night), own bike, train + CHF 15/day bike pass, picnic and pass-top Rösti stops.",
+    "midrange": "CHF 700–1,100: 3-star hotel in Andermatt (~CHF 180–260/night summer), road-bike rental if needed (~CHF 80–110/day from local sport shops; e-road bikes more), two big riding days, fondue dinners.",
+    "splurge": "CHF 2,500+: The Chedi Andermatt (doubles from roughly CHF 800–1,000/night in summer), concierge-arranged racing-bike rental, a private guide (~CHF 370/day via local operators like Bcyclet or Two Tyred Tours), and a recovery spa afternoon.",
+    "notes": "No lift passes needed for road cycling — the mountains are free. Biggest line items are Swiss hotel rates and CHF 25–35 pass-top lunches. Alpenbrevet entry runs ~CHF 99–189 depending on route (2026 sold out). Book August/September weekends in Andermatt 2–3 months ahead; the village is small and the Alpenbrevet weekend sells out entirely."
+  },
+  "booking": [
+    { "label": "Andermatt Tourism — official (passes, hotels, bike routes)", "url": "https://www.andermatt-sedrun-disentis.ch/andermatt/en/pages/alpine-passes" },
+    { "label": "Swiss Cycling Alpenbrevet — registration & routes", "url": "https://alpenbrevet.ch/en/" },
+    { "label": "Live Alpine pass open/closed status", "url": "https://www.alpen-paesse.ch/en/" },
+    { "label": "SBB — timetable & Bike Day Pass", "url": "https://www.sbb.ch/en/offers/bike-day-pass" }
+  ],
+  "weather": "In-season valley temps 18–25°C, but the cols live in another climate: summit air is often 5–10°C, afternoon thunderstorms build fast from mid-July, and fresh snow is possible above 2,000 m in any month — the passes only opened 29 May (Furka/Grimsel) and 12 June (Susten) in 2026. Pack a real wind/rain shell, arm and knee warmers and full-finger gloves for the 2,400 m→1,400 m descents; check pass status the morning of every ride, not the night before.",
+  "tips": [
+    "Ride the loop counterclockwise from Andermatt — down the Schöllenen to Wassen, Susten first while legs are fresh, then Grimsel, and finish by descending the Furka straight back to your hotel; you bank the longest climb early and end on the fastest descent home.",
+    "Be honest about the difficulty: ~120 km with 3,400–3,800 m of climbing at altitude is a genuine queen stage. Fit a compact with at least a 32-tooth cog, budget 7–9 hours with stops, and know the bail-out: from Gletsch you can shortcut home over just the Furka and skip nothing but pride.",
+    "Book like a Swiss: Alpenbrevet registration opens mid-September the year before and sells out within days (2026 filled almost instantly — waiting list CHF 9); Andermatt hotels for July–September weekends go 2–3 months out; no booking needed for the roads themselves.",
+    "Beat the motorbikes: the passes are famous Sunday motorcycle runs. Roll out by 07:00, or ride Tuesday–Thursday, and you'll have the Goldfinger hairpins nearly to yourself; weekends after 10:00 are a procession of Harleys and supercars.",
+    "Do the Tremola as its own day: train or ride to the Gotthard side and climb the 24 cobbled hairpins from Airolo (or descend them from the Ospizio). Run 28 mm tyres or wider, drop pressure ~0.5 bar, and avoid the cobbles in the wet — polished granite setts are glass.",
+    "June riders: the passes may be 'open' with 3 m snow walls and meltwater across the road — check alpen-paesse.ch and the Andermatt tourism pass page the same morning, and carry a survival-weight gilet even under blue sky."
+  ],
+  "localRecs": [
+    { "name": "Hotel Belvédère & Rhône Glacier viewpoint", "type": "sight", "note": "The abandoned Belle-Époque hotel on the Furka's James Bond curve — the most photographed hairpin in the Alps, with the glacier's ice grotto a short walk above. Mandatory mid-climb photo stop." },
+    { "name": "Grimsel Hospiz", "type": "sight", "note": "Historic Alpine hospice perched over the turquoise Grimselsee dam — coffee and cake with a granite-and-water panorama at the top of climb number two." },
+    { "name": "Gasthaus Ochsen", "type": "restaurant", "note": "Creaky 16th-century inn on Andermatt's old Gotthardstrasse — Rösti, Älplermagronen and big portions priced for people who just did three cols." },
+    { "name": "The Chedi Andermatt — Bar & Living Room", "type": "bar", "note": "The village's glamorous après spot: 5-star Asian-Alpine temple where lycra somehow still gets a warm welcome for a post-loop Negroni beside the cheese humidor." },
+    { "name": "Hotel Tiefenbach", "type": "restaurant", "note": "Lonely mountain refuge-restaurant at 2,106 m on the Furka road above Realp — the classic cyclists' pit stop for soup and Nusstorte before the final ramps." }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Wallis_Furkapass_Hotel_Belvedere_1.JPG/1920px-Wallis_Furkapass_Hotel_Belvedere_1.JPG",
+      "caption": "The Furka Pass road coiling around Hotel Belvédère — the Goldfinger hairpin above the Rhône Glacier",
+      "credit": "Wikimedia Commons / Zairon (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Blick_auf_den_Grimselsee_und_den_Raeterichsbodensee_0981.jpg/1920px-Blick_auf_den_Grimselsee_und_den_Raeterichsbodensee_0981.jpg",
+      "caption": "Grimselsee and Räterichsbodensee from the Grimsel Pass — the granite reservoir country of the loop's second col",
+      "credit": "Wikimedia Commons / Alchemist-hp (FAL)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tremola-san-gottardo.jpg/1920px-Tremola-san-gottardo.jpg",
+      "caption": "The cobbled hairpins of the Tremola on the Gotthard's south side — Switzerland's longest road monument",
+      "credit": "Wikimedia Commons / StudioJS (CC BY-SA 4.0)"
+    }
+  ]
+}

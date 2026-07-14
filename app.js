@@ -12,12 +12,112 @@ let calMode = 'editorial';
 const $ = sel => document.querySelector(sel);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-const eventById = id => window.EVENTS.find(e => e.id === id);
+/* events + mountain destinations share detail pages, the builder and dossiers */
+const ITEMS = window.EVENTS.concat(window.ADVENTURES.map(a =>
+  ({ id: a.id, name: a.name, place: a.place, month: a.season, kind: a.activity, adventure: true })));
+const eventById = id => ITEMS.find(e => e.id === id);
 const photoOf = (id, i = 0) => DOSSIERS[id]?.photos?.[i]?.url || null;
-const eventColor = id => window.EVENT_COLORS[window.EVENTS.findIndex(e => e.id === id) % window.EVENT_COLORS.length];
+const eventColor = id => window.EVENT_COLORS[Math.max(0, ITEMS.findIndex(e => e.id === id)) % window.EVENT_COLORS.length];
 
-const KIND_LABEL = { arts: 'Arts & Music', festival: 'Festival', food: 'Food & Wine', sport: 'Sport' };
+const KIND_LABEL = { arts: 'Arts & Music', festival: 'Festival', food: 'Food & Wine', sport: 'Sport',
+  hiking: 'Hiking', skiing: 'Skiing', cycling: 'Road Cycling' };
 const MODE_LABEL = { rail: 'Rail', fly: 'Fly', drive: 'Drive' };
+
+/* ---------- date helpers & trip links ---------- */
+const isoAdd = (iso, n) => {
+  const d = parseISO(iso); d.setDate(d.getDate() + n);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
+function planLinks(e, d) {
+  const pl = window.PLACES[e.place];
+  const span = window.CAL_DATES[e.id]?.[0] || null;
+  const air = window.AIRPORTS[e.place];
+  const links = [];
+  if (air) {
+    const q = `Flights from ZRH to ${air}` + (span ? ` on ${isoAdd(span[0], -1)} through ${isoAdd(span[1], 1)}` : '');
+    links.push({ label: `Flights ZRH → ${air} (Google Flights)`, url: `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}` });
+  }
+  links.push({ label: 'Trains from Zürich (SBB)', url: `https://www.sbb.ch/en/timetable?von=${encodeURIComponent('Zürich HB')}&nach=${encodeURIComponent(pl.name)}${span ? `&datum=${span[0]}` : ''}` });
+  const hotelQ = `${pl.name}${d?.country ? ', ' + d.country : ''}`;
+  let hotelDates = '';
+  if (span) {
+    const nights = Math.min(3, Math.max(1, (parseISO(span[1]) - parseISO(span[0])) / 86400000 + 1));
+    hotelDates = `&checkin=${span[0]}&checkout=${isoAdd(span[0], nights)}`;
+  }
+  links.push({ label: 'Hotels (Booking.com)', url: `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(hotelQ)}${hotelDates}&group_adults=2` });
+  return links;
+}
+
+/* ---------- calendar export (.ics) ---------- */
+function buildICS(entries) {
+  const fmt = iso => iso.replace(/-/g, '');
+  const escT = s => String(s).replace(/([,;])/g, '\\$1');
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//A Year from Zurich//EN', 'CALSCALE:GREGORIAN'];
+  for (const en of entries) {
+    lines.push('BEGIN:VEVENT',
+      `UID:${en.id}@ayearfromzurich`,
+      `DTSTAMP:${fmt(en.start)}T000000Z`,
+      `DTSTART;VALUE=DATE:${fmt(en.start)}`,
+      `DTEND;VALUE=DATE:${fmt(isoAdd(en.end, 1))}`,
+      `SUMMARY:${escT(en.title)}`,
+      en.location ? `LOCATION:${escT(en.location)}` : '',
+      en.desc ? `DESCRIPTION:${escT(en.desc)}` : '',
+      'END:VEVENT');
+  }
+  lines.push('END:VCALENDAR');
+  return lines.filter(Boolean).join('\r\n');
+}
+function downloadICS(filename, text) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], { type: 'text/calendar' }));
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+/* ---------- live data: Swiss rail connections + weather ---------- */
+async function loadTrains(el, e) {
+  const pl = window.PLACES[e.place];
+  const station = window.RAIL_STATIONS[e.place];
+  if (!station || e.place === 'zurich') { el.remove(); return; }
+  try {
+    const r = await fetch(`https://transport.opendata.ch/v1/connections?from=${encodeURIComponent('Zürich HB')}&to=${encodeURIComponent(station)}&limit=3`);
+    if (!r.ok) throw new Error();
+    const j = await r.json();
+    const cons = (j.connections || []).filter(c => c.duration && c.from?.departure);
+    if (!cons.length) throw new Error();
+    const hhmm = iso => iso.slice(11, 16);
+    const dur = s => { const m = s.match(/(\d+)d(\d+):(\d+)/); if (!m) return s; const h = +m[1] * 24 + +m[2]; return `${h}h${m[3]}`; };
+    // the page may have re-rendered while fetching — write to the live panel
+    el = document.querySelector('#d-trains') || el;
+    el.innerHTML = `<h3>Next trains, Zürich HB → ${esc(pl.name)}</h3>` + cons.map(c => `
+      <div class="train-row">
+        <span class="train-time">${hhmm(c.from.departure)} → ${hhmm(c.to.arrival)}</span>
+        <span class="train-meta">${dur(c.duration)} · ${c.transfers === 0 ? 'direct' : c.transfers + ' change' + (c.transfers > 1 ? 's' : '')}</span>
+      </div>`).join('') + '<div class="live-src">Live from transport.opendata.ch</div>';
+  } catch { (document.querySelector('#d-trains') || el).remove(); }
+}
+
+async function loadForecast(el, e) {
+  const pl = window.PLACES[e.place];
+  try {
+    const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${pl.lat}&longitude=${pl.lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=7`);
+    if (!r.ok) throw new Error();
+    const j = await r.json();
+    const d = j.daily;
+    if (!d?.time?.length) throw new Error();
+    const day = iso => ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][parseISO(iso).getDay()];
+    el = document.querySelector('#d-weather-live') || el;
+    el.innerHTML = '<h3>This week on the ground</h3><div class="wx-strip">' + d.time.map((t, i) => `
+      <div class="wx-day">
+        <span class="wx-name">${day(t)}</span>
+        <span class="wx-hi">${Math.round(d.temperature_2m_max[i])}°</span>
+        <span class="wx-lo">${Math.round(d.temperature_2m_min[i])}°</span>
+        <span class="wx-rain">${d.precipitation_probability_max[i] ?? 0}%</span>
+      </div>`).join('') + '</div><div class="live-src">Live from Open-Meteo · max / min °C / rain</div>';
+  } catch { (document.querySelector('#d-weather-live') || el).remove(); }
+}
 
 /* researched date strings can be long sentences — trim for compact display */
 function shortDates(s, max = 52) {
@@ -29,7 +129,7 @@ function shortDates(s, max = 52) {
 
 /* ---------- data loading ---------- */
 async function loadDossiers() {
-  await Promise.allSettled(window.EVENTS.map(async e => {
+  await Promise.allSettled(ITEMS.map(async e => {
     try {
       const r = await fetch(`data/events/${e.id}.json`);
       if (r.ok) DOSSIERS[e.id] = await r.json();
@@ -100,15 +200,16 @@ const CHAPTERS = [
   { href: '#/calendar', title: 'The Calendar', sub: 'Thirteen months, headline by headline', photo: ['strasbourg-christmas', 0] },
   { href: '#/routes', title: 'The Routes', sub: 'Greatest Hits, Thrifty, Bucket-List', photo: ['alba-truffle', 0] },
   { href: '#/builder', title: 'Build a Route', sub: 'Compose your own year, stop by stop', photo: ['keukenhof', 0] },
-  { href: '#/collection', title: 'The Collection', sub: 'All twenty-six dossiers', photo: ['las-fallas', 0] },
+  { href: '#/collection', title: 'The Collection', sub: 'Every dossier, one index', photo: ['las-fallas', 0] },
   { href: '#/playbook', title: 'The Playbook', sub: 'Clusters, savings and booking windows', photo: ['oktoberfest', 2] },
+  { href: '#/outdoors', title: 'Mountains & Trails', sub: 'Hiking, skiing and road cycling — the Alps on your doorstep', photo: ['eiger-grindelwald', 0], wide: true },
 ];
 
 function renderHome() {
   $('#chapter-grid').innerHTML = CHAPTERS.map(c => {
     const img = photoOf(c.photo[0], c.photo[1]) || photoOf(c.photo[0], 0);
     return `
-    <a class="chapter rv" href="${c.href}">
+    <a class="chapter rv ${c.wide ? 'wide' : ''}" href="${c.href}">
       ${img ? `<div class="chapter-img" style="background-image:url('${img}')"></div>` : ''}
       <div class="chapter-shade"></div>
       <div class="chapter-txt">
@@ -345,11 +446,12 @@ function builderRoute() {
 function saveBuilder() { localStorage.setItem(BUILDER_KEY, JSON.stringify(builderStops)); }
 
 function renderBuilder() {
-  // catalog grouped by month
+  // catalog grouped by month, plus mountains & trails
   const groups = window.MONTHS.map(mo => ({
     label: `${mo.label} ${mo.year}`,
     evs: window.EVENTS.filter(e => e.month === `${mo.label.slice(0, 3)} ${mo.year}`),
   })).filter(g => g.evs.length);
+  groups.push({ label: 'Mountains & Trails', evs: ITEMS.filter(e => e.adventure) });
   $('#builder-catalog').innerHTML = groups.map(g => `
     <div class="bcat-group">
       <div class="bcat-month">${esc(g.label)}</div>
@@ -440,6 +542,60 @@ async function ensureBuilderMap() {
 $('#builder-clear').addEventListener('click', () => {
   builderStops = []; saveBuilder(); refreshBuilder();
 });
+$('#builder-share').addEventListener('click', () => {
+  const url = `${location.origin}${location.pathname}#/builder/${builderStops.join(',')}`;
+  const done = () => {
+    $('#builder-share').textContent = 'Link copied';
+    setTimeout(() => { $('#builder-share').textContent = 'Share route'; }, 1800);
+  };
+  if (navigator.clipboard?.writeText) navigator.clipboard.writeText(url).then(done, () => prompt('Copy this link:', url));
+  else prompt('Copy this link:', url);
+});
+$('#builder-ics').addEventListener('click', () => {
+  const entries = [];
+  builderStops.forEach(id => {
+    const e = eventById(id);
+    (window.CAL_DATES[id] || []).forEach(([a, b], i) => entries.push({
+      id: `${id}-${i}`, start: a, end: b, title: e.name,
+      location: window.PLACES[e.place].name, desc: DOSSIERS[id]?.tagline || '',
+    }));
+  });
+  if (entries.length) downloadICS('my-grand-tour.ics', buildICS(entries));
+});
+
+/* ---------- outdoors: mountains & trails ---------- */
+let outdoorsFilter = 'all';
+function renderOutdoors() {
+  const acts = ['all', 'hiking', 'skiing', 'cycling'];
+  $('#outdoors-filters').innerHTML = acts.map(k => `
+    <button class="cfilter ${outdoorsFilter === k ? 'on' : ''}" data-kind="${k}">
+      ${k === 'all' ? 'All' : esc(KIND_LABEL[k])}
+    </button>`).join('');
+  $('#outdoors-filters').querySelectorAll('.cfilter').forEach(b => b.addEventListener('click', () => {
+    outdoorsFilter = b.dataset.kind;
+    renderOutdoors();
+  }));
+
+  const list = window.ADVENTURES.filter(a => outdoorsFilter === 'all' || a.activity === outdoorsFilter);
+  $('#outdoors-grid').innerHTML = list.map(a => {
+    const d = DOSSIERS[a.id];
+    const img = photoOf(a.id);
+    const travel = d?.gettingThere?.[0];
+    return `
+    <a class="ctile" href="#/event/${a.id}">
+      <div class="ctile-imgwrap">
+        ${img ? `<div class="ctile-img" style="background-image:url('${img}')"></div>` : ''}
+      </div>
+      <div class="ctile-body">
+        <div class="ctile-kind">${esc(KIND_LABEL[a.activity])} · ${esc(window.PLACES[a.place].name)}${d?.country ? ', ' + esc(d.country) : ''}</div>
+        <h3>${esc(a.name)}</h3>
+        <div class="ctile-meta">${esc(a.season)}${travel ? ` · ${esc(MODE_LABEL[travel.mode] || '')} ${esc(travel.duration)} from Zürich` : ''}</div>
+        ${d?.tagline ? `<p class="ctile-tag">${esc(d.tagline)}</p>` : ''}
+        <span class="ctile-cta">Read the dossier</span>
+      </div>
+    </a>`;
+  }).join('');
+}
 
 /* ---------- collection & playbook ---------- */
 let collectionFilter = 'all';
@@ -572,6 +728,13 @@ function renderDetail(id) {
         <div id="mini-map"></div>
         <div class="d-weather">${d?.weather ? esc(d.weather) : ''}</div>
       </div>
+      <div class="d-panel">
+        <h3>Plan this trip</h3>
+        ${planLinks(e, d).map(b => `<a class="d-booklink" href="${b.url}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join('')}
+        ${window.CAL_DATES[id] ? `<button class="rcard-btn builder-add" id="d-ics">Add to calendar (.ics)</button>` : ''}
+      </div>
+      <div class="d-panel" id="d-trains"></div>
+      <div class="d-panel" id="d-weather-live"></div>
       ${d?.booking?.length ? `
       <div class="d-panel">
         <h3>Booking & official links</h3>
@@ -597,12 +760,25 @@ function renderDetail(id) {
     if (!builderStops.includes(id)) { builderStops.push(id); saveBuilder(); }
     location.hash = '#/builder';
   });
+  const icsBtn = $('#d-ics');
+  if (icsBtn) icsBtn.addEventListener('click', () => {
+    const spans = window.CAL_DATES[id];
+    downloadICS(`${id}.ics`, buildICS(spans.map(([a, b], i) => ({
+      id: `${id}-${i}`, start: a, end: b, title: d?.name || e.name,
+      location: `${pl.name}${d?.country ? ', ' + d.country : ''}`,
+      desc: d?.tagline || '',
+    }))));
+  });
+
+  // live data (fail silently — panels remove themselves)
+  loadTrains($('#d-trains'), e);
+  loadForecast($('#d-weather-live'), e);
 
   GrandTourMap.mini($('#mini-map'), e.place, '#9c4b2f');
 }
 
 /* ---------- router ---------- */
-const VIEWS = ['v-home', 'v-map', 'v-calendar', 'v-routes', 'v-builder', 'v-collection', 'v-playbook', 'detail'];
+const VIEWS = ['v-home', 'v-map', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'detail'];
 
 function show(viewId) {
   VIEWS.forEach(v => { $('#' + v).style.display = v === viewId ? '' : 'none'; });
@@ -639,9 +815,17 @@ function route() {
     show('v-routes');
     setNav('routes', false);
   } else if (h.startsWith('#/builder')) {
+    const shared = h.match(/^#\/builder\/([\w,-]+)/);
+    if (shared) {
+      const ids = shared[1].split(',').filter(id => eventById(id));
+      if (ids.length && ids.join(',') !== builderStops.join(',')) { builderStops = ids; saveBuilder(); }
+    }
     show('v-builder');
     setNav('builder', false);
     ensureBuilderMap();
+  } else if (h.startsWith('#/outdoors')) {
+    show('v-outdoors');
+    setNav('outdoors', false);
   } else if (h.startsWith('#/collection')) {
     show('v-collection');
     setNav('collection', false);
@@ -673,6 +857,7 @@ function onScroll() {
   renderRouteTabs();
   renderRoutesPage();
   renderCollection();
+  renderOutdoors();
   renderPlaybook();
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('hashchange', route);
@@ -682,5 +867,6 @@ function onScroll() {
   renderHome();
   renderCalendar();
   renderCollection();
+  renderOutdoors();
   route();
 })();

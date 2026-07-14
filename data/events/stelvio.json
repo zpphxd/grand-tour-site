@@ -1,0 +1,114 @@
+{
+  "id": "stelvio",
+  "name": "Passo dello Stelvio (Stilfserjoch) — Bormio",
+  "tagline": "Forty-eight numbered hairpins stacked up a 2,758-metre wall — cycling's most famous climb, with the Gavia and Mortirolo waiting next door.",
+  "city": "Bormio",
+  "country": "Italy",
+  "dates": "Pass open roughly late May – late October (weather-dependent; snow can close it any month). Key 2026 dates: Granfondo Stelvio Santini 6–7 June (road event Sunday 7 June from Bormio; new gravel event Saturday 6 June); Enjoy Stelvio Valtellina car-free days 30 May – 19 September — Gavia closed to traffic 5 June & 30 August, Mortirolo 9 June & 28 August, Stelvio 29 August (24th Scalata Cima Coppi / Stelvio Bike Day, 08:00–16:00, both Bormio and Prato sides) and 19 September (09:00–13:00); Cancano lakes climb car-free 8 June, 11 July, 27 August. 2027 dates expected on the same pattern (unconfirmed).",
+  "history": [
+    "The Stelvio road is a piece of imperial engineering that has barely changed in two centuries. Between 1820 and 1825 the Austrian Empire drove a carriage road over the 2,758-metre saddle to link Lombardy — then Austrian — with the Tyrol, and engineer Carlo Donegani solved the near-vertical headwall above Prato allo Stelvio with a staircase of 48 numbered stone-walled hairpins, each still marked with its painted tornante number today. It remains the highest paved pass in Italy and the second-highest in the Alps, just three metres below the Col de l'Iseran, and Donegani's alignment is essentially the one you ride now.",
+    "The Giro d'Italia made it myth. The race first crossed in 1953, when Fausto Coppi attacked on the Stelvio's gravel to strip the pink jersey from Hugo Koblet and win his fifth Giro — the reason the Giro's highest point each year is called the Cima Coppi, an honour the Stelvio holds whenever it appears. The neighbouring passes carry their own legends: the 1988 blizzard stage over the Gavia, where a frozen Andy Hampsten rode into the maglia rosa through driving snow, is routinely called the hardest day in modern Grand Tour history, and the Mortirolo became the stage for Marco Pantani's most violent accelerations in the 1990s — a monument to him now stands on the climb from Mazzo. In 2014 the Stelvio delivered more chaos, with Nairo Quintana seizing the Giro on a snow-shrouded descent to Val Martello.",
+    "Today Bormio is arguably Europe's single best road-cycling base town: the only place where three of the sport's most storied climbs — Stelvio (21.5 km at ~7.1% from Bormio; 24.3 km, 48 hairpins and ~1,850 m of gain from Prato), Gavia (2,621 m) and Mortirolo (the Mazzo ascent, ~12.4 km at 10.5% with ramps to 18%) — start from one valley. The town leans into it: the free Enjoy Stelvio Valtellina programme closes each pass to motor traffic on set summer days, tens of thousands ride the car-free Stelvio Bike Day each late August, and the Bank of the Stelvio's summit ritual — a bratwurst at the top, a photo under the elevation sign, the Tibet Hut view down all 48 switchbacks — has become one of cycling's great pilgrimages."
+  ],
+  "whyGo": "No other climb combines this much history, altitude and pure visual drama: from the Tibet Hut viewpoint the entire 48-hairpin staircase unrolls beneath you like a diagram of your own suffering. Based in Bormio you can tick off the Stelvio, Gavia and Mortirolo — the Giro's holy trinity — in three days, ride them car-free on Enjoy Stelvio dates, and soak it all off in Roman-era thermal baths. For a Zürich resident it is the closest of cycling's truly mythic climbs: over the border via the Engadine in a morning.",
+  "gettingThere": [
+    {
+      "mode": "drive",
+      "route": "Zürich → Landquart → Flüela Pass (or Vereina car train from Klosters) → Zernez → Ofenpass → Val Müstair → Santa Maria, then either over the Umbrail Pass directly to the Stelvio road or via Prato/Glorenza; ~240–260 km to Bormio",
+      "duration": "3h30–4h15 depending on route and pass traffic",
+      "cost": "CHF 40 Swiss motorway vignette (if using A3/A13) + fuel ~CHF 60–90 return; Vereina car train ~CHF 44 one way",
+      "notes": "The most flexible option with a bike in the back. The Umbrail (2,501 m, fully paved) drops you onto the Stelvio road 3 km below the summit — you can literally warm up on a legendary climb on the way in. Check pass status in early June and from late September."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Chur → St. Moritz → Tirano on the UNESCO-listed Bernina line (RhB), then Bus Trasporti Perego to Bormio (~40 km up the Valtellina)",
+      "duration": "6h30–7h30 door to door",
+      "cost": "CHF 90–160 return with Half Fare for the Swiss/RhB legs (Bernina Express reservation CHF 26–32 extra, optional) + ~€4–6 for the Tirano–Bormio bus",
+      "notes": "Slow but spectacular — the Bernina crossing at 2,253 m is a trip highlight in itself. Regional RhB trains (no reservation) carry bikes for a small fee; check bus bike capacity or use a Bormio rental instead."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Milano Centrale (EC via Gotthard, ~3h20) → Tirano (Trenord regional, ~2h30) → bus to Bormio",
+      "duration": "7h–7h30",
+      "cost": "CHF 60–140 return supersaver Zürich–Milan + €12–15 Milan–Tirano + bus",
+      "notes": "Marginally cheaper than the Bernina route and useful if you're combining the trip with Milan; otherwise take the mountain line — it's the better journey."
+    }
+  ],
+  "costs": {
+    "thrifty": "€350–500",
+    "midrange": "€700–1,100",
+    "splurge": "€1,800+",
+    "notes": "Estimate for 3–4 nights from Zürich riding all three passes. The climbs themselves are free. Bormio B&Bs/guesthouses run €60–100/night, bike-friendly 3–4 star hotels with workshop and laundry €120–200. Quality road bike rental in Bormio ~€45–70/day (e-road more). Granfondo Stelvio Santini entry from €100 road / €60 gravel / €120 combined (2026 prices). Rifugio lunches €15–25; QC Terme Bagni Vecchi day entry ~€60–80. Splurge tier assumes a guided week, carbon rental and the Grand Hotel Bagni Nuovi."
+  },
+  "booking": [
+    {
+      "label": "Bormio tourism — Enjoy Stelvio Valtellina car-free days",
+      "url": "https://www.bormio.eu/en/eventi/enjoy-stelvio-valtellina-2026-stelvio-pass"
+    },
+    {
+      "label": "Granfondo Stelvio Santini — registration",
+      "url": "https://www.granfondostelviosantini.com/"
+    },
+    {
+      "label": "Stelvio National Park — Stelvio Bike Day",
+      "url": "https://www.parconazionale-stelvio.it/en/experiences/cycling-and-mountain-biking/stelvio-bike-day.html"
+    },
+    {
+      "label": "Valtellina official events calendar",
+      "url": "https://www.valtellina.it/en/events/bormio/enjoy-stelvio-valtellina-2026-eng"
+    }
+  ],
+  "weather": "In July–August expect 20–28°C in Bormio (1,225 m) but often 2–8°C at the summit — a 15–20°C drop plus wind chill on a 40 km/h descent. Afternoon thunderstorms build fast; snow is possible at the pass in any month, and June/September rides can start below freezing up top. Pack a windproof shell, arm/knee warmers, full-finger gloves and a cap for every ascent, and lights for the short unlit tunnels on the Bormio side and the Gavia descent. Start early: the road gets busy with motorbikes from mid-morning on non-car-free days.",
+  "tips": [
+    "Plan the trip around a car-free day: 29 August 2026 (Stelvio Bike Day / Scalata Cima Coppi, both ramps closed to engines 08:00–16:00) is the bucket-list version of the climb — book Bormio accommodation 4–6 months out, as 10,000+ riders descend on the valley that weekend.",
+    "Ride the Prato side at least once for the full 48-hairpin theatre (24.3 km, ~1,850 m gain) — either loop over from Bormio via the Umbrail (the 'Stelvio triangle': Bormio → Stelvio → descend to Prato is a huge day) or get a lift to Prato. The Bormio side (21.5 km, ~1,530 m) is quieter and arguably more beautiful through its gorge and gallery section.",
+    "Be honest about the Mortirolo: the Mazzo ascent averages 10.5% for 12.4 km with sustained 14–18% ramps. Fit a 34x32 or lower (many locals run 36x34+), or ride it from Grosio, the gentler side. Pantani's monument at tornante 8 is the photo stop.",
+    "Enter the Granfondo Stelvio Santini (7 June 2026, from €100) early — the long course finishes atop the Stelvio and sells at early-bird rates in autumn; June editions can still meet snowbanks at the summit.",
+    "Beat the motorbikes on normal days by rolling out of Bormio by 07:00–07:30; traffic peaks 10:00–15:00, and the light on the hairpins is best early anyway. Check the pass webcam and opening status in early June and from late September — late-season closures come with little warning.",
+    "Book huts and baths, not just hotels: lunch at Rifugio Bonetta on the Gavia or Rifugio Garibaldi above the Stelvio needs no reservation, but QC Terme Bagni Vecchi (the perfect rest-day) sells out summer weekends — reserve online a week or more ahead."
+  ],
+  "localRecs": [
+    {
+      "name": "Tibet Hut (Rifugio Tibet) & Rifugio Garibaldi, Stelvio summit",
+      "type": "sight",
+      "note": "The two eyries above the pass: the Tibet Hut terrace has THE view down all 48 hairpins of the Prato ramp; Garibaldi sits on the Dreisprachenspitze where Italian, German and Romansh worlds meet. Coffee and photo mandatory, bratwurst from the summit stands traditional."
+    },
+    {
+      "name": "QC Terme Bagni Vecchi",
+      "type": "sight",
+      "note": "Roman-era thermal baths built into the mountainside above Bormio, with an open-air panoramic pool staring straight up the valley you just climbed. The definitive rest-day / post-Stelvio recovery."
+    },
+    {
+      "name": "Rifugio Bonetta, Passo Gavia",
+      "type": "restaurant",
+      "note": "The stone hut at the Gavia's 2,621 m summit, plastered with cycling memorabilia from the 1988 blizzard stage. Pizzoccheri and hot chocolate at altitude; the lake below (Lago Bianco) is the classic Gavia photo."
+    },
+    {
+      "name": "Braulio cellars, Bormio old town",
+      "type": "bar",
+      "note": "Bormio's own alpine amaro has been infused with local herbs since 1875 and aged in cellars under the main street — tour the barrels, then take the ritual post-ride glass. The Kuerc square around it is the evening passeggiata hub."
+    },
+    {
+      "name": "Al Filò",
+      "type": "restaurant",
+      "note": "Vaulted stone dining room in a former barn, the standard-bearer for Valtellina cooking: pizzoccheri, bresaola, sciatt (cheese fritters) and Nebbiolo delle Alpi — exactly what 1,850 m of climbing earns."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Stelvio_Pass_Bolzano_side_3.jpg/1920px-Stelvio_Pass_Bolzano_side_3.jpg",
+      "caption": "A stone-walled hairpin on the Prato (Bolzano) side of the Stelvio, with the upper switchbacks and early-summer snowfields stacked against the headwall above.",
+      "credit": "Wikimedia Commons / kallerna (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stilfser_Joch_7886.jpg/1920px-Stilfser_Joch_7886.jpg",
+      "caption": "The Stelvio's serpentines from above — Carlo Donegani's 1825 staircase of stone-edged switchbacks, dusted by the first autumn snow.",
+      "credit": "Wikimedia Commons / Varus111 (CC BY 3.0)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Lombardia_Passo_di_Gavia_Culmine_di_Passo_05.jpg/1920px-Lombardia_Passo_di_Gavia_Culmine_di_Passo_05.jpg",
+      "caption": "The wild, treeless summit plateau of the Passo di Gavia (2,621 m), the Stelvio's brutal sister climb and scene of the Giro's legendary 1988 blizzard stage.",
+      "credit": "Wikimedia Commons / Zairon (CC BY-SA 4.0)"
+    }
+  ]
+}
