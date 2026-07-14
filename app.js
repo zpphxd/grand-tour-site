@@ -362,22 +362,80 @@ function startHero() {
 const stopHero = () => clearInterval(heroTimer);
 
 /* ---------- hidden dedication ---------- */
+const PASSPORT_STOPS = [
+  { city: 'Zürich', code: 'ZRH', date: '09 AUG 2026', x: 31, y: 34, r: -12, ink: '#9b3343' },
+  { city: 'München', code: 'MUC', date: '19 SEP 2026', x: 68, y: 31, r: 9, ink: '#365f74' },
+  { city: 'Venezia', code: 'VCE', date: '06 FEB 2027', x: 40, y: 61, r: 7, ink: '#315c58' },
+  { city: 'Cannes', code: 'CEQ', date: '14 MAY 2027', x: 72, y: 65, r: -8, ink: '#8b3a48' },
+  { city: 'Edinburgh', code: 'EDI', date: '02 JUL 2027', x: 25, y: 78, r: -4, ink: '#394f83' },
+  { city: 'Zürich', code: 'ZRH', date: '09 AUG 2027', x: 61, y: 82, r: 12, ink: '#8a3f31' },
+];
+let passportStampIndex = 0;
+
+function stampPassport() {
+  const holder = $('#passport-stamps');
+  const stop = PASSPORT_STOPS[passportStampIndex % PASSPORT_STOPS.length];
+  const stamp = document.createElement('span');
+  stamp.className = 'passport-stamp';
+  stamp.style.setProperty('--stamp-x', `${stop.x}%`);
+  stamp.style.setProperty('--stamp-y', `${stop.y}%`);
+  stamp.style.setProperty('--stamp-r', `${stop.r}deg`);
+  stamp.style.setProperty('--stamp-ink', stop.ink);
+  stamp.innerHTML = `<b>${esc(stop.city)}</b><i>${esc(stop.date)}</i><small>${esc(stop.code)} · ENTRY</small>`;
+  holder.appendChild(stamp);
+  if (holder.children.length > PASSPORT_STOPS.length) holder.firstElementChild.remove();
+  requestAnimationFrame(() => stamp.classList.add('struck'));
+  holder.setAttribute('aria-label', `Passport stamped ${stop.city}, ${stop.date}`);
+  passportStampIndex += 1;
+}
+
+function closeFrances() {
+  const box = $('#frances-box');
+  const passport = $('#frances-passport');
+  box.classList.remove('on');
+  box.setAttribute('aria-hidden', 'true');
+  setTimeout(() => {
+    box.hidden = true;
+    passport.classList.remove('open');
+    passport.setAttribute('aria-expanded', 'false');
+  }, 420);
+}
+
 function revealFrances() {
   const box = $('#frances-box');
+  const passport = $('#frances-passport');
+  passport.classList.remove('open');
+  passport.setAttribute('aria-expanded', 'false');
+  passport.setAttribute('aria-label', 'Open the Grand Tour passport');
+  $('#passport-stamps').replaceChildren();
+  passportStampIndex = 0;
   box.hidden = false;
+  box.setAttribute('aria-hidden', 'false');
   void box.offsetWidth; // flush styles so the fade-in still animates
   box.classList.add('on');
+  setTimeout(() => passport.focus(), 380);
 }
 window.revealFrances = revealFrances;
 function bindFrances() {
-  $('#frances-box').addEventListener('click', () => {
-    const box = $('#frances-box');
-    box.classList.remove('on');
-    setTimeout(() => { box.hidden = true; }, 350);
+  const box = $('#frances-box');
+  const passport = $('#frances-passport');
+  box.addEventListener('click', event => {
+    if (event.target === box) closeFrances();
   });
+  passport.addEventListener('click', () => {
+    if (!passport.classList.contains('open')) {
+      passport.classList.add('open');
+      passport.setAttribute('aria-expanded', 'true');
+      passport.setAttribute('aria-label', 'Add the next passport stamp');
+      setTimeout(stampPassport, 620);
+    } else {
+      stampPassport();
+    }
+  });
+  $('#passport-close').addEventListener('click', closeFrances);
   $('#frances-footer').addEventListener('click', revealFrances);
   $('#hero-dedication').addEventListener('click', revealFrances);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') $('#frances-box').classList.remove('on'); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !box.hidden) closeFrances(); });
 }
 
 /* ---------- reveal on scroll ---------- */

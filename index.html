@@ -88,13 +88,39 @@
 </main>
 
 <!-- hidden dedication — found in a few quiet corners of the site -->
-<div id="frances-box" class="frances-box" hidden>
-  <div class="frances-card">
-    <img src="assets/frances.webp" alt="Frances Hausmann">
-    <div class="frances-caption">
-      <span class="frances-title">For Frances Hausmann</span>
-      <span class="frances-sub">Twelve months, all of Europe, one travel partner.</span>
-    </div>
+<div id="frances-box" class="frances-box" hidden aria-hidden="true">
+  <div class="passport-stage" role="dialog" aria-modal="true" aria-label="Grand Tour passport">
+    <button class="passport-close" id="passport-close" type="button" aria-label="Close passport">×</button>
+    <button class="passport-book" id="frances-passport" type="button" aria-expanded="false" aria-label="Open the Grand Tour passport">
+      <span class="passport-cover" aria-hidden="true">
+        <span class="passport-cover-kicker">Grand Tour</span>
+        <span class="passport-globe"><i></i></span>
+        <strong>Passport</strong>
+        <small>Zürich · Europe<br>2026 — 2027</small>
+        <em>Tap to open</em>
+      </span>
+      <span class="passport-spread">
+        <span class="passport-page passport-id-page">
+          <span class="passport-page-label">Passeport de voyage</span>
+          <span class="passport-id-grid">
+            <span class="passport-portrait"><img src="assets/frances.webp" alt="Frances Hausmann"></span>
+            <span class="passport-data">
+              <small>Holder / Titulaire</small><strong>F. Hausmann</strong>
+              <small>Home base / Domicile</small><strong>Zürich 8003</strong>
+              <small>Valid / Valable</small><strong>08.2026 — 08.2027</strong>
+              <small>Class / Catégorie</small><strong>Grand Tour</strong>
+            </span>
+          </span>
+          <span class="passport-machine">P&lt;CHEHAUSMANN&lt;&lt;FRANCES&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;<br>ZRH2627EUROPE365DAYS&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span>
+        </span>
+        <span class="passport-page passport-visa-page">
+          <span class="passport-page-label">Visas · Entrées</span>
+          <span class="passport-route-mark" aria-hidden="true">ZRH</span>
+          <span class="passport-stamps" id="passport-stamps" aria-live="polite"></span>
+          <span class="passport-tap-hint">Tap the page for the next stamp</span>
+        </span>
+      </span>
+    </button>
   </div>
 </div>
 
