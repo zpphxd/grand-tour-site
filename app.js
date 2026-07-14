@@ -393,14 +393,14 @@ function observeReveals() {
 
 /* ---------- home ---------- */
 const CHAPTERS = [
-  { href: '#/map', title: 'The Map', sub: 'Three journeys drawn across Europe', photo: ['monaco-gp', 0] },
-  { href: '#/rail', title: 'The Rail Hub', sub: 'Live trains, ticket logic, night routes and bike rules', photo: ['andermatt-passes', 0] },
-  { href: '#/calendar', title: 'The Calendar', sub: 'Thirteen months, headline by headline', photo: ['strasbourg-christmas', 0] },
-  { href: '#/routes', title: 'The Routes', sub: 'Greatest Hits, Thrifty, Bucket-List', photo: ['alba-truffle', 0] },
-  { href: '#/builder', title: 'Build a Route', sub: 'Compose your own year, stop by stop', photo: ['keukenhof', 0] },
-  { href: '#/collection', title: 'The Collection', sub: 'Every dossier, one index', photo: ['las-fallas', 0] },
-  { href: '#/playbook', title: 'The Playbook', sub: 'Clusters, savings and booking windows', photo: ['oktoberfest', 2] },
-  { href: '#/outdoors', title: 'The Outdoor Atlas', sub: 'Cycling hubs, great trails, water and winter — from Zürich into Europe', photo: ['eiger-grindelwald', 0], wide: true },
+  { href: '#/map', kicker: 'See the shape', title: 'The Map', sub: 'Three journeys drawn across Europe', photo: ['monaco-gp', 0] },
+  { href: '#/rail', kicker: 'Leave from Zürich', title: 'The Rail Hub', sub: 'Live trains, ticket logic, night routes and bike rules', photo: ['andermatt-passes', 0] },
+  { href: '#/calendar', kicker: 'Choose the moment', title: 'The Calendar', sub: 'Thirteen months, headline by headline', photo: ['strasbourg-christmas', 0] },
+  { href: '#/routes', kicker: 'Follow a philosophy', title: 'The Routes', sub: 'Greatest Hits, Thrifty, Bucket-List', photo: ['alba-truffle', 0] },
+  { href: '#/builder', kicker: 'Make it yours', title: 'Build a Route', sub: 'Compose your own year, stop by stop', photo: ['keukenhof', 0] },
+  { href: '#/collection', kicker: 'Browse everything', title: 'The Collection', sub: 'Every dossier, one beautiful index', photo: ['las-fallas', 0] },
+  { href: '#/playbook', kicker: 'Plan with confidence', title: 'The Planning Desk', sub: 'Live brief, clusters, savings and booking windows', photo: ['venice-carnival', 0] },
+  { href: '#/outdoors', kicker: 'Go under your own power', title: 'The Outdoor Atlas', sub: 'Cycling hubs, great trails, water and winter — from Zürich into Europe', photo: ['eiger-grindelwald', 0], wide: true },
 ];
 
 function renderHome() {
@@ -411,9 +411,11 @@ function renderHome() {
       ${img ? `<div class="chapter-img" style="background-image:url('${img}')"></div>` : ''}
       <div class="chapter-shade"></div>
       <div class="chapter-txt">
+        <span class="chapter-kicker">${esc(c.kicker)}</span>
         <span class="chapter-title">${esc(c.title)}</span>
         <span class="chapter-sub">${esc(c.sub)}</span>
       </div>
+      <span class="chapter-arrow" aria-hidden="true">↗</span>
     </a>`;
   }).join('');
   $('#home-months').innerHTML = window.MONTHS.slice(0, 3).map(monthCard).join('');
@@ -881,7 +883,7 @@ $('#outdoors-prompts').addEventListener('click', ev => {
   renderOutdoors();
 });
 
-/* ---------- collection & playbook ---------- */
+/* ---------- collection & Planning Desk ---------- */
 let collectionFilter = 'all';
 let collectionQuery = '';
 function renderCollection() {
@@ -1148,6 +1150,7 @@ function closeMobileNav() {
   const toggle = $('#nav-toggle');
   nav.classList.remove('menu-open');
   toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', 'Open navigation');
   $('.nav-toggle-label').textContent = 'Menu';
 }
 
@@ -1158,6 +1161,7 @@ function bindMobileNav() {
     const open = !nav.classList.contains('menu-open');
     nav.classList.toggle('menu-open', open);
     toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
     $('.nav-toggle-label').textContent = open ? 'Close' : 'Menu';
   });
   $('.topnav-links').addEventListener('click', ev => {
@@ -1172,7 +1176,7 @@ function bindMobileNav() {
 }
 
 /* ---------- router ---------- */
-const VIEWS = ['v-home', 'v-map', 'v-rail', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'v-brief', 'detail'];
+const VIEWS = ['v-home', 'v-map', 'v-rail', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'detail'];
 
 function show(viewId) {
   VIEWS.forEach(v => { $('#' + v).style.display = v === viewId ? '' : 'none'; });
@@ -1184,6 +1188,12 @@ function setNav(page, transparent) {
   document.querySelectorAll('.topnav-links a').forEach(a =>
     a.classList.toggle('active', a.dataset.nav === page));
   onScroll();
+}
+
+function scrollToRouteSection(sectionId) {
+  const scroll = () => document.getElementById(sectionId)?.scrollIntoView({ block: 'start' });
+  requestAnimationFrame(scroll);
+  setTimeout(scroll, 160);
 }
 
 function route() {
@@ -1198,10 +1208,7 @@ function route() {
     show('detail');
     renderDetail(mEv[1]);
     setNav(null, true);
-    if (mEv[2]) requestAnimationFrame(() => {
-      const section = document.getElementById(mEv[2]);
-      if (section) section.scrollIntoView({ block: 'start' });
-    });
+    if (mEv[2]) scrollToRouteSection(mEv[2]);
   } else if (h.startsWith('#/map')) {
     show('v-map');
     setNav('map', false);
@@ -1235,9 +1242,11 @@ function route() {
   } else if (h.startsWith('#/playbook')) {
     show('v-playbook');
     setNav('playbook', false);
+    const planningSection = h.match(/^#\/playbook\/(planning-[\w-]+)/)?.[1];
+    if (planningSection) scrollToRouteSection(planningSection);
   } else if (h.startsWith('#/brief')) {
-    show('v-brief');
-    setNav('brief', false);
+    location.replace('#/playbook');
+    return;
   } else {
     show('v-home');
     setNav(null, true);

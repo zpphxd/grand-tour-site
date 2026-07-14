@@ -13,21 +13,20 @@
 
 <nav class="topnav" id="topnav">
   <div class="wrap">
-    <a class="brand" href="#/">A Year from Zürich</a>
-    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+    <a class="brand" href="#/"><span>A Year from Zürich</span><small>ZRH · 26/27</small></a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
       <span class="nav-toggle-label">Menu</span>
       <span class="nav-toggle-icon" aria-hidden="true"><i></i><i></i></span>
     </button>
     <div class="topnav-links" id="primary-navigation">
-      <a href="#/map" data-nav="map">The Map</a>
-      <a href="#/rail" data-nav="rail">Rail Hub</a>
+      <a href="#/map" data-nav="map">Map</a>
       <a href="#/calendar" data-nav="calendar">Calendar</a>
       <a href="#/routes" data-nav="routes">Routes</a>
-      <a href="#/builder" data-nav="builder">Build a Route</a>
       <a href="#/outdoors" data-nav="outdoors">Outdoors</a>
       <a href="#/collection" data-nav="collection">Collection</a>
-      <a href="#/playbook" data-nav="playbook">Playbook</a>
-      <a href="#/brief" data-nav="brief">Travel Brief</a>
+      <a href="#/rail" data-nav="rail">Rail Hub</a>
+      <a href="#/playbook" data-nav="playbook">Planning Desk</a>
+      <a class="nav-build" href="#/builder" data-nav="builder">Build a Route</a>
     </div>
   </div>
 </nav>
@@ -407,81 +406,61 @@
   </section>
 </main>
 
-<!-- ============ TRAVEL BRIEF ============ -->
-<main id="v-brief" class="view" style="display:none">
-  <div class="page-head brief-head">
+<!-- ============ PLANNING DESK ============ -->
+<main id="v-playbook" class="view" style="display:none">
+  <header class="planning-hero">
+    <div class="planning-hero-photo" aria-hidden="true"></div>
+    <div class="planning-hero-shade"></div>
     <div class="wrap">
-      <span class="eyebrow">Europe, navigated</span>
-      <h1>The travel brief</h1>
-      <p class="sec-sub">The practical layer behind a year on the move: borders, passenger rights, money, driving and the habits that make repeated trips easier. Every time-sensitive item carries a source and verification date.</p>
-      <div class="brief-fresh"><span>Verified 13 July 2026</span><span>Official sources first</span><span>Recheck before departure</span></div>
+      <span class="eyebrow">The practical layer</span>
+      <h1>The Planning Desk</h1>
+      <p>What to verify, when to book, where to leave slack and how to spend less without making the trip brittle.</p>
+      <div class="planning-fresh"><span>Verified 13 July 2026</span><span>Official sources first</span><span>Recheck before departure</span></div>
     </div>
-  </div>
-  <section class="brief-section">
+    <span class="planning-photo-credit">Furka Pass · Zairon, CC BY-SA 4.0</span>
+  </header>
+
+  <nav class="planning-jump" aria-label="Planning Desk sections">
+    <div class="wrap"><a href="#/playbook/planning-brief">Live brief</a><a href="#/playbook/planning-tactics">Trip tactics</a><a href="#/playbook/planning-checklist">48-hour check</a><a href="#/playbook/planning-watchlist">Book-early watchlist</a></div>
+  </nav>
+
+  <section class="planning-brief anchor" id="planning-brief">
     <div class="wrap">
-      <div class="brief-grid">
-        <article class="brief-card lead">
-          <span class="brief-num">01</span><span class="eyebrow">Borders</span>
-          <h2>EES is live. ETIAS is not yet live.</h2>
-          <p>The EU reports that its Entry/Exit System became fully operational on 10 April 2026. ETIAS is expected in the last quarter of 2026, but an exact start date has not been announced. Treat social posts and third-party countdowns as secondary.</p>
-          <a href="https://travel-europe.europa.eu/etias/ltr/about-etias" target="_blank" rel="noopener">Check the official EU status →</a>
-        </article>
-        <article class="brief-card">
-          <span class="brief-num">02</span><span class="eyebrow">Disruptions</span>
-          <h2>Know the remedy before you reroute.</h2>
-          <p>Air, rail, bus and ferry rights differ. Save receipts, ask the operator to record the disruption and check the official mode-specific guidance before accepting an expensive replacement.</p>
-          <a href="https://europa.eu/youreurope/citizens/travel/passenger-rights/index_en.htm" target="_blank" rel="noopener">EU passenger rights →</a>
-        </article>
-        <article class="brief-card">
-          <span class="brief-num">03</span><span class="eyebrow">Money</span>
-          <h2>Budget in ranges, pay in local currency.</h2>
-          <p>Use ECB reference rates for planning, then expect the card network and issuer to settle differently. At a terminal or ATM, decline dynamic currency conversion unless you have compared its rate.</p>
-          <a href="https://data.ecb.europa.eu/help/api/data" target="_blank" rel="noopener">ECB reference data →</a>
-        </article>
-        <article class="brief-card">
-          <span class="brief-num">04</span><span class="eyebrow">Outdoors</span>
-          <h2>The route is not the condition.</h2>
-          <p>Mapped trails can be closed, snow-covered or unsafe. Check the local authority, refuge or lift operator, then download the route and bailout options offline. Weather-fit is guidance, never clearance.</p>
-          <a href="#/outdoors">Find an outdoor escape →</a>
-        </article>
+      <div class="sec-head"><span class="eyebrow">Live brief</span><h2>Four things that can change the trip</h2><p class="sec-sub">The short version, with the official source beside every time-sensitive rule.</p></div>
+      <div class="planning-brief-grid">
+        <article class="planning-brief-lead"><span>Borders</span><h3>EES is live. ETIAS is not yet live.</h3><p>The EU reports that EES became fully operational on 10 April 2026. ETIAS is expected in the last quarter of 2026, but no exact start date has been announced.</p><a href="https://travel-europe.europa.eu/etias/ltr/about-etias" target="_blank" rel="noopener">Official EU status →</a></article>
+        <article><span>Disruptions</span><h3>Know the remedy before you reroute.</h3><p>Save receipts, ask the operator to record the disruption and check the mode-specific rights before buying an expensive replacement.</p><a href="https://europa.eu/youreurope/citizens/travel/passenger-rights/index_en.htm" target="_blank" rel="noopener">Passenger rights →</a></article>
+        <article><span>Money</span><h3>Budget in ranges. Pay in local currency.</h3><p>Use ECB rates for planning, then expect the card network to settle differently. Decline dynamic currency conversion unless its rate is genuinely better.</p><a href="https://data.ecb.europa.eu/help/api/data" target="_blank" rel="noopener">ECB reference data →</a></article>
+        <article><span>Outdoors</span><h3>The route is not the condition.</h3><p>A mapped trail can still be closed, snow-covered or unsafe. Check the local authority, then download the route and bailout options offline.</p><a href="#/outdoors">Open the Outdoor Atlas →</a></article>
       </div>
     </div>
   </section>
-  <section class="brief-checklist">
+
+  <section class="planning-tactics anchor" id="planning-tactics">
+    <div class="wrap">
+      <div class="planning-tactics-head"><div><span class="eyebrow">Trip tactics</span><h2>Spend where the memory is.</h2></div><p>Protect the unrepeatable moment—the race, table, concert or trail window—then keep the transport around it flexible.</p></div>
+      <div class="planning-tactics-grid">
+        <div class="planning-list"><h3>Ready-made clusters</h3><ul id="clusters"></ul></div>
+        <figure class="planning-postcard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/1280px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg" alt="Two elaborately masked visitors at the Venice Carnival" loading="lazy"><figcaption>Venice Carnival · Frank Kovalchek, CC BY 2.0</figcaption></figure>
+        <div class="planning-list"><h3>Money-saving moves</h3><ul id="savings"></ul></div>
+      </div>
+      <div class="planning-rule"><span>Seasonal rule</span><p>Put Southern Europe in the cheaper shoulder season, October to April, and save summer for the UK, Scandinavia and the high Alps. For event-locked trips, book the irreplaceable element first—or sleep one town over.</p></div>
+    </div>
+  </section>
+
+  <section class="planning-checklist anchor" id="planning-checklist">
     <div class="wrap">
       <div class="sec-head"><span class="eyebrow">The repeatable system</span><h2>48 hours before every trip</h2></div>
-      <div class="brief-steps">
-        <div><b>1. Reverify</b><span>Dates, entry rules, tickets, strikes and local closures.</span></div>
-        <div><b>2. Download</b><span>Tickets, hotel address, route map, GPX and offline language pack.</span></div>
-        <div><b>3. Protect</b><span>Keep identity, payment and health documents out of shared itinerary notes.</span></div>
-        <div><b>4. Leave slack</b><span>Protect the irreplaceable event; make the surrounding transport flexible.</span></div>
+      <div class="planning-steps">
+        <div><b>Reverify</b><span>Dates, entry rules, tickets, strikes and local closures.</span></div>
+        <div><b>Download</b><span>Tickets, hotel address, route map, GPX and offline language pack.</span></div>
+        <div><b>Protect</b><span>Keep identity, payment and health documents out of shared itinerary notes.</span></div>
+        <div><b>Leave slack</b><span>Protect the irreplaceable event; make the surrounding transport flexible.</span></div>
       </div>
-      <p class="disclaimer">This brief is planning information, not legal, immigration, medical or safety advice. Requirements depend on nationality, residence, route and personal circumstances.</p>
     </div>
   </section>
-</main>
 
-<!-- ============ PLAYBOOK ============ -->
-<main id="v-playbook" class="view" style="display:none">
-  <div class="page-head">
-    <div class="wrap">
-      <span class="eyebrow">The tactical layer</span>
-      <h1>The playbook</h1>
-      <p class="sec-sub">Clustering, savings and the book-early watchlist — the tactics that make a year like this affordable.</p>
-    </div>
-  </div>
-  <section class="playbook">
-    <div class="wrap">
-      <div class="grid2">
-        <div class="panel"><h3>Ready-made clusters</h3><ul id="clusters"></ul></div>
-        <div class="panel"><h3>Money-saving moves</h3><ul id="savings"></ul></div>
-      </div>
-      <div class="callout">
-        <b>Seasonal price rule:</b> put Southern Europe (Spain, Italy, the south of France) in the cheaper shoulder season, October to April, and save summer for the north — the UK, Scandinavia, the Alps. Pre-book event-locked trips such as Oktoberfest, San Fermín, Cannes and Glastonbury three to four months out, or sleep one town over.
-      </div>
-    </div>
-  </section>
-  <section>
+  <section class="planning-watchlist anchor" id="planning-watchlist">
     <div class="wrap">
       <div class="sec-head">
         <span class="eyebrow">Set the reminders</span>
@@ -489,7 +468,7 @@
         <p class="sec-sub">These sell out or spike hardest — some in minutes when registration opens.</p>
       </div>
       <table class="book" id="book-table"></table>
-      <p class="disclaimer">2026 and early-2027 dates are largely confirmed; several summer-2027 dates follow fixed annual patterns and were still being finalized at research time — re-verify on official sites before booking. Cost figures are planning estimates, not live quotes.</p>
+      <p class="disclaimer">Requirements depend on nationality, residence, route and personal circumstances. Dates, inventory and cost figures remain planning information rather than legal advice or live quotes.</p>
     </div>
   </section>
 </main>
