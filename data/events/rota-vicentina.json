@@ -1,0 +1,285 @@
+{
+  "id": "rota-vicentina",
+  "name": "Rota Vicentina — Fishermen's Trail",
+  "tagline": "Thirteen foot-only stages above Portugal's wild Atlantic, where sand, cliff erosion and conservation set the pace.",
+  "city": "Porto Covo",
+  "country": "Portugal",
+  "dates": "Recommended walking season: September–June. Avoid the exposed summer heat and verify route alerts, accommodation and transport before each stage. Official information reviewed 13 July 2026.",
+  "history": [
+    "The Fishermen's Trail follows paths used by coastal communities to reach coves and fishing ledges along southwest Portugal. Its narrow sandy lines were working access routes before they became a long-distance walking itinerary.",
+    "The trail crosses the Southwest Alentejo and Vicentine Coast Natural Park, a protected Atlantic landscape of dunes, nesting cliffs, estuaries and small whitewashed settlements. The Rota Vicentina association coordinates the walking network with local businesses and conservation guidance.",
+    "Today's official Fishermen's Trail totals 226.5 kilometres in thirteen stages. It is one part of a walking network exceeding 750 kilometres, but it remains distinctive: always near the sea, often on sand, only for walkers and deliberately limited to low-impact use."
+  ],
+  "guideSections": [
+    {
+      "id": "d-route",
+      "toc": "Route & stages",
+      "eyebrow": "226.5 km · 13 stages",
+      "title": "Walk the whole coast or build a village-to-village section",
+      "intro": "The route can be walked in either direction, with official stages no longer than 22.5 kilometres. Sand makes the distance slower and harder than a road equivalent.",
+      "facts": [
+        {
+          "label": "Official distance",
+          "value": "226.5 km",
+          "note": "Thirteen stages through the protected southwest coast."
+        },
+        {
+          "label": "Surface",
+          "value": "60–70% sand",
+          "note": "Official estimate; train feet and calves and reduce daily distance expectations."
+        },
+        {
+          "label": "Longest stage",
+          "value": "22.5 km",
+          "note": "Water, heat and loose footing matter more than the headline distance."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "2–3 days",
+          "title": "Porto Covo → Vila Nova de Milfontes → Almograve",
+          "meta": "Classic dunes and cliffs · easy arrival logic",
+          "text": "A compact introduction to the northern trail. Stay in the stage villages, carry the official track offline and use the final day as a transfer buffer rather than extending mileage on tired sandy legs."
+        },
+        {
+          "kicker": "4–6 days",
+          "title": "Odeceixe and the Aljezur coast",
+          "meta": "Estuary · beaches · high cliff scenery",
+          "text": "Build a continuous section around legal accommodation and buses. Cliff approaches and beach alternatives can change after erosion, so follow current markings instead of old shortcuts."
+        },
+        {
+          "kicker": "13 stages",
+          "title": "The complete Fishermen's Trail",
+          "meta": "About two weeks with rest and transport buffer",
+          "text": "Reserve stage villages in sequence, include at least one rest or contingency day and keep pack weight low. A baggage-transfer service can improve safety and enjoyment but must be confirmed for every stop."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Fishermen's Trail guide",
+          "url": "https://rotavicentina.com/en/fishermens-trail/"
+        },
+        {
+          "label": "Official Rota Vicentina help guide",
+          "url": "https://rotavicentina.com/en/help-guide/"
+        }
+      ]
+    },
+    {
+      "id": "d-rules",
+      "toc": "Conservation rules",
+      "eyebrow": "Foot-only protected coast",
+      "title": "No running, no bikes and no wild camping on this trail",
+      "intro": "These are not style preferences. The official route says the coastal trail is walking-only, trail running is incompatible with the ecosystem and wild camping is prohibited.",
+      "facts": [
+        {
+          "label": "Permitted use",
+          "value": "Walking only",
+          "note": "Bikes belong on designated cycling routes, not the Fishermen's Trail."
+        },
+        {
+          "label": "Group limit",
+          "value": "Maximum 15",
+          "note": "Larger parties should split, stagger and use a suitable alternative itinerary."
+        },
+        {
+          "label": "Overnight",
+          "value": "No wild camping",
+          "note": "Use legal campsites or accommodation in the stage villages."
+        }
+      ],
+      "bullets": [
+        "Walk single file on narrow vegetation and keep to the current waymarks; bypass tracks widen erosion and damage nesting habitat.",
+        "Do not approach nests, livestock or fishing ledges. Keep dogs under the exact rules in force for the protected area and accommodation.",
+        "Pack out all litter, tissues and food waste. Toilet practices near cliffs and beaches require special care because soil is shallow and use is concentrated.",
+        "Never promote this itinerary as a trail-running route. Direct runners and cyclists to official routes designed for those activities."
+      ],
+      "links": [
+        {
+          "label": "Official trail rules and characteristics",
+          "url": "https://rotavicentina.com/en/fishermens-trail/"
+        },
+        {
+          "label": "Natural park authority — ICNF",
+          "url": "https://www.icnf.pt/"
+        }
+      ]
+    },
+    {
+      "id": "d-safety",
+      "toc": "Safety gate",
+      "eyebrow": "Cliffs are actively eroding",
+      "title": "Distance from the edge is non-negotiable",
+      "intro": "The official guide warns that the cliffs are constantly eroding and falling is a danger. The route is not recommended for people with vertigo or fear of heights.",
+      "facts": [
+        {
+          "label": "Primary hazard",
+          "value": "Unstable cliff edges",
+          "note": "Stay on the inland side of markings and never step out for a photo."
+        },
+        {
+          "label": "Secondary load",
+          "value": "Sand + sun + scarce water",
+          "note": "The official difficulty is “somewhat difficult”; heat can move it beyond that."
+        },
+        {
+          "label": "Emergency",
+          "value": "112",
+          "note": "Give the stage, direction, last waymark and coordinates; coastal reception is not guaranteed."
+        }
+      ],
+      "bullets": [
+        "Do not sit, picnic or photograph on cliff lips. Cracks and overhangs can fail beyond the visible edge without warning.",
+        "Avoid stages during extreme heat, strong onshore wind, wildfire alerts or official closure. September–June is the recommended window, not a guarantee of safe weather.",
+        "Carry the day's full water requirement plus reserve unless a verified refill exists. Cafés and fountains can be seasonal or closed.",
+        "Wear shoes that keep sand manageable and grip loose descents. Inspect hot spots early; blisters grow quickly under repeated sandy friction.",
+        "If vertigo affects balance or decision-making, choose an inland Historical Way section rather than forcing the cliff trail."
+      ],
+      "links": [
+        {
+          "label": "IPMA official Portugal weather and warnings",
+          "url": "https://www.ipma.pt/en/"
+        },
+        {
+          "label": "ANEPC civil-protection alerts",
+          "url": "https://prociv.gov.pt/en/"
+        }
+      ]
+    },
+    {
+      "id": "d-logistics",
+      "toc": "Stage logistics",
+      "eyebrow": "Beds and buses define the itinerary",
+      "title": "Reserve village by village, then verify every transfer",
+      "intro": "The trail is linear and rural. A robust plan names the bed, meal, water source and next transport option for each stage rather than relying on a single base.",
+      "facts": [
+        {
+          "label": "Direction",
+          "value": "Either way",
+          "note": "Choose around wind, sun, transport and available beds rather than an assumed “correct” direction."
+        },
+        {
+          "label": "Luggage",
+          "value": "Carry light or book transfer",
+          "note": "Confirm every pickup village and bag limit directly with the operator."
+        },
+        {
+          "label": "Verified on",
+          "value": "13 July 2026",
+          "note": "Recheck route alerts, buses, lodging and restaurant opening before the stage."
+        }
+      ],
+      "bullets": [
+        "Book breakfast or buy it the evening before; early starts may precede café hours.",
+        "Save accommodation pins and phone numbers offline, including the exact reception or key-collection instructions.",
+        "Carry cash and a physical bank card for small coastal businesses; do not depend on continuous data service.",
+        "Keep a taxi number and an inland bailout road for every stage, but never cross private land to invent a shortcut."
+      ],
+      "links": [
+        {
+          "label": "Official trip planning and services",
+          "url": "https://rotavicentina.com/en/plan-your-trip/"
+        },
+        {
+          "label": "Rede Expressos intercity buses",
+          "url": "https://rede-expressos.pt/en"
+        }
+      ]
+    }
+  ],
+  "whyGo": "Few long-distance paths stay so consistently close to an undeveloped Atlantic coast. The Fishermen's Trail moves between dunes, estuaries, fishing villages and enormous cliffs while remaining modular enough for a weekend section. Its strict walking-only and conservation rules are part of the appeal: this is a quiet, human-paced journey rather than a performance course.",
+  "gettingThere": [
+    {
+      "mode": "bus",
+      "route": "Lisbon → Sines / Porto Covo on regional or intercity connections",
+      "duration": "About 2h30–4h depending on service and change",
+      "cost": "Roughly €15–30 one way",
+      "notes": "Seasonal schedules change. Verify the exact Porto Covo stop and leave enough daylight to find accommodation without walking the trail after arrival."
+    },
+    {
+      "mode": "bus",
+      "route": "Faro or Lagos → southwest-coast stage villages",
+      "duration": "About 2–5h depending on section and connections",
+      "cost": "Roughly €10–30 one way",
+      "notes": "Useful for southern sections but not every village links conveniently. Build the trek from confirmed bus days rather than assumed daily service."
+    },
+    {
+      "mode": "transfer",
+      "route": "Pre-booked taxi or trail transfer between a rail/bus hub and the chosen stage endpoint",
+      "duration": "Route dependent",
+      "cost": "Often €40–140 per vehicle",
+      "notes": "Share with other walkers where possible; confirm luggage, pickup pin and after-hours number before losing coverage."
+    }
+  ],
+  "costs": {
+    "thrifty": "€350–600 for four walking days: hostel/simple rooms, buses, carried lunches and no luggage transfer.",
+    "midrange": "€850–1,300 for a week: private guesthouse rooms, daily luggage transfer, restaurant dinners and flexible arrival/departure transport.",
+    "splurge": "€2,000+ for 10–14 days: boutique stays, private transfers, rest days and guided natural-history sections.",
+    "notes": "Planning estimates, not quotes. Rural availability and single supplements can dominate the budget; book in stage order and use cancellable terms where possible."
+  },
+  "booking": [
+    {
+      "label": "Rota Vicentina — official Fishermen's Trail (verified 13 July 2026)",
+      "url": "https://rotavicentina.com/en/fishermens-trail/"
+    },
+    {
+      "label": "Official help guide and network rules (verified 13 July 2026)",
+      "url": "https://rotavicentina.com/en/help-guide/"
+    },
+    {
+      "label": "Official trip-planning services (verified 13 July 2026)",
+      "url": "https://rotavicentina.com/en/plan-your-trip/"
+    },
+    {
+      "label": "IPMA official weather and warnings (verified 13 July 2026)",
+      "url": "https://www.ipma.pt/en/"
+    }
+  ],
+  "weather": "The coast is exposed to Atlantic wind, rain and intense sun. Walking is recommended September–June, while midsummer can be dangerously hot with little shade. Even in spring, carry sun protection, wind layer and enough water; stop for official heat, fire or storm warnings.",
+  "tips": [
+    "Train on loose sand with the actual pack; it reveals footwear problems and calf load that road mileage hides.",
+    "Start early, but not before safe visibility. Cliff distance and current waymarks matter more than beating the sun by walking in darkness.",
+    "Use trekking poles only if they remain controlled around other walkers and fragile trail edges.",
+    "Order or buy lunch the night before in small villages, and confirm the next day's dinner opening at check-in.",
+    "Photograph wildlife from the marked path with a zoom; never move toward nests or cliff ledges for a better angle."
+  ],
+  "localRecs": [
+    {
+      "name": "Porto Covo",
+      "type": "neighborhood",
+      "note": "Whitewashed northern gateway with supplies, restaurants and an easy first-night rhythm."
+    },
+    {
+      "name": "Vila Nova de Milfontes",
+      "type": "neighborhood",
+      "note": "Larger estuary town with the route's broadest service choice and a sensible rest-night option."
+    },
+    {
+      "name": "Praia de Odeceixe",
+      "type": "sight",
+      "note": "River-meets-ocean landscape viewed from legal approaches; tides and surf require respect."
+    },
+    {
+      "name": "Aljezur old town",
+      "type": "neighborhood",
+      "note": "Inland contrast of steep lanes and castle views, useful for resupply and a Historical Way connection."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rota%20Vicentina%20%2819614770351%29.jpg",
+      "caption": "The Rota Vicentina near Arrifana — a narrow walking line through a protected coastal landscape",
+      "credit": "Wikimedia Commons / Emmanuel Eragne (CC BY 2.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pastos%20salgados.jpg",
+      "caption": "The Fishermen's Trail near Praia do Malhão, where cliff vegetation makes staying on the path essential",
+      "credit": "Wikimedia Commons / Joaomartinho63 (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Odeceixe%20Praia.JPG",
+      "caption": "Praia de Odeceixe at the river mouth, one of the coast's defining stage landscapes",
+      "credit": "Wikimedia Commons / Babylas (CC BY-SA 3.0)"
+    }
+  ]
+}

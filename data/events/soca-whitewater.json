@@ -1,0 +1,247 @@
+{
+  "id": "soca-whitewater",
+  "name": "Soča Valley Whitewater Basecamp",
+  "tagline": "Turquoise water, Julian Alps and a progression from guided rafting to technical kayaking — with river conditions deciding the day.",
+  "city": "Bovec",
+  "country": "Slovenia",
+  "dates": "Main commercial season is typically spring through early autumn, but legal sections, permit periods, operator schedules and runnable water change. Check the official permit portal and a qualified local operator on the day. Research verified 13 July 2026.",
+  "history": [
+    "The Soča rises in Trenta beneath the Julian Alps and runs through gorges, boulder gardens and emerald pools toward the Adriatic. Its colour and steep mountain backdrop made the valley one of Europe's most recognisable river landscapes.",
+    "The upper valley was also the setting of the Isonzo Front in the First World War. Today's outdoor corridor passes memorials, forts and paths interpreted by the Walk of Peace, placing recreation in a landscape with a much deeper human history.",
+    "Bovec grew into Slovenia's principal whitewater base, with rafting, kayaking and canyoning companies serving multiple sections. The official Soča Valley site says more than thirty sports companies offer rafting, but quantity is not a skill standard: activity, section and guide choice still need careful matching."
+  ],
+  "guideSections": [
+    {
+      "id": "d-choose",
+      "toc": "Choose an activity",
+      "eyebrow": "Match the water to the person",
+      "title": "Start with experience, swimming confidence and current conditions",
+      "intro": "The same river can support a scenic group raft, an instructional kayak session or expert whitewater. Choose the product only after disclosing every participant's age, mobility, swimming ability and prior experience.",
+      "facts": [
+        {
+          "label": "Best first taste",
+          "value": "Guided rafting",
+          "note": "Ask the operator which section and flow it proposes; “family” must never be inferred from marketing alone."
+        },
+        {
+          "label": "Skill pathway",
+          "value": "Flatwater drill → coached river",
+          "note": "A one-off kayak rental is not an appropriate introduction to moving whitewater."
+        },
+        {
+          "label": "Base",
+          "value": "Bovec",
+          "note": "Largest operator choice; Kobarid and Tolmin are useful for lower-valley sections and culture."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "First-time or mixed group",
+          "title": "Guided raft on an operator-selected section",
+          "meta": "Briefing · wetsuit/PFD/helmet · group craft",
+          "text": "Choose a licensed or appropriately qualified local company, declare non-swimmers and medical concerns, and let the guide alter or cancel for flow. The operator should explain the exact put-in, take-out, rapid class and rescue plan."
+        },
+        {
+          "kicker": "Learning track",
+          "title": "Introductory kayak course",
+          "meta": "Boat control before rapids",
+          "text": "Book instruction that covers wet exits, ferry angles, eddies and rescue in controlled water before moving downstream. Progress is based on demonstrated skill, not the number of days purchased."
+        },
+        {
+          "kicker": "Experienced paddler",
+          "title": "Independent or coached technical sections",
+          "meta": "Current grading, flow and access required",
+          "text": "Bring section-specific competence, a paddling partner, rescue kit and a verified shuttle. Local grading and hazards change with discharge; ask a reputable outfitter for the current line rather than relying on an old trip report."
+        },
+        {
+          "kicker": "Land-and-water alternative",
+          "title": "Canyoning with a vetted guide",
+          "meta": "Separate objective hazards",
+          "text": "Canyons add rappels, cold water, flash-flood exposure and escape constraints. Book a qualified guide, confirm rainfall thresholds and never enter independently because a commercial tour ran there yesterday."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Soča Valley river overview",
+          "url": "https://www.soca-valley.com/en/in-search-of-adventure/nature/2020120910545268/the-soca-river/"
+        },
+        {
+          "label": "Official Soča permit portal",
+          "url": "https://gosoca.si/"
+        }
+      ]
+    },
+    {
+      "id": "d-safety",
+      "toc": "Safety gate",
+      "eyebrow": "Whitewater can be fatal",
+      "title": "No permit, hire or sunny forecast makes a section safe",
+      "intro": "Cold moving water, foot entrapment, strainers, undercut rock and changing hydraulics are objective hazards. Beginners should only enter with an appropriately qualified guide on a section selected for that day's flow.",
+      "facts": [
+        {
+          "label": "Minimum system",
+          "value": "PFD · helmet · thermal protection",
+          "note": "Correct fit and activity-specific condition matter; the operator should inspect equipment."
+        },
+        {
+          "label": "Never solo",
+          "value": "Team + rescue plan",
+          "note": "Independent paddlers need competent partners, throwline/rescue skills and known exits."
+        },
+        {
+          "label": "Emergency",
+          "value": "112",
+          "note": "Give the river section, access point and bank; mobile coverage can be incomplete."
+        }
+      ],
+      "bullets": [
+        "Do not stand in fast current above knee depth: foot entrapment can pin a swimmer. Float on the back with feet downstream until a safe active swim is possible.",
+        "Never attach a leash to the body in moving river water unless it is an expert whitewater system with a releasable belt and the user is trained for it.",
+        "Heavy rain upstream, snowmelt and dam or tributary effects can change a section after a calm morning. Get a same-day operator or official assessment.",
+        "Cold shock and hypothermia remain possible in hot weather. Dress for the water, not the car park, and stop when coordination degrades.",
+        "Alcohol, cannabis and whitewater do not mix. Save the celebration for after every participant and all equipment are off the river."
+      ],
+      "links": [
+        {
+          "label": "Slovenian Environment Agency — hydrological data",
+          "url": "https://www.arso.gov.si/en/water/"
+        },
+        {
+          "label": "Slovenia emergency information",
+          "url": "https://www.slovenia.info/en/plan-your-trip/practical-info"
+        }
+      ]
+    },
+    {
+      "id": "d-permits",
+      "toc": "Permits & booking",
+      "eyebrow": "Check the section, not just the river",
+      "title": "Build every water day from legal access and an exact put-in",
+      "intro": "Permit rules and navigation periods apply to defined stretches and activities. A commercial booking usually manages the operational details; independent users must verify them themselves.",
+      "facts": [
+        {
+          "label": "Source of truth",
+          "value": "GoSoča permit portal",
+          "note": "Verify the current map, navigation times, fees and restrictions before entering."
+        },
+        {
+          "label": "Operator check",
+          "value": "Section + flow + credential",
+          "note": "Ask who guides, the guide-to-guest ratio, insurance and cancellation threshold."
+        },
+        {
+          "label": "Verified on",
+          "value": "13 July 2026",
+          "note": "This guide intentionally does not freeze a live opening or water level."
+        }
+      ],
+      "bullets": [
+        "Record the named put-in and take-out in every booking; “Soča rafting” is not enough information to judge the trip.",
+        "Confirm what is included: permit, shuttle, wetsuit, neoprene footwear, PFD, helmet, photos and secure storage.",
+        "Ask how the operator handles non-swimmers, children, larger bodies, disability and cold sensitivity before paying.",
+        "Choose a flexible land day for poor water: Tolmin Gorges, the Walk of Peace or a signed valley hike after checking its own status."
+      ],
+      "links": [
+        {
+          "label": "GoSoča — official permits and river information",
+          "url": "https://gosoca.si/"
+        },
+        {
+          "label": "Soča Valley official activities directory",
+          "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/"
+        }
+      ]
+    }
+  ],
+  "whyGo": "The Soča pairs unusually beautiful water with a genuine learning ladder. A cautious first-timer can raft with a guide, an aspiring paddler can book structured instruction and an expert can explore technical sections after a local condition check. Bovec makes all of that logistically simple while the valley adds hiking, history and food for weather or recovery days.",
+  "gettingThere": [
+    {
+      "mode": "drive",
+      "route": "Ljubljana → Kranjska Gora → Vršič Pass → Bovec, or via Italy / Predel Pass",
+      "duration": "About 2–2h30 in good conditions",
+      "cost": "Roughly €35–70 for fuel, tolls or rental allocation",
+      "notes": "Vršič is seasonal and mountainous. Follow live road conditions; the Italy/Predel approach may be the safer or only route in poor weather."
+    },
+    {
+      "mode": "bus",
+      "route": "Ljubljana or Jesenice/Kranjska Gora → Bovec on seasonal regional services",
+      "duration": "About 3–5h depending on connection",
+      "cost": "Roughly €15–30 one way",
+      "notes": "Schedules vary sharply by season. Let the rafting company provide the river shuttle; public buses are not a substitute for a take-out plan."
+    },
+    {
+      "mode": "rail",
+      "route": "Bohinjska Bistrica → Most na Soči on the Bohinj Railway, then bus/taxi through Tolmin and Kobarid",
+      "duration": "Scenic half-day connection",
+      "cost": "Roughly €20–50",
+      "notes": "A strong rail-first route into the lower valley; verify the onward bus and avoid assuming a late same-day connection to Bovec."
+    }
+  ],
+  "costs": {
+    "thrifty": "€250–450 for three nights: campsite or hostel, one guided rafting trip, bus transport and self-catering.",
+    "midrange": "€650–1,100 for four nights: guesthouse, rafting plus an introductory kayak lesson, rental car or transfers and restaurant meals.",
+    "splurge": "€1,700+ for a private guide progression, boutique lodging, canyoning or multi-day instruction and private transfers.",
+    "notes": "Planning estimates, not quotes. Confirm whether permits, equipment, shuttle, photos and insurance are included. The cheapest listing is not automatically the best-matched or safest operator."
+  },
+  "booking": [
+    {
+      "label": "GoSoča — official permit portal (verified 13 July 2026)",
+      "url": "https://gosoca.si/"
+    },
+    {
+      "label": "Soča Valley official activity directory (verified 13 July 2026)",
+      "url": "https://www.soca-valley.com/en/in-search-of-adventure/activities/"
+    },
+    {
+      "label": "ARSO hydrological information (verified 13 July 2026)",
+      "url": "https://www.arso.gov.si/en/water/"
+    }
+  ],
+  "weather": "Alpine weather can turn quickly, while rain far upstream can alter the river. Summer afternoons may be hot in Bovec but the water remains cold. Pack warm dry clothes, sun protection and a waterproof layer, then let flow and storm risk — not the reservation — decide whether the trip runs.",
+  "tips": [
+    "Book the first water session early in the stay so a weather cancellation can move to a later day.",
+    "Tell the outfitter the truth about swimming ability and prior paddling; accurate matching creates a better trip than bravado.",
+    "Bring any needed prescription medication in a waterproof, guide-approved system and disclose conditions relevant to cold water or exertion.",
+    "Save the permit, operator number, put-in and take-out offline. Photograph the outfitter's emergency card before surrendering the phone.",
+    "Build one no-water day around Kobarid's museum and the Walk of Peace rather than forcing marginal conditions."
+  ],
+  "localRecs": [
+    {
+      "name": "Great Soča Gorge",
+      "type": "sight",
+      "note": "A narrow turquoise gorge for viewing from legal paths — not an invitation to swim or jump."
+    },
+    {
+      "name": "Kobarid Museum",
+      "type": "sight",
+      "note": "Excellent interpretation of the Isonzo Front and the human history behind the adventure landscape."
+    },
+    {
+      "name": "Walk of Peace",
+      "type": "sight",
+      "note": "A network connecting First World War heritage sites; select a signed segment and verify trail conditions."
+    },
+    {
+      "name": "Bovec centre",
+      "type": "neighborhood",
+      "note": "Compact base for outfitters, gear shops, bakeries and post-river dinners without needing to drive."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kayaking%20on%20Soca%20river%20%2842197319524%29.jpg",
+      "caption": "Kayaking on the Soča — technical choice of section and current flow matters more than the postcard colour",
+      "credit": "Wikimedia Commons / Jernej Furman (CC BY 2.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafting%20river%20So%C4%8Da%201.jpg",
+      "caption": "A guided raft on the Soča, the most accessible introduction for many first-time visitors",
+      "credit": "Wikimedia Commons / malenki (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soca-Zaga-rafting.jpg",
+      "caption": "The Soča near Žaga with Mount Svinjak behind — one landscape, many river sections",
+      "credit": "Wikimedia Commons / Žiga (public domain)"
+    }
+  ]
+}

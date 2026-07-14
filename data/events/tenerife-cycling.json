@@ -1,0 +1,243 @@
+{
+  "id": "tenerife-cycling",
+  "name": "Tenerife — Teide Altitude Cycling",
+  "tagline": "Climb from Atlantic palms to a 2,300-metre volcanic plateau in one uninterrupted winter-sun ride.",
+  "city": "La Orotava",
+  "country": "Spain",
+  "dates": "Prime cycling window: October–May, though Tenerife tourism presents the island as a year-round destination. High UV, wind and major elevation-driven temperature shifts matter in every month. Route, transport and booking information verified 13 July 2026.",
+  "history": [
+    "Tenerife rises from the Atlantic to the 3,715-metre summit of Teide, Spain's highest mountain. Roads climb from subtropical coast through pine forest to a stark volcanic caldera above 2,000 metres, creating one of cycling's largest continuous climate and elevation transitions without crossing a mountain range. For riders, the drama is not one famous hairpin but the sustained scale of the ascent.",
+    "The island became a winter and altitude-training base because its high roads remain accessible through much of the European off-season. Professional teams and elite riders use the long, steady gradients around Teide for controlled climbing, while holiday bases at sea level provide warm recovery. The same geography creates the central safety problem: a rider can leave in sunshine and descend hours later through cloud, cold and strong wind.",
+    "Tenerife's official cycling network publishes eight road routes reaching above 2,000 metres. The La Orotava–Teide–La Esperanza circuit is 98 km with 2,727 m of ascent and a highest point of 2,302 m; the Garachico–Erjos–Santiago–Masca–Buenavista route is 54 km with 1,589 m of ascent and descents reaching 20%. Those official metrics support a dossier that distinguishes a hard mountain holiday from a generic beach-and-bike trip."
+  ],
+  "guideSections": [
+    {
+      "id": "d-routes",
+      "toc": "Routes",
+      "eyebrow": "Official Tenerife network",
+      "title": "Two hard days with very different risk profiles",
+      "facts": [
+        {
+          "label": "Teide circuit",
+          "value": "98 km · +2,727 m",
+          "note": "Highest point 2,302 m; official difficulty high."
+        },
+        {
+          "label": "Masca circuit",
+          "value": "54 km · +1,589 m",
+          "note": "Shorter but steep and technical, with official route guidance warning of descents up to 20%."
+        },
+        {
+          "label": "Altitude change",
+          "value": "Sea level → 2,300 m",
+          "note": "Plan clothing and hydration for multiple climate zones, not the hotel forecast."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "Queen stage",
+          "title": "La Orotava → Teide → La Esperanza",
+          "meta": "98 km · +2,727 m · high difficulty",
+          "text": "The official circuit reaches 2,302 metres before a long descent. Start early, carry layers and establish water stops before leaving the lower towns."
+        },
+        {
+          "kicker": "Technical day",
+          "title": "Garachico → Masca → Buenavista",
+          "meta": "54 km · +1,589 m · descents to 20%",
+          "text": "Masca's gradients and narrow roads make the route harder than its distance suggests. Inspect brakes first and avoid peak sightseeing traffic."
+        },
+        {
+          "kicker": "Adaptation day",
+          "title": "Partial Teide ascent",
+          "meta": "Out-and-back · turn-around flexible",
+          "text": "A first-day out-and-back lets riders test heat, altitude and rental fit without committing to the 98 km circuit. Turn around before fatigue compromises the descent."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Tenerife cycling-route index",
+          "url": "https://www.webtenerife.com/que-hacer/rutas/ciclismo/"
+        },
+        {
+          "label": "Official La Orotava–Teide route",
+          "url": "https://www.webtenerife.com/que-hacer/rutas/ciclismo/orotava-teide-esperanza-laguna-sauzal-matanza-santaursula/"
+        },
+        {
+          "label": "Official Garachico–Masca route",
+          "url": "https://www.webtenerife.com/que-hacer/rutas/ciclismo/garachico-erjos-santiago-masca-buenavista/"
+        }
+      ]
+    },
+    {
+      "id": "d-plan",
+      "toc": "Trip plan",
+      "eyebrow": "Six to eight days",
+      "title": "Use a long stay to earn the summit safely",
+      "items": [
+        {
+          "kicker": "Days 1–2",
+          "title": "Fit and acclimatise",
+          "meta": "Easy coast and partial climb",
+          "text": "Collect the bike, verify brakes and gearing, then use a short climb to understand the island's wind and temperature change."
+        },
+        {
+          "kicker": "Day 3",
+          "title": "Teide circuit",
+          "meta": "98 km · +2,727 m",
+          "text": "Move this day to the clearest forecast. Begin near sunrise, pace the first half conservatively and add summit layers before the descent."
+        },
+        {
+          "kicker": "Day 4",
+          "title": "Full recovery",
+          "meta": "Beach, walk or no bike",
+          "text": "The Teide day has enough eccentric load and altitude exposure to justify a complete rest day."
+        },
+        {
+          "kicker": "Days 5–6",
+          "title": "Masca or a gentler coast loop",
+          "meta": "Choose by brake confidence and traffic",
+          "text": "Ride Masca only if the group is comfortable on steep technical descents. Otherwise choose a lower, shorter route and preserve the holiday."
+        }
+      ],
+      "bullets": [
+        "A north-coast base makes the official La Orotava circuit logical; a south-coast resort can offer sunnier recovery but adds transfer or approach distance.",
+        "Reserve compact gearing and disc brakes if available, and confirm two bottle cages.",
+        "Plan a genuine rest day after the biggest climb rather than filling every day with elevation.",
+        "Do not use professional training volume as a recreational itinerary template."
+      ],
+      "links": [
+        {
+          "label": "Official Tenerife listing for Free Motion",
+          "url": "https://www.webtenerife.co.uk/plan-trip/tourist-service-companies/activity-companies/free-motion/"
+        },
+        {
+          "label": "Teide National Park visitor information",
+          "url": "https://www.webtenerife.co.uk/what-to-see/teide-national-park/"
+        }
+      ]
+    },
+    {
+      "id": "d-safety",
+      "toc": "Safety & weather",
+      "eyebrow": "Verified 13 July 2026",
+      "title": "Dress for the descent, not the beach",
+      "facts": [
+        {
+          "label": "Suggested stay",
+          "value": "6–8 days",
+          "note": "Long enough to wait for a good Teide forecast and recover between major climbing days."
+        },
+        {
+          "label": "Planning band",
+          "value": "€1,000–1,900 pp",
+          "note": "Editorial estimate for economy Zürich transport, shared midrange room, meals and rental; not a live quote."
+        },
+        {
+          "label": "Direct flight",
+          "value": "ZRH–TFS · ~4h35",
+          "note": "Published by SWISS when checked; timetable and fares remain live inventory."
+        }
+      ],
+      "bullets": [
+        "Carry a windproof or waterproof shell, gilet, arm warmers and full-finger gloves for high descents even when the coast is hot.",
+        "Use high-SPF sunscreen and reapply: altitude, clear air and long exposure make UV a primary hazard.",
+        "Identify every water stop in advance. Long upper sections have limited services and wind increases dehydration.",
+        "Masca combines steep roads, sightseeing traffic and sharp bends. Do not chase speed on the descent.",
+        "Turn around if cloud, wind or cold is increasing faster than expected. The summit plateau offers little shelter."
+      ],
+      "links": [
+        {
+          "label": "SWISS Zürich–Tenerife",
+          "url": "https://www.swiss.com/lhg/ch/en/o-d/cy-cy/zurich-tenerife"
+        },
+        {
+          "label": "AEMET weather warnings",
+          "url": "https://www.aemet.es/en/eltiempo/prediccion/avisos"
+        }
+      ]
+    }
+  ],
+  "whyGo": "Tenerife is the outdoor collection's clearest winter-altitude proposition. In one ride it moves from Atlantic coast to volcanic plateau above 2,300 metres, offering both visual drama and a credible training narrative. It belongs in vibe results for ‘winter sun, very long climbs, volcanic landscapes, pro-training energy’—with safety and climate-change guidance made as prominent as the inspiration.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Tenerife South (TFS) direct, then reserved transfer to the chosen base",
+      "duration": "~4h35 flight + 25–75 min ground transfer",
+      "cost": "Planning allowance CHF 300–650 return plus transfer",
+      "notes": "SWISS publishes direct service. Fare and schedule checked 13 July 2026 but must be repriced live. A pre-booked transfer that accepts bike luggage is essential if bringing a bike."
+    },
+    {
+      "mode": "fly",
+      "route": "ZRH → TFS, rent a road bike on the island",
+      "duration": "Same flight; avoid airline bike handling",
+      "cost": "Standard road rental commonly forms a material part of the trip budget",
+      "notes": "Local rental is the lowest-friction plan. Confirm shop location relative to the hotel and whether delivery, pedals, helmet and damage cover are included."
+    }
+  ],
+  "costs": {
+    "thrifty": "€850–1,150 for 6 nights with an early economy flight, apartment or simple shared room, standard rental and self-guided riding.",
+    "midrange": "€1,300–1,900 for 7 nights with quality carbon rental, midrange hotel, transfers, meals and one guided mountain day.",
+    "splurge": "€2,800+ for premium resort lodging, top-tier bike, private guide, massage and vehicle support.",
+    "notes": "Editorial planning bands per person, not quotations. Insurance, rental deposit, sports baggage and premium guiding are excluded. Recalculate live."
+  },
+  "booking": [
+    {
+      "label": "Tenerife — official cycling routes · verified 13 Jul 2026",
+      "url": "https://www.webtenerife.com/que-hacer/rutas/ciclismo/"
+    },
+    {
+      "label": "La Orotava–Teide official route · verified 13 Jul 2026",
+      "url": "https://www.webtenerife.com/que-hacer/rutas/ciclismo/orotava-teide-esperanza-laguna-sauzal-matanza-santaursula/"
+    },
+    {
+      "label": "Free Motion — official tourism listing · verified 13 Jul 2026",
+      "url": "https://www.webtenerife.co.uk/plan-trip/tourist-service-companies/activity-companies/free-motion/"
+    },
+    {
+      "label": "SWISS Zürich–Tenerife route · verified 13 Jul 2026",
+      "url": "https://www.swiss.com/lhg/ch/en/o-d/cy-cy/zurich-tenerife"
+    }
+  ],
+  "weather": "Tenerife's microclimates are the defining planning issue. A warm, still coast can coexist with cloud, strong wind and single-digit effective temperatures above 2,000 metres. Northern slopes are often cooler and cloudier; the south is usually drier. Start early, carry sun protection and descent layers, and treat official weather warnings as route-changing information rather than inconvenience.",
+  "tips": [
+    "Choose the clearest forecast for the full Teide circuit and move other rides around it.",
+    "Carry two full bottles and map refill points before leaving populated lower slopes.",
+    "Use a compact chainset and at least a 1:1 easiest gear unless the rider is demonstrably comfortable with long climbing.",
+    "Photograph the rental bike at collection and test both brakes on a controlled descent before Masca.",
+    "Avoid comparing coast temperature with summit clothing needs; pack for the highest point."
+  ],
+  "localRecs": [
+    {
+      "name": "La Orotava",
+      "type": "neighborhood",
+      "note": "Historic north-coast base directly aligned with the official Teide circuit and a richer town experience than an isolated resort."
+    },
+    {
+      "name": "Las Cañadas del Teide",
+      "type": "sight",
+      "note": "The high volcanic caldera is the trip's visual centre; stop only where it is safe and legal to leave the carriageway."
+    },
+    {
+      "name": "Garachico",
+      "type": "sight",
+      "note": "Historic coastal town and a natural anchor for the official Masca circuit."
+    },
+    {
+      "name": "Masca",
+      "type": "sight",
+      "note": "A dramatic mountain village reached by steep, technical roads; schedule outside peak sightseeing traffic."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Road_to_Teide.jpg",
+      "caption": "The road climbs through Tenerife's volcanic high country toward Teide.",
+      "credit": "Wikimedia Commons / S. Rae (CC BY 2.0; verify selected licence on file page at ingestion) — https://commons.wikimedia.org/wiki/File:Road_to_Teide.jpg"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pico_del_Teide,_Tenerife.JPG",
+      "caption": "Teide dominates the island's 2,000-metre cycling plateau.",
+      "credit": "Wikimedia Commons / Blacklaserlight (CC BY-SA 3.0 ES) — https://commons.wikimedia.org/wiki/File:Pico_del_Teide,_Tenerife.JPG"
+    }
+  ]
+}

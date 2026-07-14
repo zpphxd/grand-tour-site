@@ -45,7 +45,8 @@ const photoOf = (id, i = 0) => DOSSIERS[id]?.photos?.[i]?.url || null;
 const eventColor = id => window.EVENT_COLORS[Math.max(0, ITEMS.findIndex(e => e.id === id)) % window.EVENT_COLORS.length];
 
 const KIND_LABEL = { arts: 'Arts & Music', festival: 'Festival', food: 'Food & Wine', sport: 'Sport',
-  hiking: 'Hiking', skiing: 'Skiing', cycling: 'Road Cycling' };
+  hiking: 'Hiking', skiing: 'Skiing', cycling: 'Cycling', gravel: 'Gravel & Bikepacking',
+  climbing: 'Climbing & Via Ferrata', water: 'Water & Paddling', trail: 'Trail Running' };
 const MODE_LABEL = { rail: 'Rail', fly: 'Fly', drive: 'Drive' };
 
 /* ---------- three-way comparison ---------- */
@@ -197,6 +198,124 @@ async function loadForecast(el, e) {
   } catch { (document.querySelector('#d-weather-live') || el).remove(); }
 }
 
+/* ---------- Swiss rail hub ---------- */
+const railAdvice = {
+  fixed: {
+    eyebrow: 'Lowest price, least flexibility',
+    title: 'Compare a normal point-to-point ticket with Supersaver.',
+    text: 'Use this when you can commit to a specific connection. Supersaver availability and conditions are shown in the live SBB purchase flow; do not assume the same discount exists on a later train.',
+    label: 'Compare on SBB', url: 'https://www.sbb.ch/en/offers/find-saver-offers',
+  },
+  flexible: {
+    eyebrow: 'A network day',
+    title: 'Price a Saver Day Pass before stacking individual legs.',
+    text: 'This is the useful comparison for a full day with several Swiss trains or uncertain return timing. The pass is capacity-priced, so the live date and your Half Fare status matter.',
+    label: 'Saver Day Pass', url: 'https://www.sbb.ch/en/offers/saver-day-pass',
+  },
+  frequent: {
+    eyebrow: 'Resident economics',
+    title: 'Model the year, not just the weekend.',
+    text: 'If Zürich is home, compare the Half Fare Travelcard and GA against your expected annual travel. The right answer depends on recurring local journeys as much as the glamorous international ones.',
+    label: 'SBB travelcards', url: 'https://www.sbb.ch/en/offers/half-fare-travelcard-benefits',
+  },
+  visitor: {
+    eyebrow: 'Guests resident abroad',
+    title: 'Swiss Travel Pass is a visitor product—not a default resident pass.',
+    text: 'It bundles broad Swiss travel and selected benefits for eligible visitors. Check residence eligibility, duration, mountain-rail inclusions and reservation extras before comparing it with ordinary tickets.',
+    label: 'Swiss Travel Pass', url: 'https://www.sbb.ch/en/offers/swiss-travel-pass',
+  },
+  international: {
+    eyebrow: 'One journey, several fare systems',
+    title: 'Start with one through-ticket, then compare splits carefully.',
+    text: 'A through-ticket can protect connections better than separate bargains. Sales windows, bike carriage and compulsory reservations change after the border; verify every operator on the actual itinerary.',
+    label: 'SBB Europe', url: 'https://www.sbb.ch/en/help-and-contact/products-services/tickets/europe/tickets.html',
+  },
+  night: {
+    eyebrow: 'Distance while you sleep',
+    title: 'Choose the berth first, then build the journey around it.',
+    text: 'Night-train reservations are compulsory and sleeping inventory sells independently by date. Check boarding time, compartment type, bike acceptance and morning arrival before treating it as a hotel replacement.',
+    label: 'Night trains from Switzerland', url: 'https://www.sbb.ch/en/leisure-holidays/europe/night-trains/nightjet.html',
+  },
+};
+
+function updateRailClock() {
+  const clock = $('#rail-clock');
+  if (!clock) return;
+  clock.textContent = new Intl.DateTimeFormat('de-CH', {
+    timeZone: 'Europe/Zurich', hour: '2-digit', minute: '2-digit', hour12: false,
+  }).format(new Date());
+}
+
+function initializeRailForm() {
+  const dateInput = $('#rail-date'), timeInput = $('#rail-time');
+  if (!dateInput || !timeInput) return;
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Zurich', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+  }).formatToParts(new Date()).filter(part => part.type !== 'literal').map(part => [part.type, part.value]));
+  dateInput.value = `${parts.year}-${parts.month}-${parts.day}`;
+  timeInput.value = `${parts.hour}:${parts.minute}`;
+}
+
+function railDuration(raw) {
+  const match = String(raw || '').match(/(\d+)d(\d+):(\d+)/);
+  if (!match) return raw || '—';
+  const hours = Number(match[1]) * 24 + Number(match[2]);
+  return `${hours}h ${match[3]}m`;
+}
+
+async function searchRail(destination, origin = 'Zürich HB', date = '', timeValue = '') {
+  const results = $('#rail-results');
+  const state = $('#rail-board-state');
+  $('#rail-board-origin').textContent = `FROM ${origin.toUpperCase()}`;
+  state.textContent = 'SEARCHING';
+  results.innerHTML = '<div class="rail-empty">Reading the live Swiss transport board…</div>';
+  try {
+    const query = new URLSearchParams({ from: origin, to: destination, limit: '5' });
+    if (date) query.set('date', date);
+    if (timeValue) query.set('time', timeValue);
+    const response = await fetch(`https://transport.opendata.ch/v1/connections?${query}`);
+    if (!response.ok) throw new Error('Live board unavailable');
+    const data = await response.json();
+    const connections = (data.connections || []).filter(connection => connection.from?.departure && connection.to?.arrival);
+    if (!connections.length) throw new Error('No connections found');
+    const time = value => String(value).slice(11, 16);
+    results.innerHTML = connections.map(connection => `
+      <div class="rail-row">
+        <time>${esc(time(connection.from.departure))}</time>
+        <div><strong>${esc(destination)}</strong><span>arr ${esc(time(connection.to.arrival))} · ${esc((connection.products || []).join(' · ') || 'Swiss public transport')}</span></div>
+        <span>${esc(connection.transfers === 0 ? 'Direct' : `${connection.transfers} change${connection.transfers === 1 ? '' : 's'}`)}</span>
+        <span>${esc(railDuration(connection.duration))}</span>
+        <span>Pl. ${esc(connection.from.platform || '—')}</span>
+      </div>`).join('') + `<a class="rail-sbb-link" href="https://www.sbb.ch/en" target="_blank" rel="noopener">Verify fare, platform and disruptions on SBB →</a>`;
+    state.textContent = 'LIVE';
+  } catch {
+    results.innerHTML = `<div class="rail-empty">The live board could not return that journey. Check the station spelling or continue in the official SBB planner. <a href="https://www.sbb.ch/en" target="_blank" rel="noopener">Open SBB →</a></div>`;
+    state.textContent = 'OFFLINE';
+  }
+}
+
+$('#rail-form').addEventListener('submit', event => {
+  event.preventDefault();
+  const destination = $('#rail-destination').value.trim();
+  const origin = $('#rail-origin').value.trim() || 'Zürich HB';
+  if (destination) searchRail(destination, origin, $('#rail-date').value, $('#rail-time').value);
+});
+document.querySelectorAll('[data-rail-to]').forEach(button => button.addEventListener('click', () => {
+  $('#rail-destination').value = button.dataset.railTo;
+  searchRail(button.dataset.railTo, $('#rail-origin').value.trim() || 'Zürich HB', $('#rail-date').value, $('#rail-time').value);
+}));
+$('#rail-choice-grid').addEventListener('click', event => {
+  const button = event.target.closest('[data-rail-choice]');
+  if (!button) return;
+  const advice = railAdvice[button.dataset.railChoice];
+  document.querySelectorAll('[data-rail-choice]').forEach(item => {
+    item.classList.toggle('on', item === button);
+    item.setAttribute('aria-pressed', String(item === button));
+  });
+  $('#rail-advice').innerHTML = `<span class="eyebrow">${esc(advice.eyebrow)}</span><h3>${esc(advice.title)}</h3><p>${esc(advice.text)}</p><a href="${esc(advice.url)}" target="_blank" rel="noopener">${esc(advice.label)} →</a>`;
+});
+
 /* researched date strings can be long sentences — trim for compact display */
 function shortDates(s, max = 52) {
   if (!s) return '';
@@ -275,12 +394,13 @@ function observeReveals() {
 /* ---------- home ---------- */
 const CHAPTERS = [
   { href: '#/map', title: 'The Map', sub: 'Three journeys drawn across Europe', photo: ['monaco-gp', 0] },
+  { href: '#/rail', title: 'The Rail Hub', sub: 'Live trains, ticket logic, night routes and bike rules', photo: ['andermatt-passes', 0] },
   { href: '#/calendar', title: 'The Calendar', sub: 'Thirteen months, headline by headline', photo: ['strasbourg-christmas', 0] },
   { href: '#/routes', title: 'The Routes', sub: 'Greatest Hits, Thrifty, Bucket-List', photo: ['alba-truffle', 0] },
   { href: '#/builder', title: 'Build a Route', sub: 'Compose your own year, stop by stop', photo: ['keukenhof', 0] },
   { href: '#/collection', title: 'The Collection', sub: 'Every dossier, one index', photo: ['las-fallas', 0] },
   { href: '#/playbook', title: 'The Playbook', sub: 'Clusters, savings and booking windows', photo: ['oktoberfest', 2] },
-  { href: '#/outdoors', title: 'Mountains & Trails', sub: 'Hiking, skiing and road cycling — the Alps on your doorstep', photo: ['eiger-grindelwald', 0], wide: true },
+  { href: '#/outdoors', title: 'The Outdoor Atlas', sub: 'Cycling hubs, great trails, water and winter — from Zürich into Europe', photo: ['eiger-grindelwald', 0], wide: true },
 ];
 
 function renderHome() {
@@ -548,7 +668,7 @@ function renderBuilder() {
     label: `${mo.label} ${mo.year}`,
     evs: window.EVENTS.filter(e => e.month === `${mo.label.slice(0, 3)} ${mo.year}`),
   })).filter(g => g.evs.length);
-  if (!q) groups.push({ label: 'Mountains & Trails', evs: ITEMS.filter(e => e.adventure) });
+  if (!q) groups.push({ label: 'Outdoor Atlas', evs: ITEMS.filter(e => e.adventure) });
   const matchCount = groups.reduce((n, g) => n + g.evs.length, 0);
   $('#builder-search-status').textContent = q
     ? `${matchCount} stop${matchCount === 1 ? '' : 's'} ranked locally from dossier metadata — no AI`
@@ -706,7 +826,7 @@ $('#builder-ics').addEventListener('click', () => {
 let outdoorsFilter = 'all';
 let outdoorsQuery = '';
 function renderOutdoors() {
-  const acts = ['all', 'hiking', 'skiing', 'cycling'];
+  const acts = ['all', ...new Set(window.ADVENTURES.map(adventure => adventure.activity))];
   $('#outdoors-filters').innerHTML = acts.map(k => `
     <button class="cfilter ${outdoorsFilter === k ? 'on' : ''}" data-kind="${k}">
       ${k === 'all' ? 'All' : esc(KIND_LABEL[k])}
@@ -850,9 +970,14 @@ function renderDetail(id) {
   const next = detailSequence[(idx + 1) % detailSequence.length];
   const img = d?.photos?.[0]?.url;
   const inBuilder = builderStops.includes(id);
+  const guideSections = (d?.guideSections || []).map((section, index) => ({
+    ...section,
+    id: String(section.id || `d-guide-${index + 1}`).replace(/[^\w-]/g, '-'),
+  }));
   const detailSections = d ? [
     ['d-overview', 'Why go'],
     ['d-story', 'Story'],
+    ...guideSections.map(section => [section.id, section.toc || section.title || 'Field guide']),
     ['d-logistics', 'Getting there'],
     ['d-budget', 'Budget'],
     ['d-tips', 'Tips'],
@@ -896,6 +1021,19 @@ function renderDetail(id) {
       ${d ? `
       <section class="d-sec anchor" id="d-overview"><span class="eyebrow">Why go</span><p class="d-why">${esc(d.whyGo)}</p></section>
       <section class="d-sec anchor" id="d-story"><span class="eyebrow">The story</span><h2>A little history</h2>${(d.history || []).map(p => `<p>${esc(p)}</p>`).join('')}</section>
+      ${guideSections.map(section => `
+      <section class="d-sec d-guide anchor" id="${esc(section.id)}">
+        <span class="eyebrow">${esc(section.eyebrow || 'Field guide')}</span>
+        <h2>${esc(section.title || '')}</h2>
+        ${section.intro ? `<p class="guide-intro">${esc(section.intro)}</p>` : ''}
+        ${(section.paragraphs || []).map(paragraph => `<p>${esc(paragraph)}</p>`).join('')}
+        ${section.facts?.length ? `<div class="guide-facts">${section.facts.map(fact => `
+          <div class="guide-fact"><span>${esc(fact.label)}</span><strong>${esc(fact.value)}</strong>${fact.note ? `<p>${esc(fact.note)}</p>` : ''}</div>`).join('')}</div>` : ''}
+        ${section.items?.length ? `<div class="guide-items">${section.items.map(item => `
+          <article><span>${esc(item.kicker || '')}</span><h3>${esc(item.title)}</h3>${item.meta ? `<div class="guide-item-meta">${esc(item.meta)}</div>` : ''}<p>${esc(item.text || '')}</p></article>`).join('')}</div>` : ''}
+        ${section.bullets?.length ? `<ul class="tips guide-bullets">${section.bullets.map(item => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}
+        ${section.links?.length ? `<div class="guide-links">${section.links.map(link => `<a href="${esc(link.url)}" target="_blank" rel="noopener">${esc(link.label)}</a>`).join('')}</div>` : ''}
+      </section>`).join('')}
       <section class="d-sec anchor" id="d-logistics">
         <span class="eyebrow">Logistics</span><h2>Getting there from Zürich</h2>
         <div class="gt-cards">
@@ -1034,7 +1172,7 @@ function bindMobileNav() {
 }
 
 /* ---------- router ---------- */
-const VIEWS = ['v-home', 'v-map', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'v-brief', 'detail'];
+const VIEWS = ['v-home', 'v-map', 'v-rail', 'v-calendar', 'v-routes', 'v-builder', 'v-outdoors', 'v-collection', 'v-playbook', 'v-brief', 'detail'];
 
 function show(viewId) {
   VIEWS.forEach(v => { $('#' + v).style.display = v === viewId ? '' : 'none'; });
@@ -1068,6 +1206,10 @@ function route() {
     show('v-map');
     setNav('map', false);
     ensureMainMap().then(() => { mainMap.play(); applyRoute(true); });
+  } else if (h.startsWith('#/rail')) {
+    show('v-rail');
+    setNav('rail', false);
+    updateRailClock();
   } else if (h.startsWith('#/calendar')) {
     show('v-calendar');
     setNav('calendar', false);
@@ -1116,6 +1258,9 @@ function onScroll() {
 (async function init() {
   bindFrances();
   bindMobileNav();
+  updateRailClock();
+  initializeRailForm();
+  setInterval(updateRailClock, 30000);
   window.VibeSearch?.index({ dossiers: DOSSIERS });
   renderCompareTray();
   renderHome();

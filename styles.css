@@ -532,6 +532,135 @@ a.leg-what:hover{color:var(--sienna)}
 .wx-lo{font-size:11px;color:var(--stone)}
 .wx-rain{font-size:10px;color:var(--atlantic)}
 
+/* ---------- Swiss rail hub ---------- */
+.rail-hero{padding:128px 0 72px;background:#171717;color:#fff}
+.rail-mast{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:22px;padding-bottom:26px;border-bottom:1px solid rgba(255,255,255,.15)}
+.rail-roundel{width:64px;height:64px;display:grid;place-items:center;background:#e2001a}
+.rail-roundel span{position:relative;width:38px;height:8px;background:#fff}
+.rail-roundel span::before,.rail-roundel span::after{content:'';position:absolute;top:-7px;width:15px;height:22px;border-top:8px solid transparent;border-bottom:8px solid transparent}
+.rail-roundel span::before{left:-10px;border-right:10px solid #fff}
+.rail-roundel span::after{right:-10px;border-left:10px solid #fff}
+.rail-mast .eyebrow{color:rgba(255,255,255,.55)}
+.rail-mast h1{margin-top:3px;font-size:clamp(42px,6vw,72px);letter-spacing:-.035em}
+.rail-clock{text-align:right;font-variant-numeric:tabular-nums}
+.rail-clock span{display:block;font:500 34px/1 var(--sans);letter-spacing:.02em}
+.rail-clock small{color:rgba(255,255,255,.5);font-size:9px;letter-spacing:.14em;text-transform:uppercase}
+.rail-dek{max-width:790px;margin:28px 0 34px;color:rgba(255,255,255,.7);font:300 18px/1.75 var(--sans)}
+.rail-board{border:1px solid rgba(255,255,255,.22);background:#090909;box-shadow:0 28px 70px rgba(0,0,0,.32)}
+.rail-board-head{display:grid;grid-template-columns:1fr 1fr auto;gap:15px;padding:11px 15px;background:#e2001a;
+  font:700 9.5px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase}
+.rail-form{display:grid;grid-template-columns:1fr 1.7fr 150px 120px auto;align-items:end;gap:10px;padding:18px 20px;border-bottom:1px solid rgba(255,255,255,.13)}
+.rail-field{display:grid;gap:7px;min-width:0}
+.rail-form label{font:600 9px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.58)}
+.rail-form input{min-width:0;min-height:48px;border:1px solid rgba(255,255,255,.25);background:#111;color:#fff;
+  padding:0 15px;font:500 15px/1 var(--sans);border-radius:0}
+.rail-form input::placeholder{color:rgba(255,255,255,.35)}
+.rail-form button{min-height:48px;border:1px solid #fff;background:#fff;color:#111;padding:0 20px;font:700 10px/1 var(--sans);
+  letter-spacing:.13em;text-transform:uppercase;cursor:pointer}
+.rail-results{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+.rail-row{display:grid;grid-template-columns:80px minmax(190px,1fr) 110px 90px 80px;align-items:center;gap:16px;min-height:70px;
+  padding:10px 20px;border-bottom:1px solid rgba(255,255,255,.1);font-size:11px;color:rgba(255,255,255,.62)}
+.rail-row time{font-size:25px;font-weight:700;color:#ffdc46;font-variant-numeric:tabular-nums}
+.rail-row strong{display:block;color:#fff;font-size:14px}
+.rail-row div span{display:block;margin-top:3px;color:rgba(255,255,255,.45);font-size:9.5px}
+.rail-empty{min-height:90px;display:flex;align-items:center;padding:20px;color:rgba(255,255,255,.5);font-size:11px;line-height:1.6}
+.rail-empty a{margin-left:5px;color:#ffdc46}
+.rail-sbb-link{display:flex;align-items:center;min-height:48px;padding:0 20px;color:#ffdc46;text-decoration:none;font-size:10px}
+.rail-quick{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:14px}
+.rail-quick>span{margin-right:7px;color:rgba(255,255,255,.45);font-size:9px;font-weight:600;letter-spacing:.15em;text-transform:uppercase}
+.rail-quick button{min-height:44px;border:1px solid rgba(255,255,255,.2);background:transparent;color:#fff;padding:0 13px;
+  font:600 10px/1 var(--sans);letter-spacing:.06em;cursor:pointer}
+.rail-quick button:hover{border-color:#ffdc46;color:#ffdc46}
+.rail-board-note{max-width:760px;margin-top:12px;color:rgba(255,255,255,.42);font-size:9.5px;line-height:1.6}
+.rail-choice-section{background:#f2f1ee}
+.rail-choice-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #cbc8c1;border-left:1px solid #cbc8c1}
+.rail-choice-grid button{min-height:128px;padding:21px;text-align:left;border:0;border-right:1px solid #cbc8c1;border-bottom:1px solid #cbc8c1;
+  background:#fff;color:var(--ink);cursor:pointer;transition:.2s}
+.rail-choice-grid button:hover,.rail-choice-grid button.on{background:#e2001a;color:#fff}
+.rail-choice-grid span{display:block;margin-bottom:7px;color:var(--stone);font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.rail-choice-grid button:hover span,.rail-choice-grid button.on span{color:rgba(255,255,255,.66)}
+.rail-choice-grid strong{font:500 20px/1.25 var(--serif)}
+.rail-advice{margin-top:22px;padding:30px 32px;border-left:5px solid #e2001a;background:#fff}
+.rail-advice h3{margin-top:9px;font-size:28px}
+.rail-advice p{max-width:760px;margin:12px 0 0;color:var(--ink-soft);font-size:14px}
+.rail-advice a{display:inline-flex;align-items:center;min-height:44px;margin-top:12px;color:#c40017;font-size:10px;font-weight:700;letter-spacing:.1em;text-decoration:none;text-transform:uppercase}
+.rail-fare-strip{display:grid;grid-template-columns:repeat(4,1fr);margin-top:22px;border-top:1px solid #cbc8c1;border-left:1px solid #cbc8c1;background:#fff}
+.rail-fare-strip article{min-height:215px;padding:24px;border-right:1px solid #cbc8c1;border-bottom:1px solid #cbc8c1}
+.rail-fare-strip article>span,.rail-ops-grid article>span{display:block;color:var(--stone);font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.rail-fare-strip strong{display:block;margin-top:12px;font:500 21px/1.25 var(--serif)}
+.rail-fare-strip p{margin-top:12px;color:var(--ink-soft);font-size:12px;line-height:1.65}
+.rail-fare-strip a,.rail-panel a,.rail-ops-grid a{display:inline-flex;align-items:center;min-height:44px;margin-top:10px;color:#c40017;font-size:9.5px;font-weight:700;letter-spacing:.08em;text-decoration:none;text-transform:uppercase}
+.rail-fact-note{margin-top:12px;color:var(--stone);font-size:10px;line-height:1.6}
+.rail-network-section{background:#171717;color:#fff}
+.rail-network-section .eyebrow{color:#ffdc46}
+.rail-network-section .sec-sub{color:rgba(255,255,255,.6)}
+.rail-route-ribbon{display:flex;align-items:center;gap:8px;overflow-x:auto;padding:18px 0 20px;border-top:1px solid rgba(255,255,255,.18);border-bottom:1px solid rgba(255,255,255,.18);scrollbar-width:thin}
+.rail-route-ribbon span{display:inline-flex;align-items:center;min-height:44px;flex:0 0 auto;padding:0 13px;border:1px solid rgba(255,255,255,.25);font-size:10px;font-weight:600;letter-spacing:.05em}
+.rail-route-ribbon .rail-origin{background:#e2001a;border-color:#e2001a}
+.rail-route-ribbon i{width:38px;height:2px;flex:0 0 auto;background:#ffdc46}
+.rail-split{display:grid;grid-template-columns:1.25fr .75fr;margin-top:24px}
+.rail-panel{min-height:275px;padding:32px;border:1px solid rgba(255,255,255,.18)}
+.rail-panel+.rail-panel{border-left:0}
+.rail-panel h3{margin-top:9px;font-size:29px}
+.rail-panel p,.rail-panel li{color:rgba(255,255,255,.66);font-size:13px;line-height:1.7}
+.rail-panel ul{margin:17px 0 0;padding-left:18px}
+.rail-panel li+li{margin-top:7px}
+.rail-panel a{color:#ffdc46}
+.rail-panel-red{background:#e2001a;border-color:#e2001a}
+.rail-panel-red .eyebrow,.rail-panel-red a{color:#fff}
+.rail-panel-red p{color:rgba(255,255,255,.8)}
+.rail-scenic-section{background:#f2f1ee}
+.rail-scenic-list{border-top:1px solid #cbc8c1}
+.rail-scenic-list article{display:grid;grid-template-columns:70px 1fr auto;align-items:center;gap:22px;min-height:112px;border-bottom:1px solid #cbc8c1}
+.rail-scenic-list b{font:500 32px/1 var(--serif);color:#b9b5ad}
+.rail-scenic-list h3{font-size:23px}
+.rail-scenic-list p{margin-top:5px;color:var(--ink-soft);font-size:12.5px}
+.rail-scenic-list a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:1px solid #bbb7af;color:#c40017;font-size:9px;font-weight:700;letter-spacing:.12em;text-decoration:none;text-transform:uppercase}
+.rail-operations-section{background:#ebe7df}
+.rail-ops-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #cbc4b8;border-left:1px solid #cbc4b8}
+.rail-ops-grid article{min-height:260px;padding:28px;border-right:1px solid #cbc4b8;border-bottom:1px solid #cbc4b8;background:rgba(255,255,255,.38)}
+.rail-ops-grid h3{margin-top:11px;font-size:24px}
+.rail-ops-grid p{margin-top:14px;color:var(--ink-soft);font-size:12.5px;line-height:1.7}
+.rail-field-guide{background:#fff}
+.rail-guide-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.rail-guide-grid article{position:relative;min-height:300px;padding:32px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.rail-guide-no{position:absolute;right:22px;top:20px;color:#d9d5cd;font:500 35px/1 var(--serif)}
+.rail-guide-grid h3{max-width:210px;font-size:27px}
+.rail-guide-grid p{margin-top:20px;color:var(--ink-soft);font-size:13px;line-height:1.75}
+.rail-guide-grid a{display:inline-flex;align-items:center;min-height:44px;margin-top:14px;color:#c40017;font-size:10px;font-weight:700;
+  letter-spacing:.07em;text-decoration:none}
+.rail-verified{margin:20px 0 0}
+
+@media(max-width:900px){
+  .rail-choice-grid,.rail-guide-grid{grid-template-columns:repeat(2,1fr)}
+  .rail-fare-strip,.rail-ops-grid{grid-template-columns:repeat(2,1fr)}
+  .rail-row{grid-template-columns:70px minmax(170px,1fr) 95px 80px}
+  .rail-row>span:last-child{display:none}
+}
+@media(max-width:620px){
+  .rail-hero{padding-top:105px}
+  .rail-mast{grid-template-columns:auto 1fr;gap:14px}
+  .rail-roundel{width:50px;height:50px}
+  .rail-clock{grid-column:1/-1;display:flex;align-items:baseline;gap:8px;text-align:left}
+  .rail-clock span{font-size:25px}
+  .rail-form{grid-template-columns:1fr 1fr;gap:10px;padding:15px}
+  .rail-field-wide,.rail-form button{grid-column:1/-1}
+  .rail-form input{border-right:1px solid rgba(255,255,255,.25)}
+  .rail-form button{margin-top:6px}
+  .rail-board-head{grid-template-columns:1fr auto}
+  .rail-board-head span:nth-child(2){display:none}
+  .rail-row{grid-template-columns:62px 1fr;gap:8px 12px;padding:13px 15px}
+  .rail-row>span{grid-column:2}
+  .rail-row>span:last-child{display:block}
+  .rail-choice-grid,.rail-guide-grid{grid-template-columns:1fr}
+  .rail-fare-strip,.rail-ops-grid,.rail-split{grid-template-columns:1fr}
+  .rail-panel+.rail-panel{border-left:1px solid rgba(255,255,255,.18);border-top:0}
+  .rail-scenic-list article{grid-template-columns:48px 1fr;gap:12px;padding:16px 0}
+  .rail-scenic-list article a{grid-column:2;justify-self:start}
+  .rail-choice-grid button{min-height:100px}
+  .rail-guide-grid article{min-height:0}
+}
+
 /* ---------- travel brief ---------- */
 .brief-head{padding-bottom:54px}
 .brief-fresh{display:flex;flex-wrap:wrap;gap:7px;margin-top:28px}
@@ -649,6 +778,21 @@ a.leg-what:hover{color:var(--sienna)}
 .d-actionbar .primary:hover{background:var(--sienna);color:#fff}
 .booking-verified{margin:-6px 0 8px;color:var(--stone);font-size:11px;line-height:1.55;font-weight:300}
 .d-sec.anchor,.d-panel.anchor{scroll-margin-top:154px}
+.d-guide .guide-intro{font-family:var(--serif);font-size:21px;line-height:1.55;color:var(--ink);max-width:720px}
+.guide-facts{display:grid;grid-template-columns:repeat(3,1fr);margin:28px 0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.guide-fact{min-height:150px;padding:20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper-warm)}
+.guide-fact>span,.guide-items article>span{display:block;margin-bottom:8px;color:var(--sienna);font-size:9px;font-weight:600;letter-spacing:.17em;text-transform:uppercase}
+.guide-fact strong{display:block;font:500 21px/1.25 var(--serif)}
+.guide-fact p{margin:9px 0 0;color:var(--stone);font-size:11.5px;line-height:1.55}
+.guide-items{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin:28px 0;background:var(--line);border:1px solid var(--line)}
+.guide-items article{padding:24px;background:var(--paper)}
+.guide-items h3{font-size:21px}
+.guide-items p{margin-bottom:0;font-size:13px;line-height:1.65}
+.guide-item-meta{margin:7px 0 10px;color:var(--stone);font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.guide-bullets{margin-top:26px}
+.guide-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}
+.guide-links a{display:inline-flex;align-items:center;min-height:44px;padding:0 13px;border:1px solid var(--line);color:var(--sienna);text-decoration:none;font-size:10px;font-weight:600;letter-spacing:.08em}
+.guide-links a:hover{border-color:var(--sienna)}
 
 /* Maintain a dependable 44px touch target for primary controls. */
 .topnav-links a,.route-tab,.play-btn,.cfilter,.bcat-btn,.rcard-btn,.cal-toggle button,
@@ -693,6 +837,7 @@ a.leg-what{display:inline-flex;align-items:center}
   .d-actionbar a,.d-actionbar button{font-size:9px;letter-spacing:.08em;padding:0 6px}
   .d-toc{padding-left:10px;padding-right:10px}
   .d-toc a{padding-left:10px;padding-right:10px}
+  .guide-facts,.guide-items{grid-template-columns:1fr}
   .compare-tray .wrap{align-items:flex-end;gap:10px;padding-top:9px;padding-bottom:9px}
   .compare-items>span{max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .compare-actions button:first-child{display:none}

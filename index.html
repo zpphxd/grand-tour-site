@@ -20,6 +20,7 @@
     </button>
     <div class="topnav-links" id="primary-navigation">
       <a href="#/map" data-nav="map">The Map</a>
+      <a href="#/rail" data-nav="rail">Rail Hub</a>
       <a href="#/calendar" data-nav="calendar">Calendar</a>
       <a href="#/routes" data-nav="routes">Routes</a>
       <a href="#/builder" data-nav="builder">Build a Route</a>
@@ -62,7 +63,7 @@
     <div class="wrap">
       <div class="sec-head rv">
         <span class="eyebrow">Start anywhere</span>
-        <h2>Seven ways into the year</h2>
+        <h2>Eight ways into the year</h2>
       </div>
       <div id="chapter-grid" class="chapter-grid"></div>
     </div>
@@ -126,6 +127,123 @@
           <div id="route-legs" class="route-legs"></div>
         </aside>
       </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ RAIL HUB ============ -->
+<main id="v-rail" class="view" style="display:none">
+  <header class="rail-hero">
+    <div class="wrap">
+      <div class="rail-mast">
+        <div class="rail-roundel" aria-hidden="true"><span></span></div>
+        <div><span class="eyebrow">Zürich HB · platform zero</span><h1>The Rail Hub</h1></div>
+        <div class="rail-clock"><span id="rail-clock">--:--</span><small>Europe/Zurich</small></div>
+      </div>
+      <p class="rail-dek">The practical operating system for seeing Europe from a Swiss base — live connections, the right ticket, night-train strategy, bike rules and what to do when the railway goes sideways.</p>
+      <div class="rail-board" aria-label="Live rail journey search">
+        <div class="rail-board-head"><span>LIVE JOURNEY BOARD</span><span id="rail-board-origin">FROM ZÜRICH HB</span><span id="rail-board-state">READY</span></div>
+        <form class="rail-form" id="rail-form">
+          <div class="rail-field"><label for="rail-origin">From</label><input id="rail-origin" name="origin" value="Zürich HB" autocomplete="off" required></div>
+          <div class="rail-field rail-field-wide"><label for="rail-destination">To</label><input id="rail-destination" name="destination" autocomplete="off" placeholder="Bern, Milan, Paris, Andermatt…" required></div>
+          <div class="rail-field"><label for="rail-date">Date</label><input id="rail-date" name="date" type="date"></div>
+          <div class="rail-field"><label for="rail-time">Time</label><input id="rail-time" name="time" type="time"></div>
+          <button type="submit">Find trains</button>
+        </form>
+        <div class="rail-results" id="rail-results" aria-live="polite">
+          <div class="rail-empty">Enter a station or city to see the next practical connections from Zürich HB.</div>
+        </div>
+      </div>
+      <div class="rail-quick" aria-label="Quick rail searches">
+        <span>Quick board</span>
+        <button type="button" data-rail-to="Bern">Bern</button>
+        <button type="button" data-rail-to="Basel SBB">Basel</button>
+        <button type="button" data-rail-to="Milano Centrale">Milan</button>
+        <button type="button" data-rail-to="Paris Gare de Lyon">Paris</button>
+        <button type="button" data-rail-to="Andermatt">Andermatt</button>
+      </div>
+      <p class="rail-board-note">Live routing is supplied by the open Swiss transport endpoint. It is a planning aid, not a ticket: verify the final platform, accessibility, bike space and fare with SBB.</p>
+    </div>
+  </header>
+
+  <section class="rail-choice-section">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Ticket logic</span><h2>Which ticket should I buy?</h2><p class="sec-sub">Choose the shape of the day. The hub explains the trade-off and sends you to the official purchase path; it does not pretend a planning estimate is a live fare.</p></div>
+      <div class="rail-choice-grid" id="rail-choice-grid">
+        <button type="button" data-rail-choice="fixed" aria-pressed="false"><span>One fixed train</span><strong>Point-to-point or Supersaver</strong></button>
+        <button type="button" data-rail-choice="flexible" aria-pressed="false"><span>A flexible Swiss day</span><strong>Saver Day Pass</strong></button>
+        <button type="button" data-rail-choice="frequent" aria-pressed="false"><span>Repeated travel</span><strong>Half Fare or GA</strong></button>
+        <button type="button" data-rail-choice="visitor" aria-pressed="false"><span>Visiting Switzerland</span><strong>Swiss Travel Pass</strong></button>
+        <button type="button" data-rail-choice="international" aria-pressed="false"><span>Crossing a border</span><strong>International ticket</strong></button>
+        <button type="button" data-rail-choice="night" aria-pressed="false"><span>Sleeping en route</span><strong>Night train</strong></button>
+      </div>
+      <article class="rail-advice" id="rail-advice" aria-live="polite">
+        <span class="eyebrow">Start here</span><h3>Tell us what kind of journey this is.</h3><p>We will show the best product to compare, the flexibility you give up and the official place to verify the live price.</p>
+      </article>
+      <div class="rail-fare-strip" aria-label="Indicative Swiss rail fares">
+        <article><span>Flexible route</span><strong>Point-to-point</strong><p>Use a suitable connection on the selected route and date.</p><a href="https://www.sbb.ch/en/offers/point-to-point-ticket" target="_blank" rel="noopener">Official rules</a></article>
+        <article><span>Fixed train</span><strong>Supersaver · up to 50% off</strong><p>Quota-controlled and connection-specific; flexibility is the trade.</p><a href="https://www.sbb.ch/en/offers/find-saver-offers" target="_blank" rel="noopener">Find saver offers</a></article>
+        <article><span>Network day</span><strong>From CHF 29 / 52</strong><p>Saver Day Pass with / without Half Fare; buy by the day before.</p><a href="https://www.sbb.ch/en/offers/saver-day-pass" target="_blank" rel="noopener">Live availability</a></article>
+        <article><span>Visitor, one month</span><strong>Half Fare Card · CHF 150</strong><p>An editorial break-even starts near CHF 300 of eligible full fares.</p><a href="https://www.sbb.ch/en/offers/swiss-half-fare-card" target="_blank" rel="noopener">Check eligibility</a></article>
+      </div>
+      <p class="rail-fact-note">2026 adult 2nd-class starting prices, verified 13 July 2026. Quotas, exact coverage and mountain-rail reductions vary; the live SBB checkout is authoritative.</p>
+    </div>
+  </section>
+
+  <section class="rail-network-section">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Go farther overnight</span><h2>Zürich after dark</h2><p class="sec-sub">Direct Nightjet or partner overnight services turn Zürich into a rail launchpad. Sleeping space is the scarce inventory: choose it before planning the rest of the trip.</p></div>
+      <div class="rail-route-ribbon" aria-label="Night train destinations from Zürich">
+        <span class="rail-origin">Zürich HB</span><i></i><span>Amsterdam</span><span>Hamburg</span><span>Berlin</span><span>Vienna</span><span>Graz</span><span>Prague</span><span>Budapest</span><span>Ljubljana</span><span>Zagreb</span>
+      </div>
+      <div class="rail-split">
+        <article class="rail-panel"><span class="eyebrow">Booking logic</span><h3>Build around the bed</h3><ul><li>Night trains generally open up to 180 days ahead; December timetable work can shorten that window.</li><li>Reservations are included in the selected Nightjet accommodation, but cancellation rules differ by fare.</li><li>Bikes need a separate ticket and reservation, and carriage varies by route.</li></ul><a href="https://www.sbb.ch/en/leisure-holidays/europe/night-trains/nightjet.html" target="_blank" rel="noopener">Nightjet from Switzerland →</a></article>
+        <article class="rail-panel rail-panel-red"><span class="eyebrow">Connection protection</span><h3>Prefer one through-ticket</h3><p>Buying the complete international journey in one payment provides stronger protection than assembling separate contracts. If you split, leave a deliberate buffer and understand who owns a missed connection.</p><a href="https://www.sbb.ch/en/help-and-contact/products-services/tickets/europe/tickets.html" target="_blank" rel="noopener">International booking boundaries →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="rail-scenic-section" id="rail-scenic-routes">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">The train is the destination</span><h2>Five scenic lines, five different rules</h2></div>
+      <div class="rail-scenic-list">
+        <article><b>01</b><div><h3>Glacier Express</h3><p>Zermatt → St. Moritz · ticket plus mandatory seat reservation · reservations open 93 days ahead.</p></div><a href="https://www.glacierexpress.ch/en/book-now" target="_blank" rel="noopener">Official</a></article>
+        <article><b>02</b><div><h3>Bernina Express</h3><p>Chur / St. Moritz → Tirano · panorama cars require reservations; regional trains travel the same line.</p></div><a href="https://www.rhb.ch/en/panoramic-journeys/bernina-express/" target="_blank" rel="noopener">Official</a></article>
+        <article><b>03</b><div><h3>GoldenPass Express</h3><p>Montreux → Interlaken Ost · standard reservation recommended; Prestige requires 1st class plus reservation.</p></div><a href="https://support.mob.ch/hc/en-ch/sections/10841733045149-Seats-reservations" target="_blank" rel="noopener">Official</a></article>
+        <article><b>04</b><div><h3>Gotthard Panorama</h3><p>Lucerne boat → historic Gotthard railway · mandatory reservation and a seasonal operating window.</p></div><a href="https://www.sbb.ch/en/leisure-holidays/trains-boats/panoramic-journeys/gotthard-panorama-express.html" target="_blank" rel="noopener">Official</a></article>
+        <article><b>05</b><div><h3>Luzern–Interlaken</h3><p>Hourly · about 1h 50m · normal ticket; reservation optional but useful in peak periods.</p></div><a href="https://www.zentralbahn.ch/en/experience/leisure/luzern-interlaken-express" target="_blank" rel="noopener">Official</a></article>
+      </div>
+      <p class="rail-fact-note">Reservation details and prices verified 13 July 2026. A travel pass may cover the base fare while the panorama reservation remains extra.</p>
+    </div>
+  </section>
+
+  <section class="rail-operations-section">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Save the trip when plans move</span><h2>The practical rail playbook</h2></div>
+      <div class="rail-ops-grid">
+        <article><span>01 · Transfer</span><h3>Seven minutes is a minimum</h3><p>Zürich HB’s default planner interchange is seven minutes—not a universal recommendation. Add time for luggage, bikes, children, unfamiliar platforms or reduced mobility.</p><a href="https://www.sbb.ch/en/travel-information/stations/find-station/zuerich-hb-station.html" target="_blank" rel="noopener">Station plan</a></article>
+        <article><span>02 · Bike</span><h3>Reserve the machine too</h3><p>Bike Day Pass CHF 15. Many IC services need a CHF 2 reservation in season; EC, ICE and RJX spaces require reservations year-round.</p><a href="https://www.sbb.ch/en/travel-information/individual-needs/travelling-with-bikes/carriage-bikes-train.html" target="_blank" rel="noopener">Bike rules</a></article>
+        <article><span>03 · Delay</span><h3>Keep proof and receipts</h3><p>Swiss compensation starts at 60 minutes (25%) and reaches 50% at 120 minutes. Speak to staff before arranging an expensive last-connection alternative.</p><a href="https://www.sbb.ch/en/help-and-contact/refunds-compensation/refunds-compensation/compensation-for-delays.html" target="_blank" rel="noopener">Claims and rights</a></article>
+        <article><span>04 · Access</span><h3>Check the actual train</h3><p>Accessibility detail can change with rolling stock. Swiss assistance generally needs one hour; shuttle cases may require two.</p><a href="https://www.sbb.ch/en/travel-information/individual-needs/travelling-reduced-mobility/travel-planning.html" target="_blank" rel="noopener">Accessible planning</a></article>
+        <article><span>05 · Offline</span><h3>Carry the ticket, not the signal</h3><p>Save international PDFs locally before departure. EasyRide depends on working internet and location services throughout the journey.</p><a href="https://www.sbb.ch/content/internet/sbb/en/support/produkte-services/apps/sbb-mobile-sbb-preview/sbb-mobile-app.html" target="_blank" rel="noopener">SBB Mobile</a></article>
+        <article><span>06 · Luggage</span><h3>Send it ahead</h3><p>Station-to-station luggage starts at CHF 12 per item up to 23kg; allow two days and verify that your ticket covers the complete route.</p><a href="https://www.sbb.ch/en/offers/luggage-transport-station-to-station" target="_blank" rel="noopener">Luggage service</a></article>
+      </div>
+      <p class="booking-verified rail-verified">Operational rules and prices verified 13 July 2026. Recheck seasonal bike reservations, rolling-stock accessibility, timetable changes and fare conditions for the exact journey.</p>
+    </div>
+  </section>
+
+  <section class="rail-field-guide">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">The Swiss advantage</span><h2>Six systems worth learning once</h2></div>
+      <div class="rail-guide-grid">
+        <article id="rail-night"><span class="rail-guide-no">01</span><h3>Night trains</h3><p>Trade a hotel night for distance. Reservations are compulsory; couchettes and sleepers are inventory, not a guaranteed add-on after buying a seat.</p><a href="https://www.sbb.ch/en/leisure-holidays/europe/night-trains.html" target="_blank" rel="noopener">SBB night trains →</a></article>
+        <article id="rail-bikes"><span class="rail-guide-no">02</span><h3>Bikes on trains</h3><p>Swiss and international rules differ. Long-distance bike spaces can be mandatory and scarce; reserve before building a cycling trip around a particular departure.</p><a href="https://www.sbb.ch/en/travel-information/individual-needs/travelling-with-bikes.html" target="_blank" rel="noopener">SBB bike guidance →</a></article>
+        <article id="rail-scenic"><span class="rail-guide-no">03</span><h3>Scenic lines</h3><p>The route itself can be the day: Bernina, Glacier Express, GoldenPass and Gotthard panorama. A travel pass may cover transport while a premium panoramic reservation remains extra.</p><a href="https://www.myswitzerland.com/en/planning/transport-accommodation/public-transport/panorama-trains/" target="_blank" rel="noopener">Official panorama trains →</a></article>
+        <article id="rail-stations"><span class="rail-guide-no">04</span><h3>Station craft</h3><p>Know the platform before buying coffee, preserve a transfer buffer when tickets are separate, and treat Zürich HB's underground sectors as real walking time.</p><a href="https://www.sbb.ch/en/travel-information/stations/find-station/shopville-zuerich-main-station.html" target="_blank" rel="noopener">Zürich HB information →</a></article>
+        <article id="rail-disruption"><span class="rail-guide-no">05</span><h3>When it breaks</h3><p>Keep the original ticket, screenshots and receipts. Ask staff to endorse the disruption before self-booking an expensive alternative, then use the operator and passenger-rights process.</p><a href="https://europa.eu/youreurope/citizens/travel/passenger-rights/rail/index_en.htm" target="_blank" rel="noopener">European rail rights →</a></article>
+        <article id="rail-access"><span class="rail-guide-no">06</span><h3>Assisted travel</h3><p>Request help early for complex or international journeys, verify each station and never infer step-free access from a route map alone.</p><a href="https://www.sbb.ch/en/travel-information/individual-needs/travelling-reduced-mobility.html" target="_blank" rel="noopener">SBB accessible travel →</a></article>
+      </div>
+      <p class="booking-verified rail-verified">Core guidance verified 13 July 2026. Fares, sales windows, reservations, rolling stock and disruption rules can change; verify the linked official source before purchase.</p>
     </div>
   </section>
 </main>
@@ -234,9 +352,9 @@
 <main id="v-outdoors" class="view" style="display:none">
   <div class="page-head">
     <div class="wrap">
-      <span class="eyebrow">Mountains & trails</span>
-      <h1>The Alps on your doorstep</h1>
-      <p class="sec-sub">Fourteen researched mountain escapes for whenever the mood strikes — hut-to-hut hikes, serious ski weekends and the great cycling cols, each with resort intel, costs and live conditions.</p>
+      <span class="eyebrow">The outdoor atlas</span>
+      <h1>Europe under your own power</h1>
+      <p class="sec-sub">A growing field guide to the continent's great cycling hubs, hut routes, serious ski weekends, coast paths and wild landscapes — each with logistics from Zürich, costs and live conditions.</p>
       <div class="search-field collection-search">
         <label for="outdoors-search">Find the right kind of outside</label>
         <div class="search-input-wrap">
@@ -251,6 +369,8 @@
         <button type="button" data-query="quiet easy mountain scenery">Quiet panoramas</button>
         <button type="button" data-query="skiing without flying">Ski without a flight</button>
         <button type="button" data-query="active cycling with good food">Ride, then dine</button>
+        <button type="button" data-query="gravel bikepacking in autumn">Gravel & bikepacking</button>
+        <button type="button" data-query="wild swimming or kayaking in summer">Wild water</button>
       </div>
       <div id="outdoors-filters" class="collection-filters"></div>
     </div>

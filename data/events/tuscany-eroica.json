@@ -1,0 +1,240 @@
+{
+  "id": "tuscany-eroica",
+  "name": "Tuscany — L'Eroica & Strade Bianche",
+  "tagline": "Follow white gravel roads between Chianti vineyards, hill towns and the living-room finish of an old cycling dream.",
+  "city": "Gaiole in Chianti",
+  "country": "Italy",
+  "dates": "Best touring windows: April–June and September–October. The permanent Eroica route is available outside the vintage event, subject to road and weather conditions. Event dates and entry rules vary annually; no 2027 date is treated as confirmed. Route and booking information verified 13 July 2026.",
+  "history": [
+    "Tuscany's strade bianche are pale limestone farm roads that once connected vineyards, estates and hill towns before the modern road network. L'Eroica began in Gaiole in Chianti in 1997 as a protest against the disappearance of those roads and the increasingly commercial character of cycling. Vintage bicycles, wool jerseys and mechanical hardship were not nostalgia for its own sake: the event helped argue that the landscape and its unpaved roads were cultural assets worth preserving.",
+    "The permanent Eroica route now turns that idea into a self-guided journey through Chianti, the Crete Senesi and Val d'Orcia. Visit Tuscany publishes a full 208 km itinerary with approximately 3,400 metres of ascent, plus practical two- and three-day divisions. The route is mixed surface and physically demanding, but its villages make slow travel part of the design rather than a concession.",
+    "Professional racing later gave the same roads a different mythology through Strade Bianche, whose white sectors and steep finish into Siena's Piazza del Campo created a modern classic. The two experiences should remain distinct in the product: L'Eroica is the heritage and touring dossier; Strade Bianche is a race-spectating layer that requires its own current calendar and closure information."
+  ],
+  "guideSections": [
+    {
+      "id": "d-route",
+      "toc": "Permanent route",
+      "eyebrow": "Official Visit Tuscany metrics",
+      "title": "Ride 208 kilometres as a journey, not a checkpoint hunt",
+      "facts": [
+        {
+          "label": "Full route",
+          "value": "208 km · ~+3,400 m",
+          "note": "Mixed paved and white-gravel roads; challenging with medium technical difficulty."
+        },
+        {
+          "label": "Two days",
+          "value": "87 km / +1,410 m + 121 km / +1,860 m",
+          "note": "Possible, but demanding for a first gravel trip or in hot weather."
+        },
+        {
+          "label": "Three days",
+          "value": "66 km / +860 m · 78 km / +1,340 m · 64 km / +1,190 m",
+          "note": "The best balance of riding, villages, food and recovery."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "Recommended",
+          "title": "Three-day Eroica",
+          "meta": "208 km total · luggage transfer useful",
+          "text": "Use the official 66/78/64 km stages as the default plan. They leave time for repairs, lunch and the towns that make the route special."
+        },
+        {
+          "kicker": "Strong riders",
+          "title": "Two-day Eroica",
+          "meta": "87 km + 121 km · hard second day",
+          "text": "The published split is efficient but places a long, climbing-heavy day after the opening stage. It is not the default recommendation for mixed-level groups."
+        },
+        {
+          "kicker": "Single base",
+          "title": "Chianti gravel loops",
+          "meta": "Flexible · weather-friendly",
+          "text": "Visitors who do not want to move luggage can sample the permanent route from Gaiole and return by shorter local roads. Confirm any shortcut surface with a local operator."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Visit Tuscany permanent Eroica itinerary",
+          "url": "https://www.visittuscany.com/en/itineraries-bike/eroica-by-bike/"
+        },
+        {
+          "label": "Official Visit Tuscany L'Eroica event page",
+          "url": "https://www.visittuscany.com/en/events/leroica/"
+        }
+      ]
+    },
+    {
+      "id": "d-plan",
+      "toc": "Trip plan",
+      "eyebrow": "Four to six days",
+      "title": "Three ride days, one buffer and no race against lunch",
+      "items": [
+        {
+          "kicker": "Day 1",
+          "title": "Gaiole setup",
+          "meta": "Fit · surface test · supplies",
+          "text": "Collect the bike, test tyre pressure and braking on a short white-road sector, then buy ride food before small-town shops close."
+        },
+        {
+          "kicker": "Days 2–4",
+          "title": "Official three-day split",
+          "meta": "66 km · 78 km · 64 km",
+          "text": "Follow the Visit Tuscany stages, retaining enough daylight for punctures and navigation. Use luggage transfer if the trip is meant to feel restorative."
+        },
+        {
+          "kicker": "Day 5",
+          "title": "Siena or weather buffer",
+          "meta": "Culture · recovery",
+          "text": "Keep a non-riding day for Siena, a winery visit or a route delay. A rain-damaged gravel descent is a good reason to move the schedule."
+        }
+      ],
+      "bullets": [
+        "A gravel bike with reliable low gearing and 35–45 mm tyres is a more inclusive default than a vintage race bicycle.",
+        "Arrange luggage transfer before committing to point-to-point lodging; taxis may not accept assembled bicycles.",
+        "Confirm breakfast timing and secure bike storage at every overnight stop.",
+        "Carry tubes even when riding tubeless, plus a plug kit, pump and simple chain repair."
+      ],
+      "links": [
+        {
+          "label": "Visit Tuscany cycling",
+          "url": "https://www.visittuscany.com/en/interests/cycling/"
+        },
+        {
+          "label": "Trenitalia official bicycle rules",
+          "url": "https://www.trenitalia.com/en/services/travelling-with-your-bike.app.html"
+        }
+      ]
+    },
+    {
+      "id": "d-safety-booking",
+      "toc": "Safety & booking",
+      "eyebrow": "Verified 13 July 2026",
+      "title": "Loose gravel, heat and water define the risk",
+      "facts": [
+        {
+          "label": "Suggested stay",
+          "value": "4–6 days",
+          "note": "Supports the three-day route plus setup and weather or culture time."
+        },
+        {
+          "label": "Planning band",
+          "value": "€800–1,600 pp",
+          "note": "Editorial estimate for Zürich transport, shared midrange lodging, meals, rental and basic transfer; not a quote."
+        },
+        {
+          "label": "Simplest gateway",
+          "value": "ZRH–FLR · ~1h20",
+          "note": "SWISS publishes direct service; onward bike-capable transfer to Chianti must be reserved."
+        }
+      ],
+      "bullets": [
+        "Brake before loose corners and keep the bike upright through the turn; white gravel can hide deep ruts and washboard.",
+        "Avoid exposed midday riding in hot weather. Water points and shop opening hours should be attached to the route offline.",
+        "Farm and local traffic uses these roads. Hold a predictable line and slow before blind crests.",
+        "Rain changes limestone dust into slippery mud and can erode surfaces. Ask locally before starting after storms.",
+        "Do not copy official prose, maps or GPX into the product without confirming reuse rights; link the source."
+      ],
+      "links": [
+        {
+          "label": "SWISS Zürich–Florence",
+          "url": "https://www.swiss.com/lhg/ch/en/o-d/cy-cy/zurich-florence"
+        },
+        {
+          "label": "Official Tuscany travel portal",
+          "url": "https://www.visittuscany.com/en/"
+        }
+      ]
+    }
+  ],
+  "whyGo": "The Eroica route gives the collection a different definition of achievement: not only metres climbed, but movement through wine country, hill towns and a protected road culture. It is the strongest answer to ‘romantic gravel, food and wine, cycling heritage, slow travel’ and gives partners or mixed-interest groups reasons to share the same itinerary. The three-day official split is especially valuable for a planning cockpit because its metrics are authoritative and the pace encourages real stops.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Florence (FLR) direct, then reserved transfer to Gaiole in Chianti",
+      "duration": "~1h20 flight + roughly 1h15–1h45 transfer",
+      "cost": "Planning allowance CHF 180–450 return plus transfer",
+      "notes": "SWISS publishes direct service. Flight schedule and fare checked 13 July 2026; reserve a vehicle that explicitly accepts bike luggage or use local rental."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich → Milan → Florence or Siena-area rail, then road transfer",
+      "duration": "A full travel day",
+      "cost": "Date and reservation dependent",
+      "notes": "Trenitalia permits assembled bikes on marked regional trains and limited reserved spaces on some Intercity services. Verify every segment; Chianti's final connection is the difficult part."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Milan → Florence/Chianti",
+      "duration": "Approximately 7–9h plus traffic",
+      "cost": "Fuel, Swiss vignette and Italian tolls",
+      "notes": "Flexible for personal bikes and point-to-point lodging, but avoid driving immediately after a long gravel day."
+    }
+  ],
+  "costs": {
+    "thrifty": "€700–950 for 4–5 nights with simple rooms, self-guided riding, standard gravel rental and minimal luggage transfer.",
+    "midrange": "€1,100–1,600 for 5 nights with character lodging, quality gravel bike, transfer support and restaurant meals.",
+    "splurge": "€2,500+ for premium agriturismi, private guide, daily luggage support, winery visits and top-tier equipment.",
+    "notes": "Editorial planning bands per person, not current quotations. Event entry, insurance, damage deposit, wine shipping and premium guiding are excluded. Recalculate live."
+  },
+  "booking": [
+    {
+      "label": "Visit Tuscany — permanent Eroica route · verified 13 Jul 2026",
+      "url": "https://www.visittuscany.com/en/itineraries-bike/eroica-by-bike/"
+    },
+    {
+      "label": "Visit Tuscany — official L'Eroica event page · verified 13 Jul 2026",
+      "url": "https://www.visittuscany.com/en/events/leroica/"
+    },
+    {
+      "label": "Trenitalia — official bike policy · verified 13 Jul 2026",
+      "url": "https://www.trenitalia.com/en/services/travelling-with-your-bike.app.html"
+    },
+    {
+      "label": "SWISS Zürich–Florence route · verified 13 Jul 2026",
+      "url": "https://www.swiss.com/lhg/ch/en/o-d/cy-cy/zurich-florence"
+    }
+  ],
+  "weather": "April–June and September–October balance warm days with lower heat risk, but exposed white roads can still be hot and dusty. Summer midday temperatures materially raise water needs; winter rain can make unpaved sectors slippery or eroded. Pack a light rain shell, strong sun protection and an extra layer for cool morning starts. After heavy rain, seek a local surface report before committing to remote sectors.",
+  "tips": [
+    "Use the official three-day split unless the group already has evidence it can handle a 121 km gravel day after a hard opener.",
+    "Confirm tyre width, tubeless setup, lowest gear and repair kit before leaving the rental shop.",
+    "Reserve luggage transfer and bike-secure lodging together; point-to-point logistics are the trip's real constraint.",
+    "Download the route and accommodation details offline, including water and food stops with current opening hours.",
+    "Keep L'Eroica heritage touring separate from Strade Bianche race claims unless the current race calendar and closures are verified."
+  ],
+  "localRecs": [
+    {
+      "name": "Gaiole in Chianti",
+      "type": "neighborhood",
+      "note": "The symbolic home of L'Eroica and the natural place to understand the route's preservation story."
+    },
+    {
+      "name": "Siena",
+      "type": "sight",
+      "note": "A powerful pre- or post-ride culture day and the celebrated finish setting of Strade Bianche."
+    },
+    {
+      "name": "Crete Senesi",
+      "type": "sight",
+      "note": "Open, sculpted clay hills where heat, wind and exposure are as important as the visual beauty."
+    },
+    {
+      "name": "Val d'Orcia",
+      "type": "neighborhood",
+      "note": "The southern landscape rewards the slower three-day itinerary with villages and long-distance views."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L'Eroica_(cicloturismo).jpg",
+      "caption": "A rider on L'Eroica, where vintage style and white roads express the event's preservation mission.",
+      "credit": "Wikimedia Commons / tetedelacourse (CC BY-SA 2.0) — https://commons.wikimedia.org/wiki/File:L%27Eroica_(cicloturismo).jpg"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuscany_cycling_10_(21232958739).jpg",
+      "caption": "Cycling through Tuscany's open agricultural landscape and hill-town road network.",
+      "credit": "Wikimedia Commons / Winniepix (CC BY 2.0) — https://commons.wikimedia.org/wiki/File:Tuscany_cycling_10_(21232958739).jpg"
+    }
+  ]
+}

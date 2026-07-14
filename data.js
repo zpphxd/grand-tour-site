@@ -53,6 +53,14 @@ window.PLACES = {
   pollenca:    { name: 'Port de Pollença', lat: 39.9096, lon: 3.0810, type: 'city' },
   oudenaarde:  { name: 'Oudenaarde',    lat: 50.8447, lon: 3.6100,  type: 'city' },
   andermatt:   { name: 'Andermatt',     lat: 46.6356, lon: 8.5946,  type: 'city' },
+  girona:      { name: 'Girona',        lat: 41.9794, lon: 2.8214,  type: 'city' },
+  corvara:     { name: 'Corvara',       lat: 46.5504, lon: 11.8734, type: 'city' },
+  orotava:     { name: 'La Orotava',    lat: 28.3906, lon: -16.5230,type: 'city' },
+  gaiole:      { name: 'Gaiole in Chianti', lat: 43.4684, lon: 11.4338, type: 'city' },
+  davos:       { name: 'Davos',         lat: 46.8027, lon: 9.8360,  type: 'city' },
+  bovec:       { name: 'Bovec',         lat: 46.3376, lon: 13.5520, type: 'city' },
+  funchal:     { name: 'Funchal',       lat: 32.6669, lon: -16.9241,type: 'city' },
+  portocovo:   { name: 'Porto Covo',    lat: 37.8515, lon: -8.7902, type: 'city' },
 };
 
 /* Every clickable event. `place` keys into PLACES. */
@@ -90,7 +98,7 @@ window.EVENTS = [
   { id: 'monaco-gp',           name: 'Monaco Grand Prix',           place: 'monaco',     month: 'Jun 2027', kind: 'sport' },
   { id: 'glastonbury',         name: 'Glastonbury Festival',        place: 'glastonbury',month: 'Jun 2027', kind: 'festival' },
   { id: 'food-zurich',         name: 'FOOD ZURICH',                 place: 'zurich',     month: 'Jun 2027', kind: 'food' },
-  { id: 'tour-de-france',      name: 'Tour de France Grand Départ', place: 'edinburgh',  month: 'Jul 2027', kind: 'sport' },
+  { id: 'tour-de-france',      name: 'Tour de France 2027',         place: 'edinburgh',  month: 'Jul 2027', kind: 'sport' },
   { id: 'wimbledon',           name: 'Wimbledon',                   place: 'london',     month: 'Jul 2027', kind: 'sport' },
   { id: 'san-fermin',          name: 'San Fermín',                  place: 'pamplona',   month: 'Jul 2027', kind: 'festival' },
   { id: 'colmar-wine-fair',    name: 'Foire aux Vins d\'Alsace',    place: 'colmar',     month: 'Jul 2027', kind: 'food' },
@@ -307,7 +315,7 @@ window.CAL_DATES = {
   'monaco-gp':            [['2027-06-04', '2027-06-06']],
   'glastonbury':          [['2027-06-23', '2027-06-27']],
   'wimbledon':            [['2027-06-28', '2027-07-11']],
-  'tour-de-france':       [['2027-07-02', '2027-07-04']],
+  'tour-de-france':       [['2027-07-02', '2027-07-25']],
   'san-fermin':           [['2027-07-06', '2027-07-14']],
   'palio-siena':          [['2027-07-02', '2027-07-02'], ['2027-08-16', '2027-08-16']],
   'edinburgh-fringe':     [['2027-08-06', '2027-08-30']],
@@ -336,6 +344,14 @@ window.ADVENTURES = [
   { id: 'mallorca-cycling',      name: 'Mallorca Winter Cycling',       place: 'pollenca',    activity: 'cycling', season: 'Feb – May' },
   { id: 'flanders-cobbles',      name: 'Tour of Flanders Sportive',     place: 'oudenaarde',  activity: 'cycling', season: 'Apr 2027' },
   { id: 'andermatt-passes',      name: 'Andermatt & the Swiss Passes',  place: 'andermatt',   activity: 'cycling', season: 'Mid-Jun – Sep' },
+  { id: 'girona-cycling',        name: 'Girona Road & Gravel',          place: 'girona',      activity: 'gravel',  season: 'Mar – Jun · Sep – Nov' },
+  { id: 'alta-badia-cycling',    name: 'Alta Badia & the Sellaronda',   place: 'corvara',     activity: 'cycling', season: 'Late Jun – Sep' },
+  { id: 'tenerife-cycling',      name: 'Tenerife & Teide by Bike',      place: 'orotava',     activity: 'cycling', season: 'Oct – May' },
+  { id: 'tuscany-eroica',        name: 'Tuscany’s Eroica Roads',        place: 'gaiole',      activity: 'gravel',  season: 'Apr – Jun · Sep – Oct' },
+  { id: 'kesch-trek',            name: 'Kesch Trek Hut-to-Hut',         place: 'davos',       activity: 'hiking',  season: 'Jul – Sep' },
+  { id: 'soca-whitewater',       name: 'Soča Valley Whitewater',        place: 'bovec',       activity: 'water',   season: 'May – Sep' },
+  { id: 'madeira-trail-running', name: 'Madeira Trail-Running Hub',     place: 'funchal',     activity: 'trail',   season: 'Year-round · verify trails' },
+  { id: 'rota-vicentina',        name: 'Rota Vicentina Fishermen’s Trail', place: 'portocovo', activity: 'hiking', season: 'Sep – Jun' },
 ];
 
 /* Nearest sensible airport per place for flight deep links (absent = rail is the answer) */
@@ -347,6 +363,8 @@ window.AIRPORTS = {
   verona: 'VRN', menton: 'NCE', sansebastian: 'BIO', milan: 'MXP',
   chamonix: 'GVA', cortina: 'VCE', cinqueterre: 'PSA', stanton: 'INN', verbier: 'GVA',
   bourgdoisans: 'LYS', bormio: 'MXP', pollenca: 'PMI', oudenaarde: 'BRU',
+  girona: 'BCN', corvara: 'VCE', orotava: 'TFS', gaiole: 'FLR', bovec: 'LJU',
+  funchal: 'FNC', portocovo: 'LIS',
 };
 
 /* Exact station queries for live SBB connections (absent = don't show live trains) */
@@ -359,4 +377,5 @@ window.RAIL_STATIONS = {
   chamonix: 'Chamonix-Mont-Blanc', grindelwald: 'Grindelwald', zermatt: 'Zermatt',
   stanton: 'St. Anton am Arlberg', verbier: 'Le Châble', engelberg: 'Engelberg',
   bormio: 'Tirano', andermatt: 'Andermatt', amsterdam: 'Amsterdam Centraal',
+  girona: 'Girona', corvara: 'Bruneck', gaiole: 'Siena', davos: 'Davos Platz',
 };

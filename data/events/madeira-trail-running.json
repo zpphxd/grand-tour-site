@@ -1,0 +1,283 @@
+{
+  "id": "madeira-trail-running",
+  "name": "Madeira Trail Running Field Guide",
+  "tagline": "Volcanic ridges, laurel forest and ocean headlands — an island-wide running ladder governed by live trail status.",
+  "city": "Funchal",
+  "country": "Portugal",
+  "dates": "Year-round in principle, with strong local variation in rain, wind, heat and cloud. Check the official trail-status, reservation and fee information on the day; some famous routes may be restricted. Research verified 13 July 2026.",
+  "history": [
+    "Madeira's levadas were built over centuries to move water from the wetter north and highlands toward farms and settlements. Their maintenance paths now form an extraordinary contouring network through UNESCO-listed laurel forest, but narrow edges, tunnels and wet stone make them very different from purpose-built running trail.",
+    "The island's volcanic spine supplies the opposite terrain: abrupt stairways, exposed ridges and major elevation change between Pico do Areeiro and Pico Ruivo. Coastal routes such as Ponta de São Lourenço trade forest for wind, sun and open Atlantic views.",
+    "Modern Madeira is a major trail-running destination, from short vertical races to the Madeira Island Ultra-Trail. Visit Madeira publishes options for beginners through experienced runners across the north, south, east and central massif — while also marking closures and restrictions that must override any itinerary."
+  ],
+  "guideSections": [
+    {
+      "id": "d-route-picker",
+      "toc": "Route picker",
+      "eyebrow": "Run by terrain, not Instagram fame",
+      "title": "Choose a surface and exposure level before choosing kilometres",
+      "intro": "Madeira pace is governed by stairs, mud, rock, tunnels and ascent. A flat-road 10K time does not predict comfort on a narrow levada or a clouded ridge.",
+      "facts": [
+        {
+          "label": "Beginner north",
+          "value": "Fanal–Estanquinhos",
+          "note": "Visit Madeira presents this as a beginner option; status and navigation still require checking."
+        },
+        {
+          "label": "Accessible east",
+          "value": "Ponta de São Lourenço",
+          "note": "Official listing: about 10 km return and around two hours, but wind, heat and crowds change effort."
+        },
+        {
+          "label": "Advanced icon",
+          "value": "Pico do Areeiro–Pico Ruivo",
+          "note": "Shown as restricted by the official source at verification; do not plan it unless the current status explicitly permits the intended route."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "First Madeira run",
+          "title": "Fanal–Estanquinhos or a short signed levada section",
+          "meta": "Forest · gentler grade · navigation practice",
+          "text": "Use the first outing to learn wet surfaces, levada etiquette and cloud navigation. Keep it short enough to turn around well before darkness and avoid stepping around barriers or into closed sections."
+        },
+        {
+          "kicker": "Wind and ocean",
+          "title": "Ponta de São Lourenço",
+          "meta": "About 10 km return · exposed headland",
+          "text": "A strong introduction for runners comfortable with uneven trail. Start early for heat and crowd management, carry water because shade is scarce, and turn around when gusts undermine balance."
+        },
+        {
+          "kicker": "Point-to-point east",
+          "title": "Porto da Cruz → Machico",
+          "meta": "Official listing: 15.5 km",
+          "text": "A longer coastal objective that requires transport at both ends and enough reserve for climbing. Confirm the exact official line and surface status rather than following a generic GPX."
+        },
+        {
+          "kicker": "Expert mountain day",
+          "title": "Central massif only when officially open",
+          "meta": "Exposure · stairs · tunnels · rapid weather",
+          "text": "Pico do Areeiro–Pico Ruivo is not a default recommendation. Attempt only with an open status, conditions inside the group's skill, proper kit and a turnaround plan; use an authorised alternative while restricted."
+        }
+      ],
+      "links": [
+        {
+          "label": "Visit Madeira official trail-running guide",
+          "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/trail-running/"
+        },
+        {
+          "label": "Visit Madeira official hiking and status information",
+          "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/"
+        }
+      ]
+    },
+    {
+      "id": "d-status",
+      "toc": "Status & fees",
+      "eyebrow": "Live information wins",
+      "title": "A saved route is never permission to enter a restricted trail",
+      "intro": "Closures can follow fire, landslide, storm damage or maintenance. Madeira's access, reservation and fee systems are evolving, so verify the official page immediately before every run.",
+      "facts": [
+        {
+          "label": "Status check",
+          "value": "Before departure and at trailhead",
+          "note": "Use the official Visit Madeira/IFCN information; barriers and ranger directions are final."
+        },
+        {
+          "label": "Payment",
+          "value": "Confirm current 2026 model",
+          "note": "Do not assume an old fee, exemption or reservation rule remains valid."
+        },
+        {
+          "label": "Verified on",
+          "value": "13 July 2026",
+          "note": "Pico do Areeiro–Pico Ruivo was shown restricted in the reviewed official source; recheck live status."
+        }
+      ],
+      "bullets": [
+        "Screenshot the official open/restricted page with a timestamp, but refresh it again before leaving coverage.",
+        "Never bypass a gate, fence, landslide closure or ranger instruction because other runners are doing it.",
+        "Keep at least two legal alternatives in different parts of the island; wind and rain can make the north, east and peaks behave like separate climates.",
+        "Use only official parking and paths. Trail popularity does not justify verge parking, shortcut erosion or crowding residents' access."
+      ],
+      "links": [
+        {
+          "label": "Official recommended walks and live guidance",
+          "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/"
+        },
+        {
+          "label": "IFCN — Madeira nature conservation authority",
+          "url": "https://ifcn.madeira.gov.pt/"
+        }
+      ]
+    },
+    {
+      "id": "d-safety",
+      "toc": "Safety gate",
+      "eyebrow": "Exposure changes the sport",
+      "title": "Mountain-running competence is required for mountain routes",
+      "intro": "Wet levadas, unguarded drops, tunnels, rockfall and cloud can turn a straightforward-looking line into consequential terrain. When uncertain, walk, turn around or hire a professional guide.",
+      "facts": [
+        {
+          "label": "Core kit",
+          "value": "Shell · light · water · offline map",
+          "note": "Add warmth, food, first aid and traction appropriate to the specific route and forecast."
+        },
+        {
+          "label": "Communication",
+          "value": "Share route + return time",
+          "note": "Do not depend on continuous reception in forest, tunnel or mountain terrain."
+        },
+        {
+          "label": "Emergency",
+          "value": "112",
+          "note": "State the official trail number/name, direction, last marker and coordinates if known."
+        }
+      ],
+      "bullets": [
+        "Carry a real headlamp even for a daylight run; phone flashlights are poor tunnel tools and drain the navigation battery.",
+        "Slow to a walk around hikers, blind corners, narrow levadas and exposed steps. Yielding is part of safe trail-running technique.",
+        "Do not use poles in a tunnel or tight passing point unless they are controlled and cannot trip another user.",
+        "Fog can erase landmarks in minutes. If the line becomes ambiguous, stop and retrace rather than chasing a GPS arrow across unmarked ground.",
+        "Heat and dehydration are major risks on the eastern headland; cold rain and wind dominate the peaks. Pack for the route's microclimate."
+      ],
+      "links": [
+        {
+          "label": "Visit Madeira practical information",
+          "url": "https://visitmadeira.com/en/travel-info/useful-information/"
+        },
+        {
+          "label": "IPMA Madeira weather",
+          "url": "https://www.ipma.pt/en/otempo/prev.localidade.hora/"
+        }
+      ]
+    },
+    {
+      "id": "d-basecamp",
+      "toc": "Basecamp plan",
+      "eyebrow": "One island, several climates",
+      "title": "Use Funchal for flexibility, then add a north or east night",
+      "items": [
+        {
+          "kicker": "3 nights",
+          "title": "Funchal sampler",
+          "meta": "One coastal run · one forest run · one weather buffer",
+          "text": "Stay central, rent a car or book transfers, and choose the day's route from the live status and forecast rather than a rigid sequence."
+        },
+        {
+          "kicker": "5–6 nights",
+          "title": "Funchal + Santana / Porto da Cruz",
+          "meta": "Less driving · better dawn starts",
+          "text": "Split the stay to access the eastern headland and north-coast options early, while retaining Funchal for recovery, restaurants and airport logistics."
+        },
+        {
+          "kicker": "Training camp",
+          "title": "Alternate stress and terrain",
+          "meta": "Vertical day · easy forest · rest · long trail",
+          "text": "Madeira elevation accumulates quickly. Program recovery and avoid stacking central-massif exposure after a hard vertical session simply because both days are sunny."
+        }
+      ],
+      "bullets": [
+        "Point-to-point routes need a booked transfer, public-bus plan or an out-and-back conversion agreed before starting.",
+        "Do not leave valuables visible in a trailhead vehicle; carry essentials and use accommodation storage.",
+        "A professional local trail-running operator is valuable for route matching, transport and current status — especially on a first mountain day."
+      ],
+      "links": [
+        {
+          "label": "Visit Madeira official trail-running operators and information",
+          "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/trail-running/"
+        }
+      ]
+    }
+  ],
+  "whyGo": "Madeira offers an unusually complete trail-running progression inside one compact island: misty laurel forest for controlled mileage, dry ocean headlands for runnable views and the central massif for qualified mountain runners when officially open. The ability to switch coast and elevation around live weather makes it a powerful training base as well as a beautiful trip.",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Mainland Europe → Funchal / Cristiano Ronaldo Madeira Airport (FNC)",
+      "duration": "About 4h direct from many central-European hubs; 1h30 from Lisbon",
+      "cost": "Often €150–450 return, highly seasonal",
+      "notes": "Wind can disrupt approaches. Keep the first and final day light and avoid a critical trail booking immediately after arrival."
+    },
+    {
+      "mode": "drive",
+      "route": "Funchal → trailheads by rental car via expressway and steep mountain roads",
+      "duration": "30–90 minutes for many major zones",
+      "cost": "Roughly €35–80/day plus fuel and insurance",
+      "notes": "Choose a small car, confirm parking and never block emergency or resident access. Mountain road confidence matters."
+    },
+    {
+      "mode": "shuttle",
+      "route": "Funchal accommodation → booked trailhead transfer / guided running pickup",
+      "duration": "Route dependent",
+      "cost": "Roughly €25–90 per person or more for private service",
+      "notes": "Best for point-to-point runs and when the group should not drive after a long effort. Confirm pickup pin and no-show procedure offline."
+    }
+  ],
+  "costs": {
+    "thrifty": "€450–750 for four nights: guesthouse, buses/shared transfers, self-guided open routes and groceries.",
+    "midrange": "€900–1,500 for five nights: comfortable hotel, small rental car, one guided run, restaurant meals and flexible route fees/transfers.",
+    "splurge": "€2,500+ for a week: private guide and transfers, premium Funchal hotel, sports massage and weather-flexible bookings.",
+    "notes": "Planning estimates, not quotes. Trail reservations and fees can change; verify the current official system before each run and never buy access from an unofficial reseller."
+  },
+  "booking": [
+    {
+      "label": "Visit Madeira trail-running guide (verified 13 July 2026)",
+      "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/trail-running/"
+    },
+    {
+      "label": "Official hiking status and access guidance (verified 13 July 2026)",
+      "url": "https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/"
+    },
+    {
+      "label": "IFCN conservation authority (verified 13 July 2026)",
+      "url": "https://ifcn.madeira.gov.pt/"
+    },
+    {
+      "label": "IPMA official forecast (verified 13 July 2026)",
+      "url": "https://www.ipma.pt/en/otempo/prev.localidade.hora/"
+    }
+  ],
+  "weather": "Madeira's subtropical label hides sharp microclimates. Funchal can be warm and dry while the north is wet and the peaks sit in cold cloud and strong wind. Check coast, elevation and hourly forecast separately; carry a shell and insulation even when leaving the hotel in sun.",
+  "tips": [
+    "Schedule Ponta de São Lourenço near sunrise for cooler temperatures, easier parking and less passing pressure on narrow trail.",
+    "Use trail shoes with dependable wet-rock grip; smooth road soles are a poor match for levada stone and muddy forest.",
+    "Carry a headlamp and protect electronics from spray in tunnels. Do not run blind around walkers or through pooled water.",
+    "Save route status and transport offline, but obey new closure signage encountered on site.",
+    "Wash soil from footwear between sensitive areas and stay on the marked line to limit erosion and invasive-species transfer."
+  ],
+  "localRecs": [
+    {
+      "name": "Fanal Forest",
+      "type": "sight",
+      "note": "Ancient laurel landscape and a strong lower-consequence introduction when the chosen official route is open."
+    },
+    {
+      "name": "Ponta de São Lourenço",
+      "type": "sight",
+      "note": "Dry volcanic headland with exceptional ocean views, little shade and significant wind exposure."
+    },
+    {
+      "name": "Mercado dos Lavradores",
+      "type": "sight",
+      "note": "Funchal market for fruit and atmosphere; confirm prices before accepting samples or purchases."
+    },
+    {
+      "name": "Porto da Cruz",
+      "type": "neighborhood",
+      "note": "Useful east/north base with trail access and a quieter recovery rhythm than central Funchal."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madeira-Santana-Pico%20Ruivo-hiking%20trail%20PR%201-2%20%28top%29-01ASD.jpg",
+      "caption": "The Pico Ruivo trail illustrates Madeira's steep mountain terrain; current restrictions must be checked before entry",
+      "credit": "Wikimedia Commons / Asurnipal (CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponta%20de%20S%C3%A3o%20Louren%C3%A7o%2C%20Madeira%20-%202013-04-04%20-%2090144741.jpg",
+      "caption": "The exposed trail along Ponta de São Lourenço — runnable terrain with little shade and real wind",
+      "credit": "Wikimedia Commons / Sergey Ashmarin (CC BY-SA 3.0)"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "girona-cycling",
+  "name": "Girona & Costa Brava — Road and Gravel",
+  "tagline": "Roll from a medieval city into pro-training climbs, forest gravel and the blue coves of the Costa Brava.",
+  "city": "Girona",
+  "country": "Spain",
+  "dates": "Best windows: March–June and September–November. Girona can be ridden year-round, but midsummer heat makes exposed climbs and gravel fire roads demanding. Route, transport and booking information verified 13 July 2026.",
+  "history": [
+    "Girona was a cycling city long before it became a professional peloton address. The old town sits at the meeting point of the Ter and Onyar rivers, with the wooded Gavarres massif to the east, volcanic Garrotxa country to the west and the Pyrenees rising beyond. That geography creates an unusually dense menu: quiet rolling lanes, sustained mountain climbs, fast coast roads and a web of gravel tracks all begin within riding distance of the city walls.",
+    "Its modern reputation grew in the late 1990s and 2000s as international professionals chose Girona for mild winters, hard training terrain and quick access to Barcelona and the Mediterranean. The result is not a themed resort but a living cycling ecosystem: performance workshops, coaching services, cafés, guided rides and rental fleets are woven into a compact historic city. Riders can train seriously in the morning and walk to the cathedral, Jewish Quarter or a tasting-menu dinner that evening.",
+    "The official Costa Brava cycling guide identifies the Hincapie Loop through Les Gavarres, Rocacorba, Mare de Déu del Mont, the high road to Vallter 2000 and the coast between Lloret de Mar, Tossa de Mar and Sant Feliu de Guíxols as headline rides. It also explicitly supports road, mountain-bike and gravel travel through specialist services and Bed & Bike accommodation. Exact route metrics vary with the chosen start and variant, so this dossier keeps unverified crowd-sourced kilometre and elevation totals out of the booking brief."
+  ],
+  "guideSections": [
+    {
+      "id": "d-rides",
+      "toc": "Signature rides",
+      "eyebrow": "Choose your Girona",
+      "title": "One city, three very different cycling days",
+      "intro": "Build the trip around a mountain benchmark, a coast day and one mixed-surface loop. The official regional guide confirms the ride areas; a local shop should confirm the exact GPX and current surface before departure.",
+      "facts": [
+        {
+          "label": "Road benchmark",
+          "value": "Rocacorba",
+          "note": "The city's best-known sustained test and a staple of professional training rides."
+        },
+        {
+          "label": "High mountain",
+          "value": "Vallter 2000 · 2,150 m",
+          "note": "Official Costa Brava tourism identifies the ski-station road and its altitude; treat it as a long advanced day or use a transfer."
+        },
+        {
+          "label": "Mixed surface",
+          "value": "Les Gavarres",
+          "note": "Forest roads and the Hincapie Loop make Girona as credible for gravel as for road cycling."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "Benchmark climb",
+          "title": "Rocacorba",
+          "meta": "Road · sustained climbing · advanced",
+          "text": "Ride north from Girona toward the Banyoles area, then settle into a long effort to the summit sanctuary. Use a current local GPX: approach choices change total distance, and the official overview does not publish one canonical kilometre figure."
+        },
+        {
+          "kicker": "Sea day",
+          "title": "Tossa de Mar and Sant Feliu",
+          "meta": "Road · cliffs and coves · traffic-aware",
+          "text": "The official guide highlights the coastal road linking Lloret, Tossa and Sant Feliu. Its repeated short climbs and open sea views are spectacular, but an early start is essential before tourist traffic builds."
+        },
+        {
+          "kicker": "Gravel day",
+          "title": "Les Gavarres",
+          "meta": "Gravel · forest · route choice matters",
+          "text": "Link broad forest roads through the massif east of Girona. Surface can shift after rain or forestry work, so choose tyres and route with a specialist shop rather than relying on an old downloaded track."
+        },
+        {
+          "kicker": "Big objective",
+          "title": "Vallter 2000",
+          "meta": "Road · summit 2,150 m · weather dependent",
+          "text": "This is the high-altitude option, best reserved for a settled forecast and a strong group. A transfer toward the Pyrenees can turn an oversized out-and-back into a focused climbing day."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Costa Brava cycling guide",
+          "url": "https://costabrava.org/en/what-to-do/cycling-bike-tourism/"
+        },
+        {
+          "label": "Eat Sleep Cycle Girona ride hub",
+          "url": "https://hubs.eatsleepcycle.com/girona/"
+        }
+      ]
+    },
+    {
+      "id": "d-plan",
+      "toc": "Trip plan",
+      "eyebrow": "Four to six days",
+      "title": "Alternate hard rides with the city you came to enjoy",
+      "items": [
+        {
+          "kicker": "Day 1",
+          "title": "Fit, test and old-town spin",
+          "meta": "Easy · rental setup",
+          "text": "Collect the bike early enough to change saddle height, cleats and gearing. Use the river paths and nearby lanes for a mechanical check rather than discovering an issue on Rocacorba."
+        },
+        {
+          "kicker": "Day 2",
+          "title": "Rocacorba benchmark",
+          "meta": "Hard road day",
+          "text": "Start early, climb at your own pace and leave enough reserve for the return. Book a recovery meal rather than another transfer."
+        },
+        {
+          "kicker": "Day 3",
+          "title": "Gavarres gravel or recovery",
+          "meta": "Surface-dependent",
+          "text": "Choose gravel only after confirming conditions. If rain has damaged the tracks, switch to an easy road loop and explore Girona on foot."
+        },
+        {
+          "kicker": "Days 4–5",
+          "title": "Coast plus one mountain",
+          "meta": "Tossa road · Mare de Déu del Mont or Vallter",
+          "text": "Pair the coast with one final climbing objective. Vallter is the more ambitious choice; Mare de Déu del Mont keeps the trip compact."
+        }
+      ],
+      "bullets": [
+        "A 1:1 easiest gear is sensible for long climbing and loose gravel; confirm cassette options before paying for the rental.",
+        "Bring pedals, shoes, helmet and preferred saddle. Photograph the rental bike at collection and record existing marks.",
+        "Save route files offline. Forest reception is uneven and summer heat can turn a short navigation mistake into a serious water problem.",
+        "Do not assume a professional rider or team group is an invitation to draft. Ride predictably and give training groups space."
+      ],
+      "links": [
+        {
+          "label": "The Service Course Girona",
+          "url": "https://theservicecourse.cc/pages/location-girona"
+        },
+        {
+          "label": "Girona tourism",
+          "url": "https://www.girona.cat/turisme/eng/"
+        }
+      ]
+    },
+    {
+      "id": "d-safety-booking",
+      "toc": "Safety & booking",
+      "eyebrow": "Verified 13 July 2026",
+      "title": "Rent in Girona unless your rail plan clearly supports a bike",
+      "facts": [
+        {
+          "label": "Suggested stay",
+          "value": "4–6 days",
+          "note": "Enough for two hard rides, one gravel day and a weather or recovery buffer."
+        },
+        {
+          "label": "Planning band",
+          "value": "€800–1,500 pp",
+          "note": "Editorial estimate for economy transport from Zürich, shared midrange room, meals and standard rental; not a live quote."
+        },
+        {
+          "label": "Simplest bike plan",
+          "value": "Rent locally",
+          "note": "Renfe requires bikes to be folded or disassembled on AVE, AVLO, Alvia, Euromed and Intercity services."
+        }
+      ],
+      "bullets": [
+        "On the coast road, use lights, ride single file and avoid the busiest middle of the day.",
+        "Gravel surfaces can be dusty, rutted or loose at corners. A road bike is not a substitute for an appropriate gravel setup.",
+        "Carry two bottles in warm months and identify fountains or shops before leaving the city.",
+        "Vallter and other high roads can be cold or stormy even when Girona is hot; pack a shell and verify road status."
+      ],
+      "links": [
+        {
+          "label": "Renfe bicycle policy",
+          "url": "https://www.renfe.com/es/en/viajar/informacion-util/equipajes/bicicletas-y-patines.html"
+        },
+        {
+          "label": "SWISS Zürich–Barcelona",
+          "url": "https://www.swiss.com/lhg/ch/de/o-d/cy-cy/zuerich-barcelona"
+        }
+      ]
+    }
+  ],
+  "whyGo": "Girona is the rare destination where road riders, gravel riders and non-riding companions can all have a first-rate trip from the same walkable base. It offers genuine professional-training terrain without sacrificing the pleasures of a medieval city: cafés, the Onyar waterfront, the cathedral steps and serious Catalan cooking remain available after every ride. It should be the site's flagship answer to the vibe search ‘beautiful city, social cycling, road and gravel, excellent food.’",
+  "gettingThere": [
+    {
+      "mode": "fly",
+      "route": "Zürich (ZRH) → Barcelona (BCN) direct, then airport and regional rail connections to Girona",
+      "duration": "~1h50 flight + roughly 1h30–2h ground travel",
+      "cost": "Planning allowance CHF 150–350 return plus rail",
+      "notes": "SWISS publishes direct service. Schedules and fares are live inventory; verified 13 July 2026. Renting in Girona avoids high-speed-train bike packing rules."
+    },
+    {
+      "mode": "rail",
+      "route": "Zürich → France → Barcelona or Girona, using services that accept the chosen bike configuration",
+      "duration": "A full travel day",
+      "cost": "Highly date and reservation dependent",
+      "notes": "International operators apply different bicycle rules. Confirm every train segment and bike space before booking; do not infer carriage from a passenger-only itinerary."
+    }
+  ],
+  "costs": {
+    "thrifty": "€650–900 for 4–5 nights using an early flight, simple shared room, standard mechanical rental and self-guided routes.",
+    "midrange": "€1,000–1,500 for 5 nights with a quality road or gravel bike, central hotel, meals and one guided ride or transfer.",
+    "splurge": "€2,200+ for a premium bike, private guiding, luggage support, high-end dining and upgraded lodging.",
+    "notes": "Editorial 2026 planning bands per person, not quotations. Excludes insurance, rental damage deposit, airline sports equipment and premium event entry. Recalculate live before showing a price."
+  },
+  "booking": [
+    {
+      "label": "Costa Brava Girona cycling — official destination guide · verified 13 Jul 2026",
+      "url": "https://costabrava.org/en/what-to-do/cycling-bike-tourism/"
+    },
+    {
+      "label": "Eat Sleep Cycle Girona — rental and guided rides · verified 13 Jul 2026",
+      "url": "https://hubs.eatsleepcycle.com/girona/bike-rental/"
+    },
+    {
+      "label": "The Service Course Girona · verified 13 Jul 2026",
+      "url": "https://theservicecourse.cc/pages/location-girona"
+    },
+    {
+      "label": "Renfe — official bicycle policy · verified 13 Jul 2026",
+      "url": "https://www.renfe.com/es/en/viajar/informacion-util/equipajes/bicicletas-y-patines.html"
+    }
+  ],
+  "weather": "Spring and autumn usually provide the best balance of mild city temperatures and rideable mountain roads. Summer can be very hot on exposed tarmac and dusty gravel; start near sunrise and shorten the route. Winter riding is possible, but frost or snow can affect the Pyrenean objectives. Girona's warmth does not predict conditions at Vallter 2000: carry a windproof or rain shell for every high ride.",
+  "tips": [
+    "Book the exact bike category, size, gearing and brake type rather than merely reserving ‘a road bike’ or ‘a gravel bike.’",
+    "Ask the shop for a current route file and surface report on collection day; do not copy a professional's training route without checking distance, water and road access.",
+    "Ride the Costa Brava road early. Its views are exceptional, but tourist traffic changes the experience later in the day.",
+    "Keep one flexible day for rain, heat or mechanical issues. Girona is rewarding enough on foot that a recovery day is not wasted.",
+    "Separate road and gravel recommendations in search metadata so tyre, skill and rental advice remain accurate."
+  ],
+  "localRecs": [
+    {
+      "name": "Barri Vell",
+      "type": "neighborhood",
+      "note": "Girona's old town gives the trip its walkable, lived-in character; explore the cathedral steps and medieval lanes after the bike is stored."
+    },
+    {
+      "name": "Onyar riverfront",
+      "type": "sight",
+      "note": "The coloured houses and bridges form Girona's defining city view and an easy recovery walk."
+    },
+    {
+      "name": "Banyoles",
+      "type": "sight",
+      "note": "A lake-side coffee stop and useful staging point for rides toward Rocacorba."
+    },
+    {
+      "name": "The Service Course Café",
+      "type": "bar",
+      "note": "A cycling-focused social stop where visitors can pair local route advice with coffee, subject to current opening hours."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Girona_Old_Town_(2806916472).jpg",
+      "caption": "Girona's compact old town makes a serious training base feel like a complete city break.",
+      "credit": "Wikimedia Commons / xlibber (CC BY 2.0) — https://commons.wikimedia.org/wiki/File:Girona_Old_Town_(2806916472).jpg"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bicicletes_de_la_Girocleta_de_Girona.jpg",
+      "caption": "Everyday bicycle culture in Girona; this image depicts the city bike system rather than performance road rental.",
+      "credit": "Wikimedia Commons / Plomaesmolada (CC0) — https://commons.wikimedia.org/wiki/File:Bicicletes_de_la_Girocleta_de_Girona.jpg"
+    }
+  ]
+}

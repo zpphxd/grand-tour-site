@@ -1,0 +1,240 @@
+{
+  "id": "kesch-trek",
+  "name": "Kesch Trek — Graubünden Hut to Hut",
+  "tagline": "Four high-Alpine days linking three SAC huts, glacial basins and the wild passes between Davos and the Albula valley.",
+  "city": "Davos",
+  "country": "Switzerland",
+  "dates": "Plan for July–September, when the staffed huts and high paths are normally most viable. Hut dates, lingering snow and trail conditions vary every year: verify every hut and the official route immediately before departure. Research verified 13 July 2026.",
+  "history": [
+    "The Kesch Trek crosses the Albula Alps on old paths between Davos, the Engadin-facing Flüela country and Bergün. Long before it became a signed four-day itinerary, these valleys were connected by seasonal grazing routes, mule paths and high crossings used by shepherds, traders and mountaineers.",
+    "Its overnight anchors belong to Switzerland's mountain-hut tradition. Grialetsch and Kesch are Swiss Alpine Club huts; the latter sits beneath Piz Kesch, the range's 3,418-metre landmark. Es-cha Hut looks across the upper Engadin and supplies the final link toward the Albula Pass corridor.",
+    "Graubünden Tourism now packages the line as a 47.7-kilometre, four-stage trek with roughly 2,278 metres of ascent and 2,831 metres of descent. Those numbers make it compact, not casual: much of the journey is above the treeline, with rocky footing, exposed weather and possible snowfields even in summer."
+  ],
+  "guideSections": [
+    {
+      "id": "d-route",
+      "toc": "Four-day route",
+      "eyebrow": "47.7 km through the Albula Alps",
+      "title": "A hut-to-hut traverse, not four independent day walks",
+      "intro": "The official itinerary is rated medium, but the commitment comes from altitude, weather and the distance between staffed refuges. Reserve all three nights before committing to the traverse.",
+      "facts": [
+        {
+          "label": "Official total",
+          "value": "47.7 km · 16h25",
+          "note": "+2,278 m / −2,831 m across four stages; figures verified 13 July 2026."
+        },
+        {
+          "label": "Nights",
+          "value": "Grialetsch · Kesch · Es-cha",
+          "note": "Three hut bookings form one chain; confirm staffed dates, meal rules and cancellation terms individually."
+        },
+        {
+          "label": "Route type",
+          "value": "Alpine mountain hiking",
+          "note": "Sure-footedness, navigation and mountain-weather judgment are prerequisites."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "Day 1",
+          "title": "Flüela Pass / Chantsura → Grialetsch Hut",
+          "meta": "5.4 km · about 2h30 · +506 m / −143 m",
+          "text": "A short but genuinely alpine entry stage from the Susch Chantsura bus stop. The official page calls for good fitness, sturdy boots and a proper weather kit; use the shorter day to settle into altitude rather than adding an improvised summit."
+        },
+        {
+          "kicker": "Day 2",
+          "title": "Grialetsch Hut → Kesch Hut",
+          "meta": "High passes · longest commitment begins",
+          "text": "Rocky basins and the route's remoteness replace the gentle approach. Start after the hut's condition briefing, keep the official line offline and turn back early if snow, visibility or thunderstorms make the passes doubtful."
+        },
+        {
+          "kicker": "Day 3",
+          "title": "Kesch Hut → Es-cha Hut",
+          "meta": "Piz Kesch country · sustained mountain terrain",
+          "text": "The scenic centrepiece crosses beneath the Kesch massif toward the Engadin side. This is not the place to learn snowfield movement or route-finding; a guide is the correct upgrade when ability or conditions are uncertain."
+        },
+        {
+          "kicker": "Day 4",
+          "title": "Es-cha Hut → Albula corridor / Bergün connection",
+          "meta": "Long descent · transport timing matters",
+          "text": "Finish toward the Albula Pass transport corridor and continue to Bergün according to the official stage plan and current bus timetable. Keep enough time and food for a missed connection rather than racing the descent."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Kesch Trek overview",
+          "url": "https://www.graubuenden.ch/en/activities/summer/hiking"
+        },
+        {
+          "label": "Official Stage 1 detail",
+          "url": "https://www.graubuenden.ch/en/tours/kesch-trek-stage-1"
+        }
+      ]
+    },
+    {
+      "id": "d-safety",
+      "toc": "Safety gate",
+      "eyebrow": "Skill and conditions first",
+      "title": "Only start if the whole party can manage an alpine itinerary",
+      "intro": "A tourism label of “medium” is not a guarantee of easy or safe conditions. Snow, fog, lightning, swollen streams and a slow member can transform the traverse.",
+      "facts": [
+        {
+          "label": "Required",
+          "value": "Fitness + sure-footedness",
+          "note": "Every participant must be comfortable on uneven, steep mountain trail for consecutive days."
+        },
+        {
+          "label": "Navigation",
+          "value": "Offline map + backup",
+          "note": "Reception is unreliable; the Kesch Hut area can have no mobile reception or Wi-Fi."
+        },
+        {
+          "label": "Emergency",
+          "value": "Rega 1414 · Europe 112",
+          "note": "Rescue coverage is not a substitute for conservative decisions or insurance."
+        }
+      ],
+      "bullets": [
+        "Do not start when a hut keeper or official condition report advises against the next stage. Their same-day local assessment outranks an old GPX file.",
+        "Carry sturdy boots or proven mountain footwear, waterproof shell and trousers, warm layer, sun protection, headlamp, first-aid kit, food, water treatment or reserve water, power bank and a paper/offline route backup.",
+        "Lightning exposure is serious above the treeline. Leave early, check the full-day forecast and have a turn-back time before afternoon convection develops.",
+        "Do not cross a steep hard snowfield without the skill and equipment the conditions demand. Book a qualified mountain guide or choose a valley alternative when uncertain.",
+        "Share the itinerary and hut contacts with someone off-route. Tell each hut promptly if abandoning or changing the plan."
+      ],
+      "links": [
+        {
+          "label": "Swiss Alpine Club mountain-emergency guidance",
+          "url": "https://www.sac-cas.ch/en/training-and-safety/safety/"
+        },
+        {
+          "label": "Kesch Hut area route and connectivity note",
+          "url": "https://www.graubuenden.ch/en/tours/energy-route-around-the-kesch-hut"
+        }
+      ]
+    },
+    {
+      "id": "d-huts",
+      "toc": "Hut system",
+      "eyebrow": "Book the chain",
+      "title": "Treat each refuge as a reservation, meal and cash-flow checkpoint",
+      "intro": "Huts are communal mountain accommodation, not hotels. Opening periods, half-board service, water availability and accepted payment can change by season.",
+      "facts": [
+        {
+          "label": "Kesch Hut",
+          "value": "92 dormitory beds",
+          "note": "Official Davos listing; room sizes are five to twelve beds."
+        },
+        {
+          "label": "Booking order",
+          "value": "All three before transit",
+          "note": "One missing night breaks the traverse; do not assume walk-in beds."
+        },
+        {
+          "label": "Verified on",
+          "value": "13 July 2026",
+          "note": "Recheck opening, prices, access and cancellation directly with every hut."
+        }
+      ],
+      "bullets": [
+        "Carry a sleeping-bag liner, hut footwear plan, earplugs and compact toiletries; observe quiet hours and pack out what the hut asks you to.",
+        "Declare dietary needs during booking, not at dinner. Confirm whether half-board is mandatory and whether lunch can be purchased for the next stage.",
+        "Carry Swiss francs and a physical card. Never rely on phone payment or a live banking connection in a no-service basin.",
+        "SAC members should bring valid membership proof; discounts and reciprocal-club rules depend on the hut and booking."
+      ],
+      "links": [
+        {
+          "label": "Kesch Hut official Davos listing",
+          "url": "https://www.davos.ch/en/information/accommodation/mountain-huts/kesch-huette-sac"
+        },
+        {
+          "label": "Swiss Alpine Club hut portal",
+          "url": "https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/"
+        }
+      ]
+    }
+  ],
+  "whyGo": "The Kesch Trek compresses the essence of a Swiss hut journey into four coherent days: public transport to the trailhead, three sociable high refuges, glacial landscapes and a finish tied back into the Albula railway world. It is remote enough to feel like an expedition without requiring a car or a technical summit — provided the group brings real alpine judgment.",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Landquart → Davos, then PostBus toward Susch Chantsura / Flüela trailhead",
+      "duration": "About 3h to the trailhead, timetable dependent",
+      "cost": "Roughly CHF 60–100 one way at full fare",
+      "notes": "The official Stage 1 page specifies RhB to Davos Platz and bus to Susch Chantsura. Confirm the seasonal stop, final bus and reservation rules in the SBB timetable."
+    },
+    {
+      "mode": "rail",
+      "route": "Finish via Albula Pass transport connection to Bergün/Bravuogn, then RhB toward Chur or St. Moritz",
+      "duration": "Allow a substantial buffer after the final descent",
+      "cost": "Usually covered by the chosen Swiss public-transport ticket",
+      "notes": "Do not build the plan around the last connection. Seasonal buses and route-end details must be matched to the current official stage page."
+    }
+  ],
+  "costs": {
+    "thrifty": "CHF 420–600 per person: three dorm nights with simple meals, Half-Fare public transport, carried lunches and minimal extras.",
+    "midrange": "CHF 650–950 per person: half-board hut stays, flexible rail, purchased trail lunches, pre/post-trek hotel and a generous weather buffer.",
+    "splurge": "CHF 1,600+ per person: private mountain guide, better valley hotels, luggage/transfer assistance where available and contingency nights.",
+    "notes": "Planning estimates, not quotes. Hut prices, half-board rules, guide fees and seasonal transit were not frozen into this dossier; verify directly before payment."
+  },
+  "booking": [
+    {
+      "label": "Graubünden Tourism — official Kesch Trek information (verified 13 July 2026)",
+      "url": "https://www.graubuenden.ch/en/activities/summer/hiking"
+    },
+    {
+      "label": "Swiss Alpine Club route and hut portal (verified 13 July 2026)",
+      "url": "https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/"
+    },
+    {
+      "label": "SBB timetable — seasonal trailhead and finish transport (verified 13 July 2026)",
+      "url": "https://www.sbb.ch/en"
+    }
+  ],
+  "weather": "Above 2,500 metres, summer can deliver cold rain, hail, fog, lightning and fresh snow. Valley sunshine is not a route forecast. Check MeteoSwiss and the hut keepers before each stage, depart early and carry insulation plus full waterproofs every day.",
+  "tips": [
+    "Spend a night in Davos before Day 1 if arriving from low altitude; a rushed international arrival is a poor start to four alpine days.",
+    "Download every stage, transport ticket and hut confirmation before leaving Wi-Fi, then carry a power bank and non-phone backup.",
+    "Keep one flexible night after the trek. Weather delays and a conservative retreat are successful planning outcomes, not failures.",
+    "Poles help on long descents but do not replace sure-footedness. Practice with the actual pack and footwear before the trip.",
+    "Ask the first hut about the next stage's water sources and snow, then repeat that briefing every morning."
+  ],
+  "localRecs": [
+    {
+      "name": "Grialetsch Hut SAC",
+      "type": "sight",
+      "note": "The first high refuge and the right place to obtain a same-evening condition briefing for the remote second stage."
+    },
+    {
+      "name": "Kesch Hut SAC",
+      "type": "sight",
+      "note": "A 92-bed base beneath Piz Kesch and the visual heart of the traverse."
+    },
+    {
+      "name": "Bergün / Bravuogn",
+      "type": "neighborhood",
+      "note": "Historic Engadin-style village on the UNESCO-listed Albula railway — a restorative finish-night base."
+    },
+    {
+      "name": "Albula Railway Museum",
+      "type": "sight",
+      "note": "A weather-proof post-trek stop beside Bergün station that explains the engineering landscape around the finish."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trail%20Fuorcla%20Rad%C3%B6nt%20-%20Grialetschh%C3%BCtte.jpg",
+      "caption": "The rocky trail between Fuorcla Radönt and Grialetsch Hut — representative of the trek's serious alpine footing",
+      "credit": "Wikimedia Commons / Tiia Monto (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grialetschh%C3%BCtte.jpg",
+      "caption": "Grialetsch Hut in its high basin, the first night of the classic four-stage line",
+      "credit": "Wikimedia Commons / Tiia Monto (CC BY-SA 3.0)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keschh%C3%BCtte.JPG",
+      "caption": "Kesch Hut beneath the massif — the remote centre of the traverse",
+      "credit": "Wikimedia Commons / Engie (CC BY-SA 3.0)"
+    }
+  ]
+}

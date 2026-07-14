@@ -1,0 +1,233 @@
+{
+  "id": "alta-badia-cycling",
+  "name": "Alta Badia — Sellaronda & Dolomite Passes",
+  "tagline": "Link four Dolomite passes beneath limestone towers, then recover over Ladin cooking in Corvara.",
+  "city": "Corvara",
+  "country": "Italy",
+  "dates": "Best window: late June–mid-September, after the high passes open and before autumn snow. Maratona and Sellaronda Bike Day dates vary by year; no 2027 date is treated as confirmed here. Route and booking information verified 13 July 2026.",
+  "history": [
+    "The Sella massif is a natural roundabout in the heart of the Dolomites. Four paved passes — Campolongo, Pordoi, Sella and Gardena — encircle the limestone plateau and link Alta Badia with Arabba, Val di Fassa and Val Gardena. The resulting Sellaronda is unusually legible for an alpine epic: roughly 55 kilometres and 1,780 metres of climbing, with a summit, descent and new wall of rock arriving in quick succession.",
+    "Cycling here is inseparable from the Giro d'Italia. Passo Pordoi, Passo Gardena, Falzarego, Valparola and the punishing Passo Giau have repeatedly shaped the race, while monuments and summit names preserve generations of Italian cycling memory. The roads also run through Ladin-speaking valleys whose villages and food make the trip more than a climb-collecting exercise.",
+    "The Maratona dles Dolomites turned this geography into one of Europe's defining granfondos. Its official routes scale from the 55 km Sellaronda with 1,780 m of ascent to 106 km / 3,130 m and the full 138 km / 4,230 m course. Car-free Sellaronda Bike Day offers a less competitive way to experience the core circuit, but its calendar and closure hours must be checked each season."
+  ],
+  "guideSections": [
+    {
+      "id": "d-routes",
+      "toc": "Routes",
+      "eyebrow": "Official Maratona metrics",
+      "title": "Start with four passes; add Giau only when ready",
+      "facts": [
+        {
+          "label": "Sellaronda",
+          "value": "55 km · +1,780 m",
+          "note": "Campolongo, Pordoi, Sella and Gardena; the best first-day benchmark for a fit rider."
+        },
+        {
+          "label": "Middle route",
+          "value": "106 km · +3,130 m",
+          "note": "Adds further climbing beyond the core circuit and demands disciplined pacing."
+        },
+        {
+          "label": "Full Maratona",
+          "value": "138 km · +4,230 m",
+          "note": "A major advanced objective involving Giau, Falzarego and Valparola as well as the Sellaronda passes."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "Core circuit",
+          "title": "Sellaronda clockwise",
+          "meta": "55 km · +1,780 m · four passes",
+          "text": "From Corvara, the circuit joins Campolongo, Pordoi, Sella and Gardena with almost no flat riding. The compact distance can disguise the work: preserve energy for repeated descents and re-accelerations."
+        },
+        {
+          "kicker": "Event-scale day",
+          "title": "Maratona middle route",
+          "meta": "106 km · +3,130 m · advanced",
+          "text": "This is the sensible major objective for a strong rider who wants more than the Sellaronda without committing to the full 4,230-metre day."
+        },
+        {
+          "kicker": "Queen stage",
+          "title": "Full Maratona course",
+          "meta": "138 km · +4,230 m · expert",
+          "text": "The full profile adds the severe Passo Giau and the Falzarego–Valparola sequence. Ride it only with stable weather, excellent braking equipment and enough daylight."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Alta Badia Maratona route guide",
+          "url": "https://www.altabadia.org/en/bike/maratona-dles-dolomites-enel"
+        },
+        {
+          "label": "Alta Badia cycling",
+          "url": "https://www.altabadia.org/en/bike"
+        }
+      ]
+    },
+    {
+      "id": "d-cockpit",
+      "toc": "Planning cockpit",
+      "eyebrow": "Four to six days",
+      "title": "A progressive Dolomite week",
+      "items": [
+        {
+          "kicker": "Day 1",
+          "title": "Campolongo shakedown",
+          "meta": "Bike fit · brake test · easy effort",
+          "text": "Collect the bike, test gearing and brakes, then climb only the nearest pass. Do not make the Sellaronda your first mechanical check."
+        },
+        {
+          "kicker": "Day 2",
+          "title": "Sellaronda",
+          "meta": "55 km · +1,780 m",
+          "text": "Start early for lighter traffic and calmer weather. Stop on one summit for a proper layer check before the first long descent."
+        },
+        {
+          "kicker": "Day 3",
+          "title": "Recovery and Ladin valley",
+          "meta": "Short spin or no bike",
+          "text": "Use the cable cars, village walks or a very easy valley ride. Recovery improves both safety and enjoyment on the next high-pass day."
+        },
+        {
+          "kicker": "Days 4–5",
+          "title": "Falzarego, Valparola and optional Giau",
+          "meta": "Advanced · forecast-dependent",
+          "text": "Treat Giau as an upgrade, not an obligation. If storms or fatigue build, keep the shorter Falzarego–Valparola objective."
+        }
+      ],
+      "bullets": [
+        "Choose Corvara for direct access to the core circuit and the broadest service base.",
+        "Use compact gearing: a 1:1 easiest ratio is a sensible baseline for repeated pass climbing.",
+        "Reserve rental, lodging and any event entry separately; a room does not imply a Maratona start place.",
+        "When car-free Sellaronda Bike Day dates publish, verify the exact roads, closure hours and riding direction before promoting it."
+      ],
+      "links": [
+        {
+          "label": "Official Alta Badia bike-rental directory",
+          "url": "https://www.alta-badia.org/en/leisure-activities/mountain-biking-and-cycling/bike-rental/"
+        },
+        {
+          "label": "Official Alta Badia accommodation",
+          "url": "https://www.altabadia.org/en/accommodations-alta-badia"
+        }
+      ]
+    },
+    {
+      "id": "d-safety",
+      "toc": "Safety & access",
+      "eyebrow": "Verified 13 July 2026",
+      "title": "High-pass weather is the controlling variable",
+      "facts": [
+        {
+          "label": "Suggested stay",
+          "value": "4–6 days",
+          "note": "Provides one recovery day and room to move the queen stage around weather."
+        },
+        {
+          "label": "Planning band",
+          "value": "€900–1,800 pp",
+          "note": "Editorial estimate for Zürich transport, shared midrange lodging, meals and rental; not a live quote."
+        },
+        {
+          "label": "Rail anchor",
+          "value": "Zürich → Innsbruck RJX",
+          "note": "SBB says a bike-space reservation is mandatory on RJX services; onward transfer still requires planning."
+        }
+      ],
+      "bullets": [
+        "Snow, hail and thunderstorms can reach passes above 2,000 m in summer. Check live conditions and carry a waterproof shell and full-finger gloves.",
+        "Use daytime lights and ride single file. The Sellaronda shares narrow roads with cars, buses and motorcycles outside closure events.",
+        "Inspect brake pads and tyre pressure daily; repeated technical descents generate heat and punish a poorly fitted rental.",
+        "Turn back when thunder develops or visibility collapses. A completed loop is not worth crossing an exposed pass in electrical weather."
+      ],
+      "links": [
+        {
+          "label": "SBB bicycles to Europe",
+          "url": "https://www.sbb.ch/en/travel-information/individual-needs/travelling-with-bikes/to-europe.html/1000"
+        },
+        {
+          "label": "Official South Tyrol traffic information",
+          "url": "https://traffic.province.bz.it/"
+        }
+      ]
+    }
+  ],
+  "whyGo": "Alta Badia packages the visual fantasy of Dolomite cycling into a remarkably usable base. Four famous passes form one compact circuit, the official route ladder clearly distinguishes a demanding day from an expert one, and Ladin villages give the trip a food-and-culture identity beyond the bicycle. It is the natural flagship for vibe searches such as ‘dramatic alpine scenery, iconic road climbs, great food, advanced.’",
+  "gettingThere": [
+    {
+      "mode": "rail",
+      "route": "Zürich HB → Innsbruck by direct Railjet, then reserved private transfer or connecting rail/bus via South Tyrol",
+      "duration": "~3h30 to Innsbruck + roughly 2h onward transfer",
+      "cost": "Planning allowance CHF 120–300 return plus transfer",
+      "notes": "SBB requires a bike-space reservation on RJX services. Onward public transport with a full-size bike is not guaranteed; verify each segment. Information checked 13 July 2026."
+    },
+    {
+      "mode": "drive",
+      "route": "Zürich → Innsbruck → Brenner → Val Pusteria → Alta Badia",
+      "duration": "Approximately 5h30–7h depending on traffic",
+      "cost": "Fuel, Swiss vignette and Austrian/Italian tolls",
+      "notes": "The most flexible option for personal bikes and changing weather. Summer Brenner and Dolomite traffic can materially extend the journey."
+    }
+  ],
+  "costs": {
+    "thrifty": "€750–1,050 for 4 nights using rail booked early, a simple shared room, self-guided routes and a standard road rental.",
+    "midrange": "€1,200–1,800 for 5 nights with central lodging, quality carbon rental, transfers and restaurant meals.",
+    "splurge": "€2,800+ for premium lodging, private airport or rail transfers, top-tier bike, guiding and wellness access.",
+    "notes": "Editorial planning bands per person, not current quotations. Event entry, insurance, bike deposit and private support vehicle are excluded. Recalculate before displaying."
+  },
+  "booking": [
+    {
+      "label": "Maratona dles Dolomites — official route information · verified 13 Jul 2026",
+      "url": "https://www.altabadia.org/en/bike/maratona-dles-dolomites-enel"
+    },
+    {
+      "label": "Alta Badia — official bike-rental directory · verified 13 Jul 2026",
+      "url": "https://www.alta-badia.org/en/leisure-activities/mountain-biking-and-cycling/bike-rental/"
+    },
+    {
+      "label": "SBB — official Europe bicycle reservations · verified 13 Jul 2026",
+      "url": "https://www.sbb.ch/en/travel-information/individual-needs/travelling-with-bikes/to-europe.html/1000"
+    },
+    {
+      "label": "South Tyrol live traffic and pass information · verified 13 Jul 2026",
+      "url": "https://traffic.province.bz.it/"
+    }
+  ],
+  "weather": "Corvara can be pleasant while the passes are cold, windy or inside cloud. Even in July and August, carry a waterproof shell, gilet, arm warmers and full-finger gloves. Begin long routes early because afternoon thunderstorms build quickly. Late June and September can deliver quieter roads but also a greater snow and cold risk; verify every pass rather than relying on the calendar.",
+  "tips": [
+    "Ride the 55 km Sellaronda before deciding whether the 106 km or 138 km route belongs in the same trip.",
+    "Do not equate kilometres with difficulty: 55 km containing 1,780 m of ascent and four technical descents is a serious day.",
+    "Book the bike's easiest gear and brake type explicitly, and bring your own pedals, shoes, helmet and saddle if fit-sensitive.",
+    "Start before the day-trip traffic and stop riding if thunder reaches the passes.",
+    "Keep 2027 event dates labelled unconfirmed until Alta Badia or the organizer publishes them."
+  ],
+  "localRecs": [
+    {
+      "name": "Corvara",
+      "type": "neighborhood",
+      "note": "The most practical cycling base, with direct access to Campolongo and services clustered in the village."
+    },
+    {
+      "name": "Passo Pordoi",
+      "type": "sight",
+      "note": "A defining Giro summit and one of the Sellaronda's broadest high-alpine panoramas."
+    },
+    {
+      "name": "Ladin cuisine",
+      "type": "restaurant",
+      "note": "Seek local dishes such as cajincí and tutres rather than treating the valley only as a refuelling stop."
+    },
+    {
+      "name": "Passo Gardena",
+      "type": "sight",
+      "note": "A dramatic final pass when riding the clockwise Sellaronda back toward Corvara."
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passo_Pordoi-bops_01.jpg",
+      "caption": "Passo Pordoi beneath the Dolomite walls, one of four passes on the Sellaronda.",
+      "credit": "Wikimedia Commons / Bops92 (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Passo_Pordoi-bops_01.jpg"
+    }
+  ]
+}

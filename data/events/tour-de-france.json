@@ -1,30 +1,191 @@
 {
   "id": "tour-de-france",
-  "name": "Tour de France 2027 — Grand Départ Edinburgh",
-  "tagline": "The world's greatest bike race rolls out from beneath Edinburgh Castle — Scotland's first-ever Tour start, and it costs nothing to stand at the barriers.",
+  "name": "Tour de France 2027 — Britain to France",
+  "tagline": "Three British nations open a full three-week Tour — then the race crosses into a French route still waiting to be revealed.",
   "city": "Edinburgh",
   "country": "United Kingdom",
-  "dates": "2–4 July 2027 (Grand Départ: Stage 1 Edinburgh → Carlisle on Fri 2 July; UK stages through 4 July; full race runs to late July (expected))",
+  "dates": "2–25 July 2027. Confirmed British stages: Edinburgh → Carlisle, Friday 2 July; Keswick → Liverpool, Saturday 3 July; Welshpool → Cardiff, Sunday 4 July. The route from Stage 4 onward is due in Q4 2026.",
   "history": [
     "The Tour de France was born in 1903 as a circulation stunt for the sports paper L'Auto, dreamed up by editor Henri Desgrange to outsell a rival daily. Sixty riders set off on brutal 400-kilometre stages around France; only 21 finished. From that improvised beginning grew the biggest annual sporting event on earth — a three-week, roughly 3,500-kilometre lap of France (with regular foreign excursions) watched by 10–12 million roadside spectators and billions on television. Its iconography is global shorthand: the yellow jersey (introduced 1919), the polka-dot King of the Mountains, the sprinters' green, and the champagne roll-in on the Champs-Élysées.",
     "The Tour has started outside France since 1954, and its British visits have become the stuff of legend. London hosted the Grand Départ in 2007 with over a million people lining the prologue; Yorkshire's 2014 start drew an estimated crowds in the millions across two days, with the climb of Buttertubs Pass packed twelve-deep in scenes compared to Alpe d'Huez. Those weekends transformed British cycling culture — coming on the heels of Bradley Wiggins' 2012 win and ahead of Chris Froome's four titles, with Mark Cavendish eventually equalling and then breaking Eddy Merckx's all-time stage-win record.",
-    "2027 makes history several times over: it is Britain's fourth Grand Départ but Scotland's first, the first time a single edition opens with stages in Scotland, England and Wales, and the first time the men's Tour and the Tour de France Femmes avec Zwift both start in the same host country (the women's race departs from Leeds). Stage 1 leaves Edinburgh on Friday 2 July 2027 and heads through Midlothian and the Scottish Borders — over the Côte de Melrose in the Eildon Hills — to finish beside Carlisle's medieval castle. Stage 2 races Keswick to Liverpool through the Lake District; Stage 3 brings the Tour to Wales for the first time, Welshpool to Cardiff, before the race transfers to France."
+    "2027 makes history several times over: it is Britain's fourth Grand Départ but Scotland's first, the first time a single edition opens with stages in Scotland, England and Wales, and the first time the men's Tour and the Tour de France Femmes avec Zwift both start in the same host country. The men race from 2 to 25 July. Stage 1 leaves Edinburgh for Carlisle; Stage 2 links Keswick and Liverpool; Stage 3 gives Wales its first Tour stage, from Welshpool to Cardiff. Only those opening stages are published as of 13 July 2026 — the French route, Stage 4 restart, rest days and finish city remain unannounced."
   ],
-  "whyGo": "A Grand Départ is the Tour at its most festive — team presentations, the publicity caravan, fan zones and a whole city dressed in yellow — and Edinburgh's castle-and-crags backdrop may be the most dramatic start venue the race has ever had. Scotland has never hosted the Tour before and likely won't again for decades. Best of all, it is completely free to watch: pick a barrier on the Royal Mile or a hillside in the Borders and the greatest riders in the world come to you.",
+  "guideSections": [
+    {
+      "id": "d-confirmed-route",
+      "toc": "2027 route",
+      "eyebrow": "Confirmed versus pending",
+      "title": "What the 2027 route actually tells us",
+      "intro": "The race dates and all three British stages are official. Everything after Cardiff is still a watchlist item, not a booking fact.",
+      "facts": [
+        {
+          "label": "Full race",
+          "value": "2–25 July 2027",
+          "note": "UCI WorldTour dates are confirmed; the detailed French itinerary is not."
+        },
+        {
+          "label": "Published",
+          "value": "630 km in Britain",
+          "note": "184 km + 223 km + 223 km across Scotland, England and Wales."
+        },
+        {
+          "label": "Next reveal",
+          "value": "Q4 2026",
+          "note": "The official GB FAQ says interactive stage maps and the whole 2027 route are due then."
+        }
+      ],
+      "items": [
+        {
+          "kicker": "Friday 2 July · Stage 1",
+          "title": "Edinburgh → Carlisle",
+          "meta": "184 km · one classified climb · sprinter advantage",
+          "text": "The peloton leaves Edinburgh through Midlothian and the Scottish Borders, climbs the Côte de Melrose in the Eildon Hills, traces Liddesdale and briefly enters Dumfries & Galloway before a flat finish outside Carlisle Castle. Choose Edinburgh for ceremony, Melrose for the day's only KOM or Carlisle for the first Yellow Jersey."
+        },
+        {
+          "kicker": "Saturday 3 July · Stage 2",
+          "title": "Keswick → Liverpool",
+          "meta": "223 km · five classified climbs · breakaway terrain",
+          "text": "The route opens beside Thirlmere, Grasmere, Rydal Water and Windermere, follows the Morecambe Bay coast through Lancaster, then tackles the Côte de Jubilee Tower and four further climbs. Liverpool's flatter finale reaches The Strand and the Three Graces after a late descent."
+        },
+        {
+          "kicker": "Sunday 4 July · Stage 3",
+          "title": "Welshpool → Cardiff",
+          "meta": "223 km · eight classified climbs · first GC test",
+          "text": "Six climbs arrive inside the final 80 kilometres. Official highlights include Epynt at 3.7 km and 7.9%, Rhigos, then Caerffili — 2 km at 8.1% only 12 km from the line — before the fast run toward central Cardiff. The latest GB page says eight climbs; an older ASO release said seven, so recheck the Q4 profile."
+        },
+        {
+          "kicker": "Stage 4 onward",
+          "title": "France: wait before choosing a base",
+          "meta": "Transfer, restart, mountains, rest days and finish TBA",
+          "text": "Do not call Paris, an Alpine summit or a Pyrenean block confirmed. Shortlist flexible lodging, then choose a mountain cluster, time trial, finale or nearby run of stages after the full-route reveal."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official 2027 Grand Départ route",
+          "url": "https://www.letour.fr/en/the-race/grands-departs/grand-depart-2027"
+        },
+        {
+          "label": "Official British stage maps",
+          "url": "https://www.letourgb.com/tdfroutes/"
+        },
+        {
+          "label": "UCI race calendar entry",
+          "url": "https://www.uci.org/competition-details/2027/ROA/79718"
+        }
+      ]
+    },
+    {
+      "id": "d-watch-plan",
+      "toc": "Watch plan",
+      "eyebrow": "Roadside strategy",
+      "title": "Build the day around one irreplaceable view",
+      "intro": "The race is free; access, transport and patience are the scarce inventory. Pick one primary viewing point and treat everything else as a bonus.",
+      "facts": [
+        {
+          "label": "Teams presentation",
+          "value": "30 June · Edinburgh Castle",
+          "note": "Venue and date confirmed; public access, capacity and ticket arrangements are TBA."
+        },
+        {
+          "label": "Roadside price",
+          "value": "Free",
+          "note": "Hospitality is paid. Fan zones, timings and accessible-viewing plans remain TBA."
+        },
+        {
+          "label": "UK broadcast",
+          "value": "5 + TNT Sports",
+          "note": "5 confirms all six British Grand Départ stages live and daily highlights for both races."
+        }
+      ],
+      "bullets": [
+        "For one city, choose Edinburgh: arrive by Tuesday 29 June, seek team-presentation access on Wednesday, keep Thursday as a buffer and watch Friday's start.",
+        "For decisive racing, favor Stage 3. Caerffili should show the favourites under pressure; central Cardiff offers the podium and easier post-stage transport. Do not promise yourself both locations.",
+        "For landscape, choose Stage 2's Lake District opening. Base in Keswick and walk or cycle to one legal point instead of trying to leapfrog the race by car.",
+        "The publicity caravan precedes the riders. Exact closures and crossing times arrive later; steward instructions override every generic estimate.",
+        "Pedestrians and cyclists are generally allowed until roughly 30 minutes before the caravan, subject to local operations. Never ride against a closed course or descend through spectators.",
+        "Save maps, tickets and transport home offline. Mobile coverage can collapse beside crowded rural climbs."
+      ],
+      "links": [
+        {
+          "label": "Official closure information",
+          "url": "https://www.letourgb.com/resident-info/"
+        },
+        {
+          "label": "Confirmed UK broadcast plan",
+          "url": "https://www.letourgb.com/5-and-tnt-sports-confirm-free-to-air-coverage-of-2027-grands-departs/"
+        }
+      ]
+    },
+    {
+      "id": "d-follow-tour",
+      "toc": "Follow the race",
+      "eyebrow": "From one stage to three weeks",
+      "title": "Four sensible ways to experience the Tour",
+      "items": [
+        {
+          "kicker": "2–4 nights",
+          "title": "One decisive British stage",
+          "meta": "Lowest friction",
+          "text": "Choose one start, climb or finish and stay put. This produces a better day than spending race morning in traffic and leaves room for weather or transport disruption."
+        },
+        {
+          "kicker": "Six nights",
+          "title": "Edinburgh plus the road south",
+          "meta": "29 June–5 July · high logistics",
+          "text": "Use a moving plan: Edinburgh, Carlisle or Keswick, Liverpool, then Cardiff. A gentler version keeps only Edinburgh and Cardiff. No single base serves all three stages well."
+        },
+        {
+          "kicker": "7–10 nights",
+          "title": "A French mountain block",
+          "meta": "Book after Q4 2026",
+          "text": "Once the full route appears, select two or three geographically clustered mountain stages and one rail-connected base. The Tour moves faster than spectators can."
+        },
+        {
+          "kicker": "Three weeks",
+          "title": "The full-race pilgrimage",
+          "meta": "Vehicle, operator or deep logistics",
+          "text": "A complete follow needs support transport or a specialist operator, closure expertise, laundry and rest-day planning, and a large contingency allowance. Treat it as an expedition."
+        }
+      ],
+      "bullets": [
+        "Now: reserve cancellable British lodging and register for official fan or hospitality updates.",
+        "Q4 2026: ingest the full route, choose exact stage clusters and verify summer flights.",
+        "Late March or early April 2027: begin checking UK Advance rail tickets and reserve bike spaces; most timetables firm around 12 weeks out, with event exceptions.",
+        "June 2027: replace every estimate with stage horaires, accessible zones, final closures, toilets, bike parking and broadcaster schedules.",
+        "No public sportive on these roads is announced. Wait for official map detail, then build safer recce loops for Melrose, the Lakes and Caerphilly instead of copying full point-to-point stages."
+      ],
+      "links": [
+        {
+          "label": "Official Tour operators",
+          "url": "https://www.letour.fr/en/official-tour-operators"
+        },
+        {
+          "label": "National Rail bike policy",
+          "url": "https://www.nationalrail.co.uk/on-the-train/train-travel-with-bicycles/"
+        },
+        {
+          "label": "National Rail Passenger Assist",
+          "url": "https://www.nationalrail.co.uk/help-and-assistance/passenger-assist/"
+        }
+      ]
+    }
+  ],
+  "whyGo": "The 2027 Tour offers two different adventures in one dossier: a historic, fully published three-stage British Grand Départ and the still-unannounced French race that follows through 25 July. Edinburgh's castle esplanade hosts the teams, Scotland welcomes the men's Tour for the first time, Liverpool gets a 223-kilometre breakaway stage and Wales enters Tour history with a genuinely selective finale. Roadside viewing is free, so you can build anything from one perfectly chosen day to a three-week pilgrimage — while this guide clearly separates confirmed information from what still needs to be booked after the Q4 2026 route reveal.",
   "gettingThere": [
     {
       "mode": "fly",
       "route": "Zürich (ZRH) → Edinburgh (EDI), direct with easyJet (also SWISS/Edelweiss seasonal; one-stop via LHR/AMS on BA/KLM)",
       "duration": "2h15 direct",
       "cost": "CHF 120–350 return",
-      "notes": "Grand Départ weekend will spike fares — book the moment dates firm up. Airport tram to Princes Street takes ~35 min."
+      "notes": "The route exists today, but the summer 2027 schedule and fare are not yet confirmed. Compare an open-jaw return from Cardiff or London instead of automatically backtracking to Edinburgh. Airport tram to Princes Street takes roughly 35 minutes."
     },
     {
       "mode": "rail",
       "route": "Zürich HB → Paris Gare de Lyon (TGV Lyria, ~4h), transfer to Gare du Nord, Eurostar → London St Pancras (~2h20), LNER King's Cross → Edinburgh Waverley (~4h20)",
       "duration": "12–14h door to door",
       "cost": "€220–420 return",
-      "notes": "A grand rail journey in its own right. Book Eurostar and LNER ~4 months out; LNER advance fares from £40. Waverley station is directly on the Royal Mile's doorstep."
+      "notes": "A grand rail journey in its own right. International segments have different sales windows; UK timetables and Advance fares commonly firm around 12 weeks out, with special-event exceptions. Waverley station is directly beneath the Old Town."
     },
     {
       "mode": "fly",
@@ -35,10 +196,10 @@
     }
   ],
   "costs": {
-    "thrifty": "€500–700",
-    "midrange": "€1,000–1,500",
-    "splurge": "€2,800+",
-    "notes": "Roadside viewing is free — accommodation is the whole game. Edinburgh hotels in early July are already peak-season expensive and Grand Départ demand will multiply that; hostels and Glasgow-based stays (50 min by train) anchor the thrifty tier, while splurge means a Royal Mile or castle-view hotel booked a year out plus VIP hospitality packages."
+    "thrifty": "€650–1,000 for 3–4 nights: one British stage, hostel or simple room, early open-jaw flight, rail, food and free roadside viewing.",
+    "midrange": "€1,500–2,600 for the six-night British route: Edinburgh → Carlisle/Keswick → Liverpool → Cardiff, cancellable mid-range rooms, intercity rail and local transport.",
+    "splurge": "€4,000+ for premium British lodging and optional hospitality; a full three-week race follow is a separate €7,000+ expedition before high-end VIP access.",
+    "notes": "These are planning allowances, not quotes. Roadside viewing is confirmed free; flights, 2027 rail, team-presentation access and hospitality inventory remain unpriced. Edinburgh's 5% visitor levy applies to accommodation cost before VAT for the first five nights."
   },
   "booking": [
     {
@@ -48,6 +209,14 @@
     {
       "label": "Tour de France official site (ASO)",
       "url": "https://www.letour.fr/en/"
+    },
+    {
+      "label": "Official route FAQ and update registration",
+      "url": "https://www.letourgb.com/contact/"
+    },
+    {
+      "label": "Official Tour hospitality programmes",
+      "url": "https://www.letour.fr/en/vip-programs"
     },
     {
       "label": "VisitScotland — Tour de France 2027",
@@ -60,12 +229,13 @@
   ],
   "weather": "Edinburgh in early July: mild and famously changeable — highs around 17–19°C, lows near 11°C, a real chance of showers and gusty wind, but daylight from ~4:30 to ~22:00. Pack layers and a proper waterproof shell (not just an umbrella — the wind eats them), plus sunscreen for the long bright spells between squalls.",
   "tips": [
-    "Book accommodation the instant your dates are set — Edinburgh will sell out a year ahead for Grand Départ weekend. Glasgow (ScotRail, ~50 min) or Stirling make excellent overflow bases.",
+    "Reserve cancellable rooms now in the scarce British stage cities, but do not make non-refundable route-dependent bookings until the Q4 2026 maps and later closure plans are published.",
     "Roadside viewing is free but the départ zone fills hours ahead. For the city spectacle, stake out the start area early; for actual racing, head to the Côte de Melrose in the Borders, where the peloton climbs slowly enough to see faces.",
-    "The publicity caravan — a 30-minute parade of sponsor floats throwing freebies — passes 1–2 hours before the riders. Arrive for it; the race itself flashes by in under a minute on flat roads.",
-    "Thursday's team presentation (1 July, expected) is often the best free close-up access to the stars — check letourgb.com for the venue and fan-park big screens.",
-    "Consider following the race: Stage 2's Keswick start puts you in the Lake District on Saturday, an easy add-on by train/bus from Carlisle after Stage 1.",
-    "Pair it with Wimbledon for a UK sporting week — the Championships' final days (expected mid-July window) can bracket the Grand Départ via a 4h20 London–Edinburgh train. Scotland uses pounds sterling; contactless cards work everywhere, no cash needed."
+    "The publicity caravan precedes the riders, but exact 2027 passage times are not published. The race itself flashes by in under a minute on flat roads; a climb or start/finish trades convenience for more time with the spectacle.",
+    "The team presentation is confirmed for Wednesday 30 June at Edinburgh Castle. Public access, tickets, time and capacity are still TBA — register for official updates rather than buying a package around an assumption.",
+    "Do not describe Carlisle–Keswick as a confirmed race transfer yet. Current bus patterns do not extend through Tour week; verify special rail and bus operations when 2027 timetables are issued.",
+    "Non-folding bike spaces are operator-specific and scarce. Reserve them with the rail ticket, and assume rail-replacement buses will not carry a full-size bike.",
+    "For limited mobility, prefer a city start or finish after accessible platforms, toilets and drop-off points are published. Remote climbs are not a safe default recommendation."
   ],
   "localRecs": [
     {
