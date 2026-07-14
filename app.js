@@ -596,20 +596,56 @@ function bindCalToggle() {
 
 /* ---------- routes page ---------- */
 function renderRoutesPage() {
+  const coverIds = {
+    'greatest-hits': 'white-turf',
+    'thrifty': 'strasbourg-christmas',
+    'bucket-list': 'venice-carnival',
+  };
   $('#route-cards').innerHTML = window.ROUTES.map((r, i) => `
-    <div class="rcard" style="--rc:${r.color}">
-      <div class="rcard-num">Route ${['One', 'Two', 'Three'][i]}</div>
-      <h3>${esc(r.name)}</h3>
-      <div class="tag">${esc(r.tag)}</div>
-      <p>${esc(r.blurb)}</p>
-      <div class="price">${esc(r.price)}</div>
-      <ul>${r.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul>
-      <button class="rcard-btn" data-route="${r.id}">View on the map</button>
-    </div>`).join('');
+    ${(() => {
+      const coverId = coverIds[r.id];
+      const photo = DOSSIERS[coverId]?.photos?.[0];
+      const stops = r.stops.filter(stop => stop.eventId).slice(0, 5);
+      return `<article class="rcard" style="--rc:${r.color}">
+        <div class="rcard-visual"${photo ? ` style="background-image:url('${esc(photo.url)}')"` : ''} role="img" aria-label="${esc(photo?.caption || r.name)}">
+          <div class="rcard-shade"></div>
+          <div class="rcard-image-copy">
+            <div class="rcard-num">Route ${['One', 'Two', 'Three'][i]}</div>
+            <span>${r.stops.filter(stop => stop.eventId).length} signature stops</span>
+          </div>
+          ${photo ? `<small class="rcard-credit">${esc(photo.credit.split(' — ')[0])}</small>` : ''}
+        </div>
+        <div class="rcard-copy">
+          <div class="tag">${esc(r.tag)}</div>
+          <h3>${esc(r.name)}</h3>
+          <p>${esc(r.blurb)}</p>
+          <div class="rcard-stops" aria-label="A few signature stops">
+            ${stops.map((stop, stopIndex) => `<span><b>${String(stopIndex + 1).padStart(2, '0')}</b>${esc(eventById(stop.eventId)?.name || stop.label)}</span>`).join('')}
+          </div>
+          <div class="rcard-bottom">
+            <div><span>Year estimate</span><strong>${esc(r.price)}</strong></div>
+            <ul>${r.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul>
+          </div>
+          <button class="rcard-btn" data-route="${r.id}">Trace this route on the map <span aria-hidden="true">↗</span></button>
+        </div>
+      </article>`;
+    })()}`).join('');
   document.querySelectorAll('.rcard-btn').forEach(b => b.addEventListener('click', () => {
     currentRouteId = b.dataset.route;
     location.hash = '#/map';
   }));
+}
+
+function renderPageVisuals() {
+  document.querySelectorAll('[data-photo-id]').forEach(figure => {
+    const photo = DOSSIERS[figure.dataset.photoId]?.photos?.[Number(figure.dataset.photoIndex || 0)];
+    if (!photo) return;
+    const image = figure.querySelector('.page-photo-image');
+    image.style.backgroundImage = `url("${photo.url.replace(/"/g, '%22')}")`;
+    image.setAttribute('aria-label', photo.caption);
+    figure.querySelector('[data-photo-caption]').textContent = photo.caption;
+    figure.querySelector('[data-photo-credit]').textContent = photo.credit.split(' — ')[0];
+  });
 }
 
 /* ---------- builder ---------- */
@@ -1290,5 +1326,7 @@ function onScroll() {
   renderCalendar();
   renderCollection();
   renderOutdoors();
+  renderRoutesPage();
+  renderPageVisuals();
   route();
 })();
